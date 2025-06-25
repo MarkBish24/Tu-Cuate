@@ -1,0 +1,25 @@
+.microphone-btn {
+  background: linear-gradient(135deg, #ff9900, #ff7f00);
+  border: 2px solid #e67300;
+  color: #e67300;
+  border-radius: 64px;
+  height: 84px;
+  width: 84px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+
+  transition: color 0.2s ease-in-out;
+}
+
+.microphone-btn:hover {
+  color: white;
+}
+
+.microphone-btn:active {
+  color: #ffcc9a;
+}
