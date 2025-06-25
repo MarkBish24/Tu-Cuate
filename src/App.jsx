@@ -4,6 +4,8 @@ import Microphone from "./components/microphone/microphone.jsx";
 
 import Home from "./components/Pages/Home/Home.jsx";
 import Conversation from "./components/Pages/Conversation/Conversation.jsx";
+import QA from "./components/Pages/QA/QA.jsx";
+import Translation from "./components/Pages/Translation/Translation.jsx";
 import "./App.css";
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/conversation" element={<Conversation />} />
+        <Route path="/qa" element={<QA />} />
+        <Route path="/translation" element={<Translation />} />
       </Routes>
     </Router>
   );

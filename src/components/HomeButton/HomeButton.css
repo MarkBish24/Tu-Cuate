@@ -1,3 +1,27 @@
 .home-btn {
-  height: 10px;
+  background: linear-gradient(135deg, #ff9900, #ff7f00);
+  border: 2px solid #e67300;
+  color: #e67300;
+  border-radius: 64px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+
+  transition: color 0.2s ease-in-out;
+}
+
+.home-btn:hover {
+  color: white;
+}
+
+.home-btn:active {
+  color: #ffcc9a;
 }

@@ -17,7 +17,7 @@ export default function HomeButton() {
       transition={{ duration: 0.2 }}
       onClick={handleClick}
     >
-      ⬅ Home
+      Home
     </motion.button>
   );
 }
