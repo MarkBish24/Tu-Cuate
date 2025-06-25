@@ -1,13 +1,43 @@
 .conversation-tab {
+  flex: 1 1 0;
+  min-width: 0;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 255, 255);
+
+  background: linear-gradient(135deg, #ffffff, #ffffff); /* solid white base */
   border-radius: 10px;
   margin: 5px;
   padding: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.conversation-tab::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #ff9900, #ff7f00);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.conversation-tab:hover::before {
+  opacity: 1;
+}
+
+.conversation-tab > * {
+  position: relative;
+  z-index: 1;
 }
 
 .conversation-tab h1 {
@@ -15,9 +45,22 @@
 }
 
 .conversation-tab p {
-  margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 100px;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.conversation-tab * {
+  color: rgb(30, 30, 30);
+}
+.conversation-tab:hover * {
+  color: rgb(255, 255, 255);
 }
 
 .icon-wrapper {
   color: black;
+  margin-bottom: 100px;
 }

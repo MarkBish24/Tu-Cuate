@@ -1,3 +1,144 @@
 body {
   background-color: rgb(245, 245, 245);
+  font-family: "Zabal", sans-serif;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-ThinItalic.otf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-ExtraLightItalic.otf") format("opentype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-SemiBoldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-ExtraBoldItalic.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-BlackItalic.otf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-Ultra.otf") format("opentype");
+  font-weight: 950;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zabal";
+  src: url("../assets/fonts/ZabalDemo-UltraItalic.otf") format("opentype");
+  font-weight: 950;
+  font-style: italic;
 }
