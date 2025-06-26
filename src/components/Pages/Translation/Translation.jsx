@@ -4,7 +4,7 @@ import "./translation.css";
 export default function Translation() {
   return (
     <>
-      <MicPage />
+      <MicPage title={"Translations"} />
     </>
   );
 }

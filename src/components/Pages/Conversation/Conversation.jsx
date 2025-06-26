@@ -4,7 +4,7 @@ import MicPage from "../MicPage/MicPage";
 export default function Conversation() {
   return (
     <>
-      <MicPage />
+      <MicPage title={"Conversations"} />
     </>
   );
 }

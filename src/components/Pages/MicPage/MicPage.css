@@ -1,14 +1,36 @@
+.mic-page-cntr {
+  height: 70vh;
+}
 .mic-btn-ctnr {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+.mic-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  height: 100%;
+}
 
-.mic-page-title {
+.mic-page-title-cntr {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.mic-page-title {
+  font-size: 60px;
+  font-weight: 700;
+
+  margin-bottom: 5px;
+}
+.mic-page-info {
+  font-size: 16px;
+  font-weight: 200;
+  color: gray;
 }
 
 .settings-btn {
@@ -40,7 +62,18 @@
   left: 0;
   z-index: 100;
 
-  padding: 10px;
+  padding: 20px;
+}
+
+.settings-title-cntr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings-title {
+  font-size: 20px;
+  color: rgb(171, 171, 171);
 }
 
 .exit-btn {

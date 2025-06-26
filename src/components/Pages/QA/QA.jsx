@@ -4,7 +4,7 @@ import "./QA.css";
 export default function QA() {
   return (
     <>
-      <MicPage />
+      <MicPage title={"Q & A"} />
     </>
   );
 }
