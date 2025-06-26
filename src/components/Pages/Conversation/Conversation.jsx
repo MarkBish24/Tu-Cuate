@@ -1,10 +1,10 @@
 import "./Conversation.css";
-import HomeButton from "../../HomeButton/HomeButton.jsx";
+import MicPage from "../MicPage/MicPage";
 
 export default function Conversation() {
   return (
     <>
-      <HomeButton />
+      <MicPage />
     </>
   );
 }

@@ -1,10 +1,10 @@
-import HomeButton from "../../HomeButton/HomeButton.jsx";
+import MicPage from "../MicPage/MicPage";
 import "./translation.css";
 
 export default function Translation() {
   return (
     <>
-      <HomeButton />
+      <MicPage />
     </>
   );
 }

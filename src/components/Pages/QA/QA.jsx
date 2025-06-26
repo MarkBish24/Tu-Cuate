@@ -1,10 +1,10 @@
-import HomeButton from "../../HomeButton/HomeButton.jsx";
+import MicPage from "../MicPage/MicPage";
 import "./QA.css";
 
 export default function QA() {
   return (
     <>
-      <HomeButton />
+      <MicPage />
     </>
   );
 }

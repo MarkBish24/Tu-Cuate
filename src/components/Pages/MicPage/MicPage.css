@@ -1,0 +1,49 @@
+.mic-btn-ctnr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mic-page-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings-btn {
+  border: none;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  color: rgb(176, 176, 176);
+  height: 50px;
+  width: 50px;
+
+  transition: color 0.3s ease-in-out;
+}
+
+.settings-btn:hover {
+  color: #ff7f00;
+}
+
+.settings-page {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  height: 100vh;
+  width: 40vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  padding: 10px;
+}
+
+.exit-btn {
+  color: rgb(171, 171, 171);
+  cursor: pointer;
+}
