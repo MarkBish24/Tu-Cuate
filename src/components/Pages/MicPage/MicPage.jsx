@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import HomeButton from "../../HomeButton/HomeButton.jsx";
 import Microphone from "../../microphone/microphone.jsx";
+import SettingsTab from "../../SettingsTab/SettingsTab.jsx";
 import { IoMdSettings } from "react-icons/io";
 import { motion, AnimatePresence } from "framer-motion";
 import { RxCross1 } from "react-icons/rx";
@@ -77,20 +78,32 @@ export default function MicPage({ title }) {
 
         <AnimatePresence>
           {isOpen && (
-            <motion.div
-              className="settings-page"
-              initial="hidden"
-              animate="visible"
-              exit="exit"
-              variants={panelVariants}
-            >
-              <div className="settings-title-cntr">
-                <p className="settings-title">SETTINGS</p>
-                <div className="exit-btn" onClick={() => setIsOpen(false)}>
-                  <RxCross1 size={24} />
+            <>
+              <motion.div
+                className="settings-backdrop"
+                initial={{ opacity: 0 }}
+                animate={{
+                  opacity: 1,
+                  transition: { delay: 0.4, duration: 0.3 },
+                }}
+                exit={{ opacity: 0, transition: { duration: 0.3 } }}
+              />
+              <motion.div
+                className="settings-page"
+                initial="hidden"
+                animate="visible"
+                exit="exit"
+                variants={panelVariants}
+              >
+                <div className="settings-title-cntr">
+                  <p className="settings-title">SETTINGS</p>
+                  <div className="exit-btn" onClick={() => setIsOpen(false)}>
+                    <RxCross1 size={24} />
+                  </div>
                 </div>
-              </div>
-            </motion.div>
+                <SettingsTab />
+              </motion.div>
+            </>
           )}
         </AnimatePresence>
       </div>

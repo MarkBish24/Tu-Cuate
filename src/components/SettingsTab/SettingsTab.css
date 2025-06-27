@@ -1,0 +1,22 @@
+.settings-panel {
+  list-style: none;
+  margin: 0px;
+  padding-left: 20px;
+}
+.settings-panel * {
+  font-weight: 100;
+  color: rgb(171, 171, 171);
+  margin: 10px 0px;
+}
+
+.settings-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings-range {
+  display: flex;
+  flex-direction: column;
+}
