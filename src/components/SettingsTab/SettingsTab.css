@@ -2,6 +2,7 @@
   list-style: none;
   margin: 0px;
   padding-left: 20px;
+  padding-right: 20px;
 }
 .settings-panel * {
   font-weight: 100;
@@ -16,7 +17,38 @@
   justify-content: space-between;
 }
 
+.settings-checkbox input {
+  height: 16px;
+  width: 16px;
+  border: none;
+  cursor: pointer;
+  accent-color: #ff7f00;
+}
+
 .settings-range {
   display: flex;
   flex-direction: column;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+}
+
+.slider-container input {
+  accent-color: #ff7f00;
+  width: 100%;
+}
+
+.slider-popup {
+  position: absolute;
+  top: -30px;
+  transform: translateX(-50%);
+  background: #ff7f00;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  pointer-events: none;
 }
