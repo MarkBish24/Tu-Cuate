@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import DropDownMenu from "../DropDownMenu/DropDownMenu.jsx";
 
 import vocabData from "../../../server/data/vocab.json";
+import tensesData from "../../../server/data/tenses.json";
 
 import "./SettingsTab.css";
 
@@ -27,7 +28,7 @@ export default function SettingsTab() {
         <li>
           <DropDownMenu
             title={"Conjugation Tense"}
-            info={""}
+            info={tensesData}
             includeInfo={true}
           />
         </li>

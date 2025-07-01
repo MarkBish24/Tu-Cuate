@@ -42,11 +42,11 @@ export default function DropDownMenu({ title, info, includeInfo }) {
                         - {data.english}
                       </span>
                     </p>
-                    <input type="checkbox" />
+                    <input className="drop-down-checkbox" type="checkbox" />
                   </label>
                 );
               } else {
-                return null;
+                return <div></div>;
               }
             })}
           </motion.div>
