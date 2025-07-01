@@ -7,22 +7,10 @@
 .settings-panel * {
   font-weight: 100;
   color: rgb(171, 171, 171);
+}
+
+.settings-panel > * {
   margin: 10px 0px;
-}
-
-.settings-checkbox {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.settings-checkbox input {
-  height: 16px;
-  width: 16px;
-  border: none;
-  cursor: pointer;
-  accent-color: #ff7f00;
 }
 
 .settings-range {
@@ -51,4 +39,8 @@
   font-size: 12px;
   white-space: nowrap;
   pointer-events: none;
+}
+
+.settings-range > * {
+  margin: 10px 0px;
 }

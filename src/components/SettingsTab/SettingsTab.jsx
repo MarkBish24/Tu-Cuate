@@ -1,14 +1,12 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import DropDownMenu from "../DropDownMenu/DropDownMenu.jsx";
+
+import vocabData from "../../../server/data/vocab.json";
 
 import "./SettingsTab.css";
 
 export default function SettingsTab() {
-  const [containsVerbs, setContainsVerbs] = useState(true);
-  const [containsPronouns, setContainsPronouns] = useState(true);
-  const [containsAdverbs, setContainsAdverbs] = useState(false);
-  const [containsTenses, setContainsTenses] = useState(true);
-
   const [cefrValue, setCefrValue] = useState(1);
   const [hoveredCefr, setHoveredCefr] = useState(false);
 
@@ -20,45 +18,24 @@ export default function SettingsTab() {
   return (
     <>
       <ul className="settings-panel">
-        <li className="settings-checkbox">
-          <label>Verbs</label>
-          <input
-            type="checkbox"
-            checked={containsVerbs}
-            onChange={() => {
-              setContainsVerbs((prev) => !prev);
-            }}
+        <li>
+          <DropDownMenu title={"Verbs"} info={""} includeInfo={true} />
+        </li>
+        <li>
+          <DropDownMenu title={"Adverbs"} info={""} includeInfo={true} />
+        </li>
+        <li>
+          <DropDownMenu
+            title={"Conjugation Tense"}
+            info={""}
+            includeInfo={true}
           />
         </li>
-        <li className="settings-checkbox">
-          <label>Pronouns</label>
-          <input
-            type="checkbox"
-            checked={containsPronouns}
-            onChange={() => {
-              setContainsPronouns((prev) => !prev);
-            }}
-          />
+        <li>
+          <DropDownMenu title={"Pronouns"} info={""} includeInfo={true} />
         </li>
-        <li className="settings-checkbox">
-          <label>Adverbs</label>
-          <input
-            type="checkbox"
-            checked={containsAdverbs}
-            onChange={() => {
-              setContainsAdverbs((prev) => !prev);
-            }}
-          />
-        </li>
-        <li className="settings-checkbox">
-          <label>Conjugation Tense</label>
-          <input
-            type="checkbox"
-            checked={containsTenses}
-            onChange={() => {
-              setContainsTenses((prev) => !prev);
-            }}
-          />
+        <li>
+          <DropDownMenu title={"Vocab"} info={vocabData} includeInfo={true} />
         </li>
         <li className="settings-range">
           <label>CEFR Level</label>
