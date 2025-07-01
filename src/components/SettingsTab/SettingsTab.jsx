@@ -4,6 +4,8 @@ import DropDownMenu from "../DropDownMenu/DropDownMenu.jsx";
 
 import vocabData from "../../../server/data/vocab.json";
 import tensesData from "../../../server/data/tenses.json";
+import pronounData from "../../../server/data/pronouns.json";
+import adverbsData from "../../../server/data/adverbs.json";
 
 import "./SettingsTab.css";
 
@@ -23,7 +25,11 @@ export default function SettingsTab() {
           <DropDownMenu title={"Verbs"} info={""} includeInfo={true} />
         </li>
         <li>
-          <DropDownMenu title={"Adverbs"} info={""} includeInfo={true} />
+          <DropDownMenu
+            title={"Adverbs"}
+            info={adverbsData}
+            includeInfo={true}
+          />
         </li>
         <li>
           <DropDownMenu
@@ -33,7 +39,11 @@ export default function SettingsTab() {
           />
         </li>
         <li>
-          <DropDownMenu title={"Pronouns"} info={""} includeInfo={true} />
+          <DropDownMenu
+            title={"Pronouns"}
+            info={pronounData}
+            includeInfo={true}
+          />
         </li>
         <li>
           <DropDownMenu title={"Vocab"} info={vocabData} includeInfo={true} />
