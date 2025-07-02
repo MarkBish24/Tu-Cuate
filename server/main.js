@@ -1,5 +1,6 @@
-const { app, BrowserWindow } = require("electron");
+const { app, BrowserWindow, ipcMain } = require("electron");
 const path = require("path");
+const fs = require("fs");
 
 function createWindow() {
   const window = new BrowserWindow({
@@ -32,4 +33,21 @@ app.whenReady().then(() => {
 // deactivates when all windows are closed
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
+});
+
+ipcMain.on("save-audio-file", (event, buffer) => {
+  const audioFolder = path.join(__dirname, "data", "audio");
+
+  fs.mkdirSync(audioFolder, { recursive: true });
+
+  const timestamp = Date.now();
+  const filePath = path.join(audioFolder, `recording-${timestamp}.webm`);
+
+  fs.writeFile(filePath, Buffer.from(buffer), (err) => {
+    if (err) {
+      console.error("Error Writing Audio File:", err);
+    } else {
+      console.log("Audio file saved at:", filePath);
+    }
+  });
 });

@@ -5,16 +5,22 @@ import { FaMicrophone, FaMicrophoneSlash } from "react-icons/fa";
 import "./microphone.css";
 
 export default function Microphone({ isRecording, onToggle }) {
-  const mediaRecorderRef = useRef(null);
-  const audioChunks = useRef([]);
-
+  // for sound
+  const notificationSound = new Audio("../../../assets/sound/Notification.wav");
+  notificationSound.volume = 0.14;
   useEffect(() => {
     if (isRecording) {
+      notificationSound.play();
       startRecording();
     } else {
+      notificationSound.play();
       stopRecording();
     }
   }, [isRecording]);
+
+  // for audio recording
+  const mediaRecorderRef = useRef(null);
+  const audioChunks = useRef([]);
 
   const startRecording = async () => {
     try {
@@ -27,15 +33,19 @@ export default function Microphone({ isRecording, onToggle }) {
         }
       };
 
-      mediaRecorderRef.current.onstop = () => {
+      mediaRecorderRef.current.onstop = async () => {
         const audioBlob = new Blob(audioChunks.current, {
           type: "audio/webm",
         });
+        const arrayBuffer = await audioBlob.arrayBuffer();
         console.log("Audio Blob:", audioBlob);
+        console.log("ArrayBuffer length:", arrayBuffer.byteLength);
 
         mediaRecorderRef.current.stream
           .getTracks()
           .forEach((track) => track.stop());
+
+        window.electronAPI.saveAudioFile(arrayBuffer);
 
         audioChunks.current = [];
       };
