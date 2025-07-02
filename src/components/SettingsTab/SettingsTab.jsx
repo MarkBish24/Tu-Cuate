@@ -22,7 +22,7 @@ export default function SettingsTab() {
     <>
       <ul className="settings-panel">
         <li>
-          <DropDownMenu title={"Verbs"} info={""} includeInfo={true} />
+          <DropDownMenu title={"Verbs"} info={["", ""]} includeInfo={true} />
         </li>
         <li>
           <DropDownMenu
@@ -79,7 +79,7 @@ export default function SettingsTab() {
           </div>
         </li>
         <li className="settings-range">
-          <label>Response Length</label>
+          <label>Response Length in Words</label>
           <div
             className="slider-container"
             onMouseEnter={() => setHoveredLength(true)}

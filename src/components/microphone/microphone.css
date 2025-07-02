@@ -23,3 +23,10 @@
 .microphone-btn:active {
   color: #ffcc9a;
 }
+
+.microphone-btn.active {
+  animation: pulse-glow 1.5s infinite ease-in-out;
+  color: white;
+  background: linear-gradient(135deg, #ff4d4d, #ff1a1a);
+  border-color: #cc0000;
+}

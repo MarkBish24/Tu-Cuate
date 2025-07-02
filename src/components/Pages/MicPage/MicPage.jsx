@@ -10,15 +10,17 @@ import { RxCross1 } from "react-icons/rx";
 import "./MicPage.css";
 
 export default function MicPage({ title }) {
+  // used for the settings page
   const [spin, setSpin] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
+  //sets a design for when the settings page slides in
   const handleClick = () => {
     setSpin(true);
     setIsOpen((prev) => !prev);
     setTimeout(() => setSpin(false), 600);
   };
-
+  // animations for the spin of the wheel
   const spinVariants = {
     spin: { rotate: [0, -25, 370] },
     idle: { rotate: 0 },
@@ -45,8 +47,16 @@ export default function MicPage({ title }) {
     },
   };
 
+  //used for the microphone button
+  const [isRecording, setIsRecording] = useState(false);
+
+  const toggleRecording = () => {
+    setIsRecording((prev) => !prev);
+  };
+
   return (
     <>
+      {/* This Section shows the different mic pages */}
       <div className="mic-page-cntr">
         <div className="mic-btn-ctnr">
           <HomeButton />
@@ -66,6 +76,8 @@ export default function MicPage({ title }) {
             <IoMdSettings size={24} />
           </motion.button>
         </div>
+
+        {/* This section is for the Microphone and front display page to talk to Cuate */}
         <div className="mic-page-wrapper">
           <div className="mic-page-title-cntr">
             <h1 className="mic-page-title">{title}</h1>
@@ -73,8 +85,10 @@ export default function MicPage({ title }) {
               Press the microphone button to talk to Cuate
             </p>
           </div>
-          <Microphone />
+          <Microphone isRecording={isRecording} onToggle={toggleRecording} />
         </div>
+
+        {/* The section below is to show the settings page to be displayed and slides in */}
 
         <AnimatePresence>
           {isOpen && (
@@ -101,6 +115,8 @@ export default function MicPage({ title }) {
                     <RxCross1 size={24} />
                   </div>
                 </div>
+
+                {/* The settings Tab actually shows the different settings that can be displayed at all times */}
                 <SettingsTab />
               </motion.div>
             </>

@@ -32,21 +32,27 @@ export default function DropDownMenu({ title, info, includeInfo }) {
           >
             {info.map((data, index) => {
               if ("category" in data && "items" in data) {
-                return <DropDownMenu title={data.category} info={data.items} />;
+                return (
+                  <DropDownMenu
+                    key={index}
+                    title={data.category}
+                    info={data.items}
+                  />
+                );
               } else if ("english" in data && "spanish" in data) {
                 return (
                   <label className="drop-down-info-item" key={index}>
-                    <p className="drop-down-info-p">
-                      {data.spanish} -
-                      <span style={{ fontStyle: "italic" }}>
-                        - {data.english}
+                    <p className="drop-down-info-p" style={{ margin: 0 }}>
+                      {data.spanish}
+                      <span style={{ fontStyle: "italic", marginLeft: 6 }}>
+                        – {data.english}
                       </span>
                     </p>
                     <input className="drop-down-checkbox" type="checkbox" />
                   </label>
                 );
               } else {
-                return <div></div>;
+                return <div key={index}>Words</div>;
               }
             })}
           </motion.div>
