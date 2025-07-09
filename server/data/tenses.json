@@ -1,39 +1,113 @@
 [
-  { "spanish": "Presente (Indicativo)", "english": "Present (Indicative)" },
   {
-    "spanish": "Pretérito Perfecto Simple / Pretérito Indefinido",
-    "english": "Simple Past / Preterite"
+    "category": "Indicativo (Indicative)",
+    "items": [
+      {
+        "spanish": "Presente (Indicativo)",
+        "english": "Present (Indicative)",
+        "active": false
+      },
+      {
+        "spanish": "Pretérito Indefinido",
+        "english": "Preterite",
+        "active": false
+      },
+      {
+        "spanish": "Pretérito Imperfecto",
+        "english": "Imperfect",
+        "active": false
+      },
+      {
+        "spanish": "Pretérito Perfecto Compuesto",
+        "english": "Present Perfect",
+        "active": false
+      },
+      {
+        "spanish": "Pretérito Pluscuamperfecto",
+        "english": "Past Perfect / Pluperfect",
+        "active": false
+      },
+      {
+        "spanish": "Pretérito Anterior",
+        "english": "Past Anterior",
+        "active": false
+      },
+      {
+        "spanish": "Futuro Simple",
+        "english": "Simple Future",
+        "active": false
+      },
+      {
+        "spanish": "Futuro Perfecto",
+        "english": "Future Perfect",
+        "active": false
+      },
+      {
+        "spanish": "Condicional Simple",
+        "english": "Conditional",
+        "active": false
+      },
+      {
+        "spanish": "Condicional Compuesto",
+        "english": "Conditional Perfect",
+        "active": false
+      }
+    ]
   },
-  { "spanish": "Pretérito Imperfecto", "english": "Imperfect" },
-  { "spanish": "Pretérito Perfecto Compuesto", "english": "Present Perfect" },
   {
-    "spanish": "Pretérito Pluscuamperfecto",
-    "english": "Past Perfect / Pluperfect"
+    "category": "Subjuntivo (Subjunctive)",
+    "items": [
+      {
+        "spanish": "Presente",
+        "english": "Present Subjunctive",
+        "active": false
+      },
+      {
+        "spanish": "Pretérito Imperfecto",
+        "english": "Imperfect Subjunctive (-ra and -se forms)",
+        "active": false
+      },
+      {
+        "spanish": "Pretérito Perfecto",
+        "english": "Present Perfect Subjunctive",
+        "active": false
+      },
+      {
+        "spanish": "Pretérito Pluscuamperfecto",
+        "english": "Past Perfect Subjunctive (-ra and -se forms)",
+        "active": false
+      }
+    ]
   },
-  { "spanish": "Pretérito Anterior", "english": "Past Anterior (literary)" },
-  { "spanish": "Futuro Simple", "english": "Simple Future" },
-  { "spanish": "Futuro Perfecto", "english": "Future Perfect" },
-  { "spanish": "Condicional Simple", "english": "Conditional" },
-  { "spanish": "Condicional Compuesto", "english": "Conditional Perfect" },
-
-  { "spanish": "Presente (Subjuntivo)", "english": "Present Subjunctive" },
   {
-    "spanish": "Pretérito Imperfecto (Subjuntivo)",
-    "english": "Imperfect Subjunctive (-ra and -se forms)"
+    "category": "Imperativo (Imperative)",
+    "items": [
+      {
+        "spanish": "Imperativo Afirmativo",
+        "english": "Affirmative Imperative",
+        "active": false
+      },
+      {
+        "spanish": "Imperativo Negativo",
+        "english": "Negative Imperative",
+        "active": false
+      }
+    ]
   },
   {
-    "spanish": "Pretérito Perfecto (Subjuntivo)",
-    "english": "Present Perfect Subjunctive"
-  },
-  {
-    "spanish": "Pretérito Pluscuamperfecto (Subjuntivo)",
-    "english": "Past Perfect Subjunctive (-ra and -se forms)"
-  },
-
-  { "spanish": "Imperativo Afirmativo", "english": "Affirmative Imperative" },
-  { "spanish": "Imperativo Negativo", "english": "Negative Imperative" },
-
-  { "spanish": "Infinitivo", "english": "Infinitive" },
-  { "spanish": "Gerundio", "english": "Gerund / Present Participle" },
-  { "spanish": "Participio Pasado", "english": "Past Participle" }
+    "category": "Formas no personales (Non-Personal Forms)",
+    "items": [
+      { "spanish": "Infinitivo", "english": "Infinitive", "active": false },
+      {
+        "spanish": "Gerundio",
+        "english": "Gerund / Present Participle",
+        "active": false
+      },
+      {
+        "spanish": "Participio Pasado",
+        "english": "Past Participle",
+        "active": false
+      }
+    ]
+  }
 ]

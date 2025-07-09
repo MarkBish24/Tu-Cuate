@@ -1,117 +1,119 @@
 [
   {
-    "category": "Pronombres personales (Personal pronouns)",
+    "category": "Personal pronouns",
     "items": [
-      { "spanish": "yo", "english": "I" },
-      { "spanish": "tú", "english": "you (informal singular)" },
-      { "spanish": "él", "english": "he" },
-      { "spanish": "ella", "english": "she" },
-      { "spanish": "usted", "english": "you (formal singular)" },
-      {
-        "spanish": "nosotros / nosotras",
-        "english": "we (masculine / feminine)"
-      },
+      { "spanish": "yo", "english": "I", "active": false },
+      { "spanish": "tú", "english": "you", "active": false },
+      { "spanish": "él", "english": "he", "active": false },
+      { "spanish": "ella", "english": "she", "active": false },
+      { "spanish": "usted", "english": "you", "active": false },
+      { "spanish": "nosotros / nosotras", "english": "we ", "active": false },
       {
         "spanish": "vosotros / vosotras",
-        "english": "you all (informal plural, mainly Spain)"
+        "english": "you all",
+        "active": false
       },
-      { "spanish": "ellos / ellas", "english": "they (masculine / feminine)" },
+      { "spanish": "ellos / ellas", "english": "they", "active": false },
+      { "spanish": "ustedes", "english": "you all", "active": false }
+    ]
+  },
+  {
+    "category": "Pronombres reflexivos",
+    "items": [
+      { "spanish": "me", "english": "myself", "active": false },
+      { "spanish": "te", "english": "yourself", "active": false },
+      { "spanish": "se", "english": "himself / herself", "active": false },
+      { "spanish": "nos", "english": "ourselves", "active": false },
+      { "spanish": "os", "english": "yourselves", "active": false },
+      { "spanish": "se", "english": "themselves", "active": false }
+    ]
+  },
+  {
+    "category": "Possessive pronouns",
+    "items": [
       {
-        "spanish": "ustedes",
-        "english": "you all (formal plural / plural in Latin America)"
-      }
-    ]
-  },
-  {
-    "category": "Pronombres reflexivos (Reflexive pronouns)",
-    "items": [
-      { "spanish": "me", "english": "myself" },
-      { "spanish": "te", "english": "yourself (informal)" },
-      { "spanish": "se", "english": "himself / herself / yourself (formal)" },
-      { "spanish": "nos", "english": "ourselves" },
-      { "spanish": "os", "english": "yourselves (informal plural)" },
-      { "spanish": "se", "english": "themselves / yourselves (formal plural)" }
-    ]
-  },
-  {
-    "category": "Pronombres posesivos (Possessive pronouns)",
-    "items": [
-      { "spanish": "mío / mía / míos / mías", "english": "mine" },
+        "spanish": "mío / mía / míos / mías",
+        "english": "mine",
+        "active": false
+      },
       {
         "spanish": "tuyo / tuya / tuyos / tuyas",
-        "english": "yours (informal singular)"
+        "english": "yours",
+        "active": false
       },
       {
         "spanish": "suyo / suya / suyos / suyas",
-        "english": "his / hers / yours (formal singular/plural) / theirs"
+        "english": "his / hers / theirs",
+        "active": false
       },
       {
         "spanish": "nuestro / nuestra / nuestros / nuestras",
-        "english": "ours"
+        "english": "ours",
+        "active": false
       },
       {
         "spanish": "vuestro / vuestra / vuestros / vuestras",
-        "english": "yours (informal plural, Spain)"
+        "english": "yours",
+        "active": false
       }
     ]
   },
   {
-    "category": "Pronombres demostrativos (Demonstrative pronouns)",
+    "category": "Demonstrative pronouns",
     "items": [
-      { "spanish": "este / esta / estos / estas", "english": "this / these" },
+      {
+        "spanish": "este / esta / estos / estas",
+        "english": "this / these",
+        "active": false
+      },
       {
         "spanish": "ese / esa / esos / esas",
-        "english": "that / those (near you)"
+        "english": "that / those (near you)",
+        "active": false
       },
       {
         "spanish": "aquel / aquella / aquellos / aquellas",
-        "english": "that / those (far away)"
+        "english": "that / those (far away)",
+        "active": false
       }
     ]
   },
   {
-    "category": "Pronombres relativos (Relative pronouns)",
+    "category": "Relative pronouns",
     "items": [
-      { "spanish": "que", "english": "that / which / who" },
-      { "spanish": "quien / quienes", "english": "who / whom" },
-      { "spanish": "cual / cuales", "english": "which" },
-      { "spanish": "cuyo / cuya / cuyos / cuyas", "english": "whose" }
-    ]
-  },
-  {
-    "category": "Pronombres interrogativos (Interrogative pronouns)",
-    "items": [
-      { "spanish": "qué", "english": "what" },
-      { "spanish": "quién / quiénes", "english": "who" },
-      { "spanish": "cuál / cuáles", "english": "which" },
+      { "spanish": "que", "english": "that / which / who", "active": false },
       {
-        "spanish": "cuánto / cuánta / cuántos / cuántas",
-        "english": "how much / how many"
-      }
-    ]
-  },
-  {
-    "category": "Pronombres exclamativos (Exclamatory pronouns)",
-    "items": [
-      { "spanish": "qué", "english": "what!" },
-      { "spanish": "quién / quiénes", "english": "who!" },
+        "spanish": "quien / quienes",
+        "english": "who / whom",
+        "active": false
+      },
+      { "spanish": "cual / cuales", "english": "which", "active": false },
       {
-        "spanish": "cuánto / cuánta / cuántos / cuántas",
-        "english": "how much! / how many!"
+        "spanish": "cuyo / cuya / cuyos / cuyas",
+        "english": "whose",
+        "active": false
       }
     ]
   },
   {
-    "category": "Pronombres indefinidos (Indefinite pronouns)",
+    "category": "Pronombres indefinidos",
     "items": [
-      { "spanish": "alguien", "english": "someone" },
-      { "spanish": "nadie", "english": "no one / nobody" },
-      { "spanish": "algo", "english": "something" },
-      { "spanish": "nada", "english": "nothing" },
-      { "spanish": "cada", "english": "each / every" },
-      { "spanish": "cualquiera", "english": "anyone / whichever" },
-      { "spanish": "todos / todas", "english": "everyone / all" },
-      { "spanish": "varios / varias", "english": "several" }
+      { "spanish": "alguien", "english": "someone", "active": false },
+      { "spanish": "nadie", "english": "no one / nobody", "active": false },
+      { "spanish": "algo", "english": "something", "active": false },
+      { "spanish": "nada", "english": "nothing", "active": false },
+      { "spanish": "cada", "english": "each / every", "active": false },
+      {
+        "spanish": "cualquiera",
+        "english": "anyone / whichever",
+        "active": false
+      },
+      {
+        "spanish": "todos / todas",
+        "english": "everyone / all",
+        "active": false
+      },
+      { "spanish": "varios / varias", "english": "several", "active": false }
     ]
   }
 ]

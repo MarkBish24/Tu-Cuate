@@ -3,6 +3,8 @@ import { useState } from "react";
 import HomeButton from "../../HomeButton/HomeButton.jsx";
 import Microphone from "../../microphone/microphone.jsx";
 import SettingsTab from "../../SettingsTab/SettingsTab.jsx";
+import SpeakButton from "../../SpeakButton/SpeakButton.jsx";
+
 import { IoMdSettings } from "react-icons/io";
 import { motion, AnimatePresence } from "framer-motion";
 import { RxCross1 } from "react-icons/rx";
@@ -47,13 +49,6 @@ export default function MicPage({ title }) {
     },
   };
 
-  //used for the microphone button
-  const [isRecording, setIsRecording] = useState(false);
-
-  const toggleRecording = () => {
-    setIsRecording((prev) => !prev);
-  };
-
   return (
     <>
       {/* This Section shows the different mic pages */}
@@ -85,7 +80,10 @@ export default function MicPage({ title }) {
               Press the microphone button to talk to Cuate
             </p>
           </div>
-          <Microphone isRecording={isRecording} onToggle={toggleRecording} />
+          <div>
+            <Microphone />
+            <SpeakButton />
+          </div>
         </div>
 
         {/* The section below is to show the settings page to be displayed and slides in */}

@@ -2,9 +2,11 @@ import { useState } from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { motion, AnimatePresence } from "framer-motion";
 
+import ItemCheckbox from "../ItemCheckbox/ItemCheckbox.jsx";
+
 import "./DropDownMenu.css";
 
-export default function DropDownMenu({ title, info, includeInfo }) {
+export default function DropDownMenu({ title, info }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -40,17 +42,7 @@ export default function DropDownMenu({ title, info, includeInfo }) {
                   />
                 );
               } else if ("english" in data && "spanish" in data) {
-                return (
-                  <label className="drop-down-info-item" key={index}>
-                    <p className="drop-down-info-p" style={{ margin: 0 }}>
-                      {data.spanish}
-                      <span style={{ fontStyle: "italic", marginLeft: 6 }}>
-                        – {data.english}
-                      </span>
-                    </p>
-                    <input className="drop-down-checkbox" type="checkbox" />
-                  </label>
-                );
+                return <ItemCheckbox key={data.id} data={data} />;
               } else {
                 return <div key={index}>Words</div>;
               }

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import DropDownMenu from "../DropDownMenu/DropDownMenu.jsx";
 
+import verbData from "../../../server/data/verbs.json";
 import vocabData from "../../../server/data/vocab.json";
 import tensesData from "../../../server/data/tenses.json";
 import pronounData from "../../../server/data/pronouns.json";
@@ -22,7 +23,7 @@ export default function SettingsTab() {
     <>
       <ul className="settings-panel">
         <li>
-          <DropDownMenu title={"Verbs"} info={["", ""]} includeInfo={true} />
+          <DropDownMenu title={"Verbs"} info={verbData} includeInfo={true} />
         </li>
         <li>
           <DropDownMenu

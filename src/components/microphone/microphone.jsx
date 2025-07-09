@@ -1,69 +1,56 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { FaMicrophone, FaMicrophoneSlash } from "react-icons/fa";
 
 import "./microphone.css";
 
-export default function Microphone({ isRecording, onToggle }) {
-  // for sound
-  const notificationSound = new Audio("../../../assets/sound/Notification.wav");
-  notificationSound.volume = 0.14;
+export default function Microphone() {
+  const [isRecording, setIsRecording] = useState(false);
+  const notificationSoundRef = useRef(null);
+
+  // Load notification sound on mount
   useEffect(() => {
+    notificationSoundRef.current = new Audio(
+      "../../../assets/sound/Notification.wav"
+    );
+    notificationSoundRef.current.volume = 0.14;
+  }, []);
+
+  // Handle recording start/stop when isRecording changes
+  useEffect(() => {
+    if (!notificationSoundRef.current) return;
+
+    notificationSoundRef.current.play();
+
     if (isRecording) {
-      notificationSound.play();
       startRecording();
     } else {
-      notificationSound.play();
       stopRecording();
     }
   }, [isRecording]);
 
-  // for audio recording
-  const mediaRecorderRef = useRef(null);
-  const audioChunks = useRef([]);
+  const toggleRecording = () => {
+    setIsRecording((prev) => !prev);
+  };
 
   const startRecording = async () => {
     try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      mediaRecorderRef.current = new MediaRecorder(stream);
-
-      mediaRecorderRef.current.ondataavailable = (event) => {
-        if (event.data.size > 0) {
-          audioChunks.current.push(event.data);
-        }
-      };
-
-      mediaRecorderRef.current.onstop = async () => {
-        const audioBlob = new Blob(audioChunks.current, {
-          type: "audio/webm",
-        });
-        const arrayBuffer = await audioBlob.arrayBuffer();
-        console.log("Audio Blob:", audioBlob);
-        console.log("ArrayBuffer length:", arrayBuffer.byteLength);
-
-        mediaRecorderRef.current.stream
-          .getTracks()
-          .forEach((track) => track.stop());
-
-        window.electronAPI.saveAudioFile(arrayBuffer);
-
-        audioChunks.current = [];
-      };
-
-      mediaRecorderRef.current.start();
-    } catch (err) {
-      console.error("Mic Access Error: ", err);
+      await window.electronAPI.startRecording();
+      console.log("Recording started");
+    } catch (error) {
+      console.error("Start recording error:", error);
     }
   };
 
-  const stopRecording = () => {
-    if (
-      mediaRecorderRef.current &&
-      mediaRecorderRef.current.state !== "inactive"
-    ) {
-      mediaRecorderRef.current.stop();
+  const stopRecording = async () => {
+    try {
+      const filePath = await window.electronAPI.stopRecording();
+      console.log("Audio saved at:", filePath);
+    } catch (error) {
+      console.error("Stop recording error:", error);
     }
   };
+
   return (
     <motion.button
       initial={{ scale: 0.8, opacity: 0 }}
@@ -72,7 +59,9 @@ export default function Microphone({ isRecording, onToggle }) {
       whileTap={{ scale: 0.9 }}
       transition={{ duration: 0.2 }}
       className={`microphone-btn ${isRecording ? "active" : ""}`}
-      onClick={onToggle}
+      onClick={toggleRecording}
+      aria-pressed={isRecording}
+      aria-label={isRecording ? "Stop recording" : "Start recording"}
     >
       {isRecording ? (
         <FaMicrophone size={32} />

@@ -1,0 +1,17 @@
+.drop-down-info-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.drop-down-info-p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 12px;
+}
+
+.drop-down-checkbox {
+  accent-color: #e67300;
+}

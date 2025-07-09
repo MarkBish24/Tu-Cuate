@@ -1,201 +1,6122 @@
 [
-  { "spanish": "ser", "english": "to be (essential/permanent quality)" },
-  { "spanish": "estar", "english": "to be (temporary state/location)" },
-  { "spanish": "poder", "english": "to be able to / can" },
-  { "spanish": "tener", "english": "to have" },
-  { "spanish": "haber", "english": "to have (auxiliary) / there is/are" },
-  { "spanish": "hacer", "english": "to do / to make" },
-  { "spanish": "decir", "english": "to say / to tell" },
-  { "spanish": "ver", "english": "to see" },
-  { "spanish": "deber", "english": "should / ought to / to owe" },
-  { "spanish": "ir", "english": "to go" },
-  { "spanish": "dar", "english": "to give" },
-  { "spanish": "parecer", "english": "to seem / to appear" },
-  { "spanish": "llegar", "english": "to arrive / to come" },
-  { "spanish": "tratar", "english": "to try / to treat" },
-  { "spanish": "saber", "english": "to know (facts, information)" },
-  { "spanish": "hablar", "english": "to speak / to talk" },
-  { "spanish": "querer", "english": "to want / to love" },
-  { "spanish": "poner", "english": "to put / to place" },
-  { "spanish": "dejar", "english": "to leave / to let" },
-  { "spanish": "pasar", "english": "to pass / to happen" },
-  { "spanish": "llevar", "english": "to carry / to wear" },
-  { "spanish": "seguir", "english": "to follow / to continue" },
-  { "spanish": "existir", "english": "to exist" },
-  { "spanish": "conocer", "english": "to know (people, places)" },
-  { "spanish": "tomar", "english": "to take / to drink" },
-  { "spanish": "salir", "english": "to leave / to go out" },
-  { "spanish": "encontrar", "english": "to find" },
-  { "spanish": "crear", "english": "to create" },
-  { "spanish": "evitar", "english": "to avoid" },
-  { "spanish": "quedar", "english": "to remain / to stay" },
-  { "spanish": "pensar", "english": "to think" },
-  { "spanish": "mantener", "english": "to maintain / to keep" },
-  { "spanish": "realizar", "english": "to carry out / to perform" },
-  { "spanish": "volver", "english": "to return / to come back" },
-  { "spanish": "venir", "english": "to come" },
-  { "spanish": "permitir", "english": "to allow / to permit" },
-  { "spanish": "resultar", "english": "to result / to turn out" },
-  { "spanish": "vivir", "english": "to live" },
-  { "spanish": "buscar", "english": "to search / to look for" },
-  { "spanish": "producir", "english": "to produce" },
-  { "spanish": "entrar", "english": "to enter" },
-  { "spanish": "conseguir", "english": "to get / to obtain" },
-  { "spanish": "contar", "english": "to count / to tell" },
-  { "spanish": "considerar", "english": "to consider" },
-  { "spanish": "señalar", "english": "to point out / to signal" },
-  { "spanish": "presentar", "english": "to present / to introduce" },
-  { "spanish": "perder", "english": "to lose" },
-  { "spanish": "aparecer", "english": "to appear" },
-  { "spanish": "trabajar", "english": "to work" },
-  { "spanish": "entender", "english": "to understand" },
-  { "spanish": "obtener", "english": "to obtain / to get" },
-  { "spanish": "lograr", "english": "to achieve / to manage" },
-  { "spanish": "comenzar", "english": "to begin / to start" },
-  { "spanish": "esperar", "english": "to wait / to hope" },
-  { "spanish": "afirmar", "english": "to affirm / to state" },
-  { "spanish": "sentir", "english": "to feel / to regret" },
-  { "spanish": "preguntar", "english": "to ask / to inquire" },
-  { "spanish": "ganar", "english": "to win / to earn" },
-  { "spanish": "llamar", "english": "to call" },
-  { "spanish": "ocurrir", "english": "to occur / to happen" },
-  { "spanish": "convertir", "english": "to convert / to turn into" },
-  { "spanish": "cambiar", "english": "to change" },
-  { "spanish": "significar", "english": "to mean" },
-  { "spanish": "gustar", "english": "to like" },
-  { "spanish": "establecer", "english": "to establish" },
-  { "spanish": "cumplir", "english": "to fulfill / to carry out" },
-  { "spanish": "explicar", "english": "to explain" },
-  { "spanish": "alcanzar", "english": "to reach / to catch up" },
-  { "spanish": "pagar", "english": "to pay" },
-  { "spanish": "creer", "english": "to believe" },
-  { "spanish": "suponer", "english": "to suppose" },
-  { "spanish": "comer", "english": "to eat" },
-  { "spanish": "mirar", "english": "to look at" },
-  { "spanish": "sacar", "english": "to take out / to remove" },
-  { "spanish": "abrir", "english": "to open" },
-  { "spanish": "asegurar", "english": "to assure / to secure" },
-  { "spanish": "utilizar", "english": "to use" },
-  { "spanish": "ofrecer", "english": "to offer" },
-  { "spanish": "jugar", "english": "to play" },
-  { "spanish": "recordar", "english": "to remember" },
-  { "spanish": "recibir", "english": "to receive" },
-  { "spanish": "constituir", "english": "to constitute" },
-  { "spanish": "pedir", "english": "to ask for / to request" },
-  { "spanish": "escribir", "english": "to write" },
-  { "spanish": "informar", "english": "to inform" },
-  { "spanish": "necesitar", "english": "to need" },
-  { "spanish": "caer", "english": "to fall" },
-  { "spanish": "mostrar", "english": "to show" },
-  { "spanish": "empezar", "english": "to begin / to start" },
-  { "spanish": "referir", "english": "to refer" },
-  { "spanish": "leer", "english": "to read" },
-  { "spanish": "declarar", "english": "to declare" },
-  { "spanish": "representar", "english": "to represent" },
-  { "spanish": "resolver", "english": "to solve, to resolve" },
-  { "spanish": "soler", "english": "to usually do, to tend to" },
-  { "spanish": "manifestar", "english": "to manifest, to express" },
-  { "spanish": "corresponder", "english": "to correspond" },
-  { "spanish": "olvidar", "english": "to forget" },
-  { "spanish": "decidir", "english": "to decide" },
-  { "spanish": "morir", "english": "to die" },
-  { "spanish": "acabar", "english": "to finish, to end" },
-  { "spanish": "anunciar", "english": "to announce" },
-  { "spanish": "reconocer", "english": "to recognize" },
-  { "spanish": "pretender", "english": "to intend, to try" },
-  { "spanish": "añadir", "english": "to add" },
-  { "spanish": "aceptar", "english": "to accept" },
-  { "spanish": "dormir", "english": "to sleep" },
-  { "spanish": "consistir", "english": "to consist of" },
-  { "spanish": "indicar", "english": "to indicate" },
-  { "spanish": "ayudar", "english": "to help" },
-  { "spanish": "servir", "english": "to serve" },
-  { "spanish": "comprender", "english": "to understand" },
-  { "spanish": "terminar", "english": "to finish, to end" },
-  { "spanish": "escuchar", "english": "to listen" },
-  { "spanish": "caber", "english": "to fit" },
-  { "spanish": "importar", "english": "to matter, to import" },
-  { "spanish": "mejorar", "english": "to improve" },
-  { "spanish": "comprar", "english": "to buy" },
-  { "spanish": "reducir", "english": "to reduce" },
-  { "spanish": "defender", "english": "to defend" },
-  { "spanish": "estudiar", "english": "to study" },
-  { "spanish": "desarrollar", "english": "to develop" },
-  { "spanish": "formar", "english": "to form, to shape" },
-  { "spanish": "sentar", "english": "to sit, to seat" },
-  { "spanish": "responder", "english": "to answer, to respond" },
-  { "spanish": "incluir", "english": "to include" },
-  { "spanish": "requerir", "english": "to require" },
-  { "spanish": "depender", "english": "to depend" },
-  { "spanish": "aplicar", "english": "to apply" },
-  { "spanish": "matar", "english": "to kill" },
-  { "spanish": "construir", "english": "to build" },
-  { "spanish": "participar", "english": "to participate" },
-  { "spanish": "levantar", "english": "to lift, to raise" },
-  { "spanish": "actuar", "english": "to act" },
-  { "spanish": "suceder", "english": "to happen" },
-  { "spanish": "abandonar", "english": "to abandon" },
-  { "spanish": "prever", "english": "to foresee, to anticipate" },
-  { "spanish": "intentar", "english": "to try, to attempt" },
-  { "spanish": "continuar", "english": "to continue" },
-  { "spanish": "observar", "english": "to observe" },
-  { "spanish": "enfrentar", "english": "to confront, to face" },
-  { "spanish": "comprobar", "english": "to check, to verify" },
-  { "spanish": "recuperar", "english": "to recover" },
-  { "spanish": "demostrar", "english": "to demonstrate, to show" },
-  { "spanish": "usar", "english": "to use" },
-  { "spanish": "poseer", "english": "to possess, to own" },
-  { "spanish": "aumentar", "english": "to increase" },
-  { "spanish": "comentar", "english": "to comment" },
-  { "spanish": "agregar", "english": "to add" },
-  { "spanish": "iniciar", "english": "to initiate, to start" },
-  { "spanish": "echar", "english": "to throw, to cast" },
-  { "spanish": "superar", "english": "to overcome" },
-  { "spanish": "vender", "english": "to sell" },
-  { "spanish": "descubrir", "english": "to discover" },
-  { "spanish": "exigir", "english": "to demand" },
-  { "spanish": "cerrar", "english": "to close" },
-  { "spanish": "valer", "english": "to be worth" },
-  { "spanish": "colocar", "english": "to place" },
-  { "spanish": "tocar", "english": "to touch, to play (instrument)" },
-  { "spanish": "determinar", "english": "to determine" },
-  { "spanish": "mover", "english": "to move" },
-  { "spanish": "meter", "english": "to put in, to insert" },
-  { "spanish": "interesar", "english": "to interest" },
-  { "spanish": "subir", "english": "to go up, to upload" },
-  { "spanish": "controlar", "english": "to control" },
-  { "spanish": "correr", "english": "to run" },
-  { "spanish": "faltar", "english": "to lack, to miss" },
-  { "spanish": "bajar", "english": "to go down, to download" },
-  { "spanish": "definir", "english": "to define" },
-  { "spanish": "implicar", "english": "to imply, to involve" },
-  { "spanish": "expresar", "english": "to express" },
-  { "spanish": "dirigir", "english": "to direct, to manage" },
-  { "spanish": "ocupar", "english": "to occupy" },
-  { "spanish": "preparar", "english": "to prepare" },
-  { "spanish": "detener", "english": "to stop, to detain" },
-  { "spanish": "elegir", "english": "to choose" },
-  { "spanish": "contener", "english": "to contain" },
-  { "spanish": "imaginar", "english": "to imagine" },
-  { "spanish": "cubrir", "english": "to cover" },
-  { "spanish": "impedir", "english": "to prevent" },
-  { "spanish": "desear", "english": "to wish, to desire" },
-  { "spanish": "proponer", "english": "to propose" },
-  { "spanish": "quitar", "english": "to remove" },
-  { "spanish": "salvar", "english": "to save, to rescue" },
-  { "spanish": "romper", "english": "to break" },
-  { "spanish": "afectar", "english": "to affect" },
-  { "spanish": "regresar", "english": "to return" },
-  { "spanish": "analizar", "english": "to analyze" },
-  { "spanish": "repetir", "english": "to repeat" },
-  { "spanish": "contestar", "english": "to answer" },
-  { "spanish": "convenir", "english": "to be convenient, to suit" },
-  { "spanish": "entregar", "english": "to deliver" },
-  { "spanish": "acercar", "english": "to bring closer" },
-  { "spanish": "nacer", "english": "to be born" },
-  { "spanish": "visitar", "english": "to visit" },
-  { "spanish": "aprender", "english": "to learn" },
-  { "spanish": "atender", "english": "to attend to" },
-  { "spanish": "imponer", "english": "to impose" },
-  { "spanish": "disponer", "english": "to arrange, to have at disposal" }
+  {
+    "id": "01",
+    "category": "1–50",
+    "items": [
+      {
+        "id": "verbs-01-01",
+        "spanish": "ser",
+        "english": "to be",
+        "active": true
+      },
+      {
+        "id": "verbs-01-02",
+        "spanish": "estar",
+        "english": "to be",
+        "active": true
+      },
+      {
+        "id": "verbs-01-03",
+        "spanish": "haber",
+        "english": "to have",
+        "active": true
+      },
+      {
+        "id": "verbs-01-04",
+        "spanish": "tener",
+        "english": "to have",
+        "active": true
+      },
+      {
+        "id": "verbs-01-05",
+        "spanish": "hacer",
+        "english": "to do / make",
+        "active": true
+      },
+      {
+        "id": "verbs-01-06",
+        "spanish": "poder",
+        "english": "to be able to",
+        "active": false
+      },
+      {
+        "id": "verbs-01-07",
+        "spanish": "decir",
+        "english": "to say / tell",
+        "active": false
+      },
+      {
+        "id": "verbs-01-08",
+        "spanish": "ir",
+        "english": "to go",
+        "active": false
+      },
+      {
+        "id": "verbs-01-09",
+        "spanish": "ver",
+        "english": "to see",
+        "active": false
+      },
+      {
+        "id": "verbs-01-10",
+        "spanish": "dar",
+        "english": "to give",
+        "active": false
+      },
+      {
+        "id": "verbs-01-11",
+        "spanish": "querer",
+        "english": "to want / love",
+        "active": false
+      },
+      {
+        "id": "verbs-01-12",
+        "spanish": "saber",
+        "english": "to know",
+        "active": false
+      },
+      {
+        "id": "verbs-01-13",
+        "spanish": "pasar",
+        "english": "to pass / happen",
+        "active": false
+      },
+      {
+        "id": "verbs-01-14",
+        "spanish": "poner",
+        "english": "to put / place",
+        "active": false
+      },
+      {
+        "id": "verbs-01-15",
+        "spanish": "llegar",
+        "english": "to arrive",
+        "active": false
+      },
+      {
+        "id": "verbs-01-16",
+        "spanish": "deber",
+        "english": "to owe / should",
+        "active": false
+      },
+      {
+        "id": "verbs-01-17",
+        "spanish": "parecer",
+        "english": "to seem",
+        "active": false
+      },
+      {
+        "id": "verbs-01-18",
+        "spanish": "creer",
+        "english": "to believe",
+        "active": false
+      },
+      {
+        "id": "verbs-01-19",
+        "spanish": "hablar",
+        "english": "to speak / talk",
+        "active": false
+      },
+      {
+        "id": "verbs-01-20",
+        "spanish": "encontrar",
+        "english": "to find",
+        "active": false
+      },
+      {
+        "id": "verbs-01-21",
+        "spanish": "quedar",
+        "english": "to stay / remain",
+        "active": false
+      },
+      {
+        "id": "verbs-01-22",
+        "spanish": "seguir",
+        "english": "to follow / continue",
+        "active": false
+      },
+      {
+        "id": "verbs-01-23",
+        "spanish": "llevar",
+        "english": "to carry / take",
+        "active": false
+      },
+      {
+        "id": "verbs-01-24",
+        "spanish": "llamar",
+        "english": "to call",
+        "active": false
+      },
+      {
+        "id": "verbs-01-25",
+        "spanish": "dejar",
+        "english": "to leave / let",
+        "active": false
+      },
+      {
+        "id": "verbs-01-26",
+        "spanish": "salir",
+        "english": "to leave / go out",
+        "active": false
+      },
+      {
+        "id": "verbs-01-27",
+        "spanish": "venir",
+        "english": "to come",
+        "active": false
+      },
+      {
+        "id": "verbs-01-28",
+        "spanish": "volver",
+        "english": "to return",
+        "active": false
+      },
+      {
+        "id": "verbs-01-29",
+        "spanish": "pensar",
+        "english": "to think",
+        "active": false
+      },
+      {
+        "id": "verbs-01-30",
+        "spanish": "vivir",
+        "english": "to live",
+        "active": false
+      },
+      {
+        "id": "verbs-01-31",
+        "spanish": "tomar",
+        "english": "to take / drink",
+        "active": false
+      },
+      {
+        "id": "verbs-01-32",
+        "spanish": "sentir",
+        "english": "to feel",
+        "active": false
+      },
+      {
+        "id": "verbs-01-33",
+        "spanish": "mirar",
+        "english": "to look at",
+        "active": false
+      },
+      {
+        "id": "verbs-01-34",
+        "spanish": "conocer",
+        "english": "to know / meet",
+        "active": false
+      },
+      {
+        "id": "verbs-01-35",
+        "spanish": "tratar",
+        "english": "to try / treat",
+        "active": false
+      },
+      {
+        "id": "verbs-01-36",
+        "spanish": "empezar",
+        "english": "to begin / start",
+        "active": false
+      },
+      {
+        "id": "verbs-01-37",
+        "spanish": "esperar",
+        "english": "to wait / hope",
+        "active": false
+      },
+      {
+        "id": "verbs-01-38",
+        "spanish": "existir",
+        "english": "to exist",
+        "active": false
+      },
+      {
+        "id": "verbs-01-39",
+        "spanish": "contar",
+        "english": "to count / tell",
+        "active": false
+      },
+      {
+        "id": "verbs-01-40",
+        "spanish": "buscar",
+        "english": "to look for",
+        "active": false
+      },
+      {
+        "id": "verbs-01-41",
+        "spanish": "trabajar",
+        "english": "to work",
+        "active": false
+      },
+      {
+        "id": "verbs-01-42",
+        "spanish": "entrar",
+        "english": "to enter",
+        "active": false
+      },
+      {
+        "id": "verbs-01-43",
+        "spanish": "escribir",
+        "english": "to write",
+        "active": false
+      },
+      {
+        "id": "verbs-01-44",
+        "spanish": "perder",
+        "english": "to lose",
+        "active": false
+      },
+      {
+        "id": "verbs-01-45",
+        "spanish": "producir",
+        "english": "to produce",
+        "active": false
+      },
+      {
+        "id": "verbs-01-46",
+        "spanish": "ocurrir",
+        "english": "to happen",
+        "active": false
+      },
+      {
+        "id": "verbs-01-47",
+        "spanish": "entender",
+        "english": "to understand",
+        "active": false
+      },
+      {
+        "id": "verbs-01-48",
+        "spanish": "pedir",
+        "english": "to ask for / request",
+        "active": false
+      },
+      {
+        "id": "verbs-01-49",
+        "spanish": "recibir",
+        "english": "to receive",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "category": "51–100",
+    "items": [
+      {
+        "id": "verbs-02-01",
+        "spanish": "conseguir",
+        "english": "to get / achieve",
+        "active": false
+      },
+      {
+        "id": "verbs-02-02",
+        "spanish": "recordar",
+        "english": "to remember",
+        "active": false
+      },
+      {
+        "id": "verbs-02-03",
+        "spanish": "aparecer",
+        "english": "to appear",
+        "active": false
+      },
+      {
+        "id": "verbs-02-04",
+        "spanish": "permitir",
+        "english": "to allow / permit",
+        "active": false
+      },
+      {
+        "id": "verbs-02-05",
+        "spanish": "comenzar",
+        "english": "to begin / start",
+        "active": false
+      },
+      {
+        "id": "verbs-02-06",
+        "spanish": "terminar",
+        "english": "to finish / end",
+        "active": false
+      },
+      {
+        "id": "verbs-02-07",
+        "spanish": "necesitar",
+        "english": "to need",
+        "active": false
+      },
+      {
+        "id": "verbs-02-08",
+        "spanish": "servir",
+        "english": "to serve",
+        "active": false
+      },
+      {
+        "id": "verbs-02-09",
+        "spanish": "resultar",
+        "english": "to result",
+        "active": false
+      },
+      {
+        "id": "verbs-02-10",
+        "spanish": "mantener",
+        "english": "to maintain / keep",
+        "active": false
+      },
+      {
+        "id": "verbs-02-11",
+        "spanish": "caer",
+        "english": "to fall",
+        "active": false
+      },
+      {
+        "id": "verbs-02-12",
+        "spanish": "leer",
+        "english": "to read",
+        "active": false
+      },
+      {
+        "id": "verbs-02-13",
+        "spanish": "sacar",
+        "english": "to take out",
+        "active": false
+      },
+      {
+        "id": "verbs-02-14",
+        "spanish": "crear",
+        "english": "to create",
+        "active": false
+      },
+      {
+        "id": "verbs-02-15",
+        "spanish": "presentar",
+        "english": "to present / introduce",
+        "active": false
+      },
+      {
+        "id": "verbs-02-16",
+        "spanish": "considerar",
+        "english": "to consider",
+        "active": false
+      },
+      {
+        "id": "verbs-02-17",
+        "spanish": "acabar",
+        "english": "to finish / end",
+        "active": false
+      },
+      {
+        "id": "verbs-02-18",
+        "spanish": "abrir",
+        "english": "to open",
+        "active": false
+      },
+      {
+        "id": "verbs-02-19",
+        "spanish": "oír",
+        "english": "to hear",
+        "active": false
+      },
+      {
+        "id": "verbs-02-20",
+        "spanish": "cambiar",
+        "english": "to change",
+        "active": false
+      },
+      {
+        "id": "verbs-02-21",
+        "spanish": "ganar",
+        "english": "to win / earn",
+        "active": false
+      },
+      {
+        "id": "verbs-02-22",
+        "spanish": "convertir",
+        "english": "to convert / turn into",
+        "active": false
+      },
+      {
+        "id": "verbs-02-23",
+        "spanish": "formar",
+        "english": "to form",
+        "active": false
+      },
+      {
+        "id": "verbs-02-24",
+        "spanish": "morir",
+        "english": "to die",
+        "active": false
+      },
+      {
+        "id": "verbs-02-25",
+        "spanish": "traer",
+        "english": "to bring",
+        "active": false
+      },
+      {
+        "id": "verbs-02-26",
+        "spanish": "partir",
+        "english": "to leave / divide",
+        "active": false
+      },
+      {
+        "id": "verbs-02-27",
+        "spanish": "suponer",
+        "english": "to suppose",
+        "active": false
+      },
+      {
+        "id": "verbs-02-28",
+        "spanish": "aceptar",
+        "english": "to accept",
+        "active": false
+      },
+      {
+        "id": "verbs-02-29",
+        "spanish": "realizar",
+        "english": "to carry out / perform",
+        "active": false
+      },
+      {
+        "id": "verbs-02-30",
+        "spanish": "explicar",
+        "english": "to explain",
+        "active": false
+      },
+      {
+        "id": "verbs-02-31",
+        "spanish": "comprender",
+        "english": "to understand",
+        "active": false
+      },
+      {
+        "id": "verbs-02-32",
+        "spanish": "tocar",
+        "english": "to touch / play",
+        "active": false
+      },
+      {
+        "id": "verbs-02-33",
+        "spanish": "preguntar",
+        "english": "to ask",
+        "active": false
+      },
+      {
+        "id": "verbs-02-34",
+        "spanish": "lograr",
+        "english": "to achieve / manage",
+        "active": false
+      },
+      {
+        "id": "verbs-02-35",
+        "spanish": "reconocer",
+        "english": "to recognize",
+        "active": false
+      },
+      {
+        "id": "verbs-02-36",
+        "spanish": "estudiar",
+        "english": "to study",
+        "active": false
+      },
+      {
+        "id": "verbs-02-37",
+        "spanish": "gustar",
+        "english": "to like",
+        "active": false
+      },
+      {
+        "id": "verbs-02-38",
+        "spanish": "nacer",
+        "english": "to be born",
+        "active": false
+      },
+      {
+        "id": "verbs-02-39",
+        "spanish": "dirigir",
+        "english": "to direct / manage",
+        "active": false
+      },
+      {
+        "id": "verbs-02-40",
+        "spanish": "alcanzar",
+        "english": "to reach",
+        "active": false
+      },
+      {
+        "id": "verbs-02-41",
+        "spanish": "pagar",
+        "english": "to pay",
+        "active": false
+      },
+      {
+        "id": "verbs-02-42",
+        "spanish": "utilizar",
+        "english": "to use",
+        "active": false
+      },
+      {
+        "id": "verbs-02-43",
+        "spanish": "correr",
+        "english": "to run",
+        "active": false
+      },
+      {
+        "id": "verbs-02-44",
+        "spanish": "escuchar",
+        "english": "to listen",
+        "active": false
+      },
+      {
+        "id": "verbs-02-45",
+        "spanish": "ofrecer",
+        "english": "to offer",
+        "active": false
+      },
+      {
+        "id": "verbs-02-46",
+        "spanish": "ayudar",
+        "english": "to help",
+        "active": false
+      },
+      {
+        "id": "verbs-02-47",
+        "spanish": "jugar",
+        "english": "to play",
+        "active": false
+      },
+      {
+        "id": "verbs-02-48",
+        "spanish": "usar",
+        "english": "to use",
+        "active": false
+      },
+      {
+        "id": "verbs-02-49",
+        "spanish": "levantar",
+        "english": "to lift / raise",
+        "active": false
+      },
+      {
+        "id": "verbs-02-50",
+        "spanish": "cumplir",
+        "english": "to fulfill / carry out",
+        "active": false
+      },
+      {
+        "id": "verbs-02-51",
+        "spanish": "repetir",
+        "english": "to repeat",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "category": "101–150",
+    "items": [
+      {
+        "id": "verbs-03-01",
+        "spanish": "decidir",
+        "english": "to decide",
+        "active": false
+      },
+      {
+        "id": "verbs-03-02",
+        "spanish": "descubrir",
+        "english": "to discover",
+        "active": false
+      },
+      {
+        "id": "verbs-03-03",
+        "spanish": "intentar",
+        "english": "to try",
+        "active": false
+      },
+      {
+        "id": "verbs-03-04",
+        "spanish": "olvidar",
+        "english": "to forget",
+        "active": false
+      },
+      {
+        "id": "verbs-03-05",
+        "spanish": "comer",
+        "english": "to eat",
+        "active": false
+      },
+      {
+        "id": "verbs-03-06",
+        "spanish": "valer",
+        "english": "to be worth",
+        "active": false
+      },
+      {
+        "id": "verbs-03-07",
+        "spanish": "mostrar",
+        "english": "to show",
+        "active": false
+      },
+      {
+        "id": "verbs-03-08",
+        "spanish": "comprar",
+        "english": "to buy",
+        "active": false
+      },
+      {
+        "id": "verbs-03-09",
+        "spanish": "ocupar",
+        "english": "to occupy",
+        "active": false
+      },
+      {
+        "id": "verbs-03-10",
+        "spanish": "mover",
+        "english": "to move",
+        "active": false
+      },
+      {
+        "id": "verbs-03-11",
+        "spanish": "reír",
+        "english": "to laugh",
+        "active": false
+      },
+      {
+        "id": "verbs-03-12",
+        "spanish": "subir",
+        "english": "to go up / raise",
+        "active": false
+      },
+      {
+        "id": "verbs-03-13",
+        "spanish": "acercar",
+        "english": "to bring closer / approach",
+        "active": false
+      },
+      {
+        "id": "verbs-03-14",
+        "spanish": "fijar",
+        "english": "to fix / set",
+        "active": false
+      },
+      {
+        "id": "verbs-03-15",
+        "spanish": "continuar",
+        "english": "to continue",
+        "active": false
+      },
+      {
+        "id": "verbs-03-16",
+        "spanish": "referir",
+        "english": "to refer",
+        "active": false
+      },
+      {
+        "id": "verbs-03-17",
+        "spanish": "suceder",
+        "english": "to happen",
+        "active": false
+      },
+      {
+        "id": "verbs-03-18",
+        "spanish": "interesar",
+        "english": "to interest",
+        "active": false
+      },
+      {
+        "id": "verbs-03-19",
+        "spanish": "dedicar",
+        "english": "to dedicate",
+        "active": false
+      },
+      {
+        "id": "verbs-03-20",
+        "spanish": "cerrar",
+        "english": "to close",
+        "active": false
+      },
+      {
+        "id": "verbs-03-21",
+        "spanish": "importar",
+        "english": "to matter / import",
+        "active": false
+      },
+      {
+        "id": "verbs-03-22",
+        "spanish": "echar",
+        "english": "to throw / cast",
+        "active": false
+      },
+      {
+        "id": "verbs-03-23",
+        "spanish": "aprender",
+        "english": "to learn",
+        "active": false
+      },
+      {
+        "id": "verbs-03-24",
+        "spanish": "sufrir",
+        "english": "to suffer",
+        "active": false
+      },
+      {
+        "id": "verbs-03-25",
+        "spanish": "evitar",
+        "english": "to avoid",
+        "active": false
+      },
+      {
+        "id": "verbs-03-26",
+        "spanish": "vender",
+        "english": "to sell",
+        "active": false
+      },
+      {
+        "id": "verbs-03-27",
+        "spanish": "obtener",
+        "english": "to obtain / get",
+        "active": false
+      },
+      {
+        "id": "verbs-03-28",
+        "spanish": "indicar",
+        "english": "to indicate",
+        "active": false
+      },
+      {
+        "id": "verbs-03-29",
+        "spanish": "imaginar",
+        "english": "to imagine",
+        "active": false
+      },
+      {
+        "id": "verbs-03-30",
+        "spanish": "detener",
+        "english": "to stop / detain",
+        "active": false
+      },
+      {
+        "id": "verbs-03-31",
+        "spanish": "responder",
+        "english": "to respond / answer",
+        "active": false
+      },
+      {
+        "id": "verbs-03-32",
+        "spanish": "desarrollar",
+        "english": "to develop",
+        "active": false
+      },
+      {
+        "id": "verbs-03-33",
+        "spanish": "observar",
+        "english": "to observe",
+        "active": false
+      },
+      {
+        "id": "verbs-03-34",
+        "spanish": "señalar",
+        "english": "to point out / signal",
+        "active": false
+      },
+      {
+        "id": "verbs-03-35",
+        "spanish": "soler",
+        "english": "to usually do",
+        "active": false
+      },
+      {
+        "id": "verbs-03-36",
+        "spanish": "desear",
+        "english": "to wish / desire",
+        "active": false
+      },
+      {
+        "id": "verbs-03-37",
+        "spanish": "preparar",
+        "english": "to prepare",
+        "active": false
+      },
+      {
+        "id": "verbs-03-38",
+        "spanish": "proponer",
+        "english": "to propose / suggest",
+        "active": false
+      },
+      {
+        "id": "verbs-03-39",
+        "spanish": "elegir",
+        "english": "to choose / elect",
+        "active": false
+      },
+      {
+        "id": "verbs-03-40",
+        "spanish": "demostrar",
+        "english": "to demonstrate / show",
+        "active": false
+      },
+      {
+        "id": "verbs-03-41",
+        "spanish": "reunir",
+        "english": "to gather / meet",
+        "active": false
+      },
+      {
+        "id": "verbs-03-42",
+        "spanish": "faltar",
+        "english": "to lack / miss",
+        "active": false
+      },
+      {
+        "id": "verbs-03-43",
+        "spanish": "asegurar",
+        "english": "to assure / ensure",
+        "active": false
+      },
+      {
+        "id": "verbs-03-44",
+        "spanish": "significar",
+        "english": "to mean",
+        "active": false
+      },
+      {
+        "id": "verbs-03-45",
+        "spanish": "mandar",
+        "english": "to send / order",
+        "active": false
+      },
+      {
+        "id": "verbs-03-46",
+        "spanish": "representar",
+        "english": "to represent",
+        "active": false
+      },
+      {
+        "id": "verbs-03-47",
+        "spanish": "construir",
+        "english": "to build",
+        "active": false
+      },
+      {
+        "id": "verbs-03-48",
+        "spanish": "desaparecer",
+        "english": "to disappear",
+        "active": false
+      },
+      {
+        "id": "verbs-03-49",
+        "spanish": "enseñar",
+        "english": "to teach / show",
+        "active": false
+      },
+      {
+        "id": "verbs-03-50",
+        "spanish": "guardar",
+        "english": "to keep / save",
+        "active": false
+      },
+      {
+        "id": "verbs-03-51",
+        "spanish": "surgir",
+        "english": "to arise / emerge",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "category": "151–200",
+    "items": [
+      {
+        "id": "verbs-04-01",
+        "spanish": "meter",
+        "english": "to put in / insert",
+        "active": false
+      },
+      {
+        "id": "verbs-04-02",
+        "spanish": "andar",
+        "english": "to walk",
+        "active": false
+      },
+      {
+        "id": "verbs-04-03",
+        "spanish": "matar",
+        "english": "to kill",
+        "active": false
+      },
+      {
+        "id": "verbs-04-04",
+        "spanish": "acompañar",
+        "english": "to accompany",
+        "active": false
+      },
+      {
+        "id": "verbs-04-05",
+        "spanish": "preferir",
+        "english": "to prefer",
+        "active": false
+      },
+      {
+        "id": "verbs-04-06",
+        "spanish": "entregar",
+        "english": "to deliver / hand over",
+        "active": false
+      },
+      {
+        "id": "verbs-04-07",
+        "spanish": "iniciar",
+        "english": "to start / initiate",
+        "active": false
+      },
+      {
+        "id": "verbs-04-08",
+        "spanish": "bajar",
+        "english": "to go down / lower",
+        "active": false
+      },
+      {
+        "id": "verbs-04-09",
+        "spanish": "adquirir",
+        "english": "to acquire",
+        "active": false
+      },
+      {
+        "id": "verbs-04-10",
+        "spanish": "actuar",
+        "english": "to act",
+        "active": false
+      },
+      {
+        "id": "verbs-04-11",
+        "spanish": "acordar",
+        "english": "to agree",
+        "active": false
+      },
+      {
+        "id": "verbs-04-12",
+        "spanish": "crecer",
+        "english": "to grow",
+        "active": false
+      },
+      {
+        "id": "verbs-04-13",
+        "spanish": "romper",
+        "english": "to break",
+        "active": false
+      },
+      {
+        "id": "verbs-04-14",
+        "spanish": "pretender",
+        "english": "to intend",
+        "active": false
+      },
+      {
+        "id": "verbs-04-15",
+        "spanish": "notar",
+        "english": "to notice",
+        "active": false
+      },
+      {
+        "id": "verbs-04-16",
+        "spanish": "avanzar",
+        "english": "to advance / move forward",
+        "active": false
+      },
+      {
+        "id": "verbs-04-17",
+        "spanish": "cortar",
+        "english": "to cut",
+        "active": false
+      },
+      {
+        "id": "verbs-04-18",
+        "spanish": "apoyar",
+        "english": "to support",
+        "active": false
+      },
+      {
+        "id": "verbs-04-19",
+        "spanish": "recoger",
+        "english": "to pick up / gather",
+        "active": false
+      },
+      {
+        "id": "verbs-04-20",
+        "spanish": "aprovechar",
+        "english": "to take advantage of",
+        "active": false
+      },
+      {
+        "id": "verbs-04-21",
+        "spanish": "incluir",
+        "english": "to include",
+        "active": false
+      },
+      {
+        "id": "verbs-04-22",
+        "spanish": "colocar",
+        "english": "to place / position",
+        "active": false
+      },
+      {
+        "id": "verbs-04-23",
+        "spanish": "resolver",
+        "english": "to resolve / solve",
+        "active": false
+      },
+      {
+        "id": "verbs-04-24",
+        "spanish": "quitar",
+        "english": "to remove / take away",
+        "active": false
+      },
+      {
+        "id": "verbs-04-25",
+        "spanish": "exigir",
+        "english": "to demand",
+        "active": false
+      },
+      {
+        "id": "verbs-04-26",
+        "spanish": "costar",
+        "english": "to cost",
+        "active": false
+      },
+      {
+        "id": "verbs-04-27",
+        "spanish": "lanzar",
+        "english": "to throw / launch",
+        "active": false
+      },
+      {
+        "id": "verbs-04-28",
+        "spanish": "compartir",
+        "english": "to share",
+        "active": false
+      },
+      {
+        "id": "verbs-04-29",
+        "spanish": "aumentar",
+        "english": "to increase",
+        "active": false
+      },
+      {
+        "id": "verbs-04-30",
+        "spanish": "negar",
+        "english": "to deny",
+        "active": false
+      },
+      {
+        "id": "verbs-04-31",
+        "spanish": "depender",
+        "english": "to depend",
+        "active": false
+      },
+      {
+        "id": "verbs-04-32",
+        "spanish": "abandonar",
+        "english": "to abandon / leave",
+        "active": false
+      },
+      {
+        "id": "verbs-04-33",
+        "spanish": "obligar",
+        "english": "to force / oblige",
+        "active": false
+      },
+      {
+        "id": "verbs-04-34",
+        "spanish": "aplicar",
+        "english": "to apply",
+        "active": false
+      },
+      {
+        "id": "verbs-04-35",
+        "spanish": "imponer",
+        "english": "to impose",
+        "active": false
+      },
+      {
+        "id": "verbs-04-36",
+        "spanish": "establecer",
+        "english": "to establish",
+        "active": false
+      },
+      {
+        "id": "verbs-04-37",
+        "spanish": "provocar",
+        "english": "to provoke / cause",
+        "active": false
+      },
+      {
+        "id": "verbs-04-38",
+        "spanish": "cruzar",
+        "english": "to cross",
+        "active": false
+      },
+      {
+        "id": "verbs-04-39",
+        "spanish": "defender",
+        "english": "to defend",
+        "active": false
+      },
+      {
+        "id": "verbs-04-40",
+        "spanish": "expresar",
+        "english": "to express",
+        "active": false
+      },
+      {
+        "id": "verbs-04-41",
+        "spanish": "conservar",
+        "english": "to conserve / preserve",
+        "active": false
+      },
+      {
+        "id": "verbs-04-42",
+        "spanish": "anunciar",
+        "english": "to announce",
+        "active": false
+      },
+      {
+        "id": "verbs-04-43",
+        "spanish": "participar",
+        "english": "to participate",
+        "active": false
+      },
+      {
+        "id": "verbs-04-44",
+        "spanish": "consistir",
+        "english": "to consist",
+        "active": false
+      },
+      {
+        "id": "verbs-04-45",
+        "spanish": "disponer",
+        "english": "to arrange / have available",
+        "active": false
+      },
+      {
+        "id": "verbs-04-46",
+        "spanish": "constituir",
+        "english": "to constitute",
+        "active": false
+      },
+      {
+        "id": "verbs-04-47",
+        "spanish": "cubrir",
+        "english": "to cover",
+        "active": false
+      },
+      {
+        "id": "verbs-04-48",
+        "spanish": "cargar",
+        "english": "to load / charge",
+        "active": false
+      },
+      {
+        "id": "verbs-04-49",
+        "spanish": "atender",
+        "english": "to attend to / assist",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "category": "201–250",
+    "items": [
+      {
+        "id": "verbs-05-01",
+        "spanish": "marcar",
+        "english": "to mark / dial",
+        "active": false
+      },
+      {
+        "id": "verbs-05-02",
+        "spanish": "funcionar",
+        "english": "to function / work",
+        "active": false
+      },
+      {
+        "id": "verbs-05-03",
+        "spanish": "merecer",
+        "english": "to deserve",
+        "active": false
+      },
+      {
+        "id": "verbs-05-04",
+        "spanish": "insistir",
+        "english": "to insist",
+        "active": false
+      },
+      {
+        "id": "verbs-05-05",
+        "spanish": "tender",
+        "english": "to tend",
+        "active": false
+      },
+      {
+        "id": "verbs-05-06",
+        "spanish": "despertar",
+        "english": "to wake up",
+        "active": false
+      },
+      {
+        "id": "verbs-05-07",
+        "spanish": "comentar",
+        "english": "to comment",
+        "active": false
+      },
+      {
+        "id": "verbs-05-08",
+        "spanish": "caber",
+        "english": "to fit",
+        "active": false
+      },
+      {
+        "id": "verbs-05-09",
+        "spanish": "publicar",
+        "english": "to publish",
+        "active": false
+      },
+      {
+        "id": "verbs-05-10",
+        "spanish": "prestar",
+        "english": "to lend",
+        "active": false
+      },
+      {
+        "id": "verbs-05-11",
+        "spanish": "sentar",
+        "english": "to sit",
+        "active": false
+      },
+      {
+        "id": "verbs-05-12",
+        "spanish": "impedir",
+        "english": "to prevent",
+        "active": false
+      },
+      {
+        "id": "verbs-05-13",
+        "spanish": "salvar",
+        "english": "to save",
+        "active": false
+      },
+      {
+        "id": "verbs-05-14",
+        "spanish": "escapar",
+        "english": "to escape",
+        "active": false
+      },
+      {
+        "id": "verbs-05-15",
+        "spanish": "tirar",
+        "english": "to throw / pull",
+        "active": false
+      },
+      {
+        "id": "verbs-05-16",
+        "spanish": "preocupar",
+        "english": "to worry",
+        "active": false
+      },
+      {
+        "id": "verbs-05-17",
+        "spanish": "contestar",
+        "english": "to answer",
+        "active": false
+      },
+      {
+        "id": "verbs-05-18",
+        "spanish": "separar",
+        "english": "to separate",
+        "active": false
+      },
+      {
+        "id": "verbs-05-19",
+        "spanish": "retirar",
+        "english": "to withdraw / remove",
+        "active": false
+      },
+      {
+        "id": "verbs-05-20",
+        "spanish": "pesar",
+        "english": "to weigh",
+        "active": false
+      },
+      {
+        "id": "verbs-05-21",
+        "spanish": "viajar",
+        "english": "to travel",
+        "active": false
+      },
+      {
+        "id": "verbs-05-22",
+        "spanish": "permanecer",
+        "english": "to remain / stay",
+        "active": false
+      },
+      {
+        "id": "verbs-05-23",
+        "spanish": "regresar",
+        "english": "to return / go back",
+        "active": false
+      },
+      {
+        "id": "verbs-05-24",
+        "spanish": "exponer",
+        "english": "to expose / present",
+        "active": false
+      },
+      {
+        "id": "verbs-05-25",
+        "spanish": "contemplar",
+        "english": "to contemplate",
+        "active": false
+      },
+      {
+        "id": "verbs-05-26",
+        "spanish": "durar",
+        "english": "to last",
+        "active": false
+      },
+      {
+        "id": "verbs-05-27",
+        "spanish": "odiar",
+        "english": "to hate",
+        "active": false
+      },
+      {
+        "id": "verbs-05-28",
+        "spanish": "llenar",
+        "english": "to fill",
+        "active": false
+      },
+      {
+        "id": "verbs-05-29",
+        "spanish": "contener",
+        "english": "to contain",
+        "active": false
+      },
+      {
+        "id": "verbs-05-30",
+        "spanish": "asistir",
+        "english": "to attend / assist",
+        "active": false
+      },
+      {
+        "id": "verbs-05-31",
+        "spanish": "organizar",
+        "english": "to organize",
+        "active": false
+      },
+      {
+        "id": "verbs-05-32",
+        "spanish": "visitar",
+        "english": "to visit",
+        "active": false
+      },
+      {
+        "id": "verbs-05-33",
+        "spanish": "enfrentar",
+        "english": "to face / confront",
+        "active": false
+      },
+      {
+        "id": "verbs-05-34",
+        "spanish": "enviar",
+        "english": "to send",
+        "active": false
+      },
+      {
+        "id": "verbs-05-35",
+        "spanish": "intervenir",
+        "english": "to intervene",
+        "active": false
+      },
+      {
+        "id": "verbs-05-36",
+        "spanish": "cuidar",
+        "english": "to take care of",
+        "active": false
+      },
+      {
+        "id": "verbs-05-37",
+        "spanish": "respetar",
+        "english": "to respect",
+        "active": false
+      },
+      {
+        "id": "verbs-05-38",
+        "spanish": "dormir",
+        "english": "to sleep",
+        "active": false
+      },
+      {
+        "id": "verbs-05-39",
+        "spanish": "comprobar",
+        "english": "to check / verify",
+        "active": false
+      },
+      {
+        "id": "verbs-05-40",
+        "spanish": "corresponder",
+        "english": "to correspond",
+        "active": false
+      },
+      {
+        "id": "verbs-05-41",
+        "spanish": "firmar",
+        "english": "to sign",
+        "active": false
+      },
+      {
+        "id": "verbs-05-42",
+        "spanish": "informar",
+        "english": "to inform",
+        "active": false
+      },
+      {
+        "id": "verbs-05-43",
+        "spanish": "discutir",
+        "english": "to discuss / argue",
+        "active": false
+      },
+      {
+        "id": "verbs-05-44",
+        "spanish": "conducir",
+        "english": "to drive / lead",
+        "active": false
+      },
+      {
+        "id": "verbs-05-45",
+        "spanish": "mejorar",
+        "english": "to improve",
+        "active": false
+      },
+      {
+        "id": "verbs-05-46",
+        "spanish": "sostener",
+        "english": "to hold / sustain",
+        "active": false
+      },
+      {
+        "id": "verbs-05-47",
+        "spanish": "advertir",
+        "english": "to warn",
+        "active": false
+      },
+      {
+        "id": "verbs-05-48",
+        "spanish": "bastar",
+        "english": "to be enough",
+        "active": false
+      },
+      {
+        "id": "verbs-05-49",
+        "spanish": "mencionar",
+        "english": "to mention",
+        "active": false
+      },
+      {
+        "id": "verbs-05-50",
+        "spanish": "comunicar",
+        "english": "to communicate",
+        "active": false
+      },
+      {
+        "id": "verbs-05-51",
+        "spanish": "probar",
+        "english": "to try / test",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "06",
+    "category": "251–300",
+    "items": [
+      {
+        "id": "verbs-06-01",
+        "spanish": "manejar",
+        "english": "to drive / manage",
+        "active": false
+      },
+      {
+        "id": "verbs-06-02",
+        "spanish": "caminar",
+        "english": "to walk",
+        "active": false
+      },
+      {
+        "id": "verbs-06-03",
+        "spanish": "dominar",
+        "english": "to dominate / control",
+        "active": false
+      },
+      {
+        "id": "verbs-06-04",
+        "spanish": "unir",
+        "english": "to unite / join",
+        "active": false
+      },
+      {
+        "id": "verbs-06-05",
+        "spanish": "extender",
+        "english": "to extend",
+        "active": false
+      },
+      {
+        "id": "verbs-06-06",
+        "spanish": "medir",
+        "english": "to measure",
+        "active": false
+      },
+      {
+        "id": "verbs-06-07",
+        "spanish": "atravesar",
+        "english": "to cross",
+        "active": false
+      },
+      {
+        "id": "verbs-06-08",
+        "spanish": "pronunciar",
+        "english": "to pronounce",
+        "active": false
+      },
+      {
+        "id": "verbs-06-09",
+        "spanish": "destacar",
+        "english": "to highlight / stand out",
+        "active": false
+      },
+      {
+        "id": "verbs-06-10",
+        "spanish": "introducir",
+        "english": "to introduce / insert",
+        "active": false
+      },
+      {
+        "id": "verbs-06-11",
+        "spanish": "invitar",
+        "english": "to invite",
+        "active": false
+      },
+      {
+        "id": "verbs-06-12",
+        "spanish": "instalar",
+        "english": "to install",
+        "active": false
+      },
+      {
+        "id": "verbs-06-13",
+        "spanish": "tardar",
+        "english": "to take time / delay",
+        "active": false
+      },
+      {
+        "id": "verbs-06-14",
+        "spanish": "admitir",
+        "english": "to admit",
+        "active": false
+      },
+      {
+        "id": "verbs-06-15",
+        "spanish": "distinguir",
+        "english": "to distinguish",
+        "active": false
+      },
+      {
+        "id": "verbs-06-16",
+        "spanish": "emplear",
+        "english": "to employ / use",
+        "active": false
+      },
+      {
+        "id": "verbs-06-17",
+        "spanish": "convenir",
+        "english": "to agree / be suitable",
+        "active": false
+      },
+      {
+        "id": "verbs-06-18",
+        "spanish": "recuperar",
+        "english": "to recover",
+        "active": false
+      },
+      {
+        "id": "verbs-06-19",
+        "spanish": "definir",
+        "english": "to define",
+        "active": false
+      },
+      {
+        "id": "verbs-06-20",
+        "spanish": "afirmar",
+        "english": "to affirm / state",
+        "active": false
+      },
+      {
+        "id": "verbs-06-21",
+        "spanish": "parar",
+        "english": "to stop",
+        "active": false
+      },
+      {
+        "id": "verbs-06-22",
+        "spanish": "lavar",
+        "english": "to wash",
+        "active": false
+      },
+      {
+        "id": "verbs-06-23",
+        "spanish": "superar",
+        "english": "to overcome",
+        "active": false
+      },
+      {
+        "id": "verbs-06-24",
+        "spanish": "afectar",
+        "english": "to affect",
+        "active": false
+      },
+      {
+        "id": "verbs-06-25",
+        "spanish": "reducir",
+        "english": "to reduce",
+        "active": false
+      },
+      {
+        "id": "verbs-06-26",
+        "spanish": "montar",
+        "english": "to ride / mount",
+        "active": false
+      },
+      {
+        "id": "verbs-06-27",
+        "spanish": "devolver",
+        "english": "to return (something)",
+        "active": false
+      },
+      {
+        "id": "verbs-06-28",
+        "spanish": "transformar",
+        "english": "to transform",
+        "active": false
+      },
+      {
+        "id": "verbs-06-29",
+        "spanish": "identificar",
+        "english": "to identify",
+        "active": false
+      },
+      {
+        "id": "verbs-06-30",
+        "spanish": "poseer",
+        "english": "to possess / own",
+        "active": false
+      },
+      {
+        "id": "verbs-06-31",
+        "spanish": "proteger",
+        "english": "to protect",
+        "active": false
+      },
+      {
+        "id": "verbs-06-32",
+        "spanish": "determinar",
+        "english": "to determine",
+        "active": false
+      },
+      {
+        "id": "verbs-06-33",
+        "spanish": "cobrar",
+        "english": "to charge / collect",
+        "active": false
+      },
+      {
+        "id": "verbs-06-34",
+        "spanish": "causar",
+        "english": "to cause",
+        "active": false
+      },
+      {
+        "id": "verbs-06-35",
+        "spanish": "inventar",
+        "english": "to invent",
+        "active": false
+      },
+      {
+        "id": "verbs-06-36",
+        "spanish": "luchar",
+        "english": "to fight",
+        "active": false
+      },
+      {
+        "id": "verbs-06-37",
+        "spanish": "dividir",
+        "english": "to divide",
+        "active": false
+      },
+      {
+        "id": "verbs-06-38",
+        "spanish": "ejercer",
+        "english": "to exercise / practice",
+        "active": false
+      },
+      {
+        "id": "verbs-06-39",
+        "spanish": "analizar",
+        "english": "to analyze",
+        "active": false
+      },
+      {
+        "id": "verbs-06-40",
+        "spanish": "encargar",
+        "english": "to order / put in charge",
+        "active": false
+      },
+      {
+        "id": "verbs-06-41",
+        "spanish": "destinar",
+        "english": "to assign / allocate",
+        "active": false
+      },
+      {
+        "id": "verbs-06-42",
+        "spanish": "acudir",
+        "english": "to attend / go to",
+        "active": false
+      },
+      {
+        "id": "verbs-06-43",
+        "spanish": "celebrar",
+        "english": "to celebrate",
+        "active": false
+      },
+      {
+        "id": "verbs-06-44",
+        "spanish": "sonar",
+        "english": "to sound / ring",
+        "active": false
+      },
+      {
+        "id": "verbs-06-45",
+        "spanish": "manifestar",
+        "english": "to express / demonstrate",
+        "active": false
+      },
+      {
+        "id": "verbs-06-46",
+        "spanish": "comprar",
+        "english": "to buy",
+        "active": false
+      },
+      {
+        "id": "verbs-06-47",
+        "spanish": "controlar",
+        "english": "to control",
+        "active": false
+      },
+      {
+        "id": "verbs-06-48",
+        "spanish": "requerir",
+        "english": "to require",
+        "active": false
+      },
+      {
+        "id": "verbs-06-49",
+        "spanish": "saltar",
+        "english": "to jump",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "07",
+    "category": "301–350",
+    "items": [
+      {
+        "id": "verbs-07-01",
+        "spanish": "procurar",
+        "english": "to try / make sure",
+        "active": false
+      },
+      {
+        "id": "verbs-07-02",
+        "spanish": "casar",
+        "english": "to marry",
+        "active": false
+      },
+      {
+        "id": "verbs-07-03",
+        "spanish": "someter",
+        "english": "to submit / subject",
+        "active": false
+      },
+      {
+        "id": "verbs-07-04",
+        "spanish": "perseguir",
+        "english": "to pursue / chase",
+        "active": false
+      },
+      {
+        "id": "verbs-07-05",
+        "spanish": "fundar",
+        "english": "to found / establish",
+        "active": false
+      },
+      {
+        "id": "verbs-07-06",
+        "spanish": "cantar",
+        "english": "to sing",
+        "active": false
+      },
+      {
+        "id": "verbs-07-07",
+        "spanish": "elevar",
+        "english": "to raise / elevate",
+        "active": false
+      },
+      {
+        "id": "verbs-07-08",
+        "spanish": "llorar",
+        "english": "to cry",
+        "active": false
+      },
+      {
+        "id": "verbs-07-09",
+        "spanish": "asumir",
+        "english": "to assume",
+        "active": false
+      },
+      {
+        "id": "verbs-07-10",
+        "spanish": "arrastrar",
+        "english": "to drag",
+        "active": false
+      },
+      {
+        "id": "verbs-07-11",
+        "spanish": "declarar",
+        "english": "to declare",
+        "active": false
+      },
+      {
+        "id": "verbs-07-12",
+        "spanish": "nombrar",
+        "english": "to name / appoint",
+        "active": false
+      },
+      {
+        "id": "verbs-07-13",
+        "spanish": "interpretar",
+        "english": "to interpret / perform",
+        "active": false
+      },
+      {
+        "id": "verbs-07-14",
+        "spanish": "aclarar",
+        "english": "to clarify",
+        "active": false
+      },
+      {
+        "id": "verbs-07-15",
+        "spanish": "describir",
+        "english": "to describe",
+        "active": false
+      },
+      {
+        "id": "verbs-07-16",
+        "spanish": "calcular",
+        "english": "to calculate",
+        "active": false
+      },
+      {
+        "id": "verbs-07-17",
+        "spanish": "limitar",
+        "english": "to limit",
+        "active": false
+      },
+      {
+        "id": "verbs-07-18",
+        "spanish": "robar",
+        "english": "to steal",
+        "active": false
+      },
+      {
+        "id": "verbs-07-19",
+        "spanish": "citar",
+        "english": "to quote / cite",
+        "active": false
+      },
+      {
+        "id": "verbs-07-20",
+        "spanish": "besar",
+        "english": "to kiss",
+        "active": false
+      },
+      {
+        "id": "verbs-07-21",
+        "spanish": "confundir",
+        "english": "to confuse",
+        "active": false
+      },
+      {
+        "id": "verbs-07-22",
+        "spanish": "repartir",
+        "english": "to distribute",
+        "active": false
+      },
+      {
+        "id": "verbs-07-23",
+        "spanish": "hallar",
+        "english": "to find",
+        "active": false
+      },
+      {
+        "id": "verbs-07-24",
+        "spanish": "pintar",
+        "english": "to paint",
+        "active": false
+      },
+      {
+        "id": "verbs-07-25",
+        "spanish": "convencer",
+        "english": "to convince",
+        "active": false
+      },
+      {
+        "id": "verbs-07-26",
+        "spanish": "rodear",
+        "english": "to surround",
+        "active": false
+      },
+      {
+        "id": "verbs-07-27",
+        "spanish": "reflejar",
+        "english": "to reflect",
+        "active": false
+      },
+      {
+        "id": "verbs-07-28",
+        "spanish": "ordenar",
+        "english": "to order / arrange",
+        "active": false
+      },
+      {
+        "id": "verbs-07-29",
+        "spanish": "contribuir",
+        "english": "to contribute",
+        "active": false
+      },
+      {
+        "id": "verbs-07-30",
+        "spanish": "vencer",
+        "english": "to defeat / overcome",
+        "active": false
+      },
+      {
+        "id": "verbs-07-31",
+        "spanish": "coger",
+        "english": "to take / grab",
+        "active": false
+      },
+      {
+        "id": "verbs-07-32",
+        "spanish": "alejar",
+        "english": "to move away",
+        "active": false
+      },
+      {
+        "id": "verbs-07-33",
+        "spanish": "transmitir",
+        "english": "to transmit",
+        "active": false
+      },
+      {
+        "id": "verbs-07-34",
+        "spanish": "destruir",
+        "english": "to destroy",
+        "active": false
+      },
+      {
+        "id": "verbs-07-35",
+        "spanish": "marchar",
+        "english": "to march / leave",
+        "active": false
+      },
+      {
+        "id": "verbs-07-36",
+        "spanish": "opinar",
+        "english": "to give an opinion",
+        "active": false
+      },
+      {
+        "id": "verbs-07-37",
+        "spanish": "culpar",
+        "english": "to blame",
+        "active": false
+      },
+      {
+        "id": "verbs-07-38",
+        "spanish": "rechazar",
+        "english": "to reject",
+        "active": false
+      },
+      {
+        "id": "verbs-07-39",
+        "spanish": "cometer",
+        "english": "to commit",
+        "active": false
+      },
+      {
+        "id": "verbs-07-40",
+        "spanish": "concluir",
+        "english": "to conclude",
+        "active": false
+      },
+      {
+        "id": "verbs-07-41",
+        "spanish": "trasladar",
+        "english": "to move / transfer",
+        "active": false
+      },
+      {
+        "id": "verbs-07-42",
+        "spanish": "figurar",
+        "english": "to appear / figure",
+        "active": false
+      },
+      {
+        "id": "verbs-07-43",
+        "spanish": "concentrar",
+        "english": "to concentrate",
+        "active": false
+      },
+      {
+        "id": "verbs-07-44",
+        "spanish": "oponer",
+        "english": "to oppose",
+        "active": false
+      },
+      {
+        "id": "verbs-07-45",
+        "spanish": "dudar",
+        "english": "to doubt",
+        "active": false
+      },
+      {
+        "id": "verbs-07-46",
+        "spanish": "ignorar",
+        "english": "to ignore",
+        "active": false
+      },
+      {
+        "id": "verbs-07-47",
+        "spanish": "descansar",
+        "english": "to rest",
+        "active": false
+      },
+      {
+        "id": "verbs-07-48",
+        "spanish": "adoptar",
+        "english": "to adopt",
+        "active": false
+      },
+      {
+        "id": "verbs-07-49",
+        "spanish": "disfrutar",
+        "english": "to enjoy",
+        "active": false
+      },
+      {
+        "id": "verbs-07-50",
+        "spanish": "molestar",
+        "english": "to bother",
+        "active": false
+      },
+      {
+        "id": "verbs-07-51",
+        "spanish": "arrancar",
+        "english": "to start / pull out",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "08",
+    "category": "351–400",
+    "items": [
+      {
+        "id": "verbs-08-01",
+        "spanish": "ceder",
+        "english": "to yield / give up",
+        "active": false
+      },
+      {
+        "id": "verbs-08-02",
+        "spanish": "respirar",
+        "english": "to breathe",
+        "active": false
+      },
+      {
+        "id": "verbs-08-03",
+        "spanish": "pertenecer",
+        "english": "to belong",
+        "active": false
+      },
+      {
+        "id": "verbs-08-04",
+        "spanish": "atraer",
+        "english": "to attract",
+        "active": false
+      },
+      {
+        "id": "verbs-08-05",
+        "spanish": "acumular",
+        "english": "to accumulate",
+        "active": false
+      },
+      {
+        "id": "verbs-08-06",
+        "spanish": "atreverse",
+        "english": "to dare",
+        "active": false
+      },
+      {
+        "id": "verbs-08-07",
+        "spanish": "consumir",
+        "english": "to consume",
+        "active": false
+      },
+      {
+        "id": "verbs-08-08",
+        "spanish": "justificar",
+        "english": "to justify",
+        "active": false
+      },
+      {
+        "id": "verbs-08-09",
+        "spanish": "soportar",
+        "english": "to endure / support",
+        "active": false
+      },
+      {
+        "id": "verbs-08-10",
+        "spanish": "practicar",
+        "english": "to practice",
+        "active": false
+      },
+      {
+        "id": "verbs-08-11",
+        "spanish": "vestir",
+        "english": "to wear / dress",
+        "active": false
+      },
+      {
+        "id": "verbs-08-12",
+        "spanish": "resistir",
+        "english": "to resist",
+        "active": false
+      },
+      {
+        "id": "verbs-08-13",
+        "spanish": "sorprender",
+        "english": "to surprise",
+        "active": false
+      },
+      {
+        "id": "verbs-08-14",
+        "spanish": "condenar",
+        "english": "to condemn",
+        "active": false
+      },
+      {
+        "id": "verbs-08-15",
+        "spanish": "volar",
+        "english": "to fly",
+        "active": false
+      },
+      {
+        "id": "verbs-08-16",
+        "spanish": "sugerir",
+        "english": "to suggest",
+        "active": false
+      },
+      {
+        "id": "verbs-08-17",
+        "spanish": "componer",
+        "english": "to compose / fix",
+        "active": false
+      },
+      {
+        "id": "verbs-08-18",
+        "spanish": "arreglar",
+        "english": "to fix / arrange",
+        "active": false
+      },
+      {
+        "id": "verbs-08-19",
+        "spanish": "conceder",
+        "english": "to grant",
+        "active": false
+      },
+      {
+        "id": "verbs-08-20",
+        "spanish": "pegar",
+        "english": "to hit / stick",
+        "active": false
+      },
+      {
+        "id": "verbs-08-21",
+        "spanish": "liberar",
+        "english": "to free / release",
+        "active": false
+      },
+      {
+        "id": "verbs-08-22",
+        "spanish": "apuntar",
+        "english": "to aim / write down",
+        "active": false
+      },
+      {
+        "id": "verbs-08-23",
+        "spanish": "cocinar",
+        "english": "to cook",
+        "active": false
+      },
+      {
+        "id": "verbs-08-24",
+        "spanish": "mojar",
+        "english": "to wet / soak",
+        "active": false
+      },
+      {
+        "id": "verbs-08-25",
+        "spanish": "nadar",
+        "english": "to swim",
+        "active": false
+      },
+      {
+        "id": "verbs-08-26",
+        "spanish": "calmar",
+        "english": "to calm",
+        "active": false
+      },
+      {
+        "id": "verbs-08-27",
+        "spanish": "girar",
+        "english": "to turn",
+        "active": false
+      },
+      {
+        "id": "verbs-08-28",
+        "spanish": "añadir",
+        "english": "to add",
+        "active": false
+      },
+      {
+        "id": "verbs-08-29",
+        "spanish": "solicitar",
+        "english": "to request / apply",
+        "active": false
+      },
+      {
+        "id": "verbs-08-30",
+        "spanish": "atacar",
+        "english": "to attack",
+        "active": false
+      },
+      {
+        "id": "verbs-08-31",
+        "spanish": "coincidir",
+        "english": "to coincide / agree",
+        "active": false
+      },
+      {
+        "id": "verbs-08-32",
+        "spanish": "temer",
+        "english": "to fear",
+        "active": false
+      },
+      {
+        "id": "verbs-08-33",
+        "spanish": "juzgar",
+        "english": "to judge",
+        "active": false
+      },
+      {
+        "id": "verbs-08-34",
+        "spanish": "interrumpir",
+        "english": "to interrupt",
+        "active": false
+      },
+      {
+        "id": "verbs-08-35",
+        "spanish": "fabricar",
+        "english": "to manufacture",
+        "active": false
+      },
+      {
+        "id": "verbs-08-36",
+        "spanish": "confiar",
+        "english": "to trust",
+        "active": false
+      },
+      {
+        "id": "verbs-08-37",
+        "spanish": "operar",
+        "english": "to operate",
+        "active": false
+      },
+      {
+        "id": "verbs-08-38",
+        "spanish": "basar",
+        "english": "to base",
+        "active": false
+      },
+      {
+        "id": "verbs-08-39",
+        "spanish": "estimar",
+        "english": "to estimate / value",
+        "active": false
+      },
+      {
+        "id": "verbs-08-40",
+        "spanish": "confirmar",
+        "english": "to confirm",
+        "active": false
+      },
+      {
+        "id": "verbs-08-41",
+        "spanish": "integrar",
+        "english": "to integrate",
+        "active": false
+      },
+      {
+        "id": "verbs-08-42",
+        "spanish": "aprobar",
+        "english": "to approve / pass",
+        "active": false
+      },
+      {
+        "id": "verbs-08-43",
+        "spanish": "animar",
+        "english": "to encourage / cheer up",
+        "active": false
+      },
+      {
+        "id": "verbs-08-44",
+        "spanish": "equivocar",
+        "english": "to make a mistake",
+        "active": false
+      },
+      {
+        "id": "verbs-08-45",
+        "spanish": "grabar",
+        "english": "to record",
+        "active": false
+      },
+      {
+        "id": "verbs-08-46",
+        "spanish": "proyectar",
+        "english": "to project / plan",
+        "active": false
+      },
+      {
+        "id": "verbs-08-47",
+        "spanish": "apreciar",
+        "english": "to appreciate / value",
+        "active": false
+      },
+      {
+        "id": "verbs-08-48",
+        "spanish": "beber",
+        "english": "to drink",
+        "active": false
+      },
+      {
+        "id": "verbs-08-49",
+        "spanish": "experimentar",
+        "english": "to experience / experiment",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "09",
+    "category": "401–450",
+    "items": [
+      {
+        "id": "verbs-09-01",
+        "spanish": "obedecer",
+        "english": "to obey",
+        "active": false
+      },
+      {
+        "id": "verbs-09-02",
+        "spanish": "amar",
+        "english": "to love",
+        "active": false
+      },
+      {
+        "id": "verbs-09-03",
+        "spanish": "mezclar",
+        "english": "to mix",
+        "active": false
+      },
+      {
+        "id": "verbs-09-04",
+        "spanish": "distribuir",
+        "english": "to distribute",
+        "active": false
+      },
+      {
+        "id": "verbs-09-05",
+        "spanish": "reclamar",
+        "english": "to claim / complain",
+        "active": false
+      },
+      {
+        "id": "verbs-09-06",
+        "spanish": "quemar",
+        "english": "to burn",
+        "active": false
+      },
+      {
+        "id": "verbs-09-07",
+        "spanish": "apartar",
+        "english": "to separate / move away",
+        "active": false
+      },
+      {
+        "id": "verbs-09-08",
+        "spanish": "gastar",
+        "english": "to spend / waste",
+        "active": false
+      },
+      {
+        "id": "verbs-09-09",
+        "spanish": "reaccionar",
+        "english": "to react",
+        "active": false
+      },
+      {
+        "id": "verbs-09-10",
+        "spanish": "acusar",
+        "english": "to accuse",
+        "active": false
+      },
+      {
+        "id": "verbs-09-11",
+        "spanish": "satisfacer",
+        "english": "to satisfy",
+        "active": false
+      },
+      {
+        "id": "verbs-09-12",
+        "spanish": "regalar",
+        "english": "to give (a gift)",
+        "active": false
+      },
+      {
+        "id": "verbs-09-13",
+        "spanish": "quejarse",
+        "english": "to complain",
+        "active": false
+      },
+      {
+        "id": "verbs-09-14",
+        "spanish": "aspirar",
+        "english": "to aspire / vacuum",
+        "active": false
+      },
+      {
+        "id": "verbs-09-15",
+        "spanish": "rendir",
+        "english": "to yield / perform",
+        "active": false
+      },
+      {
+        "id": "verbs-09-16",
+        "spanish": "limpiar",
+        "english": "to clean",
+        "active": false
+      },
+      {
+        "id": "verbs-09-17",
+        "spanish": "atribuir",
+        "english": "to attribute",
+        "active": false
+      },
+      {
+        "id": "verbs-09-18",
+        "spanish": "ocultar",
+        "english": "to hide",
+        "active": false
+      },
+      {
+        "id": "verbs-09-19",
+        "spanish": "registrar",
+        "english": "to register / record",
+        "active": false
+      },
+      {
+        "id": "verbs-09-20",
+        "spanish": "padecer",
+        "english": "to suffer",
+        "active": false
+      },
+      {
+        "id": "verbs-09-21",
+        "spanish": "recurrir",
+        "english": "to resort / appeal",
+        "active": false
+      },
+      {
+        "id": "verbs-09-22",
+        "spanish": "huir",
+        "english": "to flee",
+        "active": false
+      },
+      {
+        "id": "verbs-09-23",
+        "spanish": "ofender",
+        "english": "to offend",
+        "active": false
+      },
+      {
+        "id": "verbs-09-24",
+        "spanish": "plantar",
+        "english": "to plant",
+        "active": false
+      },
+      {
+        "id": "verbs-09-25",
+        "spanish": "ajustar",
+        "english": "to adjust",
+        "active": false
+      },
+      {
+        "id": "verbs-09-26",
+        "spanish": "percibir",
+        "english": "to perceive",
+        "active": false
+      },
+      {
+        "id": "verbs-09-27",
+        "spanish": "recomendar",
+        "english": "to recommend",
+        "active": false
+      },
+      {
+        "id": "verbs-09-28",
+        "spanish": "corregir",
+        "english": "to correct",
+        "active": false
+      },
+      {
+        "id": "verbs-09-29",
+        "spanish": "consultar",
+        "english": "to consult",
+        "active": false
+      },
+      {
+        "id": "verbs-09-30",
+        "spanish": "acostumbrar",
+        "english": "to get used to",
+        "active": false
+      },
+      {
+        "id": "verbs-09-31",
+        "spanish": "soñar",
+        "english": "to dream",
+        "active": false
+      },
+      {
+        "id": "verbs-09-32",
+        "spanish": "gritar",
+        "english": "to shout / scream",
+        "active": false
+      },
+      {
+        "id": "verbs-09-33",
+        "spanish": "frenar",
+        "english": "to brake / slow down",
+        "active": false
+      },
+      {
+        "id": "verbs-09-34",
+        "spanish": "pescar",
+        "english": "to fish",
+        "active": false
+      },
+      {
+        "id": "verbs-09-35",
+        "spanish": "mudar",
+        "english": "to move (residence)",
+        "active": false
+      },
+      {
+        "id": "verbs-09-36",
+        "spanish": "tragar",
+        "english": "to swallow",
+        "active": false
+      },
+      {
+        "id": "verbs-09-37",
+        "spanish": "traducir",
+        "english": "to translate",
+        "active": false
+      },
+      {
+        "id": "verbs-09-38",
+        "spanish": "elaborar",
+        "english": "to develop / make",
+        "active": false
+      },
+      {
+        "id": "verbs-09-39",
+        "spanish": "cenar",
+        "english": "to eat dinner",
+        "active": false
+      },
+      {
+        "id": "verbs-09-40",
+        "spanish": "sumar",
+        "english": "to add",
+        "active": false
+      },
+      {
+        "id": "verbs-09-41",
+        "spanish": "eliminar",
+        "english": "to eliminate",
+        "active": false
+      },
+      {
+        "id": "verbs-09-42",
+        "spanish": "renunciar",
+        "english": "to quit / resign",
+        "active": false
+      },
+      {
+        "id": "verbs-09-43",
+        "spanish": "desconocer",
+        "english": "to not know / ignore",
+        "active": false
+      },
+      {
+        "id": "verbs-09-44",
+        "spanish": "alimentar",
+        "english": "to feed",
+        "active": false
+      },
+      {
+        "id": "verbs-09-45",
+        "spanish": "revisar",
+        "english": "to check / review",
+        "active": false
+      },
+      {
+        "id": "verbs-09-46",
+        "spanish": "aburrir",
+        "english": "to bore",
+        "active": false
+      },
+      {
+        "id": "verbs-09-47",
+        "spanish": "carecer",
+        "english": "to lack",
+        "active": false
+      },
+      {
+        "id": "verbs-09-48",
+        "spanish": "prometer",
+        "english": "to promise",
+        "active": false
+      },
+      {
+        "id": "verbs-09-49",
+        "spanish": "reproducir",
+        "english": "to reproduce",
+        "active": false
+      },
+      {
+        "id": "verbs-09-50",
+        "spanish": "asociar",
+        "english": "to associate",
+        "active": false
+      },
+      {
+        "id": "verbs-09-51",
+        "spanish": "derivar",
+        "english": "to derive",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "category": "451–500",
+    "items": [
+      {
+        "id": "verbs-10-01",
+        "spanish": "descender",
+        "english": "to descend",
+        "active": false
+      },
+      {
+        "id": "verbs-10-02",
+        "spanish": "fallar",
+        "english": "to fail / miss",
+        "active": false
+      },
+      {
+        "id": "verbs-10-03",
+        "spanish": "perdonar",
+        "english": "to forgive",
+        "active": false
+      },
+      {
+        "id": "verbs-10-04",
+        "spanish": "agradecer",
+        "english": "to thank",
+        "active": false
+      },
+      {
+        "id": "verbs-10-05",
+        "spanish": "revelar",
+        "english": "to reveal",
+        "active": false
+      },
+      {
+        "id": "verbs-10-06",
+        "spanish": "agregar",
+        "english": "to add",
+        "active": false
+      },
+      {
+        "id": "verbs-10-07",
+        "spanish": "completar",
+        "english": "to complete",
+        "active": false
+      },
+      {
+        "id": "verbs-10-08",
+        "spanish": "admirar",
+        "english": "to admire",
+        "active": false
+      },
+      {
+        "id": "verbs-10-09",
+        "spanish": "combatir",
+        "english": "to combat / fight",
+        "active": false
+      },
+      {
+        "id": "verbs-10-10",
+        "spanish": "relacionar",
+        "english": "to relate",
+        "active": false
+      },
+      {
+        "id": "verbs-10-11",
+        "spanish": "prohibir",
+        "english": "to prohibit",
+        "active": false
+      },
+      {
+        "id": "verbs-10-12",
+        "spanish": "proporcionar",
+        "english": "to provide",
+        "active": false
+      },
+      {
+        "id": "verbs-10-13",
+        "spanish": "saludar",
+        "english": "to greet",
+        "active": false
+      },
+      {
+        "id": "verbs-10-14",
+        "spanish": "investigar",
+        "english": "to investigate",
+        "active": false
+      },
+      {
+        "id": "verbs-10-15",
+        "spanish": "ubicar",
+        "english": "to locate",
+        "active": false
+      },
+      {
+        "id": "verbs-10-16",
+        "spanish": "modificar",
+        "english": "to modify",
+        "active": false
+      },
+      {
+        "id": "verbs-10-17",
+        "spanish": "emitir",
+        "english": "to issue / emit",
+        "active": false
+      },
+      {
+        "id": "verbs-10-18",
+        "spanish": "invadir",
+        "english": "to invade",
+        "active": false
+      },
+      {
+        "id": "verbs-10-19",
+        "spanish": "adelantar",
+        "english": "to advance / move forward",
+        "active": false
+      },
+      {
+        "id": "verbs-10-20",
+        "spanish": "examinar",
+        "english": "to examine",
+        "active": false
+      },
+      {
+        "id": "verbs-10-21",
+        "spanish": "sustituir",
+        "english": "to substitute",
+        "active": false
+      },
+      {
+        "id": "verbs-10-22",
+        "spanish": "desplazar",
+        "english": "to displace / move",
+        "active": false
+      },
+      {
+        "id": "verbs-10-23",
+        "spanish": "implicar",
+        "english": "to imply / involve",
+        "active": false
+      },
+      {
+        "id": "verbs-10-24",
+        "spanish": "esconder",
+        "english": "to hide",
+        "active": false
+      },
+      {
+        "id": "verbs-10-25",
+        "spanish": "alterar",
+        "english": "to alter",
+        "active": false
+      },
+      {
+        "id": "verbs-10-26",
+        "spanish": "ingresar",
+        "english": "to enter / join",
+        "active": false
+      },
+      {
+        "id": "verbs-10-27",
+        "spanish": "desprender",
+        "english": "to detach / release",
+        "active": false
+      },
+      {
+        "id": "verbs-10-28",
+        "spanish": "circular",
+        "english": "to circulate",
+        "active": false
+      },
+      {
+        "id": "verbs-10-29",
+        "spanish": "pelear",
+        "english": "to fight",
+        "active": false
+      },
+      {
+        "id": "verbs-10-30",
+        "spanish": "inclinar",
+        "english": "to tilt / lean",
+        "active": false
+      },
+      {
+        "id": "verbs-10-31",
+        "spanish": "aconsejar",
+        "english": "to advise",
+        "active": false
+      },
+      {
+        "id": "verbs-10-32",
+        "spanish": "borrar",
+        "english": "to erase",
+        "active": false
+      },
+      {
+        "id": "verbs-10-33",
+        "spanish": "hundir",
+        "english": "to sink",
+        "active": false
+      },
+      {
+        "id": "verbs-10-34",
+        "spanish": "morder",
+        "english": "to bite",
+        "active": false
+      },
+      {
+        "id": "verbs-10-35",
+        "spanish": "encerrar",
+        "english": "to lock up",
+        "active": false
+      },
+      {
+        "id": "verbs-10-36",
+        "spanish": "criticar",
+        "english": "to criticize",
+        "active": false
+      },
+      {
+        "id": "verbs-10-37",
+        "spanish": "dictar",
+        "english": "to dictate",
+        "active": false
+      },
+      {
+        "id": "verbs-10-38",
+        "spanish": "llover",
+        "english": "to rain",
+        "active": false
+      },
+      {
+        "id": "verbs-10-39",
+        "spanish": "chocar",
+        "english": "to crash / collide",
+        "active": false
+      },
+      {
+        "id": "verbs-10-40",
+        "spanish": "alegrar",
+        "english": "to cheer up",
+        "active": false
+      },
+      {
+        "id": "verbs-10-41",
+        "spanish": "hervir",
+        "english": "to boil",
+        "active": false
+      },
+      {
+        "id": "verbs-10-42",
+        "spanish": "temblar",
+        "english": "to tremble / shake",
+        "active": false
+      },
+      {
+        "id": "verbs-10-43",
+        "spanish": "enamorar",
+        "english": "to make fall in love",
+        "active": false
+      },
+      {
+        "id": "verbs-10-44",
+        "spanish": "reemplazar",
+        "english": "to replace",
+        "active": false
+      },
+      {
+        "id": "verbs-10-45",
+        "spanish": "agotar",
+        "english": "to exhaust",
+        "active": false
+      },
+      {
+        "id": "verbs-10-46",
+        "spanish": "empujar",
+        "english": "to push",
+        "active": false
+      },
+      {
+        "id": "verbs-10-47",
+        "spanish": "aguantar",
+        "english": "to endure / tolerate",
+        "active": false
+      },
+      {
+        "id": "verbs-10-48",
+        "spanish": "golpear",
+        "english": "to hit",
+        "active": false
+      },
+      {
+        "id": "verbs-10-49",
+        "spanish": "ascender",
+        "english": "to rise / ascend",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "category": "501–550",
+    "items": [
+      {
+        "id": "verbs-11-01",
+        "spanish": "complicar",
+        "english": "to complicate",
+        "active": false
+      },
+      {
+        "id": "verbs-11-02",
+        "spanish": "engañar",
+        "english": "to deceive / trick",
+        "active": false
+      },
+      {
+        "id": "verbs-11-03",
+        "spanish": "precisar",
+        "english": "to specify / need",
+        "active": false
+      },
+      {
+        "id": "verbs-11-04",
+        "spanish": "suspender",
+        "english": "to suspend / fail",
+        "active": false
+      },
+      {
+        "id": "verbs-11-05",
+        "spanish": "ampliar",
+        "english": "to expand / increase",
+        "active": false
+      },
+      {
+        "id": "verbs-11-06",
+        "spanish": "averiguar",
+        "english": "to find out / investigate",
+        "active": false
+      },
+      {
+        "id": "verbs-11-07",
+        "spanish": "cultivar",
+        "english": "to cultivate / grow",
+        "active": false
+      },
+      {
+        "id": "verbs-11-08",
+        "spanish": "despedir",
+        "english": "to fire / say goodbye",
+        "active": false
+      },
+      {
+        "id": "verbs-11-09",
+        "spanish": "colaborar",
+        "english": "to collaborate / cooperate",
+        "active": false
+      },
+      {
+        "id": "verbs-11-10",
+        "spanish": "invertir",
+        "english": "to invest / reverse",
+        "active": false
+      },
+      {
+        "id": "verbs-11-11",
+        "spanish": "explotar",
+        "english": "to exploit / explode",
+        "active": false
+      },
+      {
+        "id": "verbs-11-12",
+        "spanish": "forzar",
+        "english": "to force",
+        "active": false
+      },
+      {
+        "id": "verbs-11-13",
+        "spanish": "criar",
+        "english": "to raise / breed",
+        "active": false
+      },
+      {
+        "id": "verbs-11-14",
+        "spanish": "confesar",
+        "english": "to confess",
+        "active": false
+      },
+      {
+        "id": "verbs-11-15",
+        "spanish": "provenir",
+        "english": "to come from / originate",
+        "active": false
+      },
+      {
+        "id": "verbs-11-16",
+        "spanish": "doblar",
+        "english": "to fold / turn",
+        "active": false
+      },
+      {
+        "id": "verbs-11-17",
+        "spanish": "fluir",
+        "english": "to flow",
+        "active": false
+      },
+      {
+        "id": "verbs-11-18",
+        "spanish": "favorecer",
+        "english": "to favor / support",
+        "active": false
+      },
+      {
+        "id": "verbs-11-19",
+        "spanish": "sospechar",
+        "english": "to suspect",
+        "active": false
+      },
+      {
+        "id": "verbs-11-20",
+        "spanish": "pasear",
+        "english": "to stroll / take a walk",
+        "active": false
+      },
+      {
+        "id": "verbs-11-21",
+        "spanish": "depositar",
+        "english": "to deposit / place",
+        "active": false
+      },
+      {
+        "id": "verbs-11-22",
+        "spanish": "disminuir",
+        "english": "to decrease / reduce",
+        "active": false
+      },
+      {
+        "id": "verbs-11-23",
+        "spanish": "empeñar",
+        "english": "to pawn / insist",
+        "active": false
+      },
+      {
+        "id": "verbs-11-24",
+        "spanish": "sobrevivir",
+        "english": "to survive",
+        "active": false
+      },
+      {
+        "id": "verbs-11-25",
+        "spanish": "influir",
+        "english": "to influence",
+        "active": false
+      },
+      {
+        "id": "verbs-11-26",
+        "spanish": "demorar",
+        "english": "to delay / postpone",
+        "active": false
+      },
+      {
+        "id": "verbs-11-27",
+        "spanish": "multiplicar",
+        "english": "to multiply",
+        "active": false
+      },
+      {
+        "id": "verbs-11-28",
+        "spanish": "oler",
+        "english": "to smell",
+        "active": false
+      },
+      {
+        "id": "verbs-11-29",
+        "spanish": "doler",
+        "english": "to hurt / ache",
+        "active": false
+      },
+      {
+        "id": "verbs-11-30",
+        "spanish": "captar",
+        "english": "to capture / grasp",
+        "active": false
+      },
+      {
+        "id": "verbs-11-31",
+        "spanish": "escoger",
+        "english": "to choose / select",
+        "active": false
+      },
+      {
+        "id": "verbs-11-32",
+        "spanish": "colgar",
+        "english": "to hang / hang up",
+        "active": false
+      },
+      {
+        "id": "verbs-11-33",
+        "spanish": "diseñar",
+        "english": "to design",
+        "active": false
+      },
+      {
+        "id": "verbs-11-34",
+        "spanish": "absorber",
+        "english": "to absorb",
+        "active": false
+      },
+      {
+        "id": "verbs-11-35",
+        "spanish": "traicionar",
+        "english": "to betray",
+        "active": false
+      },
+      {
+        "id": "verbs-11-36",
+        "spanish": "imitar",
+        "english": "to imitate / mimic",
+        "active": false
+      },
+      {
+        "id": "verbs-11-37",
+        "spanish": "educar",
+        "english": "to educate / raise",
+        "active": false
+      },
+      {
+        "id": "verbs-11-38",
+        "spanish": "comprometer",
+        "english": "to commit / compromise",
+        "active": false
+      },
+      {
+        "id": "verbs-11-39",
+        "spanish": "bailar",
+        "english": "to dance",
+        "active": false
+      },
+      {
+        "id": "verbs-11-40",
+        "spanish": "inspirar",
+        "english": "to inspire / inhale",
+        "active": false
+      },
+      {
+        "id": "verbs-11-41",
+        "spanish": "exhibir",
+        "english": "to exhibit / display",
+        "active": false
+      },
+      {
+        "id": "verbs-11-42",
+        "spanish": "prolongar",
+        "english": "to prolong / extend",
+        "active": false
+      },
+      {
+        "id": "verbs-11-43",
+        "spanish": "agarrar",
+        "english": "to grab / grasp",
+        "active": false
+      },
+      {
+        "id": "verbs-11-44",
+        "spanish": "adaptar",
+        "english": "to adapt",
+        "active": false
+      },
+      {
+        "id": "verbs-11-45",
+        "spanish": "situar",
+        "english": "to place / locate",
+        "active": false
+      },
+      {
+        "id": "verbs-11-46",
+        "spanish": "curar",
+        "english": "to cure / heal",
+        "active": false
+      },
+      {
+        "id": "verbs-11-47",
+        "spanish": "desempeñar",
+        "english": "to perform / carry out",
+        "active": false
+      },
+      {
+        "id": "verbs-11-48",
+        "spanish": "extraer",
+        "english": "to extract / remove",
+        "active": false
+      },
+      {
+        "id": "verbs-11-49",
+        "spanish": "apagar",
+        "english": "to turn off / extinguish",
+        "active": false
+      },
+      {
+        "id": "verbs-11-50",
+        "spanish": "expulsar",
+        "english": "to expel / eject",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "category": "551–600",
+    "items": [
+      {
+        "id": "verbs-12-01",
+        "spanish": "acomodar",
+        "english": "to accommodate / arrange",
+        "active": false
+      },
+      {
+        "id": "verbs-12-02",
+        "spanish": "tapar",
+        "english": "to cover / block",
+        "active": false
+      },
+      {
+        "id": "verbs-12-03",
+        "spanish": "acceder",
+        "english": "to access / agree",
+        "active": false
+      },
+      {
+        "id": "verbs-12-04",
+        "spanish": "prever",
+        "english": "to foresee / anticipate",
+        "active": false
+      },
+      {
+        "id": "verbs-12-05",
+        "spanish": "encender",
+        "english": "to turn on / light",
+        "active": false
+      },
+      {
+        "id": "verbs-12-06",
+        "spanish": "aproximar",
+        "english": "to bring closer / approach",
+        "active": false
+      },
+      {
+        "id": "verbs-12-07",
+        "spanish": "atar",
+        "english": "to tie / bind",
+        "active": false
+      },
+      {
+        "id": "verbs-12-08",
+        "spanish": "asaltar",
+        "english": "to assault / rob",
+        "active": false
+      },
+      {
+        "id": "verbs-12-09",
+        "spanish": "cazar",
+        "english": "to hunt / catch",
+        "active": false
+      },
+      {
+        "id": "verbs-12-10",
+        "spanish": "generar",
+        "english": "to generate / produce",
+        "active": false
+      },
+      {
+        "id": "verbs-12-11",
+        "spanish": "acariciar",
+        "english": "to caress / stroke",
+        "active": false
+      },
+      {
+        "id": "verbs-12-12",
+        "spanish": "disparar",
+        "english": "to shoot / fire",
+        "active": false
+      },
+      {
+        "id": "verbs-12-13",
+        "spanish": "brindar",
+        "english": "to offer / toast",
+        "active": false
+      },
+      {
+        "id": "verbs-12-14",
+        "spanish": "solucionar",
+        "english": "to solve / resolve",
+        "active": false
+      },
+      {
+        "id": "verbs-12-15",
+        "spanish": "castigar",
+        "english": "to punish",
+        "active": false
+      },
+      {
+        "id": "verbs-12-16",
+        "spanish": "variar",
+        "english": "to vary / change",
+        "active": false
+      },
+      {
+        "id": "verbs-12-17",
+        "spanish": "cesar",
+        "english": "to cease / stop",
+        "active": false
+      },
+      {
+        "id": "verbs-12-18",
+        "spanish": "amenazar",
+        "english": "to threaten",
+        "active": false
+      },
+      {
+        "id": "verbs-12-19",
+        "spanish": "otorgar",
+        "english": "to grant / award",
+        "active": false
+      },
+      {
+        "id": "verbs-12-20",
+        "spanish": "callar",
+        "english": "to be quiet / silence",
+        "active": false
+      },
+      {
+        "id": "verbs-12-21",
+        "spanish": "orientar",
+        "english": "to guide / orient",
+        "active": false
+      },
+      {
+        "id": "verbs-12-22",
+        "spanish": "avisar",
+        "english": "to warn / notify",
+        "active": false
+      },
+      {
+        "id": "verbs-12-23",
+        "spanish": "vigilar",
+        "english": "to watch / guard",
+        "active": false
+      },
+      {
+        "id": "verbs-12-24",
+        "spanish": "renovar",
+        "english": "to renew / renovate",
+        "active": false
+      },
+      {
+        "id": "verbs-12-25",
+        "spanish": "posar",
+        "english": "to pose / land",
+        "active": false
+      },
+      {
+        "id": "verbs-12-26",
+        "spanish": "relajar",
+        "english": "to relax / calm",
+        "active": false
+      },
+      {
+        "id": "verbs-12-27",
+        "spanish": "abordar",
+        "english": "to board / approach",
+        "active": false
+      },
+      {
+        "id": "verbs-12-28",
+        "spanish": "recorrer",
+        "english": "to travel through / tour",
+        "active": false
+      },
+      {
+        "id": "verbs-12-29",
+        "spanish": "deshacer",
+        "english": "to undo / destroy",
+        "active": false
+      },
+      {
+        "id": "verbs-12-30",
+        "spanish": "plantear",
+        "english": "to propose / set out",
+        "active": false
+      },
+      {
+        "id": "verbs-12-31",
+        "spanish": "soltar",
+        "english": "to release / let go",
+        "active": false
+      },
+      {
+        "id": "verbs-12-32",
+        "spanish": "fracasar",
+        "english": "to fail",
+        "active": false
+      },
+      {
+        "id": "verbs-12-33",
+        "spanish": "calificar",
+        "english": "to grade / describe",
+        "active": false
+      },
+      {
+        "id": "verbs-12-34",
+        "spanish": "ejecutar",
+        "english": "to execute / carry out",
+        "active": false
+      },
+      {
+        "id": "verbs-12-35",
+        "spanish": "protestar",
+        "english": "to protest / complain",
+        "active": false
+      },
+      {
+        "id": "verbs-12-36",
+        "spanish": "juntar",
+        "english": "to gather / join",
+        "active": false
+      },
+      {
+        "id": "verbs-12-37",
+        "spanish": "impresionar",
+        "english": "to impress / impact",
+        "active": false
+      },
+      {
+        "id": "verbs-12-38",
+        "spanish": "comportar",
+        "english": "to involve / entail",
+        "active": false
+      },
+      {
+        "id": "verbs-12-39",
+        "spanish": "gobernar",
+        "english": "to govern / rule",
+        "active": false
+      },
+      {
+        "id": "verbs-12-40",
+        "spanish": "dibujar",
+        "english": "to draw",
+        "active": false
+      },
+      {
+        "id": "verbs-12-41",
+        "spanish": "gozar",
+        "english": "to enjoy",
+        "active": false
+      },
+      {
+        "id": "verbs-12-42",
+        "spanish": "sudar",
+        "english": "to sweat",
+        "active": false
+      },
+      {
+        "id": "verbs-12-43",
+        "spanish": "perturbar",
+        "english": "to disturb / disrupt",
+        "active": false
+      },
+      {
+        "id": "verbs-12-44",
+        "spanish": "envidiar",
+        "english": "to envy",
+        "active": false
+      },
+      {
+        "id": "verbs-12-45",
+        "spanish": "enfriar",
+        "english": "to cool / chill",
+        "active": false
+      },
+      {
+        "id": "verbs-12-46",
+        "spanish": "explorar",
+        "english": "to explore",
+        "active": false
+      },
+      {
+        "id": "verbs-12-47",
+        "spanish": "anticipar",
+        "english": "to anticipate / expect",
+        "active": false
+      },
+      {
+        "id": "verbs-12-48",
+        "spanish": "reconstruir",
+        "english": "to rebuild / reconstruct",
+        "active": false
+      },
+      {
+        "id": "verbs-12-49",
+        "spanish": "denunciar",
+        "english": "to report / denounce",
+        "active": false
+      },
+      {
+        "id": "verbs-12-50",
+        "spanish": "combinar",
+        "english": "to combine / match",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "category": "601–650",
+    "items": [
+      {
+        "id": "verbs-13-01",
+        "spanish": "divertir",
+        "english": "to amuse / entertain",
+        "active": false
+      },
+      {
+        "id": "verbs-13-02",
+        "spanish": "conquistar",
+        "english": "to conquer / win over",
+        "active": false
+      },
+      {
+        "id": "verbs-13-03",
+        "spanish": "garantizar",
+        "english": "to guarantee",
+        "active": false
+      },
+      {
+        "id": "verbs-13-04",
+        "spanish": "envolver",
+        "english": "to wrap / involve",
+        "active": false
+      },
+      {
+        "id": "verbs-13-05",
+        "spanish": "emprender",
+        "english": "to undertake / embark on",
+        "active": false
+      },
+      {
+        "id": "verbs-13-06",
+        "spanish": "quebrar",
+        "english": "to break / go bankrupt",
+        "active": false
+      },
+      {
+        "id": "verbs-13-07",
+        "spanish": "equilibrar",
+        "english": "to balance / stabilize",
+        "active": false
+      },
+      {
+        "id": "verbs-13-08",
+        "spanish": "especializar",
+        "english": "to specialize",
+        "active": false
+      },
+      {
+        "id": "verbs-13-09",
+        "spanish": "optar",
+        "english": "to opt / choose",
+        "active": false
+      },
+      {
+        "id": "verbs-13-10",
+        "spanish": "estallar",
+        "english": "to explode / burst",
+        "active": false
+      },
+      {
+        "id": "verbs-13-11",
+        "spanish": "inaugurar",
+        "english": "to inaugurate / open",
+        "active": false
+      },
+      {
+        "id": "verbs-13-12",
+        "spanish": "apretar",
+        "english": "to squeeze / tighten",
+        "active": false
+      },
+      {
+        "id": "verbs-13-13",
+        "spanish": "votar",
+        "english": "to vote",
+        "active": false
+      },
+      {
+        "id": "verbs-13-14",
+        "spanish": "mentir",
+        "english": "to lie",
+        "active": false
+      },
+      {
+        "id": "verbs-13-15",
+        "spanish": "copiar",
+        "english": "to copy / cheat",
+        "active": false
+      },
+      {
+        "id": "verbs-13-16",
+        "spanish": "contratar",
+        "english": "to hire / contract",
+        "active": false
+      },
+      {
+        "id": "verbs-13-17",
+        "spanish": "formular",
+        "english": "to formulate / express",
+        "active": false
+      },
+      {
+        "id": "verbs-13-18",
+        "spanish": "retener",
+        "english": "to retain / hold back",
+        "active": false
+      },
+      {
+        "id": "verbs-13-19",
+        "spanish": "fumar",
+        "english": "to smoke",
+        "active": false
+      },
+      {
+        "id": "verbs-13-20",
+        "spanish": "designar",
+        "english": "to appoint / designate",
+        "active": false
+      },
+      {
+        "id": "verbs-13-21",
+        "spanish": "proseguir",
+        "english": "to continue / proceed",
+        "active": false
+      },
+      {
+        "id": "verbs-13-22",
+        "spanish": "competir",
+        "english": "to compete",
+        "active": false
+      },
+      {
+        "id": "verbs-13-23",
+        "spanish": "secar",
+        "english": "to dry",
+        "active": false
+      },
+      {
+        "id": "verbs-13-24",
+        "spanish": "caracterizar",
+        "english": "to characterize",
+        "active": false
+      },
+      {
+        "id": "verbs-13-25",
+        "spanish": "imprimir",
+        "english": "to print / impress",
+        "active": false
+      },
+      {
+        "id": "verbs-13-26",
+        "spanish": "lamentar",
+        "english": "to regret / mourn",
+        "active": false
+      },
+      {
+        "id": "verbs-13-27",
+        "spanish": "alzar",
+        "english": "to lift / raise",
+        "active": false
+      },
+      {
+        "id": "verbs-13-28",
+        "spanish": "iluminar",
+        "english": "to illuminate / light up",
+        "active": false
+      },
+      {
+        "id": "verbs-13-29",
+        "spanish": "conversar",
+        "english": "to converse / talk",
+        "active": false
+      },
+      {
+        "id": "verbs-13-30",
+        "spanish": "guiar",
+        "english": "to guide / lead",
+        "active": false
+      },
+      {
+        "id": "verbs-13-31",
+        "spanish": "capturar",
+        "english": "to capture / catch",
+        "active": false
+      },
+      {
+        "id": "verbs-13-32",
+        "spanish": "arder",
+        "english": "to burn / sting",
+        "active": false
+      },
+      {
+        "id": "verbs-13-33",
+        "spanish": "calentar",
+        "english": "to heat / warm up",
+        "active": false
+      },
+      {
+        "id": "verbs-13-34",
+        "spanish": "convocar",
+        "english": "to call / convene",
+        "active": false
+      },
+      {
+        "id": "verbs-13-35",
+        "spanish": "cansar",
+        "english": "to tire / exhaust",
+        "active": false
+      },
+      {
+        "id": "verbs-13-36",
+        "spanish": "efectuar",
+        "english": "to carry out / effect",
+        "active": false
+      },
+      {
+        "id": "verbs-13-37",
+        "spanish": "heredar",
+        "english": "to inherit",
+        "active": false
+      },
+      {
+        "id": "verbs-13-38",
+        "spanish": "brillar",
+        "english": "to shine / sparkle",
+        "active": false
+      },
+      {
+        "id": "verbs-13-39",
+        "spanish": "rescatar",
+        "english": "to rescue / recover",
+        "active": false
+      },
+      {
+        "id": "verbs-13-40",
+        "spanish": "librar",
+        "english": "to free / fight",
+        "active": false
+      },
+      {
+        "id": "verbs-13-41",
+        "spanish": "extrañar",
+        "english": "to miss / surprise",
+        "active": false
+      },
+      {
+        "id": "verbs-13-42",
+        "spanish": "atonar",
+        "english": "to stun / bewilder",
+        "active": false
+      },
+      {
+        "id": "verbs-13-43",
+        "spanish": "enriquecer",
+        "english": "to enrich",
+        "active": false
+      },
+      {
+        "id": "verbs-13-44",
+        "spanish": "asustar",
+        "english": "to scare / frighten",
+        "active": false
+      },
+      {
+        "id": "verbs-13-45",
+        "spanish": "arruinar",
+        "english": "to ruin / destroy",
+        "active": false
+      },
+      {
+        "id": "verbs-13-46",
+        "spanish": "chupar",
+        "english": "to suck / lick",
+        "active": false
+      },
+      {
+        "id": "verbs-13-47",
+        "spanish": "generalizar",
+        "english": "to generalize",
+        "active": false
+      },
+      {
+        "id": "verbs-13-48",
+        "spanish": "armar",
+        "english": "to arm / assemble",
+        "active": false
+      },
+      {
+        "id": "verbs-13-49",
+        "spanish": "anular",
+        "english": "to cancel / annul",
+        "active": false
+      },
+      {
+        "id": "verbs-13-50",
+        "spanish": "asesinar",
+        "english": "to murder / assassinate",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "category": "651–700",
+    "items": [
+      {
+        "id": "verbs-14-01",
+        "spanish": "habitar",
+        "english": "to inhabit / live in",
+        "active": false
+      },
+      {
+        "id": "verbs-14-02",
+        "spanish": "alargar",
+        "english": "to lengthen / extend",
+        "active": false
+      },
+      {
+        "id": "verbs-14-03",
+        "spanish": "estimular",
+        "english": "to stimulate / encourage",
+        "active": false
+      },
+      {
+        "id": "verbs-14-04",
+        "spanish": "violar",
+        "english": "to violate / rape",
+        "active": false
+      },
+      {
+        "id": "verbs-14-05",
+        "spanish": "sonreír",
+        "english": "to smile",
+        "active": false
+      },
+      {
+        "id": "verbs-14-06",
+        "spanish": "ilustrar",
+        "english": "to illustrate / explain",
+        "active": false
+      },
+      {
+        "id": "verbs-14-07",
+        "spanish": "impulsar",
+        "english": "to propel / promote",
+        "active": false
+      },
+      {
+        "id": "verbs-14-08",
+        "spanish": "pisar",
+        "english": "to step on / tread",
+        "active": false
+      },
+      {
+        "id": "verbs-14-09",
+        "spanish": "transportar",
+        "english": "to transport / carry",
+        "active": false
+      },
+      {
+        "id": "verbs-14-10",
+        "spanish": "triunfar",
+        "english": "to triumph / succeed",
+        "active": false
+      },
+      {
+        "id": "verbs-14-11",
+        "spanish": "sembrar",
+        "english": "to sow / plant",
+        "active": false
+      },
+      {
+        "id": "verbs-14-12",
+        "spanish": "entretener",
+        "english": "to entertain / amuse",
+        "active": false
+      },
+      {
+        "id": "verbs-14-13",
+        "spanish": "retroceder",
+        "english": "to go back / retreat",
+        "active": false
+      },
+      {
+        "id": "verbs-14-14",
+        "spanish": "enterrar",
+        "english": "to bury",
+        "active": false
+      },
+      {
+        "id": "verbs-14-15",
+        "spanish": "relatar",
+        "english": "to tell / relate",
+        "active": false
+      },
+      {
+        "id": "verbs-14-16",
+        "spanish": "desviar",
+        "english": "to divert / deflect",
+        "active": false
+      },
+      {
+        "id": "verbs-14-17",
+        "spanish": "difundir",
+        "english": "to spread / broadcast",
+        "active": false
+      },
+      {
+        "id": "verbs-14-18",
+        "spanish": "reservar",
+        "english": "to reserve / book",
+        "active": false
+      },
+      {
+        "id": "verbs-14-19",
+        "spanish": "sacrificar",
+        "english": "to sacrifice / give up",
+        "active": false
+      },
+      {
+        "id": "verbs-14-20",
+        "spanish": "exagerar",
+        "english": "to exaggerate",
+        "active": false
+      },
+      {
+        "id": "verbs-14-21",
+        "spanish": "residir",
+        "english": "to reside / live",
+        "active": false
+      },
+      {
+        "id": "verbs-14-22",
+        "spanish": "promover",
+        "english": "to promote / foster",
+        "active": false
+      },
+      {
+        "id": "verbs-14-23",
+        "spanish": "administrar",
+        "english": "to manage / administer",
+        "active": false
+      },
+      {
+        "id": "verbs-14-24",
+        "spanish": "ahorrar",
+        "english": "to save (money / time)",
+        "active": false
+      },
+      {
+        "id": "verbs-14-25",
+        "spanish": "jurar",
+        "english": "to swear / vow",
+        "active": false
+      },
+      {
+        "id": "verbs-14-26",
+        "spanish": "contraer",
+        "english": "to contract / shrink",
+        "active": false
+      },
+      {
+        "id": "verbs-14-27",
+        "spanish": "reparar",
+        "english": "to repair / fix",
+        "active": false
+      },
+      {
+        "id": "verbs-14-28",
+        "spanish": "reflexionar",
+        "english": "to reflect / ponder",
+        "active": false
+      },
+      {
+        "id": "verbs-14-29",
+        "spanish": "originar",
+        "english": "to originate / cause",
+        "active": false
+      },
+      {
+        "id": "verbs-14-30",
+        "spanish": "ahogar",
+        "english": "to drown / suffocate",
+        "active": false
+      },
+      {
+        "id": "verbs-14-31",
+        "spanish": "detectar",
+        "english": "to detect / discover",
+        "active": false
+      },
+      {
+        "id": "verbs-14-32",
+        "spanish": "aportar",
+        "english": "to contribute / provide",
+        "active": false
+      },
+      {
+        "id": "verbs-14-33",
+        "spanish": "centrar",
+        "english": "to center / focus",
+        "active": false
+      },
+      {
+        "id": "verbs-14-34",
+        "spanish": "autorizar",
+        "english": "to authorize / approve",
+        "active": false
+      },
+      {
+        "id": "verbs-14-35",
+        "spanish": "restar",
+        "english": "to subtract / remain",
+        "active": false
+      },
+      {
+        "id": "verbs-14-36",
+        "spanish": "concretar",
+        "english": "to specify / set",
+        "active": false
+      },
+      {
+        "id": "verbs-14-37",
+        "spanish": "picar",
+        "english": "to sting / chop / itch",
+        "active": false
+      },
+      {
+        "id": "verbs-14-38",
+        "spanish": "descartar",
+        "english": "to discard / rule out",
+        "active": false
+      },
+      {
+        "id": "verbs-14-39",
+        "spanish": "rezar",
+        "english": "to pray / recite",
+        "active": false
+      },
+      {
+        "id": "verbs-14-40",
+        "spanish": "inducir",
+        "english": "to induce / lead",
+        "active": false
+      },
+      {
+        "id": "verbs-14-41",
+        "spanish": "privar",
+        "english": "to deprive / take away",
+        "active": false
+      },
+      {
+        "id": "verbs-14-42",
+        "spanish": "constar",
+        "english": "to appear / consist",
+        "active": false
+      },
+      {
+        "id": "verbs-14-43",
+        "spanish": "deducir",
+        "english": "to deduce / infer",
+        "active": false
+      },
+      {
+        "id": "verbs-14-44",
+        "spanish": "encantar",
+        "english": "to delight / love",
+        "active": false
+      },
+      {
+        "id": "verbs-14-45",
+        "spanish": "redactar",
+        "english": "to write / draft",
+        "active": false
+      },
+      {
+        "id": "verbs-14-46",
+        "spanish": "abrazar",
+        "english": "to hug / embrace",
+        "active": false
+      },
+      {
+        "id": "verbs-14-47",
+        "spanish": "tolerar",
+        "english": "to tolerate / endure",
+        "active": false
+      },
+      {
+        "id": "verbs-14-48",
+        "spanish": "planear",
+        "english": "to plan",
+        "active": false
+      },
+      {
+        "id": "verbs-14-49",
+        "spanish": "trazar",
+        "english": "to trace / draw / outline",
+        "active": false
+      },
+      {
+        "id": "verbs-14-50",
+        "spanish": "presionar",
+        "english": "to press / pressure",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "category": "701–750",
+    "items": [
+      {
+        "id": "verbs-15-01",
+        "spanish": "sujetar",
+        "english": "to hold / secure",
+        "active": false
+      },
+      {
+        "id": "verbs-15-02",
+        "spanish": "reiterar",
+        "english": "to reiterate / repeat",
+        "active": false
+      },
+      {
+        "id": "verbs-15-03",
+        "spanish": "distraer",
+        "english": "to distract / amuse",
+        "active": false
+      },
+      {
+        "id": "verbs-15-04",
+        "spanish": "proveer",
+        "english": "to provide / supply",
+        "active": false
+      },
+      {
+        "id": "verbs-15-05",
+        "spanish": "tropezar",
+        "english": "to stumble / trip",
+        "active": false
+      },
+      {
+        "id": "verbs-15-06",
+        "spanish": "seleccionar",
+        "english": "to select / choose",
+        "active": false
+      },
+      {
+        "id": "verbs-15-07",
+        "spanish": "progresar",
+        "english": "to progress / improve",
+        "active": false
+      },
+      {
+        "id": "verbs-15-08",
+        "spanish": "abundar",
+        "english": "to abound / be abundant",
+        "active": false
+      },
+      {
+        "id": "verbs-15-09",
+        "spanish": "proceder",
+        "english": "to proceed / come from",
+        "active": false
+      },
+      {
+        "id": "verbs-15-10",
+        "spanish": "fingir",
+        "english": "to pretend / fake",
+        "active": false
+      },
+      {
+        "id": "verbs-15-11",
+        "spanish": "asimilar",
+        "english": "to assimilate / absorb",
+        "active": false
+      },
+      {
+        "id": "verbs-15-12",
+        "spanish": "prender",
+        "english": "to catch / ignite",
+        "active": false
+      },
+      {
+        "id": "verbs-15-13",
+        "spanish": "sobrar",
+        "english": "to be left over / exceed",
+        "active": false
+      },
+      {
+        "id": "verbs-15-14",
+        "spanish": "derrotar",
+        "english": "to defeat / beat",
+        "active": false
+      },
+      {
+        "id": "verbs-15-15",
+        "spanish": "proclamar",
+        "english": "to proclaim / declare",
+        "active": false
+      },
+      {
+        "id": "verbs-15-16",
+        "spanish": "adivinar",
+        "english": "to guess / predict",
+        "active": false
+      },
+      {
+        "id": "verbs-15-17",
+        "spanish": "flotar",
+        "english": "to float",
+        "active": false
+      },
+      {
+        "id": "verbs-15-18",
+        "spanish": "suprimir",
+        "english": "to suppress / eliminate",
+        "active": false
+      },
+      {
+        "id": "verbs-15-19",
+        "spanish": "evolucionar",
+        "english": "to evolve / develop",
+        "active": false
+      },
+      {
+        "id": "verbs-15-20",
+        "spanish": "sacudir",
+        "english": "to shake / jolt",
+        "active": false
+      },
+      {
+        "id": "verbs-15-21",
+        "spanish": "brotar",
+        "english": "to sprout / emerge",
+        "active": false
+      },
+      {
+        "id": "verbs-15-22",
+        "spanish": "valorar",
+        "english": "to value / assess",
+        "active": false
+      },
+      {
+        "id": "verbs-15-23",
+        "spanish": "compensar",
+        "english": "to compensate / make up for",
+        "active": false
+      },
+      {
+        "id": "verbs-15-24",
+        "spanish": "asignar",
+        "english": "to assign / allocate",
+        "active": false
+      },
+      {
+        "id": "verbs-15-25",
+        "spanish": "diferenciar",
+        "english": "to differentiate / distinguish",
+        "active": false
+      },
+      {
+        "id": "verbs-15-26",
+        "spanish": "encajar",
+        "english": "to fit / insert",
+        "active": false
+      },
+      {
+        "id": "verbs-15-27",
+        "spanish": "tentar",
+        "english": "to tempt / try",
+        "active": false
+      },
+      {
+        "id": "verbs-15-28",
+        "spanish": "presidir",
+        "english": "to preside / lead",
+        "active": false
+      },
+      {
+        "id": "verbs-15-29",
+        "spanish": "finalizar",
+        "english": "to finish / complete",
+        "active": false
+      },
+      {
+        "id": "verbs-15-30",
+        "spanish": "agitar",
+        "english": "to shake / agitate",
+        "active": false
+      },
+      {
+        "id": "verbs-15-31",
+        "spanish": "facilitar",
+        "english": "to facilitate / provide",
+        "active": false
+      },
+      {
+        "id": "verbs-15-32",
+        "spanish": "resumir",
+        "english": "to summarize / resume",
+        "active": false
+      },
+      {
+        "id": "verbs-15-33",
+        "spanish": "burlar",
+        "english": "to mock / evade",
+        "active": false
+      },
+      {
+        "id": "verbs-15-34",
+        "spanish": "descuidar",
+        "english": "to neglect / overlook",
+        "active": false
+      },
+      {
+        "id": "verbs-15-35",
+        "spanish": "acelerar",
+        "english": "to accelerate / speed up",
+        "active": false
+      },
+      {
+        "id": "verbs-15-36",
+        "spanish": "aliviar",
+        "english": "to relieve / ease",
+        "active": false
+      },
+      {
+        "id": "verbs-15-37",
+        "spanish": "reaparecer",
+        "english": "to reappear",
+        "active": false
+      },
+      {
+        "id": "verbs-15-38",
+        "spanish": "tejer",
+        "english": "to weave / knit",
+        "active": false
+      },
+      {
+        "id": "verbs-15-39",
+        "spanish": "argumentar",
+        "english": "to argue / reason",
+        "active": false
+      },
+      {
+        "id": "verbs-15-40",
+        "spanish": "motivar",
+        "english": "to motivate / cause",
+        "active": false
+      },
+      {
+        "id": "verbs-15-41",
+        "spanish": "acostar",
+        "english": "to lay down / put to bed",
+        "active": false
+      },
+      {
+        "id": "verbs-15-42",
+        "spanish": "conectar",
+        "english": "to connect / link",
+        "active": false
+      },
+      {
+        "id": "verbs-15-43",
+        "spanish": "aplaudir",
+        "english": "to applaud / clap",
+        "active": false
+      },
+      {
+        "id": "verbs-15-44",
+        "spanish": "localizar",
+        "english": "to locate / find",
+        "active": false
+      },
+      {
+        "id": "verbs-15-45",
+        "spanish": "excluir",
+        "english": "to exclude / leave out",
+        "active": false
+      },
+      {
+        "id": "verbs-15-46",
+        "spanish": "herir",
+        "english": "to injure / wound",
+        "active": false
+      },
+      {
+        "id": "verbs-15-47",
+        "spanish": "despreciar",
+        "english": "to despise / scorn",
+        "active": false
+      },
+      {
+        "id": "verbs-15-48",
+        "spanish": "entrevistar",
+        "english": "to interview",
+        "active": false
+      },
+      {
+        "id": "verbs-15-49",
+        "spanish": "improvisar",
+        "english": "to improvise",
+        "active": false
+      },
+      {
+        "id": "verbs-15-50",
+        "spanish": "emerger",
+        "english": "to emerge / surface",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "category": "751–800",
+    "items": [
+      {
+        "id": "verbs-16-01",
+        "spanish": "beneficiar",
+        "english": "to benefit / help",
+        "active": false
+      },
+      {
+        "id": "verbs-16-02",
+        "spanish": "volcar",
+        "english": "to overturn / dump",
+        "active": false
+      },
+      {
+        "id": "verbs-16-03",
+        "spanish": "adorar",
+        "english": "to adore / worship",
+        "active": false
+      },
+      {
+        "id": "verbs-16-04",
+        "spanish": "barrer",
+        "english": "to sweep",
+        "active": false
+      },
+      {
+        "id": "verbs-16-05",
+        "spanish": "rogar",
+        "english": "to beg / plead",
+        "active": false
+      },
+      {
+        "id": "verbs-16-06",
+        "spanish": "clavar",
+        "english": "to nail / drive in",
+        "active": false
+      },
+      {
+        "id": "verbs-16-07",
+        "spanish": "gestionar",
+        "english": "to manage / handle",
+        "active": false
+      },
+      {
+        "id": "verbs-16-08",
+        "spanish": "arriesgar",
+        "english": "to risk / endanger",
+        "active": false
+      },
+      {
+        "id": "verbs-16-09",
+        "spanish": "entrenar",
+        "english": "to train / coach",
+        "active": false
+      },
+      {
+        "id": "verbs-16-10",
+        "spanish": "aislar",
+        "english": "to isolate / insulate",
+        "active": false
+      },
+      {
+        "id": "verbs-16-11",
+        "spanish": "rodar",
+        "english": "to roll / film",
+        "active": false
+      },
+      {
+        "id": "verbs-16-12",
+        "spanish": "ensayar",
+        "english": "to rehearse / try out",
+        "active": false
+      },
+      {
+        "id": "verbs-16-13",
+        "spanish": "desatar",
+        "english": "to untie / unleash",
+        "active": false
+      },
+      {
+        "id": "verbs-16-14",
+        "spanish": "alentar",
+        "english": "to encourage / cheer",
+        "active": false
+      },
+      {
+        "id": "verbs-16-15",
+        "spanish": "descargar",
+        "english": "to download / unload",
+        "active": false
+      },
+      {
+        "id": "verbs-16-16",
+        "spanish": "soplar",
+        "english": "to blow / whisper",
+        "active": false
+      },
+      {
+        "id": "verbs-16-17",
+        "spanish": "bañar",
+        "english": "to bathe / soak",
+        "active": false
+      },
+      {
+        "id": "verbs-16-18",
+        "spanish": "resignar",
+        "english": "to resign / relinquish",
+        "active": false
+      },
+      {
+        "id": "verbs-16-19",
+        "spanish": "rozar",
+        "english": "to graze / brush",
+        "active": false
+      },
+      {
+        "id": "verbs-16-20",
+        "spanish": "negociar",
+        "english": "to negotiate / trade",
+        "active": false
+      },
+      {
+        "id": "verbs-16-21",
+        "spanish": "disolver",
+        "english": "to dissolve / disband",
+        "active": false
+      },
+      {
+        "id": "verbs-16-22",
+        "spanish": "persistir",
+        "english": "to persist / continue",
+        "active": false
+      },
+      {
+        "id": "verbs-16-23",
+        "spanish": "suscitar",
+        "english": "to provoke / arouse",
+        "active": false
+      },
+      {
+        "id": "verbs-16-24",
+        "spanish": "perjudicar",
+        "english": "to harm / damage",
+        "active": false
+      },
+      {
+        "id": "verbs-16-25",
+        "spanish": "culminar",
+        "english": "to culminate / conclude",
+        "active": false
+      },
+      {
+        "id": "verbs-16-26",
+        "spanish": "verter",
+        "english": "to pour / spill",
+        "active": false
+      },
+      {
+        "id": "verbs-16-27",
+        "spanish": "preceder",
+        "english": "to precede / come before",
+        "active": false
+      },
+      {
+        "id": "verbs-16-28",
+        "spanish": "alternar",
+        "english": "to alternate / socialize",
+        "active": false
+      },
+      {
+        "id": "verbs-16-29",
+        "spanish": "incorporar",
+        "english": "to incorporate / include",
+        "active": false
+      },
+      {
+        "id": "verbs-16-30",
+        "spanish": "prevenir",
+        "english": "to prevent / warn",
+        "active": false
+      },
+      {
+        "id": "verbs-16-31",
+        "spanish": "batir",
+        "english": "to beat / whisk",
+        "active": false
+      },
+      {
+        "id": "verbs-16-32",
+        "spanish": "debatir",
+        "english": "to debate / discuss",
+        "active": false
+      },
+      {
+        "id": "verbs-16-33",
+        "spanish": "acertar",
+        "english": "to guess right / hit the mark",
+        "active": false
+      },
+      {
+        "id": "verbs-16-34",
+        "spanish": "preservar",
+        "english": "to preserve / protect",
+        "active": false
+      },
+      {
+        "id": "verbs-16-35",
+        "spanish": "presumir",
+        "english": "to boast / assume",
+        "active": false
+      },
+      {
+        "id": "verbs-16-36",
+        "spanish": "velar",
+        "english": "to watch over / stay awake",
+        "active": false
+      },
+      {
+        "id": "verbs-16-37",
+        "spanish": "navegar",
+        "english": "to navigate / sail / browse",
+        "active": false
+      },
+      {
+        "id": "verbs-16-38",
+        "spanish": "aplastar",
+        "english": "to crush / flatten",
+        "active": false
+      },
+      {
+        "id": "verbs-16-39",
+        "spanish": "subrayar",
+        "english": "to underline / emphasize",
+        "active": false
+      },
+      {
+        "id": "verbs-16-40",
+        "spanish": "perfeccionar",
+        "english": "to perfect / improve",
+        "active": false
+      },
+      {
+        "id": "verbs-16-41",
+        "spanish": "reponer",
+        "english": "to replace / recover",
+        "active": false
+      },
+      {
+        "id": "verbs-16-42",
+        "spanish": "disputar",
+        "english": "to dispute / compete",
+        "active": false
+      },
+      {
+        "id": "verbs-16-43",
+        "spanish": "arrebatar",
+        "english": "to snatch / grab",
+        "active": false
+      },
+      {
+        "id": "verbs-16-44",
+        "spanish": "insinuar",
+        "english": "to insinuate / hint",
+        "active": false
+      },
+      {
+        "id": "verbs-16-45",
+        "spanish": "fallecer",
+        "english": "to pass away / die",
+        "active": false
+      },
+      {
+        "id": "verbs-16-46",
+        "spanish": "eludir",
+        "english": "to evade / avoid",
+        "active": false
+      },
+      {
+        "id": "verbs-16-47",
+        "spanish": "estrechar",
+        "english": "to tighten / narrow / hug",
+        "active": false
+      },
+      {
+        "id": "verbs-16-48",
+        "spanish": "presenciar",
+        "english": "to witness / attend",
+        "active": false
+      },
+      {
+        "id": "verbs-16-49",
+        "spanish": "felicitar",
+        "english": "to congratulate",
+        "active": false
+      },
+      {
+        "id": "verbs-16-50",
+        "spanish": "dañar",
+        "english": "to damage / harm",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "category": "801–850",
+    "items": [
+      {
+        "id": "verbs-17-01",
+        "spanish": "aparecer",
+        "english": "to appear / seem",
+        "active": false
+      },
+      {
+        "id": "verbs-17-02",
+        "spanish": "extinguir",
+        "english": "to extinguish / put out",
+        "active": false
+      },
+      {
+        "id": "verbs-17-03",
+        "spanish": "vaciar",
+        "english": "to empty / drain",
+        "active": false
+      },
+      {
+        "id": "verbs-17-04",
+        "spanish": "asombrar",
+        "english": "to amaze / astonish",
+        "active": false
+      },
+      {
+        "id": "verbs-17-05",
+        "spanish": "atrapar",
+        "english": "to catch / trap",
+        "active": false
+      },
+      {
+        "id": "verbs-17-06",
+        "spanish": "amanecer",
+        "english": "to dawn / wake up",
+        "active": false
+      },
+      {
+        "id": "verbs-17-07",
+        "spanish": "recitar",
+        "english": "to recite",
+        "active": false
+      },
+      {
+        "id": "verbs-17-08",
+        "spanish": "aguardar",
+        "english": "to wait / expect",
+        "active": false
+      },
+      {
+        "id": "verbs-17-09",
+        "spanish": "embarcar",
+        "english": "to board / embark",
+        "active": false
+      },
+      {
+        "id": "verbs-17-10",
+        "spanish": "alquilar",
+        "english": "to rent / lease",
+        "active": false
+      },
+      {
+        "id": "verbs-17-11",
+        "spanish": "parir",
+        "english": "to give birth",
+        "active": false
+      },
+      {
+        "id": "verbs-17-12",
+        "spanish": "despejar",
+        "english": "to clear / remove",
+        "active": false
+      },
+      {
+        "id": "verbs-17-13",
+        "spanish": "refugiar",
+        "english": "to shelter / take refuge",
+        "active": false
+      },
+      {
+        "id": "verbs-17-14",
+        "spanish": "agradar",
+        "english": "to please / be pleasing",
+        "active": false
+      },
+      {
+        "id": "verbs-17-15",
+        "spanish": "endurecer",
+        "english": "to harden / toughen",
+        "active": false
+      },
+      {
+        "id": "verbs-17-16",
+        "spanish": "estirar",
+        "english": "to stretch / extend",
+        "active": false
+      },
+      {
+        "id": "verbs-17-17",
+        "spanish": "verificar",
+        "english": "to verify / check",
+        "active": false
+      },
+      {
+        "id": "verbs-17-18",
+        "spanish": "sobrepasar",
+        "english": "to exceed / surpass",
+        "active": false
+      },
+      {
+        "id": "verbs-17-19",
+        "spanish": "insertar",
+        "english": "to insert / embed",
+        "active": false
+      },
+      {
+        "id": "verbs-17-20",
+        "spanish": "narrar",
+        "english": "to narrate / tell",
+        "active": false
+      },
+      {
+        "id": "verbs-17-21",
+        "spanish": "profundizar",
+        "english": "to deepen / elaborate",
+        "active": false
+      },
+      {
+        "id": "verbs-17-22",
+        "spanish": "clasificar",
+        "english": "to classify / sort",
+        "active": false
+      },
+      {
+        "id": "verbs-17-23",
+        "spanish": "enredar",
+        "english": "to tangle / entangle",
+        "active": false
+      },
+      {
+        "id": "verbs-17-24",
+        "spanish": "recortar",
+        "english": "to trim / cut",
+        "active": false
+      },
+      {
+        "id": "verbs-17-25",
+        "spanish": "deslizar",
+        "english": "to slide / slip",
+        "active": false
+      },
+      {
+        "id": "verbs-17-26",
+        "spanish": "equivaler",
+        "english": "to equal / be equivalent to",
+        "active": false
+      },
+      {
+        "id": "verbs-17-27",
+        "spanish": "florecer",
+        "english": "to bloom / flourish",
+        "active": false
+      },
+      {
+        "id": "verbs-17-28",
+        "spanish": "abusar",
+        "english": "to abuse / take advantage of",
+        "active": false
+      },
+      {
+        "id": "verbs-17-29",
+        "spanish": "revivir",
+        "english": "to revive / relive",
+        "active": false
+      },
+      {
+        "id": "verbs-17-30",
+        "spanish": "complementar",
+        "english": "to complement / complete",
+        "active": false
+      },
+      {
+        "id": "verbs-17-31",
+        "spanish": "almorzar",
+        "english": "to have lunch",
+        "active": false
+      },
+      {
+        "id": "verbs-17-32",
+        "spanish": "charlar",
+        "english": "to chat / talk",
+        "active": false
+      },
+      {
+        "id": "verbs-17-33",
+        "spanish": "fomentar",
+        "english": "to encourage / promote",
+        "active": false
+      },
+      {
+        "id": "verbs-17-34",
+        "spanish": "reanudar",
+        "english": "to resume / restart",
+        "active": false
+      },
+      {
+        "id": "verbs-17-35",
+        "spanish": "enfocar",
+        "english": "to focus / approach",
+        "active": false
+      },
+      {
+        "id": "verbs-17-36",
+        "spanish": "prescindir",
+        "english": "to do without / dispense with",
+        "active": false
+      },
+      {
+        "id": "verbs-17-37",
+        "spanish": "resaltar",
+        "english": "to highlight / stand out",
+        "active": false
+      },
+      {
+        "id": "verbs-17-38",
+        "spanish": "intercambiar",
+        "english": "to exchange / trade",
+        "active": false
+      },
+      {
+        "id": "verbs-17-39",
+        "spanish": "toser",
+        "english": "to cough",
+        "active": false
+      },
+      {
+        "id": "verbs-17-40",
+        "spanish": "consolar",
+        "english": "to console / comfort",
+        "active": false
+      },
+      {
+        "id": "verbs-17-41",
+        "spanish": "contrastar",
+        "english": "to contrast / check",
+        "active": false
+      },
+      {
+        "id": "verbs-17-42",
+        "spanish": "interrogar",
+        "english": "to interrogate / question",
+        "active": false
+      },
+      {
+        "id": "verbs-17-43",
+        "spanish": "movilizar",
+        "english": "to mobilize / deploy",
+        "active": false
+      },
+      {
+        "id": "verbs-17-44",
+        "spanish": "bloquear",
+        "english": "to block / obstruct",
+        "active": false
+      },
+      {
+        "id": "verbs-17-45",
+        "spanish": "revolver",
+        "english": "to stir / mess up",
+        "active": false
+      },
+      {
+        "id": "verbs-17-46",
+        "spanish": "radicar",
+        "english": "to lie in / reside",
+        "active": false
+      },
+      {
+        "id": "verbs-17-47",
+        "spanish": "programar",
+        "english": "to schedule / program",
+        "active": false
+      },
+      {
+        "id": "verbs-17-48",
+        "spanish": "concebir",
+        "english": "to conceive / imagine",
+        "active": false
+      },
+      {
+        "id": "verbs-17-49",
+        "spanish": "filtrar",
+        "english": "to filter / leak",
+        "active": false
+      },
+      {
+        "id": "verbs-17-50",
+        "spanish": "apelar",
+        "english": "to appeal / plead",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "category": "851–900",
+    "items": [
+      {
+        "id": "verbs-18-01",
+        "spanish": "desbordar",
+        "english": "to overflow / exceed",
+        "active": false
+      },
+      {
+        "id": "verbs-18-02",
+        "spanish": "reinar",
+        "english": "to reign / rule",
+        "active": false
+      },
+      {
+        "id": "verbs-18-03",
+        "spanish": "derribar",
+        "english": "to knock down / demolish",
+        "active": false
+      },
+      {
+        "id": "verbs-18-04",
+        "spanish": "coser",
+        "english": "to sew / stitch",
+        "active": false
+      },
+      {
+        "id": "verbs-18-05",
+        "spanish": "complacer",
+        "english": "to please / satisfy",
+        "active": false
+      },
+      {
+        "id": "verbs-18-06",
+        "spanish": "madurar",
+        "english": "to mature / ripen",
+        "active": false
+      },
+      {
+        "id": "verbs-18-07",
+        "spanish": "remover",
+        "english": "to remove / stir",
+        "active": false
+      },
+      {
+        "id": "verbs-18-08",
+        "spanish": "regir",
+        "english": "to govern / rule",
+        "active": false
+      },
+      {
+        "id": "verbs-18-09",
+        "spanish": "instruir",
+        "english": "to instruct / teach",
+        "active": false
+      },
+      {
+        "id": "verbs-18-10",
+        "spanish": "retomar",
+        "english": "to resume / retake",
+        "active": false
+      },
+      {
+        "id": "verbs-18-11",
+        "spanish": "estrenar",
+        "english": "to debut / premiere",
+        "active": false
+      },
+      {
+        "id": "verbs-18-12",
+        "spanish": "alegar",
+        "english": "to claim / allege",
+        "active": false
+      },
+      {
+        "id": "verbs-18-13",
+        "spanish": "encarar",
+        "english": "to confront / face",
+        "active": false
+      },
+      {
+        "id": "verbs-18-14",
+        "spanish": "tranquilizar",
+        "english": "to calm / reassure",
+        "active": false
+      },
+      {
+        "id": "verbs-18-15",
+        "spanish": "disfrazar",
+        "english": "to disguise / mask",
+        "active": false
+      },
+      {
+        "id": "verbs-18-16",
+        "spanish": "emigrar",
+        "english": "to emigrate / migrate",
+        "active": false
+      },
+      {
+        "id": "verbs-18-17",
+        "spanish": "pecar",
+        "english": "to sin / err",
+        "active": false
+      },
+      {
+        "id": "verbs-18-18",
+        "spanish": "vengar",
+        "english": "to avenge / take revenge",
+        "active": false
+      },
+      {
+        "id": "verbs-18-19",
+        "spanish": "desechar",
+        "english": "to discard / throw away",
+        "active": false
+      },
+      {
+        "id": "verbs-18-20",
+        "spanish": "incitar",
+        "english": "to incite / encourage",
+        "active": false
+      },
+      {
+        "id": "verbs-18-21",
+        "spanish": "fortalecer",
+        "english": "to strengthen / fortify",
+        "active": false
+      },
+      {
+        "id": "verbs-18-22",
+        "spanish": "cuestionar",
+        "english": "to question / challenge",
+        "active": false
+      },
+      {
+        "id": "verbs-18-23",
+        "spanish": "fundir",
+        "english": "to melt / merge",
+        "active": false
+      },
+      {
+        "id": "verbs-18-24",
+        "spanish": "reprimir",
+        "english": "to repress / suppress",
+        "active": false
+      },
+      {
+        "id": "verbs-18-25",
+        "spanish": "predicar",
+        "english": "to preach / advocate",
+        "active": false
+      },
+      {
+        "id": "verbs-18-26",
+        "spanish": "honrar",
+        "english": "to honor / respect",
+        "active": false
+      },
+      {
+        "id": "verbs-18-27",
+        "spanish": "disipar",
+        "english": "to dissipate / dispel",
+        "active": false
+      },
+      {
+        "id": "verbs-18-28",
+        "spanish": "encarnar",
+        "english": "to embody / incarnate",
+        "active": false
+      },
+      {
+        "id": "verbs-18-29",
+        "spanish": "ratificar",
+        "english": "to ratify / confirm",
+        "active": false
+      },
+      {
+        "id": "verbs-18-30",
+        "spanish": "destrozar",
+        "english": "to destroy / smash",
+        "active": false
+      },
+      {
+        "id": "verbs-18-31",
+        "spanish": "consentir",
+        "english": "to consent / allow",
+        "active": false
+      },
+      {
+        "id": "verbs-18-32",
+        "spanish": "simular",
+        "english": "to simulate / pretend",
+        "active": false
+      },
+      {
+        "id": "verbs-18-33",
+        "spanish": "paralizar",
+        "english": "to paralyze / freeze",
+        "active": false
+      },
+      {
+        "id": "verbs-18-34",
+        "spanish": "reprochar",
+        "english": "to reproach / blame",
+        "active": false
+      },
+      {
+        "id": "verbs-18-35",
+        "spanish": "alumbrar",
+        "english": "to illuminate / enlighten",
+        "active": false
+      },
+      {
+        "id": "verbs-18-36",
+        "spanish": "inscribir",
+        "english": "to enroll / inscribe",
+        "active": false
+      },
+      {
+        "id": "verbs-18-37",
+        "spanish": "dotar",
+        "english": "to endow / equip",
+        "active": false
+      },
+      {
+        "id": "verbs-18-38",
+        "spanish": "reventar",
+        "english": "to burst / explode",
+        "active": false
+      },
+      {
+        "id": "verbs-18-39",
+        "spanish": "aludir",
+        "english": "to allude / refer to",
+        "active": false
+      },
+      {
+        "id": "verbs-18-40",
+        "spanish": "diluir",
+        "english": "to dilute / dissolve",
+        "active": false
+      },
+      {
+        "id": "verbs-18-41",
+        "spanish": "enterar",
+        "english": "to find out / inform",
+        "active": false
+      },
+      {
+        "id": "verbs-18-42",
+        "spanish": "titular",
+        "english": "to title / headline",
+        "active": false
+      },
+      {
+        "id": "verbs-18-43",
+        "spanish": "frecuentar",
+        "english": "to frequent / visit often",
+        "active": false
+      },
+      {
+        "id": "verbs-18-44",
+        "spanish": "desafiar",
+        "english": "to challenge / defy",
+        "active": false
+      },
+      {
+        "id": "verbs-18-45",
+        "spanish": "despojar",
+        "english": "to strip / deprive",
+        "active": false
+      },
+      {
+        "id": "verbs-18-46",
+        "spanish": "disculpar",
+        "english": "to forgive / excuse",
+        "active": false
+      },
+      {
+        "id": "verbs-18-47",
+        "spanish": "inundar",
+        "english": "to flood / inundate",
+        "active": false
+      },
+      {
+        "id": "verbs-18-48",
+        "spanish": "desplegar",
+        "english": "to deploy / unfold",
+        "active": false
+      },
+      {
+        "id": "verbs-18-49",
+        "spanish": "articular",
+        "english": "to articulate / express",
+        "active": false
+      },
+      {
+        "id": "verbs-18-50",
+        "spanish": "debilitar",
+        "english": "to weaken / impair",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "category": "901–950",
+    "items": [
+      {
+        "id": "verbs-19-01",
+        "spanish": "evocar",
+        "english": "to evoke / recall",
+        "active": false
+      },
+      {
+        "id": "verbs-19-02",
+        "spanish": "igualar",
+        "english": "to equal / match",
+        "active": false
+      },
+      {
+        "id": "verbs-19-03",
+        "spanish": "regular",
+        "english": "to regulate / control",
+        "active": false
+      },
+      {
+        "id": "verbs-19-04",
+        "spanish": "rematar",
+        "english": "to finish off / conclude",
+        "active": false
+      },
+      {
+        "id": "verbs-19-05",
+        "spanish": "poblar",
+        "english": "to populate / settle",
+        "active": false
+      },
+      {
+        "id": "verbs-19-06",
+        "spanish": "asomar",
+        "english": "to appear / peek out",
+        "active": false
+      },
+      {
+        "id": "verbs-19-07",
+        "spanish": "contradecir",
+        "english": "to contradict",
+        "active": false
+      },
+      {
+        "id": "verbs-19-08",
+        "spanish": "reparar",
+        "english": "to repair / notice",
+        "active": false
+      },
+      {
+        "id": "verbs-19-09",
+        "spanish": "regar",
+        "english": "to water / irrigate",
+        "active": false
+      },
+      {
+        "id": "verbs-19-10",
+        "spanish": "restaurar",
+        "english": "to restore / renovate",
+        "active": false
+      },
+      {
+        "id": "verbs-19-11",
+        "spanish": "prosperar",
+        "english": "to prosper / thrive",
+        "active": false
+      },
+      {
+        "id": "verbs-19-12",
+        "spanish": "arrasar",
+        "english": "to devastate / destroy",
+        "active": false
+      },
+      {
+        "id": "verbs-19-13",
+        "spanish": "acentuar",
+        "english": "to accentuate / emphasize",
+        "active": false
+      },
+      {
+        "id": "verbs-19-14",
+        "spanish": "rebajar",
+        "english": "to lower / reduce",
+        "active": false
+      },
+      {
+        "id": "verbs-19-15",
+        "spanish": "replicar",
+        "english": "to reply / replicate",
+        "active": false
+      },
+      {
+        "id": "verbs-19-16",
+        "spanish": "manipular",
+        "english": "to manipulate / handle",
+        "active": false
+      },
+      {
+        "id": "verbs-19-17",
+        "spanish": "adornar",
+        "english": "to decorate / adorn",
+        "active": false
+      },
+      {
+        "id": "verbs-19-18",
+        "spanish": "retrasar",
+        "english": "to delay / postpone",
+        "active": false
+      },
+      {
+        "id": "verbs-19-19",
+        "spanish": "razonar",
+        "english": "to reason / argue",
+        "active": false
+      },
+      {
+        "id": "verbs-19-20",
+        "spanish": "oscurecer",
+        "english": "to darken / obscure",
+        "active": false
+      },
+      {
+        "id": "verbs-19-21",
+        "spanish": "torcer",
+        "english": "to twist / sprain",
+        "active": false
+      },
+      {
+        "id": "verbs-19-22",
+        "spanish": "reforzar",
+        "english": "to reinforce / strengthen",
+        "active": false
+      },
+      {
+        "id": "verbs-19-23",
+        "spanish": "derramar",
+        "english": "to spill / shed",
+        "active": false
+      },
+      {
+        "id": "verbs-19-24",
+        "spanish": "agravar",
+        "english": "to aggravate / worsen",
+        "active": false
+      },
+      {
+        "id": "verbs-19-25",
+        "spanish": "invocar",
+        "english": "to invoke / appeal to",
+        "active": false
+      },
+      {
+        "id": "verbs-19-26",
+        "spanish": "enlazar",
+        "english": "to link / connect",
+        "active": false
+      },
+      {
+        "id": "verbs-19-27",
+        "spanish": "colar",
+        "english": "to strain / filter / sneak in",
+        "active": false
+      },
+      {
+        "id": "verbs-19-28",
+        "spanish": "bostezar",
+        "english": "to yawn",
+        "active": false
+      },
+      {
+        "id": "verbs-19-29",
+        "spanish": "configurar",
+        "english": "to configure / set up",
+        "active": false
+      },
+      {
+        "id": "verbs-19-30",
+        "spanish": "irritar",
+        "english": "to irritate / annoy",
+        "active": false
+      },
+      {
+        "id": "verbs-19-31",
+        "spanish": "contagiar",
+        "english": "to infect / transmit",
+        "active": false
+      },
+      {
+        "id": "verbs-19-32",
+        "spanish": "penetrar",
+        "english": "to penetrate / enter",
+        "active": false
+      },
+      {
+        "id": "verbs-19-33",
+        "spanish": "dispersar",
+        "english": "to disperse / scatter",
+        "active": false
+      },
+      {
+        "id": "verbs-19-34",
+        "spanish": "vacilar",
+        "english": "to hesitate / waver",
+        "active": false
+      },
+      {
+        "id": "verbs-19-35",
+        "spanish": "transferir",
+        "english": "to transfer / move",
+        "active": false
+      },
+      {
+        "id": "verbs-19-36",
+        "spanish": "desfilar",
+        "english": "to parade / march",
+        "active": false
+      },
+      {
+        "id": "verbs-19-37",
+        "spanish": "coronar",
+        "english": "to crown / top",
+        "active": false
+      },
+      {
+        "id": "verbs-19-38",
+        "spanish": "liquidar",
+        "english": "to liquidate / settle",
+        "active": false
+      },
+      {
+        "id": "verbs-19-39",
+        "spanish": "repasar",
+        "english": "to review / go over",
+        "active": false
+      },
+      {
+        "id": "verbs-19-40",
+        "spanish": "intuir",
+        "english": "to sense / intuit",
+        "active": false
+      },
+      {
+        "id": "verbs-19-41",
+        "spanish": "devorar",
+        "english": "to devour / consume",
+        "active": false
+      },
+      {
+        "id": "verbs-19-42",
+        "spanish": "consolidar",
+        "english": "to consolidate / strengthen",
+        "active": false
+      },
+      {
+        "id": "verbs-19-43",
+        "spanish": "vincular",
+        "english": "to link / bind",
+        "active": false
+      },
+      {
+        "id": "verbs-19-44",
+        "spanish": "latir",
+        "english": "to beat / throb",
+        "active": false
+      },
+      {
+        "id": "verbs-19-45",
+        "spanish": "desayunar",
+        "english": "to have breakfast",
+        "active": false
+      },
+      {
+        "id": "verbs-19-46",
+        "spanish": "insultar",
+        "english": "to insult / offend",
+        "active": false
+      },
+      {
+        "id": "verbs-19-47",
+        "spanish": "financiar",
+        "english": "to finance / fund",
+        "active": false
+      },
+      {
+        "id": "verbs-19-48",
+        "spanish": "sustentar",
+        "english": "to sustain / support",
+        "active": false
+      },
+      {
+        "id": "verbs-19-49",
+        "spanish": "alarmar",
+        "english": "to alarm / scare",
+        "active": false
+      },
+      {
+        "id": "verbs-19-50",
+        "spanish": "apostar",
+        "english": "to bet / wager",
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "category": "951–1000",
+    "items": [
+      {
+        "id": "verbs-20-01",
+        "spanish": "transcurrir",
+        "english": "to elapse / pass",
+        "active": false
+      },
+      {
+        "id": "verbs-20-02",
+        "spanish": "vibrar",
+        "english": "to vibrate / shake",
+        "active": false
+      },
+      {
+        "id": "verbs-20-03",
+        "spanish": "evaluar",
+        "english": "to evaluate / assess",
+        "active": false
+      },
+      {
+        "id": "verbs-20-04",
+        "spanish": "emocionar",
+        "english": "to move / excite",
+        "active": false
+      },
+      {
+        "id": "verbs-20-05",
+        "spanish": "albergar",
+        "english": "to house / host",
+        "active": false
+      },
+      {
+        "id": "verbs-20-06",
+        "spanish": "meditar",
+        "english": "to meditate / reflect",
+        "active": false
+      },
+      {
+        "id": "verbs-20-07",
+        "spanish": "rascar",
+        "english": "to scratch / scrape",
+        "active": false
+      },
+      {
+        "id": "verbs-20-08",
+        "spanish": "adherir",
+        "english": "to adhere / attach",
+        "active": false
+      },
+      {
+        "id": "verbs-20-09",
+        "spanish": "editar",
+        "english": "to edit / publish",
+        "active": false
+      },
+      {
+        "id": "verbs-20-10",
+        "spanish": "calzar",
+        "english": "to wear (shoes) / fit",
+        "active": false
+      },
+      {
+        "id": "verbs-20-11",
+        "spanish": "agrupar",
+        "english": "to group / cluster",
+        "active": false
+      },
+      {
+        "id": "verbs-20-12",
+        "spanish": "remitir",
+        "english": "to send / remit",
+        "active": false
+      },
+      {
+        "id": "verbs-20-13",
+        "spanish": "encabezar",
+        "english": "to lead / head",
+        "active": false
+      },
+      {
+        "id": "verbs-20-14",
+        "spanish": "suspirar",
+        "english": "to sigh",
+        "active": false
+      },
+      {
+        "id": "verbs-20-15",
+        "spanish": "expandir",
+        "english": "to expand / spread",
+        "active": false
+      },
+      {
+        "id": "verbs-20-16",
+        "spanish": "condicionar",
+        "english": "to condition / influence",
+        "active": false
+      },
+      {
+        "id": "verbs-20-17",
+        "spanish": "alertar",
+        "english": "to alert / warn",
+        "active": false
+      },
+      {
+        "id": "verbs-20-18",
+        "spanish": "enfermar",
+        "english": "to get sick / become ill",
+        "active": false
+      },
+      {
+        "id": "verbs-20-19",
+        "spanish": "predecir",
+        "english": "to predict / forecast",
+        "active": false
+      },
+      {
+        "id": "verbs-20-20",
+        "spanish": "exceder",
+        "english": "to exceed / surpass",
+        "active": false
+      },
+      {
+        "id": "verbs-20-21",
+        "spanish": "estornudar",
+        "english": "to sneeze",
+        "active": false
+      },
+      {
+        "id": "verbs-20-22",
+        "spanish": "predominar",
+        "english": "to predominate / prevail",
+        "active": false
+      },
+      {
+        "id": "verbs-20-23",
+        "spanish": "reposar",
+        "english": "to rest / lie down",
+        "active": false
+      },
+      {
+        "id": "verbs-20-24",
+        "spanish": "excitar",
+        "english": "to excite / stimulate",
+        "active": false
+      },
+      {
+        "id": "verbs-20-25",
+        "spanish": "asentar",
+        "english": "to settle / establish",
+        "active": false
+      },
+      {
+        "id": "verbs-20-26",
+        "spanish": "engordar",
+        "english": "to gain weight / fatten",
+        "active": false
+      },
+      {
+        "id": "verbs-20-27",
+        "spanish": "desesperar",
+        "english": "to despair / lose hope",
+        "active": false
+      },
+      {
+        "id": "verbs-20-28",
+        "spanish": "deteriorar",
+        "english": "to deteriorate / damage",
+        "active": false
+      },
+      {
+        "id": "verbs-20-29",
+        "spanish": "renacer",
+        "english": "to be reborn / revive",
+        "active": false
+      },
+      {
+        "id": "verbs-20-30",
+        "spanish": "mediar",
+        "english": "to mediate / intervene",
+        "active": false
+      },
+      {
+        "id": "verbs-20-31",
+        "spanish": "topar",
+        "english": "to run into / encounter",
+        "active": false
+      },
+      {
+        "id": "verbs-20-32",
+        "spanish": "alojar",
+        "english": "to accommodate / host",
+        "active": false
+      },
+      {
+        "id": "verbs-20-33",
+        "spanish": "bautizar",
+        "english": "to baptize / christen",
+        "active": false
+      },
+      {
+        "id": "verbs-20-34",
+        "spanish": "domar",
+        "english": "to tame / subdue",
+        "active": false
+      },
+      {
+        "id": "verbs-20-35",
+        "spanish": "sumergir",
+        "english": "to submerge / immerse",
+        "active": false
+      },
+      {
+        "id": "verbs-20-36",
+        "spanish": "perfilar",
+        "english": "to outline / define",
+        "active": false
+      },
+      {
+        "id": "verbs-20-37",
+        "spanish": "prevalecer",
+        "english": "to prevail / dominate",
+        "active": false
+      },
+      {
+        "id": "verbs-20-38",
+        "spanish": "rectificar",
+        "english": "to rectify / correct",
+        "active": false
+      },
+      {
+        "id": "verbs-20-39",
+        "spanish": "enumerar",
+        "english": "to list / enumerate",
+        "active": false
+      },
+      {
+        "id": "verbs-20-40",
+        "spanish": "presentir",
+        "english": "to sense / foresee",
+        "active": false
+      },
+      {
+        "id": "verbs-20-41",
+        "spanish": "recrear",
+        "english": "to recreate / amuse",
+        "active": false
+      },
+      {
+        "id": "verbs-20-42",
+        "spanish": "ensuciar",
+        "english": "to dirty / mess up",
+        "active": false
+      },
+      {
+        "id": "verbs-20-43",
+        "spanish": "propagar",
+        "english": "to propagate / spread",
+        "active": false
+      },
+      {
+        "id": "verbs-20-44",
+        "spanish": "acatar",
+        "english": "to comply with / obey",
+        "active": false
+      },
+      {
+        "id": "verbs-20-45",
+        "spanish": "rebasar",
+        "english": "to exceed / surpass",
+        "active": false
+      },
+      {
+        "id": "verbs-20-46",
+        "spanish": "seducir",
+        "english": "to seduce / entice",
+        "active": false
+      },
+      {
+        "id": "verbs-20-47",
+        "spanish": "encomendar",
+        "english": "to entrust / commend",
+        "active": false
+      },
+      {
+        "id": "verbs-20-48",
+        "spanish": "bordear",
+        "english": "to border / edge",
+        "active": false
+      },
+      {
+        "id": "verbs-20-49",
+        "spanish": "resucitar",
+        "english": "to resurrect / revive",
+        "active": false
+      },
+      {
+        "id": "verbs-20-50",
+        "spanish": "cocer",
+        "english": "to cook / boil",
+        "active": false
+      }
+    ]
+  }
 ]
