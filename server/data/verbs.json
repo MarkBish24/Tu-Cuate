@@ -7,31 +7,31 @@
         "id": "verbs-01-01",
         "spanish": "ser",
         "english": "to be",
-        "active": true
+        "active": false
       },
       {
         "id": "verbs-01-02",
         "spanish": "estar",
         "english": "to be",
-        "active": true
+        "active": false
       },
       {
         "id": "verbs-01-03",
         "spanish": "haber",
         "english": "to have",
-        "active": true
+        "active": false
       },
       {
         "id": "verbs-01-04",
         "spanish": "tener",
         "english": "to have",
-        "active": true
+        "active": false
       },
       {
         "id": "verbs-01-05",
         "spanish": "hacer",
         "english": "to do / make",
-        "active": true
+        "active": false
       },
       {
         "id": "verbs-01-06",

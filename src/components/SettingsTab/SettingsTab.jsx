@@ -89,7 +89,7 @@ export default function SettingsTab() {
             <input
               type="range"
               min="10"
-              max="150"
+              max="100"
               step="1"
               value={lengthValue}
               onChange={(e) => setLengthValue(Number(e.target.value))}
@@ -97,7 +97,7 @@ export default function SettingsTab() {
             <motion.div
               className="slider-popup"
               style={{
-                left: `${((lengthValue - 10) / (150 - 10)) * 100}%`,
+                left: `${((lengthValue - 10) / (100 - 10)) * 100}%`,
               }}
               initial={{ opacity: 0, scale: 0.8 }}
               animate={
