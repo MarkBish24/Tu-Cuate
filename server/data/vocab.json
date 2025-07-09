@@ -1,646 +1,3554 @@
 [
   {
+    "id": "01",
     "category": "Emotions & Feelings",
     "items": [
-      { "english": "Happy", "spanish": "Feliz" },
-      { "english": "Sad", "spanish": "Triste" },
-      { "english": "Angry", "spanish": "Enojado/a" },
-      { "english": "Afraid", "spanish": "Asustado/a" },
-      { "english": "Surprised", "spanish": "Sorprendido/a" },
-      { "english": "Excited", "spanish": "Emocionado/a" },
-      { "english": "Calm", "spanish": "Tranquilo/a" },
-      { "english": "Anxious", "spanish": "Ansioso/a" },
-      { "english": "Nervous", "spanish": "Nervioso/a" },
-      { "english": "Confident", "spanish": "Seguro/a" },
-      { "english": "Embarrassed", "spanish": "Avergonzado/a" },
-      { "english": "Bored", "spanish": "Aburrido/a" },
-      { "english": "Frustrated", "spanish": "Frustrado/a" },
-      { "english": "Relaxed", "spanish": "Relajado/a" },
-      { "english": "Stressed", "spanish": "Estresado/a" },
-      { "english": "Guilty", "spanish": "Culpable" },
-      { "english": "Jealous", "spanish": "Celoso/a" },
-      { "english": "Lonely", "spanish": "Solitario/a" },
-      { "english": "Proud", "spanish": "Orgulloso/a" },
-      { "english": "Hopeful", "spanish": "Esperanzado/a" },
-      { "english": "Disappointed", "spanish": "Decepcionado/a" },
-      { "english": "Grateful", "spanish": "Agradecido/a" },
-      { "english": "Curious", "spanish": "Curioso/a" },
-      { "english": "Peaceful", "spanish": "Pacífico/a" },
-      { "english": "Confused", "spanish": "Confundido/a" },
-      { "english": "Jealous", "spanish": "Celoso/a" },
-      { "english": "Enthusiastic", "spanish": "Entusiasta" },
-      { "english": "Irritated", "spanish": "Irritado/a" },
-      { "english": "Optimistic", "spanish": "Optimista" },
-      { "english": "Pessimistic", "spanish": "Pesimista" },
-      { "english": "Scared", "spanish": "Asustado/a" },
-      { "english": "Shy", "spanish": "Tímido/a" },
-      { "english": "Surly", "spanish": "Malhumorado/a" },
-      { "english": "Tender", "spanish": "Tierno/a" },
-      { "english": "Upset", "spanish": "Molesto/a" },
-      { "english": "Vulnerable", "spanish": "Vulnerable" },
-      { "english": "Worried", "spanish": "Preocupado/a" },
-      { "english": "Zealous", "spanish": "Fervoroso/a" },
-      { "english": "Impatient", "spanish": "Impaciente" },
-      { "english": "Overwhelmed", "spanish": "Abrumado/a" }
+      {
+        "id": "vocab-01-01",
+        "english": "Happy",
+        "spanish": "Feliz",
+        "active": false
+      },
+      {
+        "id": "vocab-01-02",
+        "english": "Sad",
+        "spanish": "Triste",
+        "active": false
+      },
+      {
+        "id": "vocab-01-03",
+        "english": "Angry",
+        "spanish": "Enojado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-04",
+        "english": "Afraid",
+        "spanish": "Asustado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-05",
+        "english": "Surprised",
+        "spanish": "Sorprendido/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-06",
+        "english": "Excited",
+        "spanish": "Emocionado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-07",
+        "english": "Calm",
+        "spanish": "Tranquilo/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-08",
+        "english": "Anxious",
+        "spanish": "Ansioso/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-09",
+        "english": "Nervous",
+        "spanish": "Nervioso/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-10",
+        "english": "Confident",
+        "spanish": "Seguro/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-11",
+        "english": "Embarrassed",
+        "spanish": "Avergonzado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-12",
+        "english": "Bored",
+        "spanish": "Aburrido/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-13",
+        "english": "Frustrated",
+        "spanish": "Frustrado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-14",
+        "english": "Relaxed",
+        "spanish": "Relajado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-15",
+        "english": "Stressed",
+        "spanish": "Estresado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-16",
+        "english": "Guilty",
+        "spanish": "Culpable",
+        "active": false
+      },
+      {
+        "id": "vocab-01-17",
+        "english": "Jealous",
+        "spanish": "Celoso/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-18",
+        "english": "Lonely",
+        "spanish": "Solitario/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-19",
+        "english": "Proud",
+        "spanish": "Orgulloso/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-20",
+        "english": "Hopeful",
+        "spanish": "Esperanzado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-21",
+        "english": "Disappointed",
+        "spanish": "Decepcionado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-22",
+        "english": "Grateful",
+        "spanish": "Agradecido/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-23",
+        "english": "Curious",
+        "spanish": "Curioso/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-24",
+        "english": "Peaceful",
+        "spanish": "Pacífico/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-25",
+        "english": "Confused",
+        "spanish": "Confundido/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-26",
+        "english": "Jealous",
+        "spanish": "Celoso/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-27",
+        "english": "Enthusiastic",
+        "spanish": "Entusiasta",
+        "active": false
+      },
+      {
+        "id": "vocab-01-28",
+        "english": "Irritated",
+        "spanish": "Irritado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-29",
+        "english": "Optimistic",
+        "spanish": "Optimista",
+        "active": false
+      },
+      {
+        "id": "vocab-01-30",
+        "english": "Pessimistic",
+        "spanish": "Pesimista",
+        "active": false
+      },
+      {
+        "id": "vocab-01-31",
+        "english": "Scared",
+        "spanish": "Asustado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-32",
+        "english": "Shy",
+        "spanish": "Tímido/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-33",
+        "english": "Surly",
+        "spanish": "Malhumorado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-34",
+        "english": "Tender",
+        "spanish": "Tierno/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-35",
+        "english": "Upset",
+        "spanish": "Molesto/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-36",
+        "english": "Vulnerable",
+        "spanish": "Vulnerable",
+        "active": false
+      },
+      {
+        "id": "vocab-01-37",
+        "english": "Worried",
+        "spanish": "Preocupado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-38",
+        "english": "Zealous",
+        "spanish": "Fervoroso/a",
+        "active": false
+      },
+      {
+        "id": "vocab-01-39",
+        "english": "Impatient",
+        "spanish": "Impaciente",
+        "active": false
+      },
+      {
+        "id": "vocab-01-40",
+        "english": "Overwhelmed",
+        "spanish": "Abrumado/a",
+        "active": false
+      }
     ]
   },
   {
+    "id": "02",
     "category": "Household Items",
     "items": [
-      { "english": "Chair", "spanish": "Silla" },
-      { "english": "Table", "spanish": "Mesa" },
-      { "english": "Bed", "spanish": "Cama" },
-      { "english": "Sofa", "spanish": "Sofá" },
-      { "english": "Lamp", "spanish": "Lámpara" },
-      { "english": "Mirror", "spanish": "Espejo" },
-      { "english": "Curtains", "spanish": "Cortinas" },
-      { "english": "Carpet", "spanish": "Alfombra" },
-      { "english": "Pillow", "spanish": "Almohada" },
-      { "english": "Blanket", "spanish": "Manta" },
-      { "english": "Wardrobe", "spanish": "Armario" },
-      { "english": "Drawer", "spanish": "Cajón" },
-      { "english": "Desk", "spanish": "Escritorio" },
-      { "english": "Bookshelf", "spanish": "Estantería" },
-      { "english": "Fan", "spanish": "Ventilador" },
-      { "english": "Heater", "spanish": "Calefactor" },
-      { "english": "Air conditioner", "spanish": "Aire acondicionado" },
-      { "english": "Refrigerator", "spanish": "Refrigerador" },
-      { "english": "Freezer", "spanish": "Congelador" },
-      { "english": "Oven", "spanish": "Horno" },
-      { "english": "Stove", "spanish": "Estufa" },
-      { "english": "Microwave", "spanish": "Microondas" },
-      { "english": "Sink", "spanish": "Fregadero" },
-      { "english": "Dishwasher", "spanish": "Lavaplatos" },
-      { "english": "Toaster", "spanish": "Tostadora" },
-      { "english": "Kettle", "spanish": "Hervidor" },
-      { "english": "Pan", "spanish": "Sartén" },
-      { "english": "Pot", "spanish": "Olla" },
-      { "english": "Knife", "spanish": "Cuchillo" },
-      { "english": "Fork", "spanish": "Tenedor" },
-      { "english": "Spoon", "spanish": "Cuchara" },
-      { "english": "Plate", "spanish": "Plato" },
-      { "english": "Bowl", "spanish": "Tazón" },
-      { "english": "Cup", "spanish": "Taza" },
-      { "english": "Glass", "spanish": "Vaso" },
-      { "english": "Trash can", "spanish": "Cubo de basura" },
-      { "english": "Vacuum cleaner", "spanish": "Aspiradora" },
-      { "english": "Broom", "spanish": "Escoba" },
-      { "english": "Mop", "spanish": "Mopa" },
-      { "english": "Laundry basket", "spanish": "Cesto de ropa" },
-      { "english": "Iron", "spanish": "Plancha" },
-      { "english": "Washing machine", "spanish": "Lavadora" },
-      { "english": "Dryer", "spanish": "Secadora" },
-      { "english": "Clock", "spanish": "Reloj" },
-      { "english": "Picture frame", "spanish": "Marco de fotos" },
-      { "english": "Remote control", "spanish": "Control remoto" },
-      { "english": "Light switch", "spanish": "Interruptor de luz" },
-      { "english": "Door", "spanish": "Puerta" },
-      { "english": "Window", "spanish": "Ventana" },
-      { "english": "Ceiling", "spanish": "Techo" },
-      { "english": "Wall", "spanish": "Pared" }
+      {
+        "id": "vocab-02-01",
+        "english": "Chair",
+        "spanish": "Silla",
+        "active": false
+      },
+      {
+        "id": "vocab-02-02",
+        "english": "Table",
+        "spanish": "Mesa",
+        "active": false
+      },
+      {
+        "id": "vocab-02-03",
+        "english": "Bed",
+        "spanish": "Cama",
+        "active": false
+      },
+      {
+        "id": "vocab-02-04",
+        "english": "Sofa",
+        "spanish": "Sofá",
+        "active": false
+      },
+      {
+        "id": "vocab-02-05",
+        "english": "Lamp",
+        "spanish": "Lámpara",
+        "active": false
+      },
+      {
+        "id": "vocab-02-06",
+        "english": "Mirror",
+        "spanish": "Espejo",
+        "active": false
+      },
+      {
+        "id": "vocab-02-07",
+        "english": "Curtains",
+        "spanish": "Cortinas",
+        "active": false
+      },
+      {
+        "id": "vocab-02-08",
+        "english": "Carpet",
+        "spanish": "Alfombra",
+        "active": false
+      },
+      {
+        "id": "vocab-02-09",
+        "english": "Pillow",
+        "spanish": "Almohada",
+        "active": false
+      },
+      {
+        "id": "vocab-02-10",
+        "english": "Blanket",
+        "spanish": "Manta",
+        "active": false
+      },
+      {
+        "id": "vocab-02-11",
+        "english": "Wardrobe",
+        "spanish": "Armario",
+        "active": false
+      },
+      {
+        "id": "vocab-02-12",
+        "english": "Drawer",
+        "spanish": "Cajón",
+        "active": false
+      },
+      {
+        "id": "vocab-02-13",
+        "english": "Desk",
+        "spanish": "Escritorio",
+        "active": false
+      },
+      {
+        "id": "vocab-02-14",
+        "english": "Bookshelf",
+        "spanish": "Estantería",
+        "active": false
+      },
+      {
+        "id": "vocab-02-15",
+        "english": "Fan",
+        "spanish": "Ventilador",
+        "active": false
+      },
+      {
+        "id": "vocab-02-16",
+        "english": "Heater",
+        "spanish": "Calefactor",
+        "active": false
+      },
+      {
+        "id": "vocab-02-17",
+        "english": "Air conditioner",
+        "spanish": "Aire acondicionado",
+        "active": false
+      },
+      {
+        "id": "vocab-02-18",
+        "english": "Refrigerator",
+        "spanish": "Refrigerador",
+        "active": false
+      },
+      {
+        "id": "vocab-02-19",
+        "english": "Freezer",
+        "spanish": "Congelador",
+        "active": false
+      },
+      {
+        "id": "vocab-02-20",
+        "english": "Oven",
+        "spanish": "Horno",
+        "active": false
+      },
+      {
+        "id": "vocab-02-21",
+        "english": "Stove",
+        "spanish": "Estufa",
+        "active": false
+      },
+      {
+        "id": "vocab-02-22",
+        "english": "Microwave",
+        "spanish": "Microondas",
+        "active": false
+      },
+      {
+        "id": "vocab-02-23",
+        "english": "Sink",
+        "spanish": "Fregadero",
+        "active": false
+      },
+      {
+        "id": "vocab-02-24",
+        "english": "Dishwasher",
+        "spanish": "Lavaplatos",
+        "active": false
+      },
+      {
+        "id": "vocab-02-25",
+        "english": "Toaster",
+        "spanish": "Tostadora",
+        "active": false
+      },
+      {
+        "id": "vocab-02-26",
+        "english": "Kettle",
+        "spanish": "Hervidor",
+        "active": false
+      },
+      {
+        "id": "vocab-02-27",
+        "english": "Pan",
+        "spanish": "Sartén",
+        "active": false
+      },
+      {
+        "id": "vocab-02-28",
+        "english": "Pot",
+        "spanish": "Olla",
+        "active": false
+      },
+      {
+        "id": "vocab-02-29",
+        "english": "Knife",
+        "spanish": "Cuchillo",
+        "active": false
+      },
+      {
+        "id": "vocab-02-30",
+        "english": "Fork",
+        "spanish": "Tenedor",
+        "active": false
+      },
+      {
+        "id": "vocab-02-31",
+        "english": "Spoon",
+        "spanish": "Cuchara",
+        "active": false
+      },
+      {
+        "id": "vocab-02-32",
+        "english": "Plate",
+        "spanish": "Plato",
+        "active": false
+      },
+      {
+        "id": "vocab-02-33",
+        "english": "Bowl",
+        "spanish": "Tazón",
+        "active": false
+      },
+      {
+        "id": "vocab-02-34",
+        "english": "Cup",
+        "spanish": "Taza",
+        "active": false
+      },
+      {
+        "id": "vocab-02-35",
+        "english": "Glass",
+        "spanish": "Vaso",
+        "active": false
+      },
+      {
+        "id": "vocab-02-36",
+        "english": "Trash can",
+        "spanish": "Cubo de basura",
+        "active": false
+      },
+      {
+        "id": "vocab-02-37",
+        "english": "Vacuum cleaner",
+        "spanish": "Aspiradora",
+        "active": false
+      },
+      {
+        "id": "vocab-02-38",
+        "english": "Broom",
+        "spanish": "Escoba",
+        "active": false
+      },
+      {
+        "id": "vocab-02-39",
+        "english": "Mop",
+        "spanish": "Mopa",
+        "active": false
+      },
+      {
+        "id": "vocab-02-40",
+        "english": "Laundry basket",
+        "spanish": "Cesto de ropa",
+        "active": false
+      },
+      {
+        "id": "vocab-02-41",
+        "english": "Iron",
+        "spanish": "Plancha",
+        "active": false
+      },
+      {
+        "id": "vocab-02-42",
+        "english": "Washing machine",
+        "spanish": "Lavadora",
+        "active": false
+      },
+      {
+        "id": "vocab-02-43",
+        "english": "Dryer",
+        "spanish": "Secadora",
+        "active": false
+      },
+      {
+        "id": "vocab-02-44",
+        "english": "Clock",
+        "spanish": "Reloj",
+        "active": false
+      },
+      {
+        "id": "vocab-02-45",
+        "english": "Picture frame",
+        "spanish": "Marco de fotos",
+        "active": false
+      },
+      {
+        "id": "vocab-02-46",
+        "english": "Remote control",
+        "spanish": "Control remoto",
+        "active": false
+      },
+      {
+        "id": "vocab-02-47",
+        "english": "Light switch",
+        "spanish": "Interruptor de luz",
+        "active": false
+      },
+      {
+        "id": "vocab-02-48",
+        "english": "Door",
+        "spanish": "Puerta",
+        "active": false
+      },
+      {
+        "id": "vocab-02-49",
+        "english": "Window",
+        "spanish": "Ventana",
+        "active": false
+      },
+      {
+        "id": "vocab-02-50",
+        "english": "Ceiling",
+        "spanish": "Techo",
+        "active": false
+      },
+      {
+        "id": "vocab-02-51",
+        "english": "Wall",
+        "spanish": "Pared",
+        "active": false
+      }
     ]
   },
   {
+    "id": "03",
     "category": "Colors",
     "items": [
-      { "english": "Red", "spanish": "Rojo/a" },
-      { "english": "Blue", "spanish": "Azul" },
-      { "english": "Yellow", "spanish": "Amarillo/a" },
-      { "english": "Green", "spanish": "Verde" },
-      { "english": "Orange", "spanish": "Naranja" },
-      { "english": "Purple", "spanish": "Morado/a" },
-      { "english": "Pink", "spanish": "Rosa" },
-      { "english": "Brown", "spanish": "Marrón" },
-      { "english": "Black", "spanish": "Negro/a" },
-      { "english": "White", "spanish": "Blanco/a" },
-      { "english": "Gray", "spanish": "Gris" },
-      { "english": "Beige", "spanish": "Beige" },
-      { "english": "Turquoise", "spanish": "Turquesa" },
-      { "english": "Sky blue", "spanish": "Celeste" },
-      { "english": "Navy blue", "spanish": "Azul marino" },
-      { "english": "Lime green", "spanish": "Verde lima" },
-      { "english": "Olive green", "spanish": "Verde oliva" },
-      { "english": "Teal", "spanish": "Verde azulado" },
-      { "english": "Violet", "spanish": "Violeta" },
-      { "english": "Lavender", "spanish": "Lavanda" },
-      { "english": "Magenta", "spanish": "Magenta" },
-      { "english": "Maroon", "spanish": "Granate" },
-      { "english": "Burgundy", "spanish": "Burdeos" },
-      { "english": "Coral", "spanish": "Coral" },
-      { "english": "Peach", "spanish": "Melocotón" },
-      { "english": "Salmon", "spanish": "Salmón" },
-      { "english": "Gold", "spanish": "Dorado/a" },
-      { "english": "Silver", "spanish": "Plateado/a" },
-      { "english": "Bronze", "spanish": "Bronce" },
-      { "english": "Ivory", "spanish": "Marfil" },
-      { "english": "Charcoal", "spanish": "Carbón" },
-      { "english": "Mint", "spanish": "Menta" },
-      { "english": "Mustard", "spanish": "Mostaza" },
-      { "english": "Amber", "spanish": "Ámbar" },
-      { "english": "Indigo", "spanish": "Índigo" },
-      { "english": "Chocolate", "spanish": "Chocolate" },
-      { "english": "Cream", "spanish": "Crema" },
-      { "english": "Sand", "spanish": "Arena" },
-      { "english": "Tan", "spanish": "Bronceado/a" },
-      { "english": "Rust", "spanish": "Óxido" },
-      { "english": "Copper", "spanish": "Cobre" },
-      { "english": "Aquamarine", "spanish": "Aguamarina" },
-      { "english": "Periwinkle", "spanish": "Celeste violáceo" },
-      { "english": "Crimson", "spanish": "Carmesí" },
-      { "english": "Plum", "spanish": "Ciruela" },
-      { "english": "Rose", "spanish": "Rosa" },
-      { "english": "Eggplant", "spanish": "Berenjena" },
-      { "english": "Canary yellow", "spanish": "Amarillo canario" },
-      { "english": "Fuchsia", "spanish": "Fucsia" }
+      {
+        "id": "vocab-03-01",
+        "english": "Red",
+        "spanish": "Rojo/a",
+        "active": false
+      },
+      {
+        "id": "vocab-03-02",
+        "english": "Blue",
+        "spanish": "Azul",
+        "active": false
+      },
+      {
+        "id": "vocab-03-03",
+        "english": "Yellow",
+        "spanish": "Amarillo/a",
+        "active": false
+      },
+      {
+        "id": "vocab-03-04",
+        "english": "Green",
+        "spanish": "Verde",
+        "active": false
+      },
+      {
+        "id": "vocab-03-05",
+        "english": "Orange",
+        "spanish": "Naranja",
+        "active": false
+      },
+      {
+        "id": "vocab-03-06",
+        "english": "Purple",
+        "spanish": "Morado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-03-07",
+        "english": "Pink",
+        "spanish": "Rosa",
+        "active": false
+      },
+      {
+        "id": "vocab-03-08",
+        "english": "Brown",
+        "spanish": "Marrón",
+        "active": false
+      },
+      {
+        "id": "vocab-03-09",
+        "english": "Black",
+        "spanish": "Negro/a",
+        "active": false
+      },
+      {
+        "id": "vocab-03-10",
+        "english": "White",
+        "spanish": "Blanco/a",
+        "active": false
+      },
+      {
+        "id": "vocab-03-11",
+        "english": "Gray",
+        "spanish": "Gris",
+        "active": false
+      },
+      {
+        "id": "vocab-03-12",
+        "english": "Beige",
+        "spanish": "Beige",
+        "active": false
+      },
+      {
+        "id": "vocab-03-13",
+        "english": "Turquoise",
+        "spanish": "Turquesa",
+        "active": false
+      },
+      {
+        "id": "vocab-03-14",
+        "english": "Sky blue",
+        "spanish": "Celeste",
+        "active": false
+      },
+      {
+        "id": "vocab-03-15",
+        "english": "Navy blue",
+        "spanish": "Azul marino",
+        "active": false
+      },
+      {
+        "id": "vocab-03-16",
+        "english": "Lime green",
+        "spanish": "Verde lima",
+        "active": false
+      },
+      {
+        "id": "vocab-03-17",
+        "english": "Olive green",
+        "spanish": "Verde oliva",
+        "active": false
+      },
+      {
+        "id": "vocab-03-18",
+        "english": "Teal",
+        "spanish": "Verde azulado",
+        "active": false
+      },
+      {
+        "id": "vocab-03-19",
+        "english": "Violet",
+        "spanish": "Violeta",
+        "active": false
+      },
+      {
+        "id": "vocab-03-20",
+        "english": "Lavender",
+        "spanish": "Lavanda",
+        "active": false
+      },
+      {
+        "id": "vocab-03-21",
+        "english": "Magenta",
+        "spanish": "Magenta",
+        "active": false
+      },
+      {
+        "id": "vocab-03-22",
+        "english": "Maroon",
+        "spanish": "Granate",
+        "active": false
+      },
+      {
+        "id": "vocab-03-23",
+        "english": "Burgundy",
+        "spanish": "Burdeos",
+        "active": false
+      },
+      {
+        "id": "vocab-03-24",
+        "english": "Coral",
+        "spanish": "Coral",
+        "active": false
+      },
+      {
+        "id": "vocab-03-25",
+        "english": "Peach",
+        "spanish": "Melocotón",
+        "active": false
+      },
+      {
+        "id": "vocab-03-26",
+        "english": "Salmon",
+        "spanish": "Salmón",
+        "active": false
+      },
+      {
+        "id": "vocab-03-27",
+        "english": "Gold",
+        "spanish": "Dorado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-03-28",
+        "english": "Silver",
+        "spanish": "Plateado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-03-29",
+        "english": "Bronze",
+        "spanish": "Bronce",
+        "active": false
+      },
+      {
+        "id": "vocab-03-30",
+        "english": "Ivory",
+        "spanish": "Marfil",
+        "active": false
+      },
+      {
+        "id": "vocab-03-31",
+        "english": "Charcoal",
+        "spanish": "Carbón",
+        "active": false
+      },
+      {
+        "id": "vocab-03-32",
+        "english": "Mint",
+        "spanish": "Menta",
+        "active": false
+      },
+      {
+        "id": "vocab-03-33",
+        "english": "Mustard",
+        "spanish": "Mostaza",
+        "active": false
+      },
+      {
+        "id": "vocab-03-34",
+        "english": "Amber",
+        "spanish": "Ámbar",
+        "active": false
+      },
+      {
+        "id": "vocab-03-35",
+        "english": "Indigo",
+        "spanish": "Índigo",
+        "active": false
+      },
+      {
+        "id": "vocab-03-36",
+        "english": "Chocolate",
+        "spanish": "Chocolate",
+        "active": false
+      },
+      {
+        "id": "vocab-03-37",
+        "english": "Cream",
+        "spanish": "Crema",
+        "active": false
+      },
+      {
+        "id": "vocab-03-38",
+        "english": "Sand",
+        "spanish": "Arena",
+        "active": false
+      },
+      {
+        "id": "vocab-03-39",
+        "english": "Tan",
+        "spanish": "Bronceado/a",
+        "active": false
+      },
+      {
+        "id": "vocab-03-40",
+        "english": "Rust",
+        "spanish": "Óxido",
+        "active": false
+      },
+      {
+        "id": "vocab-03-41",
+        "english": "Copper",
+        "spanish": "Cobre",
+        "active": false
+      },
+      {
+        "id": "vocab-03-42",
+        "english": "Aquamarine",
+        "spanish": "Aguamarina",
+        "active": false
+      },
+      {
+        "id": "vocab-03-43",
+        "english": "Periwinkle",
+        "spanish": "Celeste violáceo",
+        "active": false
+      },
+      {
+        "id": "vocab-03-44",
+        "english": "Crimson",
+        "spanish": "Carmesí",
+        "active": false
+      },
+      {
+        "id": "vocab-03-45",
+        "english": "Plum",
+        "spanish": "Ciruela",
+        "active": false
+      },
+      {
+        "id": "vocab-03-46",
+        "english": "Rose",
+        "spanish": "Rosa",
+        "active": false
+      },
+      {
+        "id": "vocab-03-47",
+        "english": "Eggplant",
+        "spanish": "Berenjena",
+        "active": false
+      },
+      {
+        "id": "vocab-03-48",
+        "english": "Canary yellow",
+        "spanish": "Amarillo canario",
+        "active": false
+      },
+      {
+        "id": "vocab-03-49",
+        "english": "Fuchsia",
+        "spanish": "Fucsia",
+        "active": false
+      }
     ]
   },
   {
+    "id": "04",
     "category": "Places",
     "items": [
-      { "english": "Home", "spanish": "Casa" },
-      { "english": "School", "spanish": "Escuela" },
-      { "english": "Work", "spanish": "Trabajo" },
-      { "english": "Park", "spanish": "Parque" },
-      { "english": "Store", "spanish": "Tienda" },
-      { "english": "Supermarket", "spanish": "Supermercado" },
-      { "english": "Restaurant", "spanish": "Restaurante" },
-      { "english": "Hospital", "spanish": "Hospital" },
-      { "english": "Bank", "spanish": "Banco" },
-      { "english": "Library", "spanish": "Biblioteca" },
-      { "english": "Cinema", "spanish": "Cine" },
-      { "english": "Beach", "spanish": "Playa" },
-      { "english": "Airport", "spanish": "Aeropuerto" },
-      { "english": "Hotel", "spanish": "Hotel" },
-      { "english": "Church", "spanish": "Iglesia" },
-      { "english": "Museum", "spanish": "Museo" },
-      { "english": "Post office", "spanish": "Oficina de correos" },
-      { "english": "Police station", "spanish": "Comisaría" },
-      { "english": "Fire station", "spanish": "Estación de bomberos" },
-      { "english": "Train station", "spanish": "Estación de tren" },
-      { "english": "Bus stop", "spanish": "Parada de autobús" },
-      { "english": "Zoo", "spanish": "Zoológico" },
-      { "english": "Market", "spanish": "Mercado" },
-      { "english": "Gym", "spanish": "Gimnasio" },
-      { "english": "Salon", "spanish": "Salón" },
-      { "english": "Bakery", "spanish": "Panadería" },
-      { "english": "Pharmacy", "spanish": "Farmacia" },
-      { "english": "Gas station", "spanish": "Gasolinera" },
-      { "english": "Parking lot", "spanish": "Estacionamiento" },
-      { "english": "Playground", "spanish": "Parque infantil" },
-      { "english": "Restaurant", "spanish": "Restaurante" },
-      { "english": "Cafe", "spanish": "Cafetería" },
-      { "english": "Stadium", "spanish": "Estadio" },
-      { "english": "University", "spanish": "Universidad" },
-      { "english": "Court", "spanish": "Tribunal" },
-      { "english": "Hotel room", "spanish": "Habitación de hotel" },
-      { "english": "Apartment", "spanish": "Apartamento" },
-      { "english": "House", "spanish": "Casa" },
-      { "english": "Street", "spanish": "Calle" },
-      { "english": "Road", "spanish": "Camino" },
-      { "english": "Bridge", "spanish": "Puente" },
-      { "english": "Island", "spanish": "Isla" },
-      { "english": "Mountain", "spanish": "Montaña" },
-      { "english": "River", "spanish": "Río" },
-      { "english": "Forest", "spanish": "Bosque" },
-      { "english": "Countryside", "spanish": "Campo" },
-      { "english": "Desert", "spanish": "Desierto" },
-      { "english": "Village", "spanish": "Pueblo" },
-      { "english": "City", "spanish": "Ciudad" },
-      { "english": "Town", "spanish": "Villa" }
+      {
+        "id": "vocab-04-01",
+        "english": "Home",
+        "spanish": "Casa",
+        "active": false
+      },
+      {
+        "id": "vocab-04-02",
+        "english": "School",
+        "spanish": "Escuela",
+        "active": false
+      },
+      {
+        "id": "vocab-04-03",
+        "english": "Work",
+        "spanish": "Trabajo",
+        "active": false
+      },
+      {
+        "id": "vocab-04-04",
+        "english": "Park",
+        "spanish": "Parque",
+        "active": false
+      },
+      {
+        "id": "vocab-04-05",
+        "english": "Store",
+        "spanish": "Tienda",
+        "active": false
+      },
+      {
+        "id": "vocab-04-06",
+        "english": "Supermarket",
+        "spanish": "Supermercado",
+        "active": false
+      },
+      {
+        "id": "vocab-04-07",
+        "english": "Restaurant",
+        "spanish": "Restaurante",
+        "active": false
+      },
+      {
+        "id": "vocab-04-08",
+        "english": "Hospital",
+        "spanish": "Hospital",
+        "active": false
+      },
+      {
+        "id": "vocab-04-09",
+        "english": "Bank",
+        "spanish": "Banco",
+        "active": false
+      },
+      {
+        "id": "vocab-04-10",
+        "english": "Library",
+        "spanish": "Biblioteca",
+        "active": false
+      },
+      {
+        "id": "vocab-04-11",
+        "english": "Cinema",
+        "spanish": "Cine",
+        "active": false
+      },
+      {
+        "id": "vocab-04-12",
+        "english": "Beach",
+        "spanish": "Playa",
+        "active": false
+      },
+      {
+        "id": "vocab-04-13",
+        "english": "Airport",
+        "spanish": "Aeropuerto",
+        "active": false
+      },
+      {
+        "id": "vocab-04-14",
+        "english": "Hotel",
+        "spanish": "Hotel",
+        "active": false
+      },
+      {
+        "id": "vocab-04-15",
+        "english": "Church",
+        "spanish": "Iglesia",
+        "active": false
+      },
+      {
+        "id": "vocab-04-16",
+        "english": "Museum",
+        "spanish": "Museo",
+        "active": false
+      },
+      {
+        "id": "vocab-04-17",
+        "english": "Post office",
+        "spanish": "Oficina de correos",
+        "active": false
+      },
+      {
+        "id": "vocab-04-18",
+        "english": "Police station",
+        "spanish": "Comisaría",
+        "active": false
+      },
+      {
+        "id": "vocab-04-19",
+        "english": "Fire station",
+        "spanish": "Estación de bomberos",
+        "active": false
+      },
+      {
+        "id": "vocab-04-20",
+        "english": "Train station",
+        "spanish": "Estación de tren",
+        "active": false
+      },
+      {
+        "id": "vocab-04-21",
+        "english": "Bus stop",
+        "spanish": "Parada de autobús",
+        "active": false
+      },
+      {
+        "id": "vocab-04-22",
+        "english": "Zoo",
+        "spanish": "Zoológico",
+        "active": false
+      },
+      {
+        "id": "vocab-04-23",
+        "english": "Market",
+        "spanish": "Mercado",
+        "active": false
+      },
+      {
+        "id": "vocab-04-24",
+        "english": "Gym",
+        "spanish": "Gimnasio",
+        "active": false
+      },
+      {
+        "id": "vocab-04-25",
+        "english": "Salon",
+        "spanish": "Salón",
+        "active": false
+      },
+      {
+        "id": "vocab-04-26",
+        "english": "Bakery",
+        "spanish": "Panadería",
+        "active": false
+      },
+      {
+        "id": "vocab-04-27",
+        "english": "Pharmacy",
+        "spanish": "Farmacia",
+        "active": false
+      },
+      {
+        "id": "vocab-04-28",
+        "english": "Gas station",
+        "spanish": "Gasolinera",
+        "active": false
+      },
+      {
+        "id": "vocab-04-29",
+        "english": "Parking lot",
+        "spanish": "Estacionamiento",
+        "active": false
+      },
+      {
+        "id": "vocab-04-30",
+        "english": "Playground",
+        "spanish": "Parque infantil",
+        "active": false
+      },
+      {
+        "id": "vocab-04-31",
+        "english": "Restaurant",
+        "spanish": "Restaurante",
+        "active": false
+      },
+      {
+        "id": "vocab-04-32",
+        "english": "Cafe",
+        "spanish": "Cafetería",
+        "active": false
+      },
+      {
+        "id": "vocab-04-33",
+        "english": "Stadium",
+        "spanish": "Estadio",
+        "active": false
+      },
+      {
+        "id": "vocab-04-34",
+        "english": "University",
+        "spanish": "Universidad",
+        "active": false
+      },
+      {
+        "id": "vocab-04-35",
+        "english": "Court",
+        "spanish": "Tribunal",
+        "active": false
+      },
+      {
+        "id": "vocab-04-36",
+        "english": "Hotel room",
+        "spanish": "Habitación de hotel",
+        "active": false
+      },
+      {
+        "id": "vocab-04-37",
+        "english": "Apartment",
+        "spanish": "Apartamento",
+        "active": false
+      },
+      {
+        "id": "vocab-04-38",
+        "english": "House",
+        "spanish": "Casa",
+        "active": false
+      },
+      {
+        "id": "vocab-04-39",
+        "english": "Street",
+        "spanish": "Calle",
+        "active": false
+      },
+      {
+        "id": "vocab-04-40",
+        "english": "Road",
+        "spanish": "Camino",
+        "active": false
+      },
+      {
+        "id": "vocab-04-41",
+        "english": "Bridge",
+        "spanish": "Puente",
+        "active": false
+      },
+      {
+        "id": "vocab-04-42",
+        "english": "Island",
+        "spanish": "Isla",
+        "active": false
+      },
+      {
+        "id": "vocab-04-43",
+        "english": "Mountain",
+        "spanish": "Montaña",
+        "active": false
+      },
+      {
+        "id": "vocab-04-44",
+        "english": "River",
+        "spanish": "Río",
+        "active": false
+      },
+      {
+        "id": "vocab-04-45",
+        "english": "Forest",
+        "spanish": "Bosque",
+        "active": false
+      },
+      {
+        "id": "vocab-04-46",
+        "english": "Countryside",
+        "spanish": "Campo",
+        "active": false
+      },
+      {
+        "id": "vocab-04-47",
+        "english": "Desert",
+        "spanish": "Desierto",
+        "active": false
+      },
+      {
+        "id": "vocab-04-48",
+        "english": "Village",
+        "spanish": "Pueblo",
+        "active": false
+      },
+      {
+        "id": "vocab-04-49",
+        "english": "City",
+        "spanish": "Ciudad",
+        "active": false
+      },
+      {
+        "id": "vocab-04-50",
+        "english": "Town",
+        "spanish": "Villa",
+        "active": false
+      }
     ]
   },
   {
+    "id": "05",
     "category": "Foods",
     "items": [
-      { "english": "Apple", "spanish": "Manzana" },
-      { "english": "Banana", "spanish": "Plátano" },
-      { "english": "Orange", "spanish": "Naranja" },
-      { "english": "Grapes", "spanish": "Uvas" },
-      { "english": "Strawberry", "spanish": "Fresa" },
-      { "english": "Lemon", "spanish": "Limón" },
-      { "english": "Watermelon", "spanish": "Sandía" },
-      { "english": "Pineapple", "spanish": "Piña" },
-      { "english": "Cherry", "spanish": "Cereza" },
-      { "english": "Peach", "spanish": "Melocotón" },
-      { "english": "Tomato", "spanish": "Tomate" },
-      { "english": "Potato", "spanish": "Patata" },
-      { "english": "Carrot", "spanish": "Zanahoria" },
-      { "english": "Onion", "spanish": "Cebolla" },
-      { "english": "Garlic", "spanish": "Ajo" },
-      { "english": "Lettuce", "spanish": "Lechuga" },
-      { "english": "Cucumber", "spanish": "Pepino" },
-      { "english": "Pepper", "spanish": "Pimiento" },
-      { "english": "Broccoli", "spanish": "Brócoli" },
-      { "english": "Corn", "spanish": "Maíz" },
-      { "english": "Rice", "spanish": "Arroz" },
-      { "english": "Bread", "spanish": "Pan" },
-      { "english": "Cheese", "spanish": "Queso" },
-      { "english": "Milk", "spanish": "Leche" },
-      { "english": "Egg", "spanish": "Huevo" },
-      { "english": "Chicken", "spanish": "Pollo" },
-      { "english": "Beef", "spanish": "Carne de res" },
-      { "english": "Fish", "spanish": "Pescado" },
-      { "english": "Shrimp", "spanish": "Camarón" },
-      { "english": "Salt", "spanish": "Sal" },
-      { "english": "Sugar", "spanish": "Azúcar" },
-      { "english": "Butter", "spanish": "Mantequilla" },
-      { "english": "Oil", "spanish": "Aceite" },
-      { "english": "Soup", "spanish": "Sopa" },
-      { "english": "Pizza", "spanish": "Pizza" },
-      { "english": "Pasta", "spanish": "Pasta" },
-      { "english": "Cake", "spanish": "Pastel" },
-      { "english": "Ice cream", "spanish": "Helado" },
-      { "english": "Chocolate", "spanish": "Chocolate" },
-      { "english": "Coffee", "spanish": "Café" },
-      { "english": "Tea", "spanish": "Té" },
-      { "english": "Juice", "spanish": "Jugo" },
-      { "english": "Water", "spanish": "Agua" },
-      { "english": "Beer", "spanish": "Cerveza" },
-      { "english": "Wine", "spanish": "Vino" },
-      { "english": "Pepper (spice)", "spanish": "Pimienta" },
-      { "english": "Honey", "spanish": "Miel" },
-      { "english": "Mushroom", "spanish": "Champiñón" },
-      { "english": "Avocado", "spanish": "Aguacate" },
-      { "english": "Cabbage", "spanish": "Repollo" },
-      { "english": "Cauliflower", "spanish": "Coliflor" },
-      { "english": "Zucchini", "spanish": "Calabacín" },
-      { "english": "Peas", "spanish": "Guisantes" },
-      { "english": "Beans", "spanish": "Frijoles" },
-      { "english": "Lentils", "spanish": "Lentejas" },
-      { "english": "Turkey", "spanish": "Pavo" },
-      { "english": "Bacon", "spanish": "Tocino" },
-      { "english": "Ham", "spanish": "Jamón" },
-      { "english": "Sausage", "spanish": "Salchicha" },
-      { "english": "Yogurt", "spanish": "Yogur" },
-      { "english": "Cream", "spanish": "Crema" },
-      { "english": "Cereal", "spanish": "Cereal" },
-      { "english": "Oatmeal", "spanish": "Avena" },
-      { "english": "Honeydew melon", "spanish": "Melón" },
-      { "english": "Fig", "spanish": "Higo" },
-      { "english": "Date", "spanish": "Dátil" },
-      { "english": "Coconut", "spanish": "Coco" },
-      { "english": "Almond", "spanish": "Almendra" },
-      { "english": "Walnut", "spanish": "Nuez" },
-      { "english": "Peanut", "spanish": "Cacahuate" },
-      { "english": "Chili pepper", "spanish": "Chile" },
-      { "english": "Cinnamon", "spanish": "Canela" },
-      { "english": "Vanilla", "spanish": "Vainilla" },
-      { "english": "Mustard", "spanish": "Mostaza" },
-      { "english": "Ketchup", "spanish": "Salsa de tomate" },
-      { "english": "Mayonnaise", "spanish": "Mayonesa" },
       {
-        "english": "Chocolate chip cookie",
-        "spanish": "Galleta con chispas de chocolate"
+        "id": "vocab-05-01",
+        "english": "Apple",
+        "spanish": "Manzana",
+        "active": false
       },
-      { "english": "Sandwich", "spanish": "Sándwich" },
-      { "english": "Hamburger", "spanish": "Hamburguesa" },
-      { "english": "French fries", "spanish": "Papas fritas" },
-      { "english": "Salad", "spanish": "Ensalada" },
-      { "english": "Steak", "spanish": "Bistec" },
-      { "english": "Pancakes", "spanish": "Panqueques" },
-      { "english": "Waffles", "spanish": "Gofres" },
-      { "english": "Taco", "spanish": "Taco" },
-      { "english": "Burrito", "spanish": "Burrito" },
-      { "english": "Soup", "spanish": "Sopa" },
-      { "english": "Sushi", "spanish": "Sushi" },
-      { "english": "Dumpling", "spanish": "Empanadilla" },
-      { "english": "Casserole", "spanish": "Cazuela" },
-      { "english": "Pie", "spanish": "Tarta" },
-      { "english": "Cookie", "spanish": "Galleta" },
-      { "english": "Brownie", "spanish": "Brownie" },
-      { "english": "Ice cream cone", "spanish": "Cono de helado" },
-      { "english": "Cupcake", "spanish": "Magdalena" },
-      { "english": "Pudding", "spanish": "Flan" },
-      { "english": "Jam", "spanish": "Mermelada" },
-      { "english": "Pickle", "spanish": "Pepinillo" },
-      { "english": "Tofu", "spanish": "Tofu" },
-      { "english": "Seaweed", "spanish": "Alga" },
-      { "english": "Clam", "spanish": "Almeja" },
-      { "english": "Crab", "spanish": "Cangrejo" },
-      { "english": "Lobster", "spanish": "Langosta" }
+      {
+        "id": "vocab-05-02",
+        "english": "Banana",
+        "spanish": "Plátano",
+        "active": false
+      },
+      {
+        "id": "vocab-05-03",
+        "english": "Orange",
+        "spanish": "Naranja",
+        "active": false
+      },
+      {
+        "id": "vocab-05-04",
+        "english": "Grapes",
+        "spanish": "Uvas",
+        "active": false
+      },
+      {
+        "id": "vocab-05-05",
+        "english": "Strawberry",
+        "spanish": "Fresa",
+        "active": false
+      },
+      {
+        "id": "vocab-05-06",
+        "english": "Lemon",
+        "spanish": "Limón",
+        "active": false
+      },
+      {
+        "id": "vocab-05-07",
+        "english": "Watermelon",
+        "spanish": "Sandía",
+        "active": false
+      },
+      {
+        "id": "vocab-05-08",
+        "english": "Pineapple",
+        "spanish": "Piña",
+        "active": false
+      },
+      {
+        "id": "vocab-05-09",
+        "english": "Cherry",
+        "spanish": "Cereza",
+        "active": false
+      },
+      {
+        "id": "vocab-05-10",
+        "english": "Peach",
+        "spanish": "Melocotón",
+        "active": false
+      },
+      {
+        "id": "vocab-05-11",
+        "english": "Tomato",
+        "spanish": "Tomate",
+        "active": false
+      },
+      {
+        "id": "vocab-05-12",
+        "english": "Potato",
+        "spanish": "Patata",
+        "active": false
+      },
+      {
+        "id": "vocab-05-13",
+        "english": "Carrot",
+        "spanish": "Zanahoria",
+        "active": false
+      },
+      {
+        "id": "vocab-05-14",
+        "english": "Onion",
+        "spanish": "Cebolla",
+        "active": false
+      },
+      {
+        "id": "vocab-05-15",
+        "english": "Garlic",
+        "spanish": "Ajo",
+        "active": false
+      },
+      {
+        "id": "vocab-05-16",
+        "english": "Lettuce",
+        "spanish": "Lechuga",
+        "active": false
+      },
+      {
+        "id": "vocab-05-17",
+        "english": "Cucumber",
+        "spanish": "Pepino",
+        "active": false
+      },
+      {
+        "id": "vocab-05-18",
+        "english": "Pepper",
+        "spanish": "Pimiento",
+        "active": false
+      },
+      {
+        "id": "vocab-05-19",
+        "english": "Broccoli",
+        "spanish": "Brócoli",
+        "active": false
+      },
+      {
+        "id": "vocab-05-20",
+        "english": "Corn",
+        "spanish": "Maíz",
+        "active": false
+      },
+      {
+        "id": "vocab-05-21",
+        "english": "Rice",
+        "spanish": "Arroz",
+        "active": false
+      },
+      {
+        "id": "vocab-05-22",
+        "english": "Bread",
+        "spanish": "Pan",
+        "active": false
+      },
+      {
+        "id": "vocab-05-23",
+        "english": "Cheese",
+        "spanish": "Queso",
+        "active": false
+      },
+      {
+        "id": "vocab-05-24",
+        "english": "Milk",
+        "spanish": "Leche",
+        "active": false
+      },
+      {
+        "id": "vocab-05-25",
+        "english": "Egg",
+        "spanish": "Huevo",
+        "active": false
+      },
+      {
+        "id": "vocab-05-26",
+        "english": "Chicken",
+        "spanish": "Pollo",
+        "active": false
+      },
+      {
+        "id": "vocab-05-27",
+        "english": "Beef",
+        "spanish": "Carne de res",
+        "active": false
+      },
+      {
+        "id": "vocab-05-28",
+        "english": "Fish",
+        "spanish": "Pescado",
+        "active": false
+      },
+      {
+        "id": "vocab-05-29",
+        "english": "Shrimp",
+        "spanish": "Camarón",
+        "active": false
+      },
+      {
+        "id": "vocab-05-30",
+        "english": "Salt",
+        "spanish": "Sal",
+        "active": false
+      },
+      {
+        "id": "vocab-05-31",
+        "english": "Sugar",
+        "spanish": "Azúcar",
+        "active": false
+      },
+      {
+        "id": "vocab-05-32",
+        "english": "Butter",
+        "spanish": "Mantequilla",
+        "active": false
+      },
+      {
+        "id": "vocab-05-33",
+        "english": "Oil",
+        "spanish": "Aceite",
+        "active": false
+      },
+      {
+        "id": "vocab-05-34",
+        "english": "Soup",
+        "spanish": "Sopa",
+        "active": false
+      },
+      {
+        "id": "vocab-05-35",
+        "english": "Pizza",
+        "spanish": "Pizza",
+        "active": false
+      },
+      {
+        "id": "vocab-05-36",
+        "english": "Pasta",
+        "spanish": "Pasta",
+        "active": false
+      },
+      {
+        "id": "vocab-05-37",
+        "english": "Cake",
+        "spanish": "Pastel",
+        "active": false
+      },
+      {
+        "id": "vocab-05-38",
+        "english": "Ice cream",
+        "spanish": "Helado",
+        "active": false
+      },
+      {
+        "id": "vocab-05-39",
+        "english": "Chocolate",
+        "spanish": "Chocolate",
+        "active": false
+      },
+      {
+        "id": "vocab-05-40",
+        "english": "Coffee",
+        "spanish": "Café",
+        "active": false
+      },
+      {
+        "id": "vocab-05-41",
+        "english": "Tea",
+        "spanish": "Té",
+        "active": false
+      },
+      {
+        "id": "vocab-05-42",
+        "english": "Juice",
+        "spanish": "Jugo",
+        "active": false
+      },
+      {
+        "id": "vocab-05-43",
+        "english": "Water",
+        "spanish": "Agua",
+        "active": false
+      },
+      {
+        "id": "vocab-05-44",
+        "english": "Beer",
+        "spanish": "Cerveza",
+        "active": false
+      },
+      {
+        "id": "vocab-05-45",
+        "english": "Wine",
+        "spanish": "Vino",
+        "active": false
+      },
+      {
+        "id": "vocab-05-46",
+        "english": "Pepper (spice)",
+        "spanish": "Pimienta",
+        "active": false
+      },
+      {
+        "id": "vocab-05-47",
+        "english": "Honey",
+        "spanish": "Miel",
+        "active": false
+      },
+      {
+        "id": "vocab-05-48",
+        "english": "Mushroom",
+        "spanish": "Champiñón",
+        "active": false
+      },
+      {
+        "id": "vocab-05-49",
+        "english": "Avocado",
+        "spanish": "Aguacate",
+        "active": false
+      },
+      {
+        "id": "vocab-05-50",
+        "english": "Cabbage",
+        "spanish": "Repollo",
+        "active": false
+      },
+      {
+        "id": "vocab-05-51",
+        "english": "Cauliflower",
+        "spanish": "Coliflor",
+        "active": false
+      },
+      {
+        "id": "vocab-05-52",
+        "english": "Zucchini",
+        "spanish": "Calabacín",
+        "active": false
+      },
+      {
+        "id": "vocab-05-53",
+        "english": "Peas",
+        "spanish": "Guisantes",
+        "active": false
+      },
+      {
+        "id": "vocab-05-54",
+        "english": "Beans",
+        "spanish": "Frijoles",
+        "active": false
+      },
+      {
+        "id": "vocab-05-55",
+        "english": "Lentils",
+        "spanish": "Lentejas",
+        "active": false
+      },
+      {
+        "id": "vocab-05-56",
+        "english": "Turkey",
+        "spanish": "Pavo",
+        "active": false
+      },
+      {
+        "id": "vocab-05-57",
+        "english": "Bacon",
+        "spanish": "Tocino",
+        "active": false
+      },
+      {
+        "id": "vocab-05-58",
+        "english": "Ham",
+        "spanish": "Jamón",
+        "active": false
+      },
+      {
+        "id": "vocab-05-59",
+        "english": "Sausage",
+        "spanish": "Salchicha",
+        "active": false
+      },
+      {
+        "id": "vocab-05-60",
+        "english": "Yogurt",
+        "spanish": "Yogur",
+        "active": false
+      },
+      {
+        "id": "vocab-05-61",
+        "english": "Cream",
+        "spanish": "Crema",
+        "active": false
+      },
+      {
+        "id": "vocab-05-62",
+        "english": "Cereal",
+        "spanish": "Cereal",
+        "active": false
+      },
+      {
+        "id": "vocab-05-63",
+        "english": "Oatmeal",
+        "spanish": "Avena",
+        "active": false
+      },
+      {
+        "id": "vocab-05-64",
+        "english": "Honeydew melon",
+        "spanish": "Melón",
+        "active": false
+      },
+      {
+        "id": "vocab-05-65",
+        "english": "Fig",
+        "spanish": "Higo",
+        "active": false
+      },
+      {
+        "id": "vocab-05-66",
+        "english": "Date",
+        "spanish": "Dátil",
+        "active": false
+      },
+      {
+        "id": "vocab-05-67",
+        "english": "Coconut",
+        "spanish": "Coco",
+        "active": false
+      },
+      {
+        "id": "vocab-05-68",
+        "english": "Almond",
+        "spanish": "Almendra",
+        "active": false
+      },
+      {
+        "id": "vocab-05-69",
+        "english": "Walnut",
+        "spanish": "Nuez",
+        "active": false
+      },
+      {
+        "id": "vocab-05-70",
+        "english": "Peanut",
+        "spanish": "Cacahuate",
+        "active": false
+      },
+      {
+        "id": "vocab-05-71",
+        "english": "Chili pepper",
+        "spanish": "Chile",
+        "active": false
+      },
+      {
+        "id": "vocab-05-72",
+        "english": "Cinnamon",
+        "spanish": "Canela",
+        "active": false
+      },
+      {
+        "id": "vocab-05-73",
+        "english": "Vanilla",
+        "spanish": "Vainilla",
+        "active": false
+      },
+      {
+        "id": "vocab-05-74",
+        "english": "Mustard",
+        "spanish": "Mostaza",
+        "active": false
+      },
+      {
+        "id": "vocab-05-75",
+        "english": "Ketchup",
+        "spanish": "Salsa de tomate",
+        "active": false
+      },
+      {
+        "id": "vocab-05-76",
+        "english": "Mayonnaise",
+        "spanish": "Mayonesa",
+        "active": false
+      },
+      {
+        "id": "vocab-05-77",
+        "english": "Chocolate chip cookie",
+        "spanish": "Galleta con chispas de chocolate",
+        "active": false
+      },
+      {
+        "id": "vocab-05-78",
+        "english": "Sandwich",
+        "spanish": "Sándwich",
+        "active": false
+      },
+      {
+        "id": "vocab-05-79",
+        "english": "Hamburger",
+        "spanish": "Hamburguesa",
+        "active": false
+      },
+      {
+        "id": "vocab-05-80",
+        "english": "French fries",
+        "spanish": "Papas fritas",
+        "active": false
+      },
+      {
+        "id": "vocab-05-81",
+        "english": "Salad",
+        "spanish": "Ensalada",
+        "active": false
+      },
+      {
+        "id": "vocab-05-82",
+        "english": "Steak",
+        "spanish": "Bistec",
+        "active": false
+      },
+      {
+        "id": "vocab-05-83",
+        "english": "Pancakes",
+        "spanish": "Panqueques",
+        "active": false
+      },
+      {
+        "id": "vocab-05-84",
+        "english": "Waffles",
+        "spanish": "Gofres",
+        "active": false
+      },
+      {
+        "id": "vocab-05-85",
+        "english": "Taco",
+        "spanish": "Taco",
+        "active": false
+      },
+      {
+        "id": "vocab-05-86",
+        "english": "Burrito",
+        "spanish": "Burrito",
+        "active": false
+      },
+      {
+        "id": "vocab-05-87",
+        "english": "Soup",
+        "spanish": "Sopa",
+        "active": false
+      },
+      {
+        "id": "vocab-05-88",
+        "english": "Sushi",
+        "spanish": "Sushi",
+        "active": false
+      },
+      {
+        "id": "vocab-05-89",
+        "english": "Dumpling",
+        "spanish": "Empanadilla",
+        "active": false
+      },
+      {
+        "id": "vocab-05-90",
+        "english": "Casserole",
+        "spanish": "Cazuela",
+        "active": false
+      },
+      {
+        "id": "vocab-05-91",
+        "english": "Pie",
+        "spanish": "Tarta",
+        "active": false
+      },
+      {
+        "id": "vocab-05-92",
+        "english": "Cookie",
+        "spanish": "Galleta",
+        "active": false
+      },
+      {
+        "id": "vocab-05-93",
+        "english": "Brownie",
+        "spanish": "Brownie",
+        "active": false
+      },
+      {
+        "id": "vocab-05-94",
+        "english": "Ice cream cone",
+        "spanish": "Cono de helado",
+        "active": false
+      },
+      {
+        "id": "vocab-05-95",
+        "english": "Cupcake",
+        "spanish": "Magdalena",
+        "active": false
+      },
+      {
+        "id": "vocab-05-96",
+        "english": "Pudding",
+        "spanish": "Flan",
+        "active": false
+      },
+      {
+        "id": "vocab-05-97",
+        "english": "Jam",
+        "spanish": "Mermelada",
+        "active": false
+      },
+      {
+        "id": "vocab-05-98",
+        "english": "Pickle",
+        "spanish": "Pepinillo",
+        "active": false
+      },
+      {
+        "id": "vocab-05-99",
+        "english": "Tofu",
+        "spanish": "Tofu",
+        "active": false
+      },
+      {
+        "id": "vocab-05-100",
+        "english": "Seaweed",
+        "spanish": "Alga",
+        "active": false
+      },
+      {
+        "id": "vocab-05-101",
+        "english": "Clam",
+        "spanish": "Almeja",
+        "active": false
+      },
+      {
+        "id": "vocab-05-102",
+        "english": "Crab",
+        "spanish": "Cangrejo",
+        "active": false
+      },
+      {
+        "id": "vocab-05-103",
+        "english": "Lobster",
+        "spanish": "Langosta",
+        "active": false
+      }
     ]
   },
   {
+    "id": "06",
     "category": "Animals",
     "items": [
-      { "english": "Dog", "spanish": "Perro" },
-      { "english": "Cat", "spanish": "Gato" },
-      { "english": "Bird", "spanish": "Pájaro" },
-      { "english": "Fish", "spanish": "Pez" },
-      { "english": "Horse", "spanish": "Caballo" },
-      { "english": "Cow", "spanish": "Vaca" },
-      { "english": "Pig", "spanish": "Cerdo" },
-      { "english": "Sheep", "spanish": "Oveja" },
-      { "english": "Goat", "spanish": "Cabra" },
-      { "english": "Chicken", "spanish": "Pollo" },
-      { "english": "Duck", "spanish": "Pato" },
-      { "english": "Rabbit", "spanish": "Conejo" },
-      { "english": "Mouse", "spanish": "Ratón" },
-      { "english": "Rat", "spanish": "Rata" },
-      { "english": "Snake", "spanish": "Serpiente" },
-      { "english": "Frog", "spanish": "Rana" },
-      { "english": "Turtle", "spanish": "Tortuga" },
-      { "english": "Bear", "spanish": "Oso" },
-      { "english": "Lion", "spanish": "León" },
-      { "english": "Tiger", "spanish": "Tigre" },
-      { "english": "Elephant", "spanish": "Elefante" },
-      { "english": "Wolf", "spanish": "Lobo" },
-      { "english": "Fox", "spanish": "Zorro" },
-      { "english": "Deer", "spanish": "Ciervo" },
-      { "english": "Monkey", "spanish": "Mono" },
-      { "english": "Giraffe", "spanish": "Jirafa" },
-      { "english": "Zebra", "spanish": "Cebra" },
-      { "english": "Kangaroo", "spanish": "Canguro" },
-      { "english": "Panda", "spanish": "Panda" },
-      { "english": "Crocodile", "spanish": "Cocodrilo" },
-      { "english": "Whale", "spanish": "Ballena" },
-      { "english": "Dolphin", "spanish": "Delfín" },
-      { "english": "Shark", "spanish": "Tiburón" },
-      { "english": "Octopus", "spanish": "Pulpo" },
-      { "english": "Crab", "spanish": "Cangrejo" },
-      { "english": "Bee", "spanish": "Abeja" },
-      { "english": "Butterfly", "spanish": "Mariposa" },
-      { "english": "Ant", "spanish": "Hormiga" },
-      { "english": "Spider", "spanish": "Araña" },
-      { "english": "Mosquito", "spanish": "Mosquito" },
-      { "english": "Horsefly", "spanish": "Tábano" },
-      { "english": "Eagle", "spanish": "Águila" },
-      { "english": "Owl", "spanish": "Búho" },
-      { "english": "Parrot", "spanish": "Loro" },
-      { "english": "Crow", "spanish": "Cuervo" },
-      { "english": "Seagull", "spanish": "Gaviota" },
-      { "english": "Swan", "spanish": "Cisne" },
-      { "english": "Penguin", "spanish": "Pingüino" },
-      { "english": "Bat", "spanish": "Murciélago" }
+      {
+        "id": "vocab-06-01",
+        "english": "Dog",
+        "spanish": "Perro",
+        "active": false
+      },
+      {
+        "id": "vocab-06-02",
+        "english": "Cat",
+        "spanish": "Gato",
+        "active": false
+      },
+      {
+        "id": "vocab-06-03",
+        "english": "Bird",
+        "spanish": "Pájaro",
+        "active": false
+      },
+      {
+        "id": "vocab-06-04",
+        "english": "Fish",
+        "spanish": "Pez",
+        "active": false
+      },
+      {
+        "id": "vocab-06-05",
+        "english": "Horse",
+        "spanish": "Caballo",
+        "active": false
+      },
+      {
+        "id": "vocab-06-06",
+        "english": "Cow",
+        "spanish": "Vaca",
+        "active": false
+      },
+      {
+        "id": "vocab-06-07",
+        "english": "Pig",
+        "spanish": "Cerdo",
+        "active": false
+      },
+      {
+        "id": "vocab-06-08",
+        "english": "Sheep",
+        "spanish": "Oveja",
+        "active": false
+      },
+      {
+        "id": "vocab-06-09",
+        "english": "Goat",
+        "spanish": "Cabra",
+        "active": false
+      },
+      {
+        "id": "vocab-06-10",
+        "english": "Chicken",
+        "spanish": "Pollo",
+        "active": false
+      },
+      {
+        "id": "vocab-06-11",
+        "english": "Duck",
+        "spanish": "Pato",
+        "active": false
+      },
+      {
+        "id": "vocab-06-12",
+        "english": "Rabbit",
+        "spanish": "Conejo",
+        "active": false
+      },
+      {
+        "id": "vocab-06-13",
+        "english": "Mouse",
+        "spanish": "Ratón",
+        "active": false
+      },
+      {
+        "id": "vocab-06-14",
+        "english": "Rat",
+        "spanish": "Rata",
+        "active": false
+      },
+      {
+        "id": "vocab-06-15",
+        "english": "Snake",
+        "spanish": "Serpiente",
+        "active": false
+      },
+      {
+        "id": "vocab-06-16",
+        "english": "Frog",
+        "spanish": "Rana",
+        "active": false
+      },
+      {
+        "id": "vocab-06-17",
+        "english": "Turtle",
+        "spanish": "Tortuga",
+        "active": false
+      },
+      {
+        "id": "vocab-06-18",
+        "english": "Bear",
+        "spanish": "Oso",
+        "active": false
+      },
+      {
+        "id": "vocab-06-19",
+        "english": "Lion",
+        "spanish": "León",
+        "active": false
+      },
+      {
+        "id": "vocab-06-20",
+        "english": "Tiger",
+        "spanish": "Tigre",
+        "active": false
+      },
+      {
+        "id": "vocab-06-21",
+        "english": "Elephant",
+        "spanish": "Elefante",
+        "active": false
+      },
+      {
+        "id": "vocab-06-22",
+        "english": "Wolf",
+        "spanish": "Lobo",
+        "active": false
+      },
+      {
+        "id": "vocab-06-23",
+        "english": "Fox",
+        "spanish": "Zorro",
+        "active": false
+      },
+      {
+        "id": "vocab-06-24",
+        "english": "Deer",
+        "spanish": "Ciervo",
+        "active": false
+      },
+      {
+        "id": "vocab-06-25",
+        "english": "Monkey",
+        "spanish": "Mono",
+        "active": false
+      },
+      {
+        "id": "vocab-06-26",
+        "english": "Giraffe",
+        "spanish": "Jirafa",
+        "active": false
+      },
+      {
+        "id": "vocab-06-27",
+        "english": "Zebra",
+        "spanish": "Cebra",
+        "active": false
+      },
+      {
+        "id": "vocab-06-28",
+        "english": "Kangaroo",
+        "spanish": "Canguro",
+        "active": false
+      },
+      {
+        "id": "vocab-06-29",
+        "english": "Panda",
+        "spanish": "Panda",
+        "active": false
+      },
+      {
+        "id": "vocab-06-30",
+        "english": "Crocodile",
+        "spanish": "Cocodrilo",
+        "active": false
+      },
+      {
+        "id": "vocab-06-31",
+        "english": "Whale",
+        "spanish": "Ballena",
+        "active": false
+      },
+      {
+        "id": "vocab-06-32",
+        "english": "Dolphin",
+        "spanish": "Delfín",
+        "active": false
+      },
+      {
+        "id": "vocab-06-33",
+        "english": "Shark",
+        "spanish": "Tiburón",
+        "active": false
+      },
+      {
+        "id": "vocab-06-34",
+        "english": "Octopus",
+        "spanish": "Pulpo",
+        "active": false
+      },
+      {
+        "id": "vocab-06-35",
+        "english": "Crab",
+        "spanish": "Cangrejo",
+        "active": false
+      },
+      {
+        "id": "vocab-06-36",
+        "english": "Bee",
+        "spanish": "Abeja",
+        "active": false
+      },
+      {
+        "id": "vocab-06-37",
+        "english": "Butterfly",
+        "spanish": "Mariposa",
+        "active": false
+      },
+      {
+        "id": "vocab-06-38",
+        "english": "Ant",
+        "spanish": "Hormiga",
+        "active": false
+      },
+      {
+        "id": "vocab-06-39",
+        "english": "Spider",
+        "spanish": "Araña",
+        "active": false
+      },
+      {
+        "id": "vocab-06-40",
+        "english": "Mosquito",
+        "spanish": "Mosquito",
+        "active": false
+      },
+      {
+        "id": "vocab-06-41",
+        "english": "Horsefly",
+        "spanish": "Tábano",
+        "active": false
+      },
+      {
+        "id": "vocab-06-42",
+        "english": "Eagle",
+        "spanish": "Águila",
+        "active": false
+      },
+      {
+        "id": "vocab-06-43",
+        "english": "Owl",
+        "spanish": "Búho",
+        "active": false
+      },
+      {
+        "id": "vocab-06-44",
+        "english": "Parrot",
+        "spanish": "Loro",
+        "active": false
+      },
+      {
+        "id": "vocab-06-45",
+        "english": "Crow",
+        "spanish": "Cuervo",
+        "active": false
+      },
+      {
+        "id": "vocab-06-46",
+        "english": "Seagull",
+        "spanish": "Gaviota",
+        "active": false
+      },
+      {
+        "id": "vocab-06-47",
+        "english": "Swan",
+        "spanish": "Cisne",
+        "active": false
+      },
+      {
+        "id": "vocab-06-48",
+        "english": "Penguin",
+        "spanish": "Pingüino",
+        "active": false
+      },
+      {
+        "id": "vocab-06-49",
+        "english": "Bat",
+        "spanish": "Murciélago",
+        "active": false
+      }
     ]
   },
   {
+    "id": "07",
     "category": "Clothing",
     "items": [
-      { "english": "Shirt", "spanish": "Camisa" },
-      { "english": "T-shirt", "spanish": "Camiseta" },
-      { "english": "Blouse", "spanish": "Blusa" },
-      { "english": "Sweater", "spanish": "Suéter" },
-      { "english": "Jacket", "spanish": "Chaqueta" },
-      { "english": "Coat", "spanish": "Abrigo" },
-      { "english": "Dress", "spanish": "Vestido" },
-      { "english": "Skirt", "spanish": "Falda" },
-      { "english": "Pants", "spanish": "Pantalones" },
-      { "english": "Jeans", "spanish": "Vaqueros" },
-      { "english": "Shorts", "spanish": "Pantalones cortos" },
-      { "english": "Suit", "spanish": "Traje" },
-      { "english": "Tie", "spanish": "Corbata" },
-      { "english": "Scarf", "spanish": "Bufanda" },
-      { "english": "Hat", "spanish": "Sombrero" },
-      { "english": "Cap", "spanish": "Gorra" },
-      { "english": "Gloves", "spanish": "Guantes" },
-      { "english": "Belt", "spanish": "Cinturón" },
-      { "english": "Socks", "spanish": "Calcetines" },
-      { "english": "Shoes", "spanish": "Zapatos" },
-      { "english": "Boots", "spanish": "Botas" },
-      { "english": "Sandals", "spanish": "Sandalias" },
-      { "english": "Slippers", "spanish": "Zapatillas" },
-      { "english": "Swimsuit", "spanish": "Traje de baño" },
-      { "english": "Underwear", "spanish": "Ropa interior" },
-      { "english": "Bra", "spanish": "Sostén" },
-      { "english": "Briefs", "spanish": "Calzoncillos" },
-      { "english": "Pajamas", "spanish": "Pijama" },
-      { "english": "Raincoat", "spanish": "Impermeable" },
-      { "english": "Wallet", "spanish": "Cartera" },
-      { "english": "Backpack", "spanish": "Mochila" },
-      { "english": "Purse", "spanish": "Bolso" },
-      { "english": "Watch", "spanish": "Reloj" },
-      { "english": "Necklace", "spanish": "Collar" },
-      { "english": "Earrings", "spanish": "Pendientes" },
-      { "english": "Bracelet", "spanish": "Pulsera" },
-      { "english": "Ring", "spanish": "Anillo" },
-      { "english": "Sunglasses", "spanish": "Gafas de sol" },
-      { "english": "Glasses", "spanish": "Gafas" },
-      { "english": "Tie clip", "spanish": "Sujetacorbat" },
-      { "english": "Cufflinks", "spanish": "Gemelos" },
-      { "english": "Suspenders", "spanish": "Tirantes" },
-      { "english": "Hairband", "spanish": "Cinta para el pelo" },
-      { "english": "Bow tie", "spanish": "Pajarita" },
-      { "english": "Camouflage", "spanish": "Camuflaje" },
-      { "english": "Sportswear", "spanish": "Ropa deportiva" },
-      { "english": "Uniform", "spanish": "Uniforme" }
+      {
+        "id": "vocab-07-01",
+        "english": "Shirt",
+        "spanish": "Camisa",
+        "active": false
+      },
+      {
+        "id": "vocab-07-02",
+        "english": "T-shirt",
+        "spanish": "Camiseta",
+        "active": false
+      },
+      {
+        "id": "vocab-07-03",
+        "english": "Blouse",
+        "spanish": "Blusa",
+        "active": false
+      },
+      {
+        "id": "vocab-07-04",
+        "english": "Sweater",
+        "spanish": "Suéter",
+        "active": false
+      },
+      {
+        "id": "vocab-07-05",
+        "english": "Jacket",
+        "spanish": "Chaqueta",
+        "active": false
+      },
+      {
+        "id": "vocab-07-06",
+        "english": "Coat",
+        "spanish": "Abrigo",
+        "active": false
+      },
+      {
+        "id": "vocab-07-07",
+        "english": "Dress",
+        "spanish": "Vestido",
+        "active": false
+      },
+      {
+        "id": "vocab-07-08",
+        "english": "Skirt",
+        "spanish": "Falda",
+        "active": false
+      },
+      {
+        "id": "vocab-07-09",
+        "english": "Pants",
+        "spanish": "Pantalones",
+        "active": false
+      },
+      {
+        "id": "vocab-07-10",
+        "english": "Jeans",
+        "spanish": "Vaqueros",
+        "active": false
+      },
+      {
+        "id": "vocab-07-11",
+        "english": "Shorts",
+        "spanish": "Pantalones cortos",
+        "active": false
+      },
+      {
+        "id": "vocab-07-12",
+        "english": "Suit",
+        "spanish": "Traje",
+        "active": false
+      },
+      {
+        "id": "vocab-07-13",
+        "english": "Tie",
+        "spanish": "Corbata",
+        "active": false
+      },
+      {
+        "id": "vocab-07-14",
+        "english": "Scarf",
+        "spanish": "Bufanda",
+        "active": false
+      },
+      {
+        "id": "vocab-07-15",
+        "english": "Hat",
+        "spanish": "Sombrero",
+        "active": false
+      },
+      {
+        "id": "vocab-07-16",
+        "english": "Cap",
+        "spanish": "Gorra",
+        "active": false
+      },
+      {
+        "id": "vocab-07-17",
+        "english": "Gloves",
+        "spanish": "Guantes",
+        "active": false
+      },
+      {
+        "id": "vocab-07-18",
+        "english": "Belt",
+        "spanish": "Cinturón",
+        "active": false
+      },
+      {
+        "id": "vocab-07-19",
+        "english": "Socks",
+        "spanish": "Calcetines",
+        "active": false
+      },
+      {
+        "id": "vocab-07-20",
+        "english": "Shoes",
+        "spanish": "Zapatos",
+        "active": false
+      },
+      {
+        "id": "vocab-07-21",
+        "english": "Boots",
+        "spanish": "Botas",
+        "active": false
+      },
+      {
+        "id": "vocab-07-22",
+        "english": "Sandals",
+        "spanish": "Sandalias",
+        "active": false
+      },
+      {
+        "id": "vocab-07-23",
+        "english": "Slippers",
+        "spanish": "Zapatillas",
+        "active": false
+      },
+      {
+        "id": "vocab-07-24",
+        "english": "Swimsuit",
+        "spanish": "Traje de baño",
+        "active": false
+      },
+      {
+        "id": "vocab-07-25",
+        "english": "Underwear",
+        "spanish": "Ropa interior",
+        "active": false
+      },
+      {
+        "id": "vocab-07-26",
+        "english": "Bra",
+        "spanish": "Sostén",
+        "active": false
+      },
+      {
+        "id": "vocab-07-27",
+        "english": "Briefs",
+        "spanish": "Calzoncillos",
+        "active": false
+      },
+      {
+        "id": "vocab-07-28",
+        "english": "Pajamas",
+        "spanish": "Pijama",
+        "active": false
+      },
+      {
+        "id": "vocab-07-29",
+        "english": "Raincoat",
+        "spanish": "Impermeable",
+        "active": false
+      },
+      {
+        "id": "vocab-07-30",
+        "english": "Wallet",
+        "spanish": "Cartera",
+        "active": false
+      },
+      {
+        "id": "vocab-07-31",
+        "english": "Backpack",
+        "spanish": "Mochila",
+        "active": false
+      },
+      {
+        "id": "vocab-07-32",
+        "english": "Purse",
+        "spanish": "Bolso",
+        "active": false
+      },
+      {
+        "id": "vocab-07-33",
+        "english": "Watch",
+        "spanish": "Reloj",
+        "active": false
+      },
+      {
+        "id": "vocab-07-34",
+        "english": "Necklace",
+        "spanish": "Collar",
+        "active": false
+      },
+      {
+        "id": "vocab-07-35",
+        "english": "Earrings",
+        "spanish": "Pendientes",
+        "active": false
+      },
+      {
+        "id": "vocab-07-36",
+        "english": "Bracelet",
+        "spanish": "Pulsera",
+        "active": false
+      },
+      {
+        "id": "vocab-07-37",
+        "english": "Ring",
+        "spanish": "Anillo",
+        "active": false
+      },
+      {
+        "id": "vocab-07-38",
+        "english": "Sunglasses",
+        "spanish": "Gafas de sol",
+        "active": false
+      },
+      {
+        "id": "vocab-07-39",
+        "english": "Glasses",
+        "spanish": "Gafas",
+        "active": false
+      },
+      {
+        "id": "vocab-07-40",
+        "english": "Tie clip",
+        "spanish": "Sujetacorbat",
+        "active": false
+      },
+      {
+        "id": "vocab-07-41",
+        "english": "Cufflinks",
+        "spanish": "Gemelos",
+        "active": false
+      },
+      {
+        "id": "vocab-07-42",
+        "english": "Suspenders",
+        "spanish": "Tirantes",
+        "active": false
+      },
+      {
+        "id": "vocab-07-43",
+        "english": "Hairband",
+        "spanish": "Cinta para el pelo",
+        "active": false
+      },
+      {
+        "id": "vocab-07-44",
+        "english": "Bow tie",
+        "spanish": "Pajarita",
+        "active": false
+      },
+      {
+        "id": "vocab-07-45",
+        "english": "Camouflage",
+        "spanish": "Camuflaje",
+        "active": false
+      },
+      {
+        "id": "vocab-07-46",
+        "english": "Sportswear",
+        "spanish": "Ropa deportiva",
+        "active": false
+      },
+      {
+        "id": "vocab-07-47",
+        "english": "Uniform",
+        "spanish": "Uniforme",
+        "active": false
+      }
     ]
   },
   {
+    "id": "08",
     "category": "Family Relationships",
     "items": [
-      { "english": "Father", "spanish": "Padre" },
-      { "english": "Mother", "spanish": "Madre" },
-      { "english": "Son", "spanish": "Hijo" },
-      { "english": "Daughter", "spanish": "Hija" },
-      { "english": "Brother", "spanish": "Hermano" },
-      { "english": "Sister", "spanish": "Hermana" },
-      { "english": "Grandfather", "spanish": "Abuelo" },
-      { "english": "Grandmother", "spanish": "Abuela" },
-      { "english": "Uncle", "spanish": "Tío" },
-      { "english": "Aunt", "spanish": "Tía" },
-      { "english": "Nephew", "spanish": "Sobrino" },
-      { "english": "Niece", "spanish": "Sobrina" },
-      { "english": "Cousin (male)", "spanish": "Primo" },
-      { "english": "Cousin (female)", "spanish": "Prima" },
-      { "english": "Husband", "spanish": "Esposo" },
-      { "english": "Wife", "spanish": "Esposa" },
-      { "english": "Father-in-law", "spanish": "Suegro" },
-      { "english": "Mother-in-law", "spanish": "Suegra" },
-      { "english": "Brother-in-law", "spanish": "Cuñado" },
-      { "english": "Sister-in-law", "spanish": "Cuñada" },
-      { "english": "Stepfather", "spanish": "Padrastro" },
-      { "english": "Stepmother", "spanish": "Madrastra" },
-      { "english": "Stepson", "spanish": "Hijastro" },
-      { "english": "Stepdaughter", "spanish": "Hijastra" },
-      { "english": "Godfather", "spanish": "Padrino" },
-      { "english": "Godmother", "spanish": "Madrina" },
-      { "english": "Godson", "spanish": "Ahijado" },
-      { "english": "Goddaughter", "spanish": "Ahijada" },
-      { "english": "Twin (male)", "spanish": "Gemelo" },
-      { "english": "Twin (female)", "spanish": "Gemela" }
+      {
+        "id": "vocab-08-01",
+        "english": "Father",
+        "spanish": "Padre",
+        "active": false
+      },
+      {
+        "id": "vocab-08-02",
+        "english": "Mother",
+        "spanish": "Madre",
+        "active": false
+      },
+      {
+        "id": "vocab-08-03",
+        "english": "Son",
+        "spanish": "Hijo",
+        "active": false
+      },
+      {
+        "id": "vocab-08-04",
+        "english": "Daughter",
+        "spanish": "Hija",
+        "active": false
+      },
+      {
+        "id": "vocab-08-05",
+        "english": "Brother",
+        "spanish": "Hermano",
+        "active": false
+      },
+      {
+        "id": "vocab-08-06",
+        "english": "Sister",
+        "spanish": "Hermana",
+        "active": false
+      },
+      {
+        "id": "vocab-08-07",
+        "english": "Grandfather",
+        "spanish": "Abuelo",
+        "active": false
+      },
+      {
+        "id": "vocab-08-08",
+        "english": "Grandmother",
+        "spanish": "Abuela",
+        "active": false
+      },
+      {
+        "id": "vocab-08-09",
+        "english": "Uncle",
+        "spanish": "Tío",
+        "active": false
+      },
+      {
+        "id": "vocab-08-10",
+        "english": "Aunt",
+        "spanish": "Tía",
+        "active": false
+      },
+      {
+        "id": "vocab-08-11",
+        "english": "Nephew",
+        "spanish": "Sobrino",
+        "active": false
+      },
+      {
+        "id": "vocab-08-12",
+        "english": "Niece",
+        "spanish": "Sobrina",
+        "active": false
+      },
+      {
+        "id": "vocab-08-13",
+        "english": "Cousin (male)",
+        "spanish": "Primo",
+        "active": false
+      },
+      {
+        "id": "vocab-08-14",
+        "english": "Cousin (female)",
+        "spanish": "Prima",
+        "active": false
+      },
+      {
+        "id": "vocab-08-15",
+        "english": "Husband",
+        "spanish": "Esposo",
+        "active": false
+      },
+      {
+        "id": "vocab-08-16",
+        "english": "Wife",
+        "spanish": "Esposa",
+        "active": false
+      },
+      {
+        "id": "vocab-08-17",
+        "english": "Father-in-law",
+        "spanish": "Suegro",
+        "active": false
+      },
+      {
+        "id": "vocab-08-18",
+        "english": "Mother-in-law",
+        "spanish": "Suegra",
+        "active": false
+      },
+      {
+        "id": "vocab-08-19",
+        "english": "Brother-in-law",
+        "spanish": "Cuñado",
+        "active": false
+      },
+      {
+        "id": "vocab-08-20",
+        "english": "Sister-in-law",
+        "spanish": "Cuñada",
+        "active": false
+      },
+      {
+        "id": "vocab-08-21",
+        "english": "Stepfather",
+        "spanish": "Padrastro",
+        "active": false
+      },
+      {
+        "id": "vocab-08-22",
+        "english": "Stepmother",
+        "spanish": "Madrastra",
+        "active": false
+      },
+      {
+        "id": "vocab-08-23",
+        "english": "Stepson",
+        "spanish": "Hijastro",
+        "active": false
+      },
+      {
+        "id": "vocab-08-24",
+        "english": "Stepdaughter",
+        "spanish": "Hijastra",
+        "active": false
+      },
+      {
+        "id": "vocab-08-25",
+        "english": "Godfather",
+        "spanish": "Padrino",
+        "active": false
+      },
+      {
+        "id": "vocab-08-26",
+        "english": "Godmother",
+        "spanish": "Madrina",
+        "active": false
+      },
+      {
+        "id": "vocab-08-27",
+        "english": "Godson",
+        "spanish": "Ahijado",
+        "active": false
+      },
+      {
+        "id": "vocab-08-28",
+        "english": "Goddaughter",
+        "spanish": "Ahijada",
+        "active": false
+      },
+      {
+        "id": "vocab-08-29",
+        "english": "Twin (male)",
+        "spanish": "Gemelo",
+        "active": false
+      },
+      {
+        "id": "vocab-08-30",
+        "english": "Twin (female)",
+        "spanish": "Gemela",
+        "active": false
+      }
     ]
   },
   {
+    "id": "09",
     "category": "Weather & Climate",
     "items": [
-      { "english": "Sun", "spanish": "Sol" },
-      { "english": "Rain", "spanish": "Lluvia" },
-      { "english": "Snow", "spanish": "Nieve" },
-      { "english": "Wind", "spanish": "Viento" },
-      { "english": "Storm", "spanish": "Tormenta" },
-      { "english": "Thunder", "spanish": "Trueno" },
-      { "english": "Lightning", "spanish": "Relámpago" },
-      { "english": "Cloud", "spanish": "Nube" },
-      { "english": "Fog", "spanish": "Niebla" },
-      { "english": "Hail", "spanish": "Granizo" },
-      { "english": "Temperature", "spanish": "Temperatura" },
-      { "english": "Humidity", "spanish": "Humedad" },
-      { "english": "Heat", "spanish": "Calor" },
-      { "english": "Cold", "spanish": "Frío" },
-      { "english": "Freezing", "spanish": "Helada" },
-      { "english": "Drought", "spanish": "Sequía" },
-      { "english": "Flood", "spanish": "Inundación" },
-      { "english": "Spring", "spanish": "Primavera" },
-      { "english": "Summer", "spanish": "Verano" },
-      { "english": "Autumn", "spanish": "Otoño" },
-      { "english": "Fall", "spanish": "Otoño" },
-      { "english": "Winter", "spanish": "Invierno" },
-      { "english": "Day", "spanish": "Día" },
-      { "english": "Night", "spanish": "Noche" },
-      { "english": "Rainbow", "spanish": "Arcoíris" },
-      { "english": "Stormy", "spanish": "Tormentoso" },
-      { "english": "Sunny", "spanish": "Soleado" },
-      { "english": "Cloudy", "spanish": "Nublado" },
-      { "english": "Windy", "spanish": "Ventoso" },
-      { "english": "Humid", "spanish": "Húmedo" }
+      {
+        "id": "vocab-09-01",
+        "english": "Sun",
+        "spanish": "Sol",
+        "active": false
+      },
+      {
+        "id": "vocab-09-02",
+        "english": "Rain",
+        "spanish": "Lluvia",
+        "active": false
+      },
+      {
+        "id": "vocab-09-03",
+        "english": "Snow",
+        "spanish": "Nieve",
+        "active": false
+      },
+      {
+        "id": "vocab-09-04",
+        "english": "Wind",
+        "spanish": "Viento",
+        "active": false
+      },
+      {
+        "id": "vocab-09-05",
+        "english": "Storm",
+        "spanish": "Tormenta",
+        "active": false
+      },
+      {
+        "id": "vocab-09-06",
+        "english": "Thunder",
+        "spanish": "Trueno",
+        "active": false
+      },
+      {
+        "id": "vocab-09-07",
+        "english": "Lightning",
+        "spanish": "Relámpago",
+        "active": false
+      },
+      {
+        "id": "vocab-09-08",
+        "english": "Cloud",
+        "spanish": "Nube",
+        "active": false
+      },
+      {
+        "id": "vocab-09-09",
+        "english": "Fog",
+        "spanish": "Niebla",
+        "active": false
+      },
+      {
+        "id": "vocab-09-10",
+        "english": "Hail",
+        "spanish": "Granizo",
+        "active": false
+      },
+      {
+        "id": "vocab-09-11",
+        "english": "Temperature",
+        "spanish": "Temperatura",
+        "active": false
+      },
+      {
+        "id": "vocab-09-12",
+        "english": "Humidity",
+        "spanish": "Humedad",
+        "active": false
+      },
+      {
+        "id": "vocab-09-13",
+        "english": "Heat",
+        "spanish": "Calor",
+        "active": false
+      },
+      {
+        "id": "vocab-09-14",
+        "english": "Cold",
+        "spanish": "Frío",
+        "active": false
+      },
+      {
+        "id": "vocab-09-15",
+        "english": "Freezing",
+        "spanish": "Helada",
+        "active": false
+      },
+      {
+        "id": "vocab-09-16",
+        "english": "Drought",
+        "spanish": "Sequía",
+        "active": false
+      },
+      {
+        "id": "vocab-09-17",
+        "english": "Flood",
+        "spanish": "Inundación",
+        "active": false
+      },
+      {
+        "id": "vocab-09-18",
+        "english": "Spring",
+        "spanish": "Primavera",
+        "active": false
+      },
+      {
+        "id": "vocab-09-19",
+        "english": "Summer",
+        "spanish": "Verano",
+        "active": false
+      },
+      {
+        "id": "vocab-09-20",
+        "english": "Autumn",
+        "spanish": "Otoño",
+        "active": false
+      },
+      {
+        "id": "vocab-09-21",
+        "english": "Fall",
+        "spanish": "Otoño",
+        "active": false
+      },
+      {
+        "id": "vocab-09-22",
+        "english": "Winter",
+        "spanish": "Invierno",
+        "active": false
+      },
+      {
+        "id": "vocab-09-23",
+        "english": "Day",
+        "spanish": "Día",
+        "active": false
+      },
+      {
+        "id": "vocab-09-24",
+        "english": "Night",
+        "spanish": "Noche",
+        "active": false
+      },
+      {
+        "id": "vocab-09-25",
+        "english": "Rainbow",
+        "spanish": "Arcoíris",
+        "active": false
+      },
+      {
+        "id": "vocab-09-26",
+        "english": "Stormy",
+        "spanish": "Tormentoso",
+        "active": false
+      },
+      {
+        "id": "vocab-09-27",
+        "english": "Sunny",
+        "spanish": "Soleado",
+        "active": false
+      },
+      {
+        "id": "vocab-09-28",
+        "english": "Cloudy",
+        "spanish": "Nublado",
+        "active": false
+      },
+      {
+        "id": "vocab-09-29",
+        "english": "Windy",
+        "spanish": "Ventoso",
+        "active": false
+      },
+      {
+        "id": "vocab-09-30",
+        "english": "Humid",
+        "spanish": "Húmedo",
+        "active": false
+      }
     ]
   },
   {
+    "id": "10",
     "category": "Sports & Hobbies",
     "items": [
-      { "english": "Soccer", "spanish": "Fútbol" },
-      { "english": "Basketball", "spanish": "Baloncesto" },
-      { "english": "Tennis", "spanish": "Tenis" },
-      { "english": "Baseball", "spanish": "Béisbol" },
-      { "english": "Volleyball", "spanish": "Voleibol" },
-      { "english": "Swimming", "spanish": "Natación" },
-      { "english": "Running", "spanish": "Correr" },
-      { "english": "Cycling", "spanish": "Ciclismo" },
-      { "english": "Golf", "spanish": "Golf" },
-      { "english": "Skiing", "spanish": "Esquí" },
-      { "english": "Snowboarding", "spanish": "Snowboard" },
-      { "english": "Boxing", "spanish": "Boxeo" },
-      { "english": "Martial arts", "spanish": "Artes marciales" },
-      { "english": "Yoga", "spanish": "Yoga" },
-      { "english": "Hiking", "spanish": "Senderismo" },
-      { "english": "Fishing", "spanish": "Pesca" },
-      { "english": "Skateboarding", "spanish": "Patineta" },
-      { "english": "Surfing", "spanish": "Surf" },
-      { "english": "Dancing", "spanish": "Baile" },
-      { "english": "Gymnastics", "spanish": "Gimnasia" },
-      { "english": "Archery", "spanish": "Tiro con arco" },
-      { "english": "Weightlifting", "spanish": "Levantamiento de pesas" },
-      { "english": "Table tennis", "spanish": "Tenis de mesa" },
-      { "english": "Bowling", "spanish": "Boliche" },
-      { "english": "Chess", "spanish": "Ajedrez" },
-      { "english": "Photography", "spanish": "Fotografía" },
-      { "english": "Painting", "spanish": "Pintura" },
-      { "english": "Sculpting", "spanish": "Escultura" },
-      { "english": "Writing", "spanish": "Escritura" },
-      { "english": "Reading", "spanish": "Lectura" },
-      { "english": "Gardening", "spanish": "Jardinería" },
-      { "english": "Cooking", "spanish": "Cocina" },
-      { "english": "Baking", "spanish": "Hornear" },
-      { "english": "Knitting", "spanish": "Tejido" },
-      { "english": "Playing music", "spanish": "Tocar música" },
-      { "english": "Singing", "spanish": "Canto" },
-      { "english": "Collecting", "spanish": "Coleccionar" },
-      { "english": "Traveling", "spanish": "Viajar" },
-      { "english": "Camping", "spanish": "Acampar" },
-      { "english": "Meditation", "spanish": "Meditación" },
-      { "english": "Birdwatching", "spanish": "Observación de aves" },
-      { "english": "Rollerblading", "spanish": "Patinaje en línea" },
-      { "english": "Scuba diving", "spanish": "Buceo" },
-      { "english": "Surfing the internet", "spanish": "Navegar por internet" },
-      { "english": "Playing video games", "spanish": "Jugar videojuegos" },
-      { "english": "Model building", "spanish": "Modelismo" },
-      { "english": "Pottery", "spanish": "Alfarería" },
-      { "english": "Magic", "spanish": "Magia" }
+      {
+        "id": "vocab-10-01",
+        "english": "Soccer",
+        "spanish": "Fútbol",
+        "active": false
+      },
+      {
+        "id": "vocab-10-02",
+        "english": "Basketball",
+        "spanish": "Baloncesto",
+        "active": false
+      },
+      {
+        "id": "vocab-10-03",
+        "english": "Tennis",
+        "spanish": "Tenis",
+        "active": false
+      },
+      {
+        "id": "vocab-10-04",
+        "english": "Baseball",
+        "spanish": "Béisbol",
+        "active": false
+      },
+      {
+        "id": "vocab-10-05",
+        "english": "Volleyball",
+        "spanish": "Voleibol",
+        "active": false
+      },
+      {
+        "id": "vocab-10-06",
+        "english": "Swimming",
+        "spanish": "Natación",
+        "active": false
+      },
+      {
+        "id": "vocab-10-07",
+        "english": "Running",
+        "spanish": "Correr",
+        "active": false
+      },
+      {
+        "id": "vocab-10-08",
+        "english": "Cycling",
+        "spanish": "Ciclismo",
+        "active": false
+      },
+      {
+        "id": "vocab-10-09",
+        "english": "Golf",
+        "spanish": "Golf",
+        "active": false
+      },
+      {
+        "id": "vocab-10-10",
+        "english": "Skiing",
+        "spanish": "Esquí",
+        "active": false
+      },
+      {
+        "id": "vocab-10-11",
+        "english": "Snowboarding",
+        "spanish": "Snowboard",
+        "active": false
+      },
+      {
+        "id": "vocab-10-12",
+        "english": "Boxing",
+        "spanish": "Boxeo",
+        "active": false
+      },
+      {
+        "id": "vocab-10-13",
+        "english": "Martial arts",
+        "spanish": "Artes marciales",
+        "active": false
+      },
+      {
+        "id": "vocab-10-14",
+        "english": "Yoga",
+        "spanish": "Yoga",
+        "active": false
+      },
+      {
+        "id": "vocab-10-15",
+        "english": "Hiking",
+        "spanish": "Senderismo",
+        "active": false
+      },
+      {
+        "id": "vocab-10-16",
+        "english": "Fishing",
+        "spanish": "Pesca",
+        "active": false
+      },
+      {
+        "id": "vocab-10-17",
+        "english": "Skateboarding",
+        "spanish": "Patineta",
+        "active": false
+      },
+      {
+        "id": "vocab-10-18",
+        "english": "Surfing",
+        "spanish": "Surf",
+        "active": false
+      },
+      {
+        "id": "vocab-10-19",
+        "english": "Dancing",
+        "spanish": "Baile",
+        "active": false
+      },
+      {
+        "id": "vocab-10-20",
+        "english": "Gymnastics",
+        "spanish": "Gimnasia",
+        "active": false
+      },
+      {
+        "id": "vocab-10-21",
+        "english": "Archery",
+        "spanish": "Tiro con arco",
+        "active": false
+      },
+      {
+        "id": "vocab-10-22",
+        "english": "Weightlifting",
+        "spanish": "Levantamiento de pesas",
+        "active": false
+      },
+      {
+        "id": "vocab-10-23",
+        "english": "Table tennis",
+        "spanish": "Tenis de mesa",
+        "active": false
+      },
+      {
+        "id": "vocab-10-24",
+        "english": "Bowling",
+        "spanish": "Boliche",
+        "active": false
+      },
+      {
+        "id": "vocab-10-25",
+        "english": "Chess",
+        "spanish": "Ajedrez",
+        "active": false
+      },
+      {
+        "id": "vocab-10-26",
+        "english": "Photography",
+        "spanish": "Fotografía",
+        "active": false
+      },
+      {
+        "id": "vocab-10-27",
+        "english": "Painting",
+        "spanish": "Pintura",
+        "active": false
+      },
+      {
+        "id": "vocab-10-28",
+        "english": "Sculpting",
+        "spanish": "Escultura",
+        "active": false
+      },
+      {
+        "id": "vocab-10-29",
+        "english": "Writing",
+        "spanish": "Escritura",
+        "active": false
+      },
+      {
+        "id": "vocab-10-30",
+        "english": "Reading",
+        "spanish": "Lectura",
+        "active": false
+      },
+      {
+        "id": "vocab-10-31",
+        "english": "Gardening",
+        "spanish": "Jardinería",
+        "active": false
+      },
+      {
+        "id": "vocab-10-32",
+        "english": "Cooking",
+        "spanish": "Cocina",
+        "active": false
+      },
+      {
+        "id": "vocab-10-33",
+        "english": "Baking",
+        "spanish": "Hornear",
+        "active": false
+      },
+      {
+        "id": "vocab-10-34",
+        "english": "Knitting",
+        "spanish": "Tejido",
+        "active": false
+      },
+      {
+        "id": "vocab-10-35",
+        "english": "Playing music",
+        "spanish": "Tocar música",
+        "active": false
+      },
+      {
+        "id": "vocab-10-36",
+        "english": "Singing",
+        "spanish": "Canto",
+        "active": false
+      },
+      {
+        "id": "vocab-10-37",
+        "english": "Collecting",
+        "spanish": "Coleccionar",
+        "active": false
+      },
+      {
+        "id": "vocab-10-38",
+        "english": "Traveling",
+        "spanish": "Viajar",
+        "active": false
+      },
+      {
+        "id": "vocab-10-39",
+        "english": "Camping",
+        "spanish": "Acampar",
+        "active": false
+      },
+      {
+        "id": "vocab-10-40",
+        "english": "Meditation",
+        "spanish": "Meditación",
+        "active": false
+      },
+      {
+        "id": "vocab-10-41",
+        "english": "Birdwatching",
+        "spanish": "Observación de aves",
+        "active": false
+      },
+      {
+        "id": "vocab-10-42",
+        "english": "Rollerblading",
+        "spanish": "Patinaje en línea",
+        "active": false
+      },
+      {
+        "id": "vocab-10-43",
+        "english": "Scuba diving",
+        "spanish": "Buceo",
+        "active": false
+      },
+      {
+        "id": "vocab-10-44",
+        "english": "Surfing the internet",
+        "spanish": "Navegar por internet",
+        "active": false
+      },
+      {
+        "id": "vocab-10-45",
+        "english": "Playing video games",
+        "spanish": "Jugar videojuegos",
+        "active": false
+      },
+      {
+        "id": "vocab-10-46",
+        "english": "Model building",
+        "spanish": "Modelismo",
+        "active": false
+      },
+      {
+        "id": "vocab-10-47",
+        "english": "Pottery",
+        "spanish": "Alfarería",
+        "active": false
+      },
+      {
+        "id": "vocab-10-48",
+        "english": "Magic",
+        "spanish": "Magia",
+        "active": false
+      }
     ]
   },
   {
+    "id": "11",
     "category": "Directions & Prepositions",
     "items": [
-      { "english": "Left", "spanish": "Izquierda" },
-      { "english": "Right", "spanish": "Derecha" },
-      { "english": "Forward", "spanish": "Adelante" },
-      { "english": "Backward", "spanish": "Atrás" },
-      { "english": "Up", "spanish": "Arriba" },
-      { "english": "Down", "spanish": "Abajo" },
-      { "english": "Around", "spanish": "Alrededor" },
-      { "english": "Into", "spanish": "Dentro de" },
-      { "english": "Out of", "spanish": "Fuera de" },
-      { "english": "Under", "spanish": "Debajo" },
-      { "english": "Over", "spanish": "Encima" },
-      { "english": "Near", "spanish": "Cerca" },
-      { "english": "Far", "spanish": "Lejos" },
-      { "english": "Between", "spanish": "Entre" },
-      { "english": "Next to", "spanish": "Al lado de" },
-      { "english": "Behind", "spanish": "Detrás" },
-      { "english": "In front of", "spanish": "Delante de" },
-      { "english": "Across", "spanish": "A través de" },
-      { "english": "Along", "spanish": "A lo largo de" },
-      { "english": "Through", "spanish": "A través" },
-      { "english": "Toward", "spanish": "Hacia" },
-      { "english": "Away from", "spanish": "Lejos de" },
-      { "english": "Inside", "spanish": "Dentro" },
-      { "english": "Outside", "spanish": "Fuera" },
-      { "english": "Above", "spanish": "Encima de" },
-      { "english": "Below", "spanish": "Debajo de" },
-      { "english": "By", "spanish": "Por" },
-      { "english": "Near to", "spanish": "Cerca de" },
-      { "english": "Opposite", "spanish": "Enfrente" },
-      { "english": "Corner", "spanish": "Esquina" },
-      { "english": "Direction", "spanish": "Dirección" },
-      { "english": "Path", "spanish": "Camino" },
-      { "english": "Route", "spanish": "Ruta" },
-      { "english": "Exit", "spanish": "Salida" },
-      { "english": "Entrance", "spanish": "Entrada" },
-      { "english": "Crosswalk", "spanish": "Paso de peatones" },
-      { "english": "Traffic light", "spanish": "Semáforo" },
-      { "english": "Intersection", "spanish": "Intersección" }
+      {
+        "id": "vocab-11-01",
+        "english": "Left",
+        "spanish": "Izquierda",
+        "active": false
+      },
+      {
+        "id": "vocab-11-02",
+        "english": "Right",
+        "spanish": "Derecha",
+        "active": false
+      },
+      {
+        "id": "vocab-11-03",
+        "english": "Forward",
+        "spanish": "Adelante",
+        "active": false
+      },
+      {
+        "id": "vocab-11-04",
+        "english": "Backward",
+        "spanish": "Atrás",
+        "active": false
+      },
+      {
+        "id": "vocab-11-05",
+        "english": "Up",
+        "spanish": "Arriba",
+        "active": false
+      },
+      {
+        "id": "vocab-11-06",
+        "english": "Down",
+        "spanish": "Abajo",
+        "active": false
+      },
+      {
+        "id": "vocab-11-07",
+        "english": "Around",
+        "spanish": "Alrededor",
+        "active": false
+      },
+      {
+        "id": "vocab-11-08",
+        "english": "Into",
+        "spanish": "Dentro de",
+        "active": false
+      },
+      {
+        "id": "vocab-11-09",
+        "english": "Out of",
+        "spanish": "Fuera de",
+        "active": false
+      },
+      {
+        "id": "vocab-11-10",
+        "english": "Under",
+        "spanish": "Debajo",
+        "active": false
+      },
+      {
+        "id": "vocab-11-11",
+        "english": "Over",
+        "spanish": "Encima",
+        "active": false
+      },
+      {
+        "id": "vocab-11-12",
+        "english": "Near",
+        "spanish": "Cerca",
+        "active": false
+      },
+      {
+        "id": "vocab-11-13",
+        "english": "Far",
+        "spanish": "Lejos",
+        "active": false
+      },
+      {
+        "id": "vocab-11-14",
+        "english": "Between",
+        "spanish": "Entre",
+        "active": false
+      },
+      {
+        "id": "vocab-11-15",
+        "english": "Next to",
+        "spanish": "Al lado de",
+        "active": false
+      },
+      {
+        "id": "vocab-11-16",
+        "english": "Behind",
+        "spanish": "Detrás",
+        "active": false
+      },
+      {
+        "id": "vocab-11-17",
+        "english": "In front of",
+        "spanish": "Delante de",
+        "active": false
+      },
+      {
+        "id": "vocab-11-18",
+        "english": "Across",
+        "spanish": "A través de",
+        "active": false
+      },
+      {
+        "id": "vocab-11-19",
+        "english": "Along",
+        "spanish": "A lo largo de",
+        "active": false
+      },
+      {
+        "id": "vocab-11-20",
+        "english": "Through",
+        "spanish": "A través",
+        "active": false
+      },
+      {
+        "id": "vocab-11-21",
+        "english": "Toward",
+        "spanish": "Hacia",
+        "active": false
+      },
+      {
+        "id": "vocab-11-22",
+        "english": "Away from",
+        "spanish": "Lejos de",
+        "active": false
+      },
+      {
+        "id": "vocab-11-23",
+        "english": "Inside",
+        "spanish": "Dentro",
+        "active": false
+      },
+      {
+        "id": "vocab-11-24",
+        "english": "Outside",
+        "spanish": "Fuera",
+        "active": false
+      },
+      {
+        "id": "vocab-11-25",
+        "english": "Above",
+        "spanish": "Encima de",
+        "active": false
+      },
+      {
+        "id": "vocab-11-26",
+        "english": "Below",
+        "spanish": "Debajo de",
+        "active": false
+      },
+      {
+        "id": "vocab-11-27",
+        "english": "By",
+        "spanish": "Por",
+        "active": false
+      },
+      {
+        "id": "vocab-11-28",
+        "english": "Near to",
+        "spanish": "Cerca de",
+        "active": false
+      },
+      {
+        "id": "vocab-11-29",
+        "english": "Opposite",
+        "spanish": "Enfrente",
+        "active": false
+      },
+      {
+        "id": "vocab-11-30",
+        "english": "Corner",
+        "spanish": "Esquina",
+        "active": false
+      },
+      {
+        "id": "vocab-11-31",
+        "english": "Direction",
+        "spanish": "Dirección",
+        "active": false
+      },
+      {
+        "id": "vocab-11-32",
+        "english": "Path",
+        "spanish": "Camino",
+        "active": false
+      },
+      {
+        "id": "vocab-11-33",
+        "english": "Route",
+        "spanish": "Ruta",
+        "active": false
+      },
+      {
+        "id": "vocab-11-34",
+        "english": "Exit",
+        "spanish": "Salida",
+        "active": false
+      },
+      {
+        "id": "vocab-11-35",
+        "english": "Entrance",
+        "spanish": "Entrada",
+        "active": false
+      },
+      {
+        "id": "vocab-11-36",
+        "english": "Crosswalk",
+        "spanish": "Paso de peatones",
+        "active": false
+      },
+      {
+        "id": "vocab-11-37",
+        "english": "Traffic light",
+        "spanish": "Semáforo",
+        "active": false
+      },
+      {
+        "id": "vocab-11-38",
+        "english": "Intersection",
+        "spanish": "Intersección",
+        "active": false
+      }
     ]
   },
   {
+    "id": "12",
     "category": "Body Parts",
     "items": [
-      { "english": "Head", "spanish": "Cabeza" },
-      { "english": "Hair", "spanish": "Cabello" },
-      { "english": "Face", "spanish": "Cara" },
-      { "english": "Eye", "spanish": "Ojo" },
-      { "english": "Ear", "spanish": "Oreja" },
-      { "english": "Nose", "spanish": "Nariz" },
-      { "english": "Mouth", "spanish": "Boca" },
-      { "english": "Teeth", "spanish": "Dientes" },
-      { "english": "Tongue", "spanish": "Lengua" },
-      { "english": "Neck", "spanish": "Cuello" },
-      { "english": "Shoulder", "spanish": "Hombro" },
-      { "english": "Arm", "spanish": "Brazo" },
-      { "english": "Elbow", "spanish": "Codo" },
-      { "english": "Forearm", "spanish": "Antebrazo" },
-      { "english": "Wrist", "spanish": "Muñeca" },
-      { "english": "Hand", "spanish": "Mano" },
-      { "english": "Finger", "spanish": "Dedo" },
-      { "english": "Thumb", "spanish": "Pulgar" },
-      { "english": "Chest", "spanish": "Pecho" },
-      { "english": "Back", "spanish": "Espalda" },
-      { "english": "Stomach", "spanish": "Estómago" },
-      { "english": "Waist", "spanish": "Cintura" },
-      { "english": "Hip", "spanish": "Cadera" },
-      { "english": "Leg", "spanish": "Pierna" },
-      { "english": "Thigh", "spanish": "Muslo" },
-      { "english": "Knee", "spanish": "Rodilla" },
-      { "english": "Calf", "spanish": "Pantorrilla" },
-      { "english": "Ankle", "spanish": "Tobillo" },
-      { "english": "Foot", "spanish": "Pie" },
-      { "english": "Toe", "spanish": "Dedo del pie" },
-      { "english": "Skin", "spanish": "Piel" },
-      { "english": "Bone", "spanish": "Hueso" },
-      { "english": "Muscle", "spanish": "Músculo" },
-      { "english": "Heart", "spanish": "Corazón" },
-      { "english": "Lung", "spanish": "Pulmón" },
-      { "english": "Liver", "spanish": "Hígado" },
-      { "english": "Kidney", "spanish": "Riñón" },
-      { "english": "Brain", "spanish": "Cerebro" },
-      { "english": "Blood", "spanish": "Sangre" },
-      { "english": "Nail", "spanish": "Uña" },
-      { "english": "Eyebrow", "spanish": "Ceja" },
-      { "english": "Eyelash", "spanish": "Pestaña" },
-      { "english": "Cheek", "spanish": "Mejilla" },
-      { "english": "Chin", "spanish": "Barbilla" },
-      { "english": "Jaw", "spanish": "Mandíbula" },
-      { "english": "Tongue", "spanish": "Lengua" }
+      {
+        "id": "vocab-12-01",
+        "english": "Head",
+        "spanish": "Cabeza",
+        "active": false
+      },
+      {
+        "id": "vocab-12-02",
+        "english": "Hair",
+        "spanish": "Cabello",
+        "active": false
+      },
+      {
+        "id": "vocab-12-03",
+        "english": "Face",
+        "spanish": "Cara",
+        "active": false
+      },
+      {
+        "id": "vocab-12-04",
+        "english": "Eye",
+        "spanish": "Ojo",
+        "active": false
+      },
+      {
+        "id": "vocab-12-05",
+        "english": "Ear",
+        "spanish": "Oreja",
+        "active": false
+      },
+      {
+        "id": "vocab-12-06",
+        "english": "Nose",
+        "spanish": "Nariz",
+        "active": false
+      },
+      {
+        "id": "vocab-12-07",
+        "english": "Mouth",
+        "spanish": "Boca",
+        "active": false
+      },
+      {
+        "id": "vocab-12-08",
+        "english": "Teeth",
+        "spanish": "Dientes",
+        "active": false
+      },
+      {
+        "id": "vocab-12-09",
+        "english": "Tongue",
+        "spanish": "Lengua",
+        "active": false
+      },
+      {
+        "id": "vocab-12-10",
+        "english": "Neck",
+        "spanish": "Cuello",
+        "active": false
+      },
+      {
+        "id": "vocab-12-11",
+        "english": "Shoulder",
+        "spanish": "Hombro",
+        "active": false
+      },
+      {
+        "id": "vocab-12-12",
+        "english": "Arm",
+        "spanish": "Brazo",
+        "active": false
+      },
+      {
+        "id": "vocab-12-13",
+        "english": "Elbow",
+        "spanish": "Codo",
+        "active": false
+      },
+      {
+        "id": "vocab-12-14",
+        "english": "Forearm",
+        "spanish": "Antebrazo",
+        "active": false
+      },
+      {
+        "id": "vocab-12-15",
+        "english": "Wrist",
+        "spanish": "Muñeca",
+        "active": false
+      },
+      {
+        "id": "vocab-12-16",
+        "english": "Hand",
+        "spanish": "Mano",
+        "active": false
+      },
+      {
+        "id": "vocab-12-17",
+        "english": "Finger",
+        "spanish": "Dedo",
+        "active": false
+      },
+      {
+        "id": "vocab-12-18",
+        "english": "Thumb",
+        "spanish": "Pulgar",
+        "active": false
+      },
+      {
+        "id": "vocab-12-19",
+        "english": "Chest",
+        "spanish": "Pecho",
+        "active": false
+      },
+      {
+        "id": "vocab-12-20",
+        "english": "Back",
+        "spanish": "Espalda",
+        "active": false
+      },
+      {
+        "id": "vocab-12-21",
+        "english": "Stomach",
+        "spanish": "Estómago",
+        "active": false
+      },
+      {
+        "id": "vocab-12-22",
+        "english": "Waist",
+        "spanish": "Cintura",
+        "active": false
+      },
+      {
+        "id": "vocab-12-23",
+        "english": "Hip",
+        "spanish": "Cadera",
+        "active": false
+      },
+      {
+        "id": "vocab-12-24",
+        "english": "Leg",
+        "spanish": "Pierna",
+        "active": false
+      },
+      {
+        "id": "vocab-12-25",
+        "english": "Thigh",
+        "spanish": "Muslo",
+        "active": false
+      },
+      {
+        "id": "vocab-12-26",
+        "english": "Knee",
+        "spanish": "Rodilla",
+        "active": false
+      },
+      {
+        "id": "vocab-12-27",
+        "english": "Calf",
+        "spanish": "Pantorrilla",
+        "active": false
+      },
+      {
+        "id": "vocab-12-28",
+        "english": "Ankle",
+        "spanish": "Tobillo",
+        "active": false
+      },
+      {
+        "id": "vocab-12-29",
+        "english": "Foot",
+        "spanish": "Pie",
+        "active": false
+      },
+      {
+        "id": "vocab-12-30",
+        "english": "Toe",
+        "spanish": "Dedo del pie",
+        "active": false
+      },
+      {
+        "id": "vocab-12-31",
+        "english": "Skin",
+        "spanish": "Piel",
+        "active": false
+      },
+      {
+        "id": "vocab-12-32",
+        "english": "Bone",
+        "spanish": "Hueso",
+        "active": false
+      },
+      {
+        "id": "vocab-12-33",
+        "english": "Muscle",
+        "spanish": "Músculo",
+        "active": false
+      },
+      {
+        "id": "vocab-12-34",
+        "english": "Heart",
+        "spanish": "Corazón",
+        "active": false
+      },
+      {
+        "id": "vocab-12-35",
+        "english": "Lung",
+        "spanish": "Pulmón",
+        "active": false
+      },
+      {
+        "id": "vocab-12-36",
+        "english": "Liver",
+        "spanish": "Hígado",
+        "active": false
+      },
+      {
+        "id": "vocab-12-37",
+        "english": "Kidney",
+        "spanish": "Riñón",
+        "active": false
+      },
+      {
+        "id": "vocab-12-38",
+        "english": "Brain",
+        "spanish": "Cerebro",
+        "active": false
+      },
+      {
+        "id": "vocab-12-39",
+        "english": "Blood",
+        "spanish": "Sangre",
+        "active": false
+      },
+      {
+        "id": "vocab-12-40",
+        "english": "Nail",
+        "spanish": "Uña",
+        "active": false
+      },
+      {
+        "id": "vocab-12-41",
+        "english": "Eyebrow",
+        "spanish": "Ceja",
+        "active": false
+      },
+      {
+        "id": "vocab-12-42",
+        "english": "Eyelash",
+        "spanish": "Pestaña",
+        "active": false
+      },
+      {
+        "id": "vocab-12-43",
+        "english": "Cheek",
+        "spanish": "Mejilla",
+        "active": false
+      },
+      {
+        "id": "vocab-12-44",
+        "english": "Chin",
+        "spanish": "Barbilla",
+        "active": false
+      },
+      {
+        "id": "vocab-12-45",
+        "english": "Jaw",
+        "spanish": "Mandíbula",
+        "active": false
+      }
     ]
   }
 ]

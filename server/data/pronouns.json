@@ -1,57 +1,136 @@
 [
   {
+    "id": "01",
     "category": "Personal pronouns",
     "items": [
-      { "spanish": "yo", "english": "I", "active": false },
-      { "spanish": "tú", "english": "you", "active": false },
-      { "spanish": "él", "english": "he", "active": false },
-      { "spanish": "ella", "english": "she", "active": false },
-      { "spanish": "usted", "english": "you", "active": false },
-      { "spanish": "nosotros / nosotras", "english": "we ", "active": false },
       {
+        "id": "pronouns-01-01",
+        "spanish": "yo",
+        "english": "I",
+        "active": false
+      },
+      {
+        "id": "pronouns-01-02",
+        "spanish": "tú",
+        "english": "you",
+        "active": false
+      },
+      {
+        "id": "pronouns-01-03",
+        "spanish": "él",
+        "english": "he",
+        "active": false
+      },
+      {
+        "id": "pronouns-01-04",
+        "spanish": "ella",
+        "english": "she",
+        "active": false
+      },
+      {
+        "id": "pronouns-01-05",
+        "spanish": "usted",
+        "english": "you",
+        "active": false
+      },
+      {
+        "id": "pronouns-01-06",
+        "spanish": "nosotros / nosotras",
+        "english": "we ",
+        "active": false
+      },
+      {
+        "id": "pronouns-01-07",
         "spanish": "vosotros / vosotras",
         "english": "you all",
         "active": false
       },
-      { "spanish": "ellos / ellas", "english": "they", "active": false },
-      { "spanish": "ustedes", "english": "you all", "active": false }
+      {
+        "id": "pronouns-01-08",
+        "spanish": "ellos / ellas",
+        "english": "they",
+        "active": false
+      },
+      {
+        "id": "pronouns-01-09",
+        "spanish": "ustedes",
+        "english": "you all",
+        "active": false
+      }
     ]
   },
   {
+    "id": "02",
     "category": "Pronombres reflexivos",
     "items": [
-      { "spanish": "me", "english": "myself", "active": false },
-      { "spanish": "te", "english": "yourself", "active": false },
-      { "spanish": "se", "english": "himself / herself", "active": false },
-      { "spanish": "nos", "english": "ourselves", "active": false },
-      { "spanish": "os", "english": "yourselves", "active": false },
-      { "spanish": "se", "english": "themselves", "active": false }
+      {
+        "id": "pronouns-02-01",
+        "spanish": "me",
+        "english": "myself",
+        "active": false
+      },
+      {
+        "id": "pronouns-02-02",
+        "spanish": "te",
+        "english": "yourself",
+        "active": false
+      },
+      {
+        "id": "pronouns-02-03",
+        "spanish": "se",
+        "english": "himself / herself",
+        "active": false
+      },
+      {
+        "id": "pronouns-02-04",
+        "spanish": "nos",
+        "english": "ourselves",
+        "active": false
+      },
+      {
+        "id": "pronouns-02-05",
+        "spanish": "os",
+        "english": "yourselves",
+        "active": false
+      },
+      {
+        "id": "pronouns-02-06",
+        "spanish": "se",
+        "english": "themselves",
+        "active": false
+      }
     ]
   },
   {
+    "id": "03",
     "category": "Possessive pronouns",
     "items": [
       {
+        "id": "pronouns-03-01",
         "spanish": "mío / mía / míos / mías",
         "english": "mine",
         "active": false
       },
       {
+        "id": "pronouns-03-02",
         "spanish": "tuyo / tuya / tuyos / tuyas",
         "english": "yours",
         "active": false
       },
       {
+        "id": "pronouns-03-03",
         "spanish": "suyo / suya / suyos / suyas",
         "english": "his / hers / theirs",
         "active": false
       },
       {
+        "id": "pronouns-03-04",
         "spanish": "nuestro / nuestra / nuestros / nuestras",
         "english": "ours",
         "active": false
       },
       {
+        "id": "pronouns-03-05",
         "spanish": "vuestro / vuestra / vuestros / vuestras",
         "english": "yours",
         "active": false
@@ -59,19 +138,23 @@
     ]
   },
   {
+    "id": "04",
     "category": "Demonstrative pronouns",
     "items": [
       {
+        "id": "pronouns-04-01",
         "spanish": "este / esta / estos / estas",
         "english": "this / these",
         "active": false
       },
       {
+        "id": "pronouns-04-02",
         "spanish": "ese / esa / esos / esas",
         "english": "that / those (near you)",
         "active": false
       },
       {
+        "id": "pronouns-04-03",
         "spanish": "aquel / aquella / aquellos / aquellas",
         "english": "that / those (far away)",
         "active": false
@@ -79,16 +162,29 @@
     ]
   },
   {
+    "id": "05",
     "category": "Relative pronouns",
     "items": [
-      { "spanish": "que", "english": "that / which / who", "active": false },
       {
+        "id": "pronouns-05-01",
+        "spanish": "que",
+        "english": "that / which / who",
+        "active": false
+      },
+      {
+        "id": "pronouns-05-02",
         "spanish": "quien / quienes",
         "english": "who / whom",
         "active": false
       },
-      { "spanish": "cual / cuales", "english": "which", "active": false },
       {
+        "id": "pronouns-05-03",
+        "spanish": "cual / cuales",
+        "english": "which",
+        "active": false
+      },
+      {
+        "id": "pronouns-05-04",
         "spanish": "cuyo / cuya / cuyos / cuyas",
         "english": "whose",
         "active": false
@@ -96,24 +192,57 @@
     ]
   },
   {
+    "id": "06",
     "category": "Pronombres indefinidos",
     "items": [
-      { "spanish": "alguien", "english": "someone", "active": false },
-      { "spanish": "nadie", "english": "no one / nobody", "active": false },
-      { "spanish": "algo", "english": "something", "active": false },
-      { "spanish": "nada", "english": "nothing", "active": false },
-      { "spanish": "cada", "english": "each / every", "active": false },
       {
+        "id": "pronouns-06-01",
+        "spanish": "alguien",
+        "english": "someone",
+        "active": false
+      },
+      {
+        "id": "pronouns-06-02",
+        "spanish": "nadie",
+        "english": "no one / nobody",
+        "active": false
+      },
+      {
+        "id": "pronouns-06-03",
+        "spanish": "algo",
+        "english": "something",
+        "active": false
+      },
+      {
+        "id": "pronouns-06-04",
+        "spanish": "nada",
+        "english": "nothing",
+        "active": false
+      },
+      {
+        "id": "pronouns-06-05",
+        "spanish": "cada",
+        "english": "each / every",
+        "active": false
+      },
+      {
+        "id": "pronouns-06-06",
         "spanish": "cualquiera",
         "english": "anyone / whichever",
         "active": false
       },
       {
+        "id": "pronouns-06-07",
         "spanish": "todos / todas",
         "english": "everyone / all",
         "active": false
       },
-      { "spanish": "varios / varias", "english": "several", "active": false }
+      {
+        "id": "pronouns-06-08",
+        "spanish": "varios / varias",
+        "english": "several",
+        "active": false
+      }
     ]
   }
 ]

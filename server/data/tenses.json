@@ -1,53 +1,64 @@
 [
   {
+    "id": "01",
     "category": "Indicativo (Indicative)",
     "items": [
       {
+        "id": "tenses-01-01",
         "spanish": "Presente (Indicativo)",
         "english": "Present (Indicative)",
         "active": false
       },
       {
+        "id": "tenses-01-02",
         "spanish": "Pretérito Indefinido",
         "english": "Preterite",
         "active": false
       },
       {
+        "id": "tenses-01-03",
         "spanish": "Pretérito Imperfecto",
         "english": "Imperfect",
         "active": false
       },
       {
+        "id": "tenses-01-04",
         "spanish": "Pretérito Perfecto Compuesto",
         "english": "Present Perfect",
         "active": false
       },
       {
+        "id": "tenses-01-05",
         "spanish": "Pretérito Pluscuamperfecto",
         "english": "Past Perfect / Pluperfect",
         "active": false
       },
       {
+        "id": "tenses-01-06",
         "spanish": "Pretérito Anterior",
         "english": "Past Anterior",
         "active": false
       },
       {
+        "id": "tenses-01-07",
         "spanish": "Futuro Simple",
         "english": "Simple Future",
         "active": false
       },
       {
+        "id": "tenses-01-08",
         "spanish": "Futuro Perfecto",
         "english": "Future Perfect",
         "active": false
       },
       {
+        "id": "tenses-01-09",
         "spanish": "Condicional Simple",
         "english": "Conditional",
         "active": false
       },
       {
+        "id": "tenses-01-10",
         "spanish": "Condicional Compuesto",
         "english": "Conditional Perfect",
         "active": false
@@ -55,24 +66,29 @@
     ]
   },
   {
+    "id": "02",
     "category": "Subjuntivo (Subjunctive)",
     "items": [
       {
+        "id": "tenses-02-01",
         "spanish": "Presente",
         "english": "Present Subjunctive",
         "active": false
       },
       {
+        "id": "tenses-02-02",
         "spanish": "Pretérito Imperfecto",
         "english": "Imperfect Subjunctive (-ra and -se forms)",
         "active": false
       },
       {
+        "id": "tenses-02-03",
         "spanish": "Pretérito Perfecto",
         "english": "Present Perfect Subjunctive",
         "active": false
       },
       {
+        "id": "tenses-02-04",
         "spanish": "Pretérito Pluscuamperfecto",
         "english": "Past Perfect Subjunctive (-ra and -se forms)",
         "active": false
@@ -80,14 +96,17 @@
     ]
   },
   {
+    "id": "03",
     "category": "Imperativo (Imperative)",
     "items": [
       {
+        "id": "tenses-03-01",
         "spanish": "Imperativo Afirmativo",
         "english": "Affirmative Imperative",
         "active": false
       },
       {
+        "id": "tenses-03-02",
         "spanish": "Imperativo Negativo",
         "english": "Negative Imperative",
         "active": false
@@ -95,15 +114,23 @@
     ]
   },
   {
+    "id": "04",
     "category": "Formas no personales (Non-Personal Forms)",
     "items": [
-      { "spanish": "Infinitivo", "english": "Infinitive", "active": false },
       {
+        "id": "tenses-04-01",
+        "spanish": "Infinitivo",
+        "english": "Infinitive",
+        "active": false
+      },
+      {
+        "id": "tenses-04-02",
         "spanish": "Gerundio",
         "english": "Gerund / Present Participle",
         "active": false
       },
       {
+        "id": "tenses-04-03",
         "spanish": "Participio Pasado",
         "english": "Past Participle",
         "active": false

@@ -1,188 +1,754 @@
 [
   {
+    "id": "01",
     "category": "Adverbios de modo (Adverbs of manner)",
     "items": [
-      { "spanish": "rápidamente", "english": "quickly", "active": false },
-      { "spanish": "lentamente", "english": "slowly", "active": false },
-      { "spanish": "bien", "english": "well", "active": false },
-      { "spanish": "mal", "english": "badly", "active": false },
-      { "spanish": "cuidadosamente", "english": "carefully", "active": false },
-      { "spanish": "fácilmente", "english": "easily", "active": false },
-      { "spanish": "perfectamente", "english": "perfectly", "active": false },
-      { "spanish": "rápido", "english": "fast", "active": false },
-      { "spanish": "despacio", "english": "slowly", "active": false },
-      { "spanish": "fuerte", "english": "strongly / loudly", "active": false },
-      { "spanish": "suavemente", "english": "softly", "active": false },
-      { "spanish": "seriamente", "english": "seriously", "active": false },
-      { "spanish": "mejor", "english": "better", "active": false },
-      { "spanish": "peor", "english": "worse", "active": false },
-      { "spanish": "honestamente", "english": "honestly", "active": false },
-      { "spanish": "totalmente", "english": "totally", "active": false },
-      { "spanish": "claramente", "english": "clearly", "active": false },
-      { "spanish": "alegremente", "english": "happily", "active": false },
-      { "spanish": "cuidadosamente", "english": "carefully", "active": false },
-      { "spanish": "desordenadamente", "english": "messily", "active": false }
+      {
+        "id": "adverbs-01-01",
+        "spanish": "rápidamente",
+        "english": "quickly",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-02",
+        "spanish": "lentamente",
+        "english": "slowly",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-03",
+        "spanish": "bien",
+        "english": "well",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-04",
+        "spanish": "mal",
+        "english": "badly",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-05",
+        "spanish": "cuidadosamente",
+        "english": "carefully",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-06",
+        "spanish": "fácilmente",
+        "english": "easily",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-07",
+        "spanish": "perfectamente",
+        "english": "perfectly",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-08",
+        "spanish": "rápido",
+        "english": "fast",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-09",
+        "spanish": "despacio",
+        "english": "slowly",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-10",
+        "spanish": "fuerte",
+        "english": "strongly / loudly",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-11",
+        "spanish": "suavemente",
+        "english": "softly",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-12",
+        "spanish": "seriamente",
+        "english": "seriously",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-13",
+        "spanish": "mejor",
+        "english": "better",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-14",
+        "spanish": "peor",
+        "english": "worse",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-15",
+        "spanish": "honestamente",
+        "english": "honestly",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-16",
+        "spanish": "totalmente",
+        "english": "totally",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-17",
+        "spanish": "claramente",
+        "english": "clearly",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-18",
+        "spanish": "alegremente",
+        "english": "happily",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-19",
+        "spanish": "cuidadosamente",
+        "english": "carefully",
+        "active": false
+      },
+      {
+        "id": "adverbs-01-20",
+        "spanish": "desordenadamente",
+        "english": "messily",
+        "active": false
+      }
     ]
   },
   {
+    "id": "02",
     "category": "Adverbios de tiempo (Adverbs of time)",
     "items": [
-      { "spanish": "ahora", "english": "now", "active": false },
-      { "spanish": "ayer", "english": "yesterday", "active": false },
-      { "spanish": "hoy", "english": "today", "active": false },
-      { "spanish": "mañana", "english": "tomorrow", "active": false },
-      { "spanish": "pronto", "english": "soon", "active": false },
-      { "spanish": "tarde", "english": "late", "active": false },
-      { "spanish": "temprano", "english": "early", "active": false },
-      { "spanish": "anoche", "english": "last night", "active": false },
-      { "spanish": "jamás", "english": "never", "active": false },
-      { "spanish": "todavía", "english": "still / yet", "active": false },
-      { "spanish": "ya", "english": "already", "active": false },
-      { "spanish": "a menudo", "english": "often", "active": false },
-      { "spanish": "frecuentemente", "english": "frequently", "active": false },
-      { "spanish": "constantemente", "english": "constantly", "active": false },
-      { "spanish": "diariamente", "english": "daily", "active": false },
-      { "spanish": "últimamente", "english": "lately", "active": false },
-      { "spanish": "recién", "english": "recently", "active": false },
-      { "spanish": "antes", "english": "before", "active": false },
-      { "spanish": "después", "english": "after", "active": false },
-      { "spanish": "eventualmente", "english": "eventually", "active": false }
+      {
+        "id": "adverbs-02-01",
+        "spanish": "ahora",
+        "english": "now",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-02",
+        "spanish": "ayer",
+        "english": "yesterday",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-03",
+        "spanish": "hoy",
+        "english": "today",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-04",
+        "spanish": "mañana",
+        "english": "tomorrow",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-05",
+        "spanish": "pronto",
+        "english": "soon",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-06",
+        "spanish": "tarde",
+        "english": "late",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-07",
+        "spanish": "temprano",
+        "english": "early",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-08",
+        "spanish": "anoche",
+        "english": "last night",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-09",
+        "spanish": "jamás",
+        "english": "never",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-10",
+        "spanish": "todavía",
+        "english": "still / yet",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-11",
+        "spanish": "ya",
+        "english": "already",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-12",
+        "spanish": "a menudo",
+        "english": "often",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-13",
+        "spanish": "frecuentemente",
+        "english": "frequently",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-14",
+        "spanish": "constantemente",
+        "english": "constantly",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-15",
+        "spanish": "diariamente",
+        "english": "daily",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-16",
+        "spanish": "últimamente",
+        "english": "lately",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-17",
+        "spanish": "recién",
+        "english": "recently",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-18",
+        "spanish": "antes",
+        "english": "before",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-19",
+        "spanish": "después",
+        "english": "after",
+        "active": false
+      },
+      {
+        "id": "adverbs-02-20",
+        "spanish": "eventualmente",
+        "english": "eventually",
+        "active": false
+      }
     ]
   },
   {
+    "id": "03",
     "category": "Adverbios de lugar (Adverbs of place)",
     "items": [
-      { "spanish": "aquí", "english": "here", "active": false },
-      { "spanish": "allí", "english": "there", "active": false },
-      { "spanish": "cerca", "english": "near", "active": false },
-      { "spanish": "lejos", "english": "far", "active": false },
-      { "spanish": "debajo", "english": "under", "active": false },
-      { "spanish": "arriba", "english": "above", "active": false },
-      { "spanish": "afuera", "english": "outside", "active": false },
-      { "spanish": "adentro", "english": "inside", "active": false },
-      { "spanish": "delante", "english": "in front", "active": false },
-      { "spanish": "detrás", "english": "behind", "active": false },
-      { "spanish": "enfrente", "english": "opposite", "active": false },
-      { "spanish": "allá", "english": "over there", "active": false },
       {
+        "id": "adverbs-03-01",
+        "spanish": "aquí",
+        "english": "here",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-02",
+        "spanish": "allí",
+        "english": "there",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-03",
+        "spanish": "cerca",
+        "english": "near",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-04",
+        "spanish": "lejos",
+        "english": "far",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-05",
+        "spanish": "debajo",
+        "english": "under",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-06",
+        "spanish": "arriba",
+        "english": "above",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-07",
+        "spanish": "afuera",
+        "english": "outside",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-08",
+        "spanish": "adentro",
+        "english": "inside",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-09",
+        "spanish": "delante",
+        "english": "in front",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-10",
+        "spanish": "detrás",
+        "english": "behind",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-11",
+        "spanish": "enfrente",
+        "english": "opposite",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-12",
+        "spanish": "allá",
+        "english": "over there",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-13",
         "spanish": "en todas partes",
         "english": "everywhere",
         "active": false
       },
-      { "spanish": "en ningún lugar", "english": "nowhere", "active": false },
-      { "spanish": "lejos de", "english": "far from", "active": false },
       {
+        "id": "adverbs-03-14",
+        "spanish": "en ningún lugar",
+        "english": "nowhere",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-15",
+        "spanish": "lejos de",
+        "english": "far from",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-16",
         "spanish": "a lo lejos",
         "english": "in the distance",
         "active": false
       },
-      { "spanish": "por aquí", "english": "around here", "active": false },
-      { "spanish": "alrededor", "english": "around", "active": false },
-      { "spanish": "cualquier lugar", "english": "anywhere", "active": false },
-      { "spanish": "aquí mismo", "english": "right here", "active": false }
+      {
+        "id": "adverbs-03-17",
+        "spanish": "por aquí",
+        "english": "around here",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-18",
+        "spanish": "alrededor",
+        "english": "around",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-19",
+        "spanish": "cualquier lugar",
+        "english": "anywhere",
+        "active": false
+      },
+      {
+        "id": "adverbs-03-20",
+        "spanish": "aquí mismo",
+        "english": "right here",
+        "active": false
+      }
     ]
   },
   {
+    "id": "04",
     "category": "Adverbios de cantidad (Adverbs of quantity)",
     "items": [
-      { "spanish": "mucho", "english": "a lot", "active": false },
-      { "spanish": "poco", "english": "a little", "active": false },
-      { "spanish": "bastante", "english": "enough", "active": false },
-      { "spanish": "demasiado", "english": "too much", "active": false },
-      { "spanish": "más", "english": "more", "active": false },
-      { "spanish": "menos", "english": "less", "active": false },
-      { "spanish": "casi", "english": "almost", "active": false },
-      { "spanish": "todo", "english": "all", "active": false },
-      { "spanish": "completamente", "english": "completely", "active": false },
-      { "spanish": "totalmente", "english": "totally", "active": false },
-      { "spanish": "parcialmente", "english": "partially", "active": false },
-      { "spanish": "igualmente", "english": "equally", "active": false },
       {
+        "id": "adverbs-04-01",
+        "spanish": "mucho",
+        "english": "a lot",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-02",
+        "spanish": "poco",
+        "english": "a little",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-03",
+        "spanish": "bastante",
+        "english": "enough",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-04",
+        "spanish": "demasiado",
+        "english": "too much",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-05",
+        "spanish": "más",
+        "english": "more",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-06",
+        "spanish": "menos",
+        "english": "less",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-07",
+        "spanish": "casi",
+        "english": "almost",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-08",
+        "spanish": "todo",
+        "english": "all",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-09",
+        "spanish": "completamente",
+        "english": "completely",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-10",
+        "spanish": "totalmente",
+        "english": "totally",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-11",
+        "spanish": "parcialmente",
+        "english": "partially",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-12",
+        "spanish": "igualmente",
+        "english": "equally",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-13",
         "spanish": "aproximadamente",
         "english": "approximately",
         "active": false
       },
-      { "spanish": "excesivamente", "english": "excessively", "active": false },
-      { "spanish": "demasiado", "english": "too", "active": false },
-      { "spanish": "suficiente", "english": "sufficient", "active": false },
-      { "spanish": "prácticamente", "english": "practically", "active": false },
-      { "spanish": "realmente", "english": "really", "active": false },
-      { "spanish": "bastante", "english": "quite", "active": false },
-      { "spanish": "profundamente", "english": "deeply", "active": false }
+      {
+        "id": "adverbs-04-14",
+        "spanish": "excesivamente",
+        "english": "excessively",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-15",
+        "spanish": "demasiado",
+        "english": "too",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-16",
+        "spanish": "suficiente",
+        "english": "sufficient",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-17",
+        "spanish": "prácticamente",
+        "english": "practically",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-18",
+        "spanish": "realmente",
+        "english": "really",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-19",
+        "spanish": "bastante",
+        "english": "quite",
+        "active": false
+      },
+      {
+        "id": "adverbs-04-20",
+        "spanish": "profundamente",
+        "english": "deeply",
+        "active": false
+      }
     ]
   },
   {
+    "id": "05",
     "category": "Adverbios de afirmación y negación (Adverbs of affirmation and negation)",
     "items": [
-      { "spanish": "sí", "english": "yes", "active": false },
-      { "spanish": "no", "english": "no", "active": false },
-      { "spanish": "también", "english": "also", "active": false },
-      { "spanish": "tampoco", "english": "neither", "active": false },
-      { "spanish": "ciertamente", "english": "certainly", "active": false },
-      { "spanish": "seguramente", "english": "surely", "active": false },
-      { "spanish": "obviamente", "english": "obviously", "active": false },
-      { "spanish": "claro", "english": "of course", "active": false },
-      { "spanish": "efectivamente", "english": "indeed", "active": false },
-      { "spanish": "por supuesto", "english": "of course", "active": false },
       {
+        "id": "adverbs-05-01",
+        "spanish": "sí",
+        "english": "yes",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-02",
+        "spanish": "no",
+        "english": "no",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-03",
+        "spanish": "también",
+        "english": "also",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-04",
+        "spanish": "tampoco",
+        "english": "neither",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-05",
+        "spanish": "ciertamente",
+        "english": "certainly",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-06",
+        "spanish": "seguramente",
+        "english": "surely",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-07",
+        "spanish": "obviamente",
+        "english": "obviously",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-08",
+        "spanish": "claro",
+        "english": "of course",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-09",
+        "spanish": "efectivamente",
+        "english": "indeed",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-10",
+        "spanish": "por supuesto",
+        "english": "of course",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-11",
         "spanish": "definitivamente",
         "english": "definitely",
         "active": false
       },
-      { "spanish": "jamás", "english": "never", "active": false },
-      { "spanish": "en absoluto", "english": "not at all", "active": false },
-      { "spanish": "de ninguna manera", "english": "no way", "active": false },
-      { "spanish": "ni siquiera", "english": "not even", "active": false },
-      { "spanish": "nunca", "english": "never", "active": false },
-      { "spanish": "sin duda", "english": "without a doubt", "active": false },
       {
+        "id": "adverbs-05-12",
+        "spanish": "jamás",
+        "english": "never",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-13",
+        "spanish": "en absoluto",
+        "english": "not at all",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-14",
+        "spanish": "de ninguna manera",
+        "english": "no way",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-15",
+        "spanish": "ni siquiera",
+        "english": "not even",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-16",
+        "spanish": "nunca",
+        "english": "never",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-17",
+        "spanish": "sin duda",
+        "english": "without a doubt",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-18",
         "spanish": "no necesariamente",
         "english": "not necessarily",
         "active": false
       },
-      { "spanish": "imposiblemente", "english": "impossibly", "active": false },
-      { "spanish": "de hecho", "english": "in fact", "active": false }
+      {
+        "id": "adverbs-05-19",
+        "spanish": "imposiblemente",
+        "english": "impossibly",
+        "active": false
+      },
+      {
+        "id": "adverbs-05-20",
+        "spanish": "de hecho",
+        "english": "in fact",
+        "active": false
+      }
     ]
   },
   {
+    "id": "06",
     "category": "Adverbios de duda (Adverbs of doubt)",
     "items": [
-      { "spanish": "quizás", "english": "perhaps", "active": false },
-      { "spanish": "tal vez", "english": "maybe", "active": false },
-      { "spanish": "acaso", "english": "possibly", "active": false },
-      { "spanish": "probablemente", "english": "probably", "active": false },
-      { "spanish": "posiblemente", "english": "possibly", "active": false },
-      { "spanish": "seguramente", "english": "surely", "active": false },
-      { "spanish": "aparentemente", "english": "apparently", "active": false },
-      { "spanish": "eventualmente", "english": "eventually", "active": false },
-      { "spanish": "quizá", "english": "perhaps", "active": false },
-      { "spanish": "dudablemente", "english": "doubtfully", "active": false },
-      { "spanish": "tal vez no", "english": "maybe not", "active": false },
       {
+        "id": "adverbs-06-01",
+        "spanish": "quizás",
+        "english": "perhaps",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-02",
+        "spanish": "tal vez",
+        "english": "maybe",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-03",
+        "spanish": "acaso",
+        "english": "possibly",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-04",
+        "spanish": "probablemente",
+        "english": "probably",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-05",
+        "spanish": "posiblemente",
+        "english": "possibly",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-06",
+        "spanish": "seguramente",
+        "english": "surely",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-07",
+        "spanish": "aparentemente",
+        "english": "apparently",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-08",
+        "spanish": "eventualmente",
+        "english": "eventually",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-09",
+        "spanish": "quizá",
+        "english": "perhaps",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-10",
+        "spanish": "dudablemente",
+        "english": "doubtfully",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-11",
+        "spanish": "tal vez no",
+        "english": "maybe not",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-12",
         "spanish": "probablemente no",
         "english": "probably not",
         "active": false
       },
       {
+        "id": "adverbs-06-13",
         "spanish": "posiblemente no",
         "english": "possibly not",
         "active": false
       },
-      { "spanish": "no sé", "english": "I don't know", "active": false },
       {
+        "id": "adverbs-06-14",
+        "spanish": "no sé",
+        "english": "I don't know",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-15",
         "spanish": "aparentemente no",
         "english": "apparently not",
         "active": false
       },
-      { "spanish": "seguramente no", "english": "surely not", "active": false },
-      { "spanish": "quizá no", "english": "perhaps not", "active": false },
       {
+        "id": "adverbs-06-16",
+        "spanish": "seguramente no",
+        "english": "surely not",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-17",
+        "spanish": "quizá no",
+        "english": "perhaps not",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-18",
         "spanish": "eventualmente no",
         "english": "eventually not",
         "active": false
       },
-      { "spanish": "tal vez sí", "english": "maybe yes", "active": false },
       {
+        "id": "adverbs-06-19",
+        "spanish": "tal vez sí",
+        "english": "maybe yes",
+        "active": false
+      },
+      {
+        "id": "adverbs-06-20",
         "spanish": "probablemente sí",
         "english": "probably yes",
         "active": false
@@ -190,48 +756,129 @@
     ]
   },
   {
+    "id": "07",
     "category": "Adverbios de orden (Adverbs of order)",
     "items": [
-      { "spanish": "primero", "english": "first", "active": false },
-      { "spanish": "después", "english": "then / after", "active": false },
-      { "spanish": "luego", "english": "later", "active": false },
-      { "spanish": "finalmente", "english": "finally", "active": false },
-      { "spanish": "antes", "english": "before", "active": false },
       {
+        "id": "adverbs-07-01",
+        "spanish": "primero",
+        "english": "first",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-02",
+        "spanish": "después",
+        "english": "then / after",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-03",
+        "spanish": "luego",
+        "english": "later",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-04",
+        "spanish": "finalmente",
+        "english": "finally",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-05",
+        "spanish": "antes",
+        "english": "before",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-06",
         "spanish": "inmediatamente",
         "english": "immediately",
         "active": false
       },
-      { "spanish": "pronto", "english": "soon", "active": false },
       {
+        "id": "adverbs-07-07",
+        "spanish": "pronto",
+        "english": "soon",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-08",
         "spanish": "posteriormente",
         "english": "subsequently",
         "active": false
       },
-      { "spanish": "temporalmente", "english": "temporarily", "active": false },
-      { "spanish": "eventualmente", "english": "eventually", "active": false },
       {
+        "id": "adverbs-07-09",
+        "spanish": "temporalmente",
+        "english": "temporarily",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-10",
+        "spanish": "eventualmente",
+        "english": "eventually",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-11",
         "spanish": "continuamente",
         "english": "continuously",
         "active": false
       },
-      { "spanish": "frecuentemente", "english": "frequently", "active": false },
-      { "spanish": "constantemente", "english": "constantly", "active": false },
-      { "spanish": "ultimamente", "english": "lately", "active": false },
       {
+        "id": "adverbs-07-12",
+        "spanish": "frecuentemente",
+        "english": "frequently",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-13",
+        "spanish": "constantemente",
+        "english": "constantly",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-14",
+        "spanish": "ultimamente",
+        "english": "lately",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-15",
         "spanish": "inmediatamente después",
         "english": "immediately after",
         "active": false
       },
-      { "spanish": "de inmediato", "english": "right away", "active": false },
-      { "spanish": "a continuación", "english": "next", "active": false },
-      { "spanish": "por último", "english": "lastly", "active": false },
       {
+        "id": "adverbs-07-16",
+        "spanish": "de inmediato",
+        "english": "right away",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-17",
+        "spanish": "a continuación",
+        "english": "next",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-18",
+        "spanish": "por último",
+        "english": "lastly",
+        "active": false
+      },
+      {
+        "id": "adverbs-07-19",
         "spanish": "al principio",
         "english": "at the beginning",
         "active": false
       },
-      { "spanish": "al final", "english": "at the end", "active": false }
+      {
+        "id": "adverbs-07-20",
+        "spanish": "al final",
+        "english": "at the end",
+        "active": false
+      }
     ]
   }
 ]
