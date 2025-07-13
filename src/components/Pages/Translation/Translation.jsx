@@ -1,10 +1,10 @@
-import MicPage from "../MicPage/MicPage";
+import PageWrapper from "../PageWrapper/PageWrapper.jsx";
 import "./translation.css";
 
 export default function Translation() {
   return (
     <>
-      <MicPage title={"Translations"} />
+      <PageWrapper title={"Translations"} />
     </>
   );
 }

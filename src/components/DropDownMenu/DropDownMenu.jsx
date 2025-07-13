@@ -17,15 +17,33 @@ export default function DropDownMenu({ title, info }) {
   );
 
   const [selectAll, setSelectAll] = useState(false);
+  const [canSelectAll, setCanSelectAll] = useState(true);
 
-  const handleSelectAll = () => {
-    setSelectAll((prev) => {
-      const newSelectAll = !prev;
-      setNumCheckedItems(newSelectAll ? info.length : 0);
-      return newSelectAll;
-    });
+  const handleSelectAll = async () => {
+    if (!canSelectAll) return;
+
+    setCanSelectAll(false);
+    const newSelectAll = !selectAll;
+    setSelectAll(newSelectAll);
+
+    for (const item of info) {
+      if ("id" in item) {
+        try {
+          await window.electronAPI.checkItem(item.id, newSelectAll);
+        } catch (err) {
+          console.error(`Failed to update ${item.id}:`, err);
+        }
+      }
+    }
+
+    setNumCheckedItems(
+      newSelectAll ? info.filter((item) => "id" in item).length : 0
+    );
+
+    setTimeout(() => {
+      setCanSelectAll(true);
+    }, 1000);
   };
-
   return (
     <>
       <div className="drop-down-menu">

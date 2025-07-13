@@ -1,12 +1,12 @@
-import "./SpeakButton.css";
+import "./AudioButton.css";
 import { MdHeadset } from "react-icons/md";
 import { motion } from "framer-motion";
 
-export default function SpeakButton() {
+export default function AudioButton() {
   function toggle() {}
   return (
     <motion.button
-      className="speak-btn"
+      className="audio-btn"
       initial={{ scale: 0.8, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       whileHover={{ scale: 1.1 }}

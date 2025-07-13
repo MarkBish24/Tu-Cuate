@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Microphone from "./components/microphone/microphone.jsx";
 
 import Home from "./components/Pages/Home/Home.jsx";
 import Conversation from "./components/Pages/Conversation/Conversation.jsx";

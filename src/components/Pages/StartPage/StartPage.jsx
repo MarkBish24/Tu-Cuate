@@ -1,17 +1,15 @@
 import { useState } from "react";
 
 import HomeButton from "../../HomeButton/HomeButton.jsx";
-import Microphone from "../../microphone/microphone.jsx";
 import SettingsTab from "../../SettingsTab/SettingsTab.jsx";
-import SpeakButton from "../../SpeakButton/SpeakButton.jsx";
 
 import { IoMdSettings } from "react-icons/io";
 import { motion, AnimatePresence } from "framer-motion";
 import { RxCross1 } from "react-icons/rx";
 
-import "./MicPage.css";
+import "./StartPage.css";
 
-export default function MicPage({ title }) {
+export default function StartPage({ title }) {
   // used for the settings page
   const [spin, setSpin] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -72,7 +70,7 @@ export default function MicPage({ title }) {
           </motion.button>
         </div>
 
-        {/* This section is for the Microphone and front display page to talk to Cuate */}
+        {/* This section is for the MicButton and front display page to talk to Cuate */}
         <div className="mic-page-wrapper">
           <div className="mic-page-title-cntr">
             <h1 className="mic-page-title">{title}</h1>
@@ -81,8 +79,7 @@ export default function MicPage({ title }) {
             </p>
           </div>
           <div>
-            <Microphone />
-            <SpeakButton />
+            <button>Start</button>
           </div>
         </div>
 

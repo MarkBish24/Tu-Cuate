@@ -1,6 +1,7 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
 const path = require("path");
-const fs = require("fs").promises;
+const fs = require("fs");
+const fsp = require("fs").promises;
 
 function createWindow() {
   const window = new BrowserWindow({
@@ -64,7 +65,7 @@ ipcMain.handle("check-item", async (event, { id, checked }) => {
     const itemId = id;
 
     const filePath = path.join(__dirname, "data", fileName);
-    const fileContent = await fs.readFile(filePath, "utf-8");
+    const fileContent = await fs.promises.readFile(filePath, "utf-8");
     const data = JSON.parse(fileContent);
 
     const section = data.find((section) => section.id === sectionId);
@@ -75,7 +76,11 @@ ipcMain.handle("check-item", async (event, { id, checked }) => {
 
     item.active = checked;
 
-    await fs.writeFile(filePath, JSON.stringify(data, null, 2), "utf-8"); // ✅ write back
+    await fs.promises.writeFile(
+      filePath,
+      JSON.stringify(data, null, 2),
+      "utf-8"
+    );
 
     return { success: true };
   } catch (error) {

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { FaMicrophone, FaMicrophoneSlash } from "react-icons/fa";
 
-import "./microphone.css";
+import "./MicButton.css";
 
 export default function Microphone() {
   const [isRecording, setIsRecording] = useState(false);

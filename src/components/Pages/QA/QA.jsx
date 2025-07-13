@@ -1,10 +1,10 @@
-import MicPage from "../MicPage/MicPage";
+import PageWrapper from "../PageWrapper/PageWrapper.jsx";
 import "./QA.css";
 
 export default function QA() {
   return (
     <>
-      <MicPage title={"Q & A"} />
+      <PageWrapper title={"Q & A"} />
     </>
   );
 }

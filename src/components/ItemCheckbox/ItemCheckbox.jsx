@@ -1,19 +1,8 @@
 import { useState, useEffect } from "react";
 import "./ItemCheckbox.css";
 
-export default function ItemCheckbox({ data, setNumCheckedItems, selectAll }) {
+export default function ItemCheckbox({ data, setNumCheckedItems }) {
   const [checked, setChecked] = useState(data.active);
-
-  useEffect(() => {
-    if (selectAll === null || selectAll === undefined) return;
-
-    if (checked !== selectAll) {
-      setChecked(selectAll);
-      window.electronAPI.checkItem(data.id, selectAll).catch((err) => {
-        console.error("IPC error:", err);
-      });
-    }
-  }, [selectAll]);
 
   const handleChange = async (e) => {
     const newChecked = e.target.checked;
@@ -24,11 +13,8 @@ export default function ItemCheckbox({ data, setNumCheckedItems, selectAll }) {
       if (!result.success) {
         console.error("Failed to update:", result.error);
         setChecked(!newChecked);
-      }
-      if (newChecked) {
-        setNumCheckedItems((count) => count + 1);
       } else {
-        setNumCheckedItems((count) => count - 1);
+        setNumCheckedItems((count) => count + (newChecked ? 1 : -1));
       }
     } catch (err) {
       console.error("IPC error:", err);

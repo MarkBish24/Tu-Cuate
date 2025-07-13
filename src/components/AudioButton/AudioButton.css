@@ -1,4 +1,4 @@
-.speak-btn {
+.audio-btn {
   background: linear-gradient(135deg, #ff9900, #ff7f00);
   border: 2px solid #e67300;
   color: #e67300;
@@ -16,10 +16,10 @@
   transition: color 0.2s ease-in-out;
 }
 
-.speak-btn:hover {
+.audio-btn:hover {
   color: white;
 }
 
-.speak-btn:active {
+.audio-btn:active {
   color: #ffcc9a;
 }
