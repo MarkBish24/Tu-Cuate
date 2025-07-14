@@ -1,4 +1,9 @@
 .audio-btn {
+  position: fixed;
+  left: 50%;
+  bottom: 20%;
+  transform: translateX(-50%);
+
   background: linear-gradient(135deg, #ff9900, #ff7f00);
   border: 2px solid #e67300;
   color: #e67300;

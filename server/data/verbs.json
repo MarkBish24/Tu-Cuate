@@ -7,13 +7,13 @@
         "id": "verbs-01-01",
         "spanish": "ser",
         "english": "to be",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-01-02",
         "spanish": "estar",
         "english": "to be",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-01-03",
@@ -43,7 +43,7 @@
         "id": "verbs-01-07",
         "spanish": "decir",
         "english": "to say / tell",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-01-08",

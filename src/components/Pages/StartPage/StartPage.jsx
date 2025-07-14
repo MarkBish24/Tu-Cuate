@@ -9,7 +9,7 @@ import { RxCross1 } from "react-icons/rx";
 
 import "./StartPage.css";
 
-export default function StartPage({ title }) {
+export default function StartPage({ title, onStart }) {
   // used for the settings page
   const [spin, setSpin] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -79,7 +79,17 @@ export default function StartPage({ title }) {
             </p>
           </div>
           <div>
-            <button>Start</button>
+            <motion.button
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ duration: 0.2 }}
+              className="start-btn"
+              onClick={onStart}
+            >
+              Start
+            </motion.button>
           </div>
         </div>
 

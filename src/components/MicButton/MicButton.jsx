@@ -53,8 +53,8 @@ export default function Microphone() {
 
   return (
     <motion.button
-      initial={{ scale: 0.8, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
+      initial={{ scale: 0.8, opacity: 0, x: "-50%" }}
+      animate={{ scale: 1, opacity: 1, x: "-50%" }}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       transition={{ duration: 0.2 }}

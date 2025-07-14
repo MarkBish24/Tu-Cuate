@@ -1,12 +1,59 @@
 import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 
-import StartPage from "../StartPage/StartPage";
+import StartPage from "../StartPage/StartPage.jsx";
+import MicPage from "./MicPage/MicPage.jsx";
+import ListeningPage from "./ListeningPage/ListeningPage.jsx";
+import GradingPanels from "./GradingPanels/GradingPanels.jsx";
 import "./PageWrapper.css";
 
 export default function PageWrapper({ title }) {
+  const [mode, setMode] = useState("start");
+
+  let content;
+
+  switch (mode) {
+    case "start":
+      content = (
+        <StartPage title={title} onStart={() => setMode("listening")} />
+      );
+      break;
+
+    case "listening":
+      content = <ListeningPage onFinish={() => setMode("mic")} />;
+      break;
+
+    case "mic":
+      content = <MicPage onFinish={() => setMode("grading")} />;
+
+    case "grading":
+      content = (
+        <GradingPanels
+          onContinue={() => setMode("listening")}
+          onExit={() => setMode("start")}
+        />
+      );
+      break;
+
+    default:
+      content = (
+        <StartPage title={title} onStart={() => setMode("listening")} />
+      );
+  }
+
   return (
-    <div>
-      <StartPage title={title} />
+    <div className="page-wrapper">
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={mode}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.3, ease: "easeInOut" }}
+        >
+          {content}
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 }
