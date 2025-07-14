@@ -13,9 +13,28 @@
   font-size: 14px;
   font-weight: 200;
   color: rgb(186, 186, 186);
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
 
-  padding-bottom: 12px;
+  margin-bottom: 6px;
+  padding: 10px;
   letter-spacing: 2.5px;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.listening-title:hover {
+  background-color: rgba(0, 123, 255, 0.15);
+  color: orange;
+
+  cursor: pointer;
+}
+
+.blurry {
+  filter: blur(12px);
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .translated-word-cntr {
@@ -31,7 +50,6 @@
 .word-wrapper {
   position: relative;
   display: inline-block;
-  margin: 6px;
   text-align: center;
 }
 
@@ -63,4 +81,18 @@
   white-space: nowrap;
   z-index: 100;
   pointer-events: none;
+}
+
+.btn-cntr {
+  position: fixed;
+  left: 50%;
+  bottom: 20%;
+
+  transform: translateX(-50%);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }

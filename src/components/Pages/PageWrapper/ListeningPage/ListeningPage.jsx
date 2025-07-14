@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import "./ListeningPage.css";
 import AudioButton from "../../../../components/AudioButton/AudioButton.jsx";
+import Microphone from "../../../MicButton/MicButton";
 
 const test = {
   sentence_spanish: "Me puedes dar ese tazón por favor",
@@ -35,14 +36,29 @@ const test = {
   ],
 };
 
-export default function ListeningPage() {
+export default function ListeningPage({ onFinish }) {
   const [activeIndex, setActiveIndex] = useState(null);
+  const [displaySentence, setDisplaySentence] = useState(false);
 
   return (
     <div>
       <div className="listening-cntr">
-        <span className="listening-title">Question Element</span>
-        <div className="translated-word-cntr">
+        <button
+          className="listening-title"
+          onClick={() => setDisplaySentence((prev) => !prev)}
+        >
+          Show Sentence
+        </button>
+        <motion.div
+          className="translated-word-cntr"
+          initial={false}
+          animate={{
+            opacity: displaySentence ? 1 : 0.25,
+            filter: displaySentence ? "blur(0px)" : "blur(10px)",
+            pointerEvents: displaySentence ? "auto" : "none",
+          }}
+          transition={{ duration: 0.3, ease: "easeInOut" }}
+        >
           {test.word_translation.map((word, index) => (
             <div
               className="word-wrapper"
@@ -69,9 +85,14 @@ export default function ListeningPage() {
               </div>
             </div>
           ))}
-        </div>
+        </motion.div>
       </div>
-      <AudioButton />
+      <div className="btn-cntr">
+        <AudioButton />
+        <Microphone />
+      </div>
+
+      <button onClick={onFinish}>continue</button>
     </div>
   );
 }

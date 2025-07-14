@@ -2,7 +2,6 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 import StartPage from "../StartPage/StartPage.jsx";
-import MicPage from "./MicPage/MicPage.jsx";
 import ListeningPage from "./ListeningPage/ListeningPage.jsx";
 import GradingPanels from "./GradingPanels/GradingPanels.jsx";
 import "./PageWrapper.css";
@@ -20,11 +19,8 @@ export default function PageWrapper({ title }) {
       break;
 
     case "listening":
-      content = <ListeningPage onFinish={() => setMode("mic")} />;
+      content = <ListeningPage onFinish={() => setMode("grading")} />;
       break;
-
-    case "mic":
-      content = <MicPage onFinish={() => setMode("grading")} />;
 
     case "grading":
       content = (

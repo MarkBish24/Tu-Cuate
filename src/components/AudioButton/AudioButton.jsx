@@ -7,8 +7,8 @@ export default function AudioButton() {
   return (
     <motion.button
       className="audio-btn"
-      initial={{ scale: 0.8, opacity: 0, x: "-50%" }}
-      animate={{ scale: 1, opacity: 1, x: "-50%" }}
+      initial={{ scale: 0.8, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       transition={{ duration: 0.2 }}
