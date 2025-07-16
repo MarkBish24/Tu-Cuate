@@ -1,0 +1,52 @@
+.grading-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grading-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 80%;
+}
+
+.arrow-page {
+  height: 32px;
+  width: 32px;
+  color: rgb(217, 217, 217);
+  transition: color 0.3s ease;
+}
+
+.arrow-page:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+.arrow-page.inactive {
+  color: transparent;
+}
+.arrow-page.inactive:hover {
+  color: transparent;
+  pointer-events: none;
+}
+.pagination-dots {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+  background-color: rgb(217, 217, 217);
+}
+
+.dot.active {
+  background-color: gray;
+}

@@ -90,9 +90,18 @@ export default function ListeningPage({ onFinish }) {
       <div className="btn-cntr">
         <AudioButton />
         <Microphone />
+        <motion.button
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ duration: 0.2 }}
+          className="start-btn"
+          onClick={onFinish}
+        >
+          continue
+        </motion.button>
       </div>
-
-      <button onClick={onFinish}>continue</button>
     </div>
   );
 }
