@@ -100,9 +100,9 @@ export default function GradingPanels({ onContinue, onExit }) {
           <motion.div
             key={pageIndex}
             className="grading-panel"
-            initial={{ x: 100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: -100, opacity: 0 }}
+            initial={{ y: 10, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: -10, opacity: 0 }}
             transition={{ duration: 0.4 }}
           >
             {renderPage()}
