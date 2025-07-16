@@ -6,7 +6,7 @@ import "./GradingPanels.css";
 
 const info = [
   {
-    original: "You fui a la tiendra porque necesitaba comprar el pan",
+    original: "Yo fui a la tiendra porque necesitaba comprar el pan",
     corrected: "Iba a la tienda porque necesitaba comprar pan.",
     translation: "I was going to the store because I needed to buy bread.",
     mistakes: [
@@ -53,12 +53,12 @@ export default function GradingPanels({ onContinue, onExit }) {
     if (pageIndex === 0) {
       return (
         <div className="grading-summary">
-          <h3>Original:</h3>
-          <p>{panelData.original}</p>
-          <h3>Corrected:</h3>
-          <p>{panelData.corrected}</p>
-          <h3>Translation:</h3>
-          <p>{panelData.translation}</p>
+          <h3 className="grading-original">Original</h3>
+          <p className="grading-original-text">{panelData.original}</p>
+          <h3 className="grading-original">Corrected</h3>
+          <p className="grading-original-text">{panelData.corrected}</p>
+          <h3 className="grading-translation">Translation</h3>
+          <p className="grading-translation-text">{panelData.translation}</p>
         </div>
       );
     }
@@ -66,21 +66,16 @@ export default function GradingPanels({ onContinue, onExit }) {
     const mistake = panelData.mistakes[pageIndex - 1];
     return (
       <div className="mistake-panel">
-        <h3>Mistake {pageIndex}:</h3>
-        <p>
-          <strong>Type:</strong> {mistake.type}
-        </p>
-        <p>
-          <strong>Description:</strong> {mistake.description}
-        </p>
-        <p>
-          <strong>Original:</strong> {mistake.original}
-        </p>
-        <p>
-          <strong>Correction:</strong> {mistake.correction}
-        </p>
-        <p>
-          <strong>Explanation:</strong> {mistake.explanation}
+        <h3 className="mistake-title">
+          Mistake #{pageIndex}, Type : {mistake.type}{" "}
+        </h3>
+        <strong className="mistake-original">Original</strong>
+        <p className="mistake-original-text">{mistake.original}</p>
+        <strong className="mistake-correction">Correction</strong>
+        <p className="mistake-correction-text">{mistake.correction}</p>
+        <p className="mistake-explanation-text">
+          <strong>Explanation: </strong>
+          {mistake.explanation}
         </p>
       </div>
     );
@@ -94,7 +89,7 @@ export default function GradingPanels({ onContinue, onExit }) {
           style={{ transform: "rotate(90deg)" }}
           onClick={() => changePage(pageIndex - 1)}
         >
-          <IoMdArrowDropdown size={32} />
+          <IoMdArrowDropdown size={48} />
         </div>
         <AnimatePresence mode="wait">
           <motion.div
@@ -115,7 +110,7 @@ export default function GradingPanels({ onContinue, onExit }) {
           style={{ transform: "rotate(-90deg)" }}
           onClick={() => changePage(pageIndex + 1)}
         >
-          <IoMdArrowDropdown size={32} />
+          <IoMdArrowDropdown size={48} />
         </div>
       </div>
 
@@ -127,6 +122,30 @@ export default function GradingPanels({ onContinue, onExit }) {
             onClick={() => changePage(i)}
           ></span>
         ))}
+      </div>
+      <div className="grading-page-menu-btns">
+        <motion.button
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ duration: 0.2 }}
+          className="start-btn"
+          onClick={onContinue}
+        >
+          continue
+        </motion.button>
+        <motion.button
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ duration: 0.2 }}
+          className="start-btn"
+          onClick={onExit}
+        >
+          exit
+        </motion.button>
       </div>
     </div>
   );
