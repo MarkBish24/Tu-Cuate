@@ -37,7 +37,7 @@
         "id": "verbs-01-06",
         "spanish": "poder",
         "english": "to be able to",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-01-07",
@@ -49,7 +49,7 @@
         "id": "verbs-01-08",
         "spanish": "ir",
         "english": "to go",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-01-09",
@@ -61,7 +61,7 @@
         "id": "verbs-01-10",
         "spanish": "dar",
         "english": "to give",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-01-11",
@@ -73,7 +73,7 @@
         "id": "verbs-01-12",
         "spanish": "saber",
         "english": "to know",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-01-13",

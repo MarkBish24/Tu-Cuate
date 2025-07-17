@@ -1,4 +1,5 @@
 const { OpenAI } = require("openai");
+const { app } = require("electron");
 const path = require("path");
 const fs = require("fs");
 
@@ -24,11 +25,16 @@ async function text2Speech(text, language = "es") {
     });
 
     const buffer = Buffer.from(await mp3.arrayBuffer());
-    const filePath = path.join(__dirname, "data", "speech", "speech.mp3");
+    const filePath = path.join(
+      __dirname,
+      "..",
+      "public",
+      "speech",
+      "speech.wav"
+    );
 
     fs.writeFileSync(filePath, buffer);
-
-    return filePath;
+    return "/speech.mp3";
   } catch (err) {
     console.error("TTS Error:", err);
     throw err;
@@ -166,6 +172,10 @@ async function generateResponse() {
   const assistantReply = response.choices[0].message.content;
   addAssistantMessage(assistantReply);
 
+  const parsed = JSON.parse(assistantReply);
+
+  await text2Speech(parsed.sentence_spanish, "es");
+
   try {
     console.log("Generated Response Data", assistantReply);
     return JSON.parse(assistantReply);
@@ -198,7 +208,6 @@ async function gradeResponse(userReply) {
 
 module.exports = {
   transcribeAudio,
-  text2Speech,
   generateResponse,
   gradeResponse,
   resetMessages,

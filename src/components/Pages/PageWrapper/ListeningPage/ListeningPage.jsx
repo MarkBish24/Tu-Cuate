@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import "./ListeningPage.css";
@@ -43,9 +43,12 @@ export default function ListeningPage({ onFinish }) {
   const [displaySentence, setDisplaySentence] = useState(false);
   const [haveInfo, setHaveInfo] = useState(false);
   const [info, setInfo] = useState(null);
+  const hasRun = useRef(false);
 
   useEffect(() => {
     async function fetchQuestion() {
+      if (hasRun.current) return;
+      hasRun.current = true;
       if (window.electronAPI && window.electronAPI.generateResponse) {
         try {
           const result = await window.electronAPI.generateResponse();

@@ -2,6 +2,8 @@ const { app, BrowserWindow, ipcMain } = require("electron");
 const path = require("path");
 const fs = require("fs");
 const fsp = require("fs").promises;
+const player = require("play-sound")();
+const { exec } = require("child_process");
 require("dotenv").config();
 
 const utils = require("./utils.js");
@@ -98,10 +100,4 @@ ipcMain.handle("generate-response", async () => {
 
 ipcMain.handle("grade-response", async (event, userReply) => {
   return await utils.gradeResponse(userReply);
-});
-
-ipcMain.handle("generate-speech", async (_, { text, lang }) => {
-  const filePath = await utils.text2Speech(text, lang);
-  const buffer = fs.readFileSync(filePath);
-  return buffer;
 });
