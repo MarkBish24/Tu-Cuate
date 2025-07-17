@@ -60,7 +60,7 @@ contextBridge.exposeInMainWorld("electronAPI", {
     return ipcRenderer.invoke("check-item", { id, checked });
   },
   generateResponse: () => ipcRenderer.invoke("generate-response"),
-  gradeResponse: (userReply) => ipcRenderer.invoke("grade-response", userReply),
+  gradeResponse: () => ipcRenderer.invoke("grade-response"),
 });
 
 //  transcribeAudio,generateResponse,gradeResponse,resetMessages,

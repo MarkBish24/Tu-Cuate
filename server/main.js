@@ -43,12 +43,12 @@ app.on("window-all-closed", () => {
 
 ipcMain.handle("save-audio-file", async (event, buffer) => {
   try {
-    const audioFolder = path.join(__dirname, "data", "audio");
+    const audioFolder = path.join(__dirname, "..", "public", "audio");
 
     fs.mkdirSync(audioFolder, { recursive: true });
 
     const timestamp = Date.now();
-    const filePath = path.join(audioFolder, `recording-${timestamp}.webm`);
+    const filePath = path.join(audioFolder, "audio.wav");
 
     await fs.promises.writeFile(filePath, Buffer.from(buffer));
 
@@ -98,6 +98,6 @@ ipcMain.handle("generate-response", async () => {
   return await utils.generateResponse();
 });
 
-ipcMain.handle("grade-response", async (event, userReply) => {
-  return await utils.gradeResponse(userReply);
+ipcMain.handle("grade-response", async () => {
+  return await utils.gradeResponse();
 });

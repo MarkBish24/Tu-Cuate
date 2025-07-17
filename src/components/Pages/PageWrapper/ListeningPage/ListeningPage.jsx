@@ -113,7 +113,7 @@ export default function ListeningPage({ onFinish }) {
         </motion.div>
       </div>
       <div className="btn-cntr">
-        <AudioButton response={info.sentence_spanish} />
+        <AudioButton />
         <Microphone />
         <motion.button
           initial={{ scale: 0.8, opacity: 0 }}

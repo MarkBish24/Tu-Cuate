@@ -1,47 +1,78 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { FaSpinner } from "react-icons/fa";
 
 import "./GradingPanels.css";
 
-const info = [
-  {
-    original: "Yo fui a la tiendra porque necesitaba comprar el pan",
-    corrected: "Iba a la tienda porque necesitaba comprar pan.",
-    translation: "I was going to the store because I needed to buy bread.",
-    mistakes: [
-      {
-        type: "error",
-        description: "Incorrect verb conjugation",
-        original: "Yo fui a la tienda",
-        correction: "Yo iba a la tienda",
-        explanation:
-          "The verb 'ir' should be in the imperfect (iba) to reflect an ongoing or intended past action. 'Fui' is too definite/final for this context.",
-      },
-      {
-        type: "inaccuracy",
-        description: "Misuse of vocabulary",
-        original: "necesitaba tomar pan.",
-        correction: "necesitaba comprar pan.",
-        explanation:
-          "'Tomar' can mean 'to take' or 'to drink', but 'comprar' is the correct verb for buying something like bread.",
-      },
-      {
-        type: "alternative",
-        description: "More natural phrasing",
-        original: "Yo iba a la tienda porque necesitaba comprar el pan.",
-        correction: "Iba a la tienda porque necesitaba comprar pan.",
-        explanation:
-          "In casual speech, 'el' is often dropped before general items like 'pan'. Also, dropping 'yo' is more natural when the subject is clear from the verb.",
-      },
-    ],
-  },
-];
+// const info = [
+//   {
+//     original: "Yo fui a la tiendra porque necesitaba comprar el pan",
+//     corrected: "Iba a la tienda porque necesitaba comprar pan.",
+//     translation: "I was going to the store because I needed to buy bread.",
+//     mistakes: [
+//       {
+//         type: "error",
+//         description: "Incorrect verb conjugation",
+//         original: "Yo fui a la tienda",
+//         correction: "Yo iba a la tienda",
+//         explanation:
+//           "The verb 'ir' should be in the imperfect (iba) to reflect an ongoing or intended past action. 'Fui' is too definite/final for this context.",
+//       },
+//       {
+//         type: "inaccuracy",
+//         description: "Misuse of vocabulary",
+//         original: "necesitaba tomar pan.",
+//         correction: "necesitaba comprar pan.",
+//         explanation:
+//           "'Tomar' can mean 'to take' or 'to drink', but 'comprar' is the correct verb for buying something like bread.",
+//       },
+//       {
+//         type: "alternative",
+//         description: "More natural phrasing",
+//         original: "Yo iba a la tienda porque necesitaba comprar el pan.",
+//         correction: "Iba a la tienda porque necesitaba comprar pan.",
+//         explanation:
+//           "In casual speech, 'el' is often dropped before general items like 'pan'. Also, dropping 'yo' is more natural when the subject is clear from the verb.",
+//       },
+//     ],
+//   },
+// ];
 
 export default function GradingPanels({ onContinue, onExit }) {
+  //back end info
+  const [haveInfo, setHaveInfo] = useState(false);
+  const [info, setInfo] = useState(null);
+  const hasRun = useRef(false);
+
+  let panelData = null;
+  let totalPages = 0;
+
+  useEffect(() => {
+    async function fetchGradedResponse() {
+      if (hasRun.current) return;
+      hasRun.current = true;
+      if (window.electronAPI && window.electronAPI.gradeResponse) {
+        try {
+          const result = await window.electronAPI.gradeResponse();
+          setInfo(result);
+          setHaveInfo(true);
+        } catch (err) {
+          console.error("Failed to grade response:", err);
+        }
+      } else {
+        console.error("electronAPI.gradeResponse not available");
+      }
+    }
+    fetchGradedResponse();
+  }, []);
+
+  // react info
   const [pageIndex, setPageIndex] = useState(0);
-  const panelData = info[0];
-  const totalPages = 1 + panelData.mistakes.length;
+  if (info && info[0]) {
+    panelData = info[0];
+    totalPages = 1 + panelData.mistakes.length;
+  }
 
   const changePage = (index) => {
     if (index >= 0 && index < totalPages) {
@@ -81,7 +112,7 @@ export default function GradingPanels({ onContinue, onExit }) {
     );
   };
 
-  return (
+  return haveInfo ? (
     <div className="grading-wrapper">
       <div className="grading-page">
         <div
@@ -148,5 +179,24 @@ export default function GradingPanels({ onContinue, onExit }) {
         </motion.button>
       </div>
     </div>
+  ) : (
+    <motion.div
+      className="loading-page"
+      animate={{ opacity: [0.3, 1, 0.3] }}
+      transition={{
+        duration: 1.5,
+        repeat: Infinity,
+        ease: "easeInOut",
+      }}
+    >
+      <motion.div
+        className="loading-wheel"
+        animate={{ rotate: 360 }}
+        transition={{ repeat: Infinity, duration: 2.5, ease: "linear" }}
+      >
+        <FaSpinner size={50} />
+      </motion.div>
+      <div>Loading</div>
+    </motion.div>
   );
 }

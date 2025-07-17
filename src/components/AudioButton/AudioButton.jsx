@@ -2,9 +2,7 @@ import "./AudioButton.css";
 import { MdHeadset } from "react-icons/md";
 import { motion } from "framer-motion";
 
-import { useEffect, useRef } from "react";
-
-export default function AudioButton({ response }) {
+export default function AudioButton() {
   const playAudio = () => {
     const audio = new Audio("../../../public/speech/speech.wav"); // Public folder path
     audio.volume = 1.0; // Optional

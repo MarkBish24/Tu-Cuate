@@ -7,12 +7,23 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-async function transcribeAudio(file, language = "es") {
+async function transcribeAudio(language = "es") {
+  const filePath = path.join(__dirname, "..", "public", "audio", "audio.wav");
+
+  if (!fs.existsSync(filePath)) {
+    console.error("Audio file not found at:", filePath);
+    return null;
+  }
+
+  const fileStream = fs.createReadStream(filePath);
+
   const response = await openai.audio.transcriptions.create({
-    file,
+    file: fileStream,
     model: "whisper-1",
     language,
   });
+
+  console.log(response.text);
   return response.text;
 }
 
@@ -58,7 +69,7 @@ You must:
   ]
 }
 
-When I say "grade this response", I will give you a Spanish sentence with possible errors.
+When I say "grade this response", I will give you a Spanish sentence with possible errors, there can be multiple errors, inaccuracies, or alternatives.
 
 You must reply with a JSON array like this:
 
@@ -185,7 +196,8 @@ async function generateResponse() {
   }
 }
 
-async function gradeResponse(userReply) {
+async function gradeResponse() {
+  userReply = await transcribeAudio();
   addUserMessage(`grade this response: ${userReply}`);
 
   const response = await openai.chat.completions.create({
