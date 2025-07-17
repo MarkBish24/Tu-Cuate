@@ -73,20 +73,21 @@
   font-weight: 200;
   font-size: 16px;
   padding-bottom: 2px;
-  color: orange;
+  color: rgb(255, 140, 0);
 }
 .grading-original-text {
   font-size: 28px;
   font-weight: 400;
   margin-top: 2px;
   text-align: center;
+  color: rgb(65, 65, 65);
 }
 
 .grading-translation {
   font-weight: 200;
   font-size: 16px;
   padding-bottom: 2px;
-  color: orange;
+  color: rgb(255, 140, 0);
 }
 
 .grading-translation-text {
@@ -94,6 +95,7 @@
   font-weight: 400;
   margin-top: 2px;
   text-align: center;
+  color: rgb(65, 65, 65);
 }
 
 .mistake-title {
@@ -103,8 +105,9 @@
 .mistake-original,
 .mistake-correction {
   font-weight: 200;
-  font-size: 16px;
+  font-size: 14px;
   padding-bottom: 2px;
+  color: rgb(255, 140, 0);
 }
 
 .mistake-original-text,
@@ -113,6 +116,7 @@
   font-weight: 400;
   margin-top: 2px;
   text-align: center;
+  color: rgb(65, 65, 65);
 }
 
 .mistake-explanation-text {

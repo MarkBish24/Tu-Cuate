@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import "./ListeningPage.css";
@@ -39,8 +39,28 @@ const test = {
 export default function ListeningPage({ onFinish }) {
   const [activeIndex, setActiveIndex] = useState(null);
   const [displaySentence, setDisplaySentence] = useState(false);
+  const [haveInfo, setHaveInfo] = useState(false);
+  const [info, setInfo] = useState(null);
 
-  return (
+  useEffect(() => {
+    async function fetchQuestion() {
+      if (window.electronAPI && window.electronAPI.generateResponse) {
+        try {
+          const result = await window.electronAPI.generateResponse();
+          setInfo(result);
+          setHaveInfo(true);
+        } catch (err) {
+          console.error("Failed to generate question:", err);
+        }
+      } else {
+        console.error("electronAPI.generateResponse not available");
+      }
+    }
+
+    fetchQuestion();
+  }, []);
+
+  return haveInfo ? (
     <div>
       <div className="listening-cntr">
         <button
@@ -59,7 +79,7 @@ export default function ListeningPage({ onFinish }) {
           }}
           transition={{ duration: 0.3, ease: "easeInOut" }}
         >
-          {test.word_translation.map((word, index) => (
+          {info.word_translation.map((word, index) => (
             <div
               className="word-wrapper"
               onClick={() =>
@@ -88,7 +108,7 @@ export default function ListeningPage({ onFinish }) {
         </motion.div>
       </div>
       <div className="btn-cntr">
-        <AudioButton />
+        <AudioButton response={info.sentence_spanish} />
         <Microphone />
         <motion.button
           initial={{ scale: 0.8, opacity: 0 }}
@@ -103,5 +123,7 @@ export default function ListeningPage({ onFinish }) {
         </motion.button>
       </div>
     </div>
+  ) : (
+    <div>Loading ...</div>
   );
 }

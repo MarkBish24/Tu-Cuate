@@ -2,6 +2,9 @@ const { app, BrowserWindow, ipcMain } = require("electron");
 const path = require("path");
 const fs = require("fs");
 const fsp = require("fs").promises;
+require("dotenv").config();
+
+const utils = require("./utils.js");
 
 function createWindow() {
   const window = new BrowserWindow({
@@ -87,4 +90,18 @@ ipcMain.handle("check-item", async (event, { id, checked }) => {
     console.error("Error updating check item:", error);
     return { success: false, error: error.message };
   }
+});
+
+ipcMain.handle("generate-response", async () => {
+  return await utils.generateResponse();
+});
+
+ipcMain.handle("grade-response", async (event, userReply) => {
+  return await utils.gradeResponse(userReply);
+});
+
+ipcMain.handle("generate-speech", async (_, { text, lang }) => {
+  const filePath = await utils.text2Speech(text, lang);
+  const buffer = fs.readFileSync(filePath);
+  return buffer;
 });

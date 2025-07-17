@@ -1,5 +1,8 @@
 const { contextBridge, ipcRenderer } = require("electron");
 
+let mediaRecorder = null;
+let audioChunks = [];
+
 contextBridge.exposeInMainWorld("electronAPI", {
   startRecording: async () => {
     try {
@@ -56,4 +59,12 @@ contextBridge.exposeInMainWorld("electronAPI", {
   checkItem: async (id, checked) => {
     return ipcRenderer.invoke("check-item", { id, checked });
   },
+  generateResponse: () => ipcRenderer.invoke("generate-response"),
+  gradeResponse: (userReply) => ipcRenderer.invoke("grade-response", userReply),
+  text2Speech: async (text, lang) => {
+    const buffer = await ipcRenderer.invoke("generate-speech", { text, lang });
+    return buffer;
+  },
 });
+
+//  transcribeAudio,generateResponse,gradeResponse,resetMessages,

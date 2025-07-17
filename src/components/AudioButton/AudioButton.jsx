@@ -2,7 +2,7 @@ import "./AudioButton.css";
 import { MdHeadset } from "react-icons/md";
 import { motion } from "framer-motion";
 
-export default function AudioButton() {
+export default function AudioButton({ response }) {
   function toggle() {}
   return (
     <motion.button
@@ -12,11 +12,19 @@ export default function AudioButton() {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       transition={{ duration: 0.2 }}
-      onClick={() => {
-        window.puter.ai
-          .txt2speech("¡Hola!", "es-ES")
-          .then((audio) => audio.play())
-          .catch((err) => console.error(err));
+      onClick={async () => {
+        try {
+          const audioBuffer = await window.electronAPI.text2Speech(
+            response,
+            "es"
+          );
+          const blob = new Blob([audioBuffer], { type: "audio/mpeg" });
+          const url = URL.createObjectURL(blob);
+          const audio = new Audio(url);
+          audio.play();
+        } catch (err) {
+          console.error("Audio play error: ", err);
+        }
       }}
     >
       <MdHeadset size={32} />
