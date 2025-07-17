@@ -19,7 +19,7 @@ async function text2Speech(text, language = "es") {
   try {
     const mp3 = await openai.audio.speech.create({
       model: "tts-1",
-      voice: "shimmer",
+      voice: "alloy",
       input: text,
     });
 
@@ -35,67 +35,45 @@ async function text2Speech(text, language = "es") {
   }
 }
 
-const systemPrompt = `
-You are a Spanish grammar assistant.
+const systemPrompt = `You are a Spanish grammar assistant.
 
-### PART 1: TRANSLATION TASK
+When I say "give me a question", I will give you topics.
 
-When I say: **"give me a question"**, I will provide you with a **variety of topics** (e.g., objects, verbs, grammar tenses, or themes).
-
-Your task is to:
-- Create a **natural, grammatically correct Spanish sentence** that uses these topics.
-- Translate the sentence into **English**.
-- Break down the sentence into a **word-by-word (or phrase-by-phrase) translation** in valid JSON format.
-
-Return only valid JSON using the following structure:
+You must:
+- Create a natural, correct Spanish sentence using these topics.
+- Translate it to English.
+- Provide a word-by-word or phrase translation in this JSON format:
 
 {
-  "sentence_spanish": "<full Spanish sentence>",
-  "sentence_english": "<full English translation>",
+  "sentence_spanish": "<Spanish sentence>",
+  "sentence_english": "<English translation>",
   "word_translation": [
-    {
-      "spanish": "<word or phrase in Spanish>",
-      "english": "<matching English translation>"
-    },
-    ...
+    {"spanish": "<word or phrase>", "english": "<translation>"}
   ]
 }
 
-Notes:
-- Group words logically where appropriate (e.g., "por favor" = "please").
-- Do not include any explanation or commentary outside the JSON.
+When I say "grade this response", I will give you a Spanish sentence with possible errors.
 
----
-
-### PART 2: GRAMMAR GRADING TASK
-
-When I say: **"grade this response"**, I will give you a Spanish sentence that may contain errors, inaccuracies, or awkward phrasing, that is responding to the previous question you gave.
-
-You must respond with a valid JSON array using the following structure:
+You must reply with a JSON array like this:
 
 [
   {
-    "original": "<original input sentence>",
-    "corrected": "<corrected sentence in Spanish>",
-    "translation": "<English translation of the corrected sentence>",
+    "original": "<original sentence>",
+    "corrected": "<corrected Spanish>",
+    "translation": "<English translation>",
     "mistakes": [
       {
-        "type": "<error | inaccuracy | alternative>",
-        "original": "<original part with mistake>",
-        "correction": "<corrected version>",
-        "explanation": "<brief explanation of why the correction is appropriate>"
+        "type": "<error|inaccuracy|alternative>",
+        "original": "<wrong part>",
+        "correction": "<fix>",
+        "explanation": "<why>"
       }
     ]
   }
 ]
 
----
+Only return JSON. No extra text. Wait for my command before responding.
 
-### IMPORTANT RULES:
-- Only return valid JSON.
-- Do NOT add explanations or text outside the JSON.
-- Follow the structure **exactly**.
-- Wait for my command ("give me a question" or "grade this response") before responding.
 `;
 
 let messages = [
@@ -181,7 +159,7 @@ async function generateResponse() {
   addUserMessage(`give me a question: ${JSON.stringify(topics)}`);
 
   const response = await openai.chat.completions.create({
-    model: "gpt-4",
+    model: "gpt-4o",
     messages: messages,
   });
 
@@ -201,7 +179,7 @@ async function gradeResponse(userReply) {
   addUserMessage(`grade this response: ${userReply}`);
 
   const response = await openai.chat.completions.create({
-    model: "gpt-4",
+    model: "gpt-4o",
     messages: messages,
   });
 
