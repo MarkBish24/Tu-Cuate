@@ -5,36 +5,38 @@ import "./ListeningPage.css";
 import AudioButton from "../../../../components/AudioButton/AudioButton.jsx";
 import Microphone from "../../../MicButton/MicButton";
 
-const test = {
-  sentence_spanish: "Me puedes dar ese tazón por favor",
-  sentence_english: "Can you give me that bowl please",
-  word_translation: [
-    {
-      spanish: "Me",
-      english: "me",
-    },
-    {
-      spanish: "puedes",
-      english: "can you",
-    },
-    {
-      spanish: "dar",
-      english: "give",
-    },
-    {
-      spanish: "ese",
-      english: "that",
-    },
-    {
-      spanish: "tazón",
-      english: "bowl",
-    },
-    {
-      spanish: "por favor",
-      english: "please",
-    },
-  ],
-};
+import { FaSpinner } from "react-icons/fa";
+
+// const test = {
+//   sentence_spanish: "Me puedes dar ese tazón por favor",
+//   sentence_english: "Can you give me that bowl please",
+//   word_translation: [
+//     {
+//       spanish: "Me",
+//       english: "me",
+//     },
+//     {
+//       spanish: "puedes",
+//       english: "can you",
+//     },
+//     {
+//       spanish: "dar",
+//       english: "give",
+//     },
+//     {
+//       spanish: "ese",
+//       english: "that",
+//     },
+//     {
+//       spanish: "tazón",
+//       english: "bowl",
+//     },
+//     {
+//       spanish: "por favor",
+//       english: "please",
+//     },
+//   ],
+// };
 
 export default function ListeningPage({ onFinish }) {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -124,6 +126,23 @@ export default function ListeningPage({ onFinish }) {
       </div>
     </div>
   ) : (
-    <div>Loading ...</div>
+    <motion.div
+      className="loading-page"
+      animate={{ opacity: [0.3, 1, 0.3] }}
+      transition={{
+        duration: 1.5,
+        repeat: Infinity,
+        ease: "easeInOut",
+      }}
+    >
+      <motion.div
+        className="loading-wheel"
+        animate={{ rotate: 360 }}
+        transition={{ repeat: Infinity, duration: 2.5, ease: "linear" }}
+      >
+        <FaSpinner size={50} />
+      </motion.div>
+      <div>Loading</div>
+    </motion.div>
   );
 }
