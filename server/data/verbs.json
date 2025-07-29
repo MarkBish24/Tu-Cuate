@@ -7,13 +7,13 @@
         "id": "verbs-01-01",
         "spanish": "ser",
         "english": "to be",
-        "active": true
+        "active": false
       },
       {
         "id": "verbs-01-02",
         "spanish": "estar",
         "english": "to be",
-        "active": true
+        "active": false
       },
       {
         "id": "verbs-01-03",
@@ -37,19 +37,19 @@
         "id": "verbs-01-06",
         "spanish": "poder",
         "english": "to be able to",
-        "active": true
+        "active": false
       },
       {
         "id": "verbs-01-07",
         "spanish": "decir",
         "english": "to say / tell",
-        "active": true
+        "active": false
       },
       {
         "id": "verbs-01-08",
         "spanish": "ir",
         "english": "to go",
-        "active": true
+        "active": false
       },
       {
         "id": "verbs-01-09",
@@ -61,7 +61,7 @@
         "id": "verbs-01-10",
         "spanish": "dar",
         "english": "to give",
-        "active": true
+        "active": false
       },
       {
         "id": "verbs-01-11",
@@ -73,7 +73,7 @@
         "id": "verbs-01-12",
         "spanish": "saber",
         "english": "to know",
-        "active": true
+        "active": false
       },
       {
         "id": "verbs-01-13",
@@ -307,307 +307,307 @@
         "id": "verbs-02-01",
         "spanish": "conseguir",
         "english": "to get / achieve",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-02",
         "spanish": "recordar",
         "english": "to remember",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-03",
         "spanish": "aparecer",
         "english": "to appear",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-04",
         "spanish": "permitir",
         "english": "to allow / permit",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-05",
         "spanish": "comenzar",
         "english": "to begin / start",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-06",
         "spanish": "terminar",
         "english": "to finish / end",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-07",
         "spanish": "necesitar",
         "english": "to need",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-08",
         "spanish": "servir",
         "english": "to serve",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-09",
         "spanish": "resultar",
         "english": "to result",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-10",
         "spanish": "mantener",
         "english": "to maintain / keep",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-11",
         "spanish": "caer",
         "english": "to fall",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-12",
         "spanish": "leer",
         "english": "to read",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-13",
         "spanish": "sacar",
         "english": "to take out",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-14",
         "spanish": "crear",
         "english": "to create",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-15",
         "spanish": "presentar",
         "english": "to present / introduce",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-16",
         "spanish": "considerar",
         "english": "to consider",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-17",
         "spanish": "acabar",
         "english": "to finish / end",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-18",
         "spanish": "abrir",
         "english": "to open",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-19",
         "spanish": "oír",
         "english": "to hear",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-20",
         "spanish": "cambiar",
         "english": "to change",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-21",
         "spanish": "ganar",
         "english": "to win / earn",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-22",
         "spanish": "convertir",
         "english": "to convert / turn into",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-23",
         "spanish": "formar",
         "english": "to form",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-24",
         "spanish": "morir",
         "english": "to die",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-25",
         "spanish": "traer",
         "english": "to bring",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-26",
         "spanish": "partir",
         "english": "to leave / divide",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-27",
         "spanish": "suponer",
         "english": "to suppose",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-28",
         "spanish": "aceptar",
         "english": "to accept",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-29",
         "spanish": "realizar",
         "english": "to carry out / perform",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-30",
         "spanish": "explicar",
         "english": "to explain",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-31",
         "spanish": "comprender",
         "english": "to understand",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-32",
         "spanish": "tocar",
         "english": "to touch / play",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-33",
         "spanish": "preguntar",
         "english": "to ask",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-34",
         "spanish": "lograr",
         "english": "to achieve / manage",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-35",
         "spanish": "reconocer",
         "english": "to recognize",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-36",
         "spanish": "estudiar",
         "english": "to study",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-37",
         "spanish": "gustar",
         "english": "to like",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-38",
         "spanish": "nacer",
         "english": "to be born",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-39",
         "spanish": "dirigir",
         "english": "to direct / manage",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-40",
         "spanish": "alcanzar",
         "english": "to reach",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-41",
         "spanish": "pagar",
         "english": "to pay",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-42",
         "spanish": "utilizar",
         "english": "to use",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-43",
         "spanish": "correr",
         "english": "to run",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-44",
         "spanish": "escuchar",
         "english": "to listen",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-45",
         "spanish": "ofrecer",
         "english": "to offer",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-46",
         "spanish": "ayudar",
         "english": "to help",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-47",
         "spanish": "jugar",
         "english": "to play",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-48",
         "spanish": "usar",
         "english": "to use",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-49",
         "spanish": "levantar",
         "english": "to lift / raise",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-50",
         "spanish": "cumplir",
         "english": "to fulfill / carry out",
-        "active": false
+        "active": true
       },
       {
         "id": "verbs-02-51",
         "spanish": "repetir",
         "english": "to repeat",
-        "active": false
+        "active": true
       }
     ]
   },

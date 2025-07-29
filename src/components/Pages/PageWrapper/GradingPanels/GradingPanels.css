@@ -11,16 +11,21 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
   gap: 40px;
   width: 80%;
   max-height: 100%;
+  padding-top: 20px;
 }
 
 .grading-summary {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* Don't center vertically if scrolling */
+  max-height: 70vh; /* Adjust as needed */
+  overflow-y: auto; /* Enables scroll wheel */
+  scrollbar-width: thin; /* Optional: styling */
 }
 
 .mistake-panel {

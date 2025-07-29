@@ -6,16 +6,14 @@ import ListeningPage from "./ListeningPage/ListeningPage.jsx";
 import GradingPanels from "./GradingPanels/GradingPanels.jsx";
 import "./PageWrapper.css";
 
-export default function PageWrapper({ title }) {
+export default function PageWrapper() {
   const [mode, setMode] = useState("start");
 
   let content;
 
   switch (mode) {
     case "start":
-      content = (
-        <StartPage title={title} onStart={() => setMode("listening")} />
-      );
+      content = <StartPage onStart={() => setMode("listening")} />;
       break;
 
     case "listening":
@@ -32,9 +30,7 @@ export default function PageWrapper({ title }) {
       break;
 
     default:
-      content = (
-        <StartPage title={title} onStart={() => setMode("listening")} />
-      );
+      content = <StartPage onStart={() => setMode("listening")} />;
   }
 
   return (

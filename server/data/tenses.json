@@ -43,13 +43,13 @@
         "id": "tenses-01-07",
         "spanish": "Futuro Simple",
         "english": "Simple Future",
-        "active": false
+        "active": true
       },
       {
         "id": "tenses-01-08",
         "spanish": "Futuro Perfecto",
         "english": "Future Perfect",
-        "active": false
+        "active": true
       },
       {
         "id": "tenses-01-09",

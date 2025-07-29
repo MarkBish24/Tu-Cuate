@@ -7,37 +7,37 @@
         "id": "pronouns-01-01",
         "spanish": "yo",
         "english": "I",
-        "active": false
+        "active": true
       },
       {
         "id": "pronouns-01-02",
         "spanish": "tú",
         "english": "you",
-        "active": false
+        "active": true
       },
       {
         "id": "pronouns-01-03",
         "spanish": "él",
         "english": "he",
-        "active": false
+        "active": true
       },
       {
         "id": "pronouns-01-04",
         "spanish": "ella",
         "english": "she",
-        "active": false
+        "active": true
       },
       {
         "id": "pronouns-01-05",
         "spanish": "usted",
         "english": "you",
-        "active": false
+        "active": true
       },
       {
         "id": "pronouns-01-06",
         "spanish": "nosotros / nosotras",
         "english": "we ",
-        "active": false
+        "active": true
       },
       {
         "id": "pronouns-01-07",
@@ -49,13 +49,13 @@
         "id": "pronouns-01-08",
         "spanish": "ellos / ellas",
         "english": "they",
-        "active": false
+        "active": true
       },
       {
         "id": "pronouns-01-09",
         "spanish": "ustedes",
         "english": "you all",
-        "active": false
+        "active": true
       }
     ]
   },
@@ -67,25 +67,25 @@
         "id": "pronouns-02-01",
         "spanish": "me",
         "english": "myself",
-        "active": false
+        "active": true
       },
       {
         "id": "pronouns-02-02",
         "spanish": "te",
         "english": "yourself",
-        "active": false
+        "active": true
       },
       {
         "id": "pronouns-02-03",
         "spanish": "se",
         "english": "himself / herself",
-        "active": false
+        "active": true
       },
       {
         "id": "pronouns-02-04",
         "spanish": "nos",
         "english": "ourselves",
-        "active": false
+        "active": true
       },
       {
         "id": "pronouns-02-05",
@@ -97,7 +97,7 @@
         "id": "pronouns-02-06",
         "spanish": "se",
         "english": "themselves",
-        "active": false
+        "active": true
       }
     ]
   },

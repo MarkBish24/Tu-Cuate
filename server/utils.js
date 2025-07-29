@@ -69,13 +69,13 @@ You must:
   ]
 }
 
-When I say "grade this response", I will give you a Spanish sentence with possible errors, there can be multiple errors, inaccuracies, or alternatives.
+When I say "grade this response", I will give you a Spanish phrase or paragraph with possible errors, there can be multiple errors, inaccuracies, or alternatives.
 
 You must reply with a JSON array like this:
 
 [
   {
-    "original": "<original sentence>",
+    "original": "<original paragraph>",
     "corrected": "<corrected Spanish>",
     "translation": "<English translation>",
     "mistakes": [
@@ -89,7 +89,9 @@ You must reply with a JSON array like this:
   }
 ]
 
-Only return JSON. No extra text. Wait for my command before responding.
+Only return JSON. No extra text. 
+
+Wait for my command before responding.
 
 `;
 
@@ -203,6 +205,11 @@ async function gradeResponse() {
   const response = await openai.chat.completions.create({
     model: "gpt-4o",
     messages: messages,
+  });
+
+  response.choices.forEach((choice, index) => {
+    console.log(`--- Choice ${index + 1} ---`);
+    console.log(choice.message.content);
   });
 
   const assistantReply = response.choices[0].message.content;

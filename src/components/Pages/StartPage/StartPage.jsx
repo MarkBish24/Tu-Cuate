@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { useMode } from "../../../contexts/ModeContext.jsx";
+
 import HomeButton from "../../HomeButton/HomeButton.jsx";
 import SettingsTab from "../../SettingsTab/SettingsTab.jsx";
 
@@ -9,7 +11,8 @@ import { RxCross1 } from "react-icons/rx";
 
 import "./StartPage.css";
 
-export default function StartPage({ title, onStart }) {
+export default function StartPage({ onStart }) {
+  const { mode } = useMode();
   // used for the settings page
   const [spin, setSpin] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -73,9 +76,18 @@ export default function StartPage({ title, onStart }) {
         {/* This section is for the MicButton and front display page to talk to Cuate */}
         <div className="mic-page-wrapper">
           <div className="mic-page-title-cntr">
-            <h1 className="mic-page-title">{title}</h1>
+            <h1 className={`mic-page-title ${mode}`}>
+              {mode === "conversation" && "Conversations"}
+              {mode === "translation" && "Translations"}
+              {mode === "qna" && "Q & A"}
+            </h1>
             <p className="mic-page-info">
-              Press the microphone button to talk to Cuate
+              {mode === "conversation" &&
+                "Roleplay with Cuate to practice everyday conversations."}
+              {mode === "translation" &&
+                "Translate what Cuate says in English or Spanish."}
+              {mode === "Q&A" &&
+                "Answer Cuate's questions to reinforce understanding."}
             </p>
           </div>
           <div>

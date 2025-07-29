@@ -1,12 +1,13 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
 const path = require("path");
 const fs = require("fs");
-const fsp = require("fs").promises;
-const player = require("play-sound")();
-const { exec } = require("child_process");
 require("dotenv").config();
+const ffmpeg = require("fluent-ffmpeg");
+const ffmpegPath = require("ffmpeg-static");
 
 const utils = require("./utils.js");
+
+ffmpeg.setFfmpegPath(ffmpegPath);
 
 function createWindow() {
   const window = new BrowserWindow({
@@ -47,14 +48,34 @@ ipcMain.handle("save-audio-file", async (event, buffer) => {
 
     fs.mkdirSync(audioFolder, { recursive: true });
 
-    const timestamp = Date.now();
-    const filePath = path.join(audioFolder, "audio.wav");
+    const inputPath = path.join(audioFolder, "audio-raw.wav");
+    const outputPath = path.join(audioFolder, "audio.wav");
 
-    await fs.promises.writeFile(filePath, Buffer.from(buffer));
+    await fs.promises.writeFile(inputPath, Buffer.from(buffer));
 
-    console.log("Audio file saved at:", filePath);
+    // console.log("Audio file saved at:", filePath);
 
-    return filePath;
+    return new Promise((resolve, reject) => {
+      ffmpeg(inputPath)
+        .audioFilters([
+          "loudnorm", // normalize volume
+          "silenceremove=1:0:-50dB", // remove silence
+        ])
+        .outputOptions([
+          "-ar 16000", // sample rate: 16kHz
+          "-ac 1", // mono
+          "-sample_fmt s16", // signed 16-bit PCM
+        ])
+        .on("end", () => {
+          fs.unlinkSync(inputPath); // delete raw file
+          resolve(outputPath); // return cleaned file
+        })
+        .on("error", (err) => {
+          console.error("FFmpeg error:", err);
+          reject(err);
+        })
+        .save(outputPath);
+    });
   } catch (err) {
     console.error("Error Writing Audio File:", err);
     throw err;
