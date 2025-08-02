@@ -7,6 +7,8 @@ import QA from "./components/Pages/QA/QA.jsx";
 import Translation from "./components/Pages/Translation/Translation.jsx";
 import "./App.css";
 
+// main app has a home page and three different modes and the modes switch with the ModeContext.js
+
 function App() {
   return (
     <Router>

@@ -59,6 +59,9 @@ contextBridge.exposeInMainWorld("electronAPI", {
   checkItem: async (id, checked) => {
     return ipcRenderer.invoke("check-item", { id, checked });
   },
+  getCollectionData: async (collectionName) => {
+    return await ipcRenderer.invoke("get-collection-data", collectionName);
+  },
   generateResponse: () => ipcRenderer.invoke("generate-response"),
   gradeResponse: () => ipcRenderer.invoke("grade-response"),
 });

@@ -28,6 +28,8 @@ export const ConvoTabData = [
   },
 ];
 
+// home page that allows you to select with Converstaion, Q&A, or Translations
+
 export default function Home() {
   return (
     <>

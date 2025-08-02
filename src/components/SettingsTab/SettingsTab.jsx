@@ -1,14 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import DropDownMenu from "../DropDownMenu/DropDownMenu.jsx";
 
-import verbData from "../../../server/data/verbs.json";
-import vocabData from "../../../server/data/vocab.json";
-import tensesData from "../../../server/data/tenses.json";
-import pronounData from "../../../server/data/pronouns.json";
-import adverbsData from "../../../server/data/adverbs.json";
-
 import "./SettingsTab.css";
+
+// The Settings tabs connects to the data base and allows the user which words, verbs, conjugation tense, etc to be active or not
 
 export default function SettingsTab() {
   const [cefrValue, setCefrValue] = useState(1);
@@ -19,35 +15,47 @@ export default function SettingsTab() {
 
   const cefrLabels = ["A1", "A2", "B1", "B2", "C1", "C2"];
 
+  const [verbData, setVerbData] = useState([]);
+  const [vocabData, setVocabData] = useState([]);
+  const [adverbsData, setAdverbsData] = useState([]);
+  const [tensesData, setTensesData] = useState([]);
+  const [pronounData, setPronounData] = useState([]);
+
+  useEffect(() => {
+    const loadData = async () => {
+      const verbs = await window.electronAPI.getCollectionData("verbs");
+      const vocab = await window.electronAPI.getCollectionData("vocab");
+      const adverbs = await window.electronAPI.getCollectionData("adverbs");
+      const tenses = await window.electronAPI.getCollectionData("tenses");
+      const pronouns = await window.electronAPI.getCollectionData("pronouns");
+
+      if (verbs.success) setVerbData(verbs.data);
+      if (vocab.success) setVocabData(vocab.data);
+      if (adverbs.success) setAdverbsData(adverbs.data);
+      if (tenses.success) setTensesData(tenses.data);
+      if (pronouns.success) setPronounData(pronouns.data);
+    };
+
+    loadData();
+  }, []);
+
   return (
     <>
       <ul className="settings-panel">
         <li>
-          <DropDownMenu title={"Verbs"} info={verbData} includeInfo={true} />
+          <DropDownMenu title={"Verbs"} info={verbData} />
         </li>
         <li>
-          <DropDownMenu
-            title={"Adverbs"}
-            info={adverbsData}
-            includeInfo={true}
-          />
+          <DropDownMenu title={"Adverbs"} info={adverbsData} />
         </li>
         <li>
-          <DropDownMenu
-            title={"Conjugation Tense"}
-            info={tensesData}
-            includeInfo={true}
-          />
+          <DropDownMenu title={"Conjugation Tense"} info={tensesData} />
         </li>
         <li>
-          <DropDownMenu
-            title={"Pronouns"}
-            info={pronounData}
-            includeInfo={true}
-          />
+          <DropDownMenu title={"Pronouns"} info={pronounData} />
         </li>
         <li>
-          <DropDownMenu title={"Vocab"} info={vocabData} includeInfo={true} />
+          <DropDownMenu title={"Vocab"} info={vocabData} />
         </li>
         <li className="settings-range">
           <label>CEFR Level</label>

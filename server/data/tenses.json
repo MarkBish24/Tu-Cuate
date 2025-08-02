@@ -13,7 +13,7 @@
         "id": "tenses-01-02",
         "spanish": "Pretérito Indefinido",
         "english": "Preterite",
-        "active": false
+        "active": true
       },
       {
         "id": "tenses-01-03",
@@ -43,13 +43,13 @@
         "id": "tenses-01-07",
         "spanish": "Futuro Simple",
         "english": "Simple Future",
-        "active": true
+        "active": false
       },
       {
         "id": "tenses-01-08",
         "spanish": "Futuro Perfecto",
         "english": "Future Perfect",
-        "active": true
+        "active": false
       },
       {
         "id": "tenses-01-09",

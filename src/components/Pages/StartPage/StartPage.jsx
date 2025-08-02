@@ -86,7 +86,7 @@ export default function StartPage({ onStart }) {
                 "Roleplay with Cuate to practice everyday conversations."}
               {mode === "translation" &&
                 "Translate what Cuate says in English or Spanish."}
-              {mode === "Q&A" &&
+              {mode === "qna" &&
                 "Answer Cuate's questions to reinforce understanding."}
             </p>
           </div>

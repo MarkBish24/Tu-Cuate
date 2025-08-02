@@ -67,25 +67,25 @@
         "id": "pronouns-02-01",
         "spanish": "me",
         "english": "myself",
-        "active": true
+        "active": false
       },
       {
         "id": "pronouns-02-02",
         "spanish": "te",
         "english": "yourself",
-        "active": true
+        "active": false
       },
       {
         "id": "pronouns-02-03",
         "spanish": "se",
         "english": "himself / herself",
-        "active": true
+        "active": false
       },
       {
         "id": "pronouns-02-04",
         "spanish": "nos",
         "english": "ourselves",
-        "active": true
+        "active": false
       },
       {
         "id": "pronouns-02-05",
@@ -97,7 +97,7 @@
         "id": "pronouns-02-06",
         "spanish": "se",
         "english": "themselves",
-        "active": true
+        "active": false
       }
     ]
   },

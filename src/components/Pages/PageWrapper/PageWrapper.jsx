@@ -6,6 +6,10 @@ import ListeningPage from "./ListeningPage/ListeningPage.jsx";
 import GradingPanels from "./GradingPanels/GradingPanels.jsx";
 import "./PageWrapper.css";
 
+// Page Wrapper sets the up a majority of the work for audio, it's a switch statment,
+// depending on the content it will switch to a new mode, This Mode is seperate from the Mode in the Contexts.js folder
+// it will go into a continuous loop until at the end of grading the user exits out
+
 export default function PageWrapper() {
   const [mode, setMode] = useState("start");
 

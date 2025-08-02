@@ -2,12 +2,16 @@ const { app, BrowserWindow, ipcMain } = require("electron");
 const path = require("path");
 const fs = require("fs");
 require("dotenv").config();
+
+const utils = require("./utils.js");
+const { connectToDB } = require("./db");
+
 const ffmpeg = require("fluent-ffmpeg");
 const ffmpegPath = require("ffmpeg-static");
 
-const utils = require("./utils.js");
-
 ffmpeg.setFfmpegPath(ffmpegPath);
+
+// SETTING UP MAIN WINDOW AND DEFAULT SETTINGS
 
 function createWindow() {
   const window = new BrowserWindow({
@@ -42,6 +46,7 @@ app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
 });
 
+// when the user is finished recording, it cuts down the audio and it replaces the  pre-exisitng audio file in the public folder
 ipcMain.handle("save-audio-file", async (event, buffer) => {
   try {
     const audioFolder = path.join(__dirname, "..", "public", "audio");
@@ -82,38 +87,79 @@ ipcMain.handle("save-audio-file", async (event, buffer) => {
   }
 });
 
-ipcMain.handle("check-item", async (event, { id, checked }) => {
-  try {
-    const parts = id.split("-");
+// With the ID it looks for the appropriate item and checks it as either active or inactive
 
-    const fileName = parts[0] + ".json";
+ipcMain.handle("check-item", async (event, { id, checked }) => {
+  // **** NEW WAY USING DATA MONGO DATABASE ****
+  try {
+    // id is split into parts EX * verbs-04-28 *
+    const parts = id.split("-");
+    const collectionName = parts[0];
     const sectionId = parts[1];
     const itemId = id;
 
-    const filePath = path.join(__dirname, "data", fileName);
-    const fileContent = await fs.promises.readFile(filePath, "utf-8");
-    const data = JSON.parse(fileContent);
+    const db = await connectToDB();
+    const collection = db.collection(collectionName);
 
-    const section = data.find((section) => section.id === sectionId);
-    if (!section) throw new Error(`Section with id ${sectionId} not found`);
-
-    const item = section.items.find((item) => item.id === itemId);
-    if (!item) throw new Error(`Item with id ${itemId} not found`);
-
-    item.active = checked;
-
-    await fs.promises.writeFile(
-      filePath,
-      JSON.stringify(data, null, 2),
-      "utf-8"
+    // Searching for the exact ID to be checked
+    const result = await collection.updateOne(
+      { id: sectionId, "items.id": itemId },
+      { $set: { "items.$.active": checked } }
     );
+
+    if (result.modifiedCount === 0) {
+      throw new Error(
+        `Failed to update item ${itemId} in section ${sectionId}`
+      );
+    }
 
     return { success: true };
   } catch (error) {
     console.error("Error updating check item:", error);
     return { success: false, error: error.message };
   }
+
+  // **** OLD WAY USING JSON FILES ****
+  // try {
+  //   const parts = id.split("-");
+  //   const fileName = parts[0] + ".json";
+  //   const sectionId = parts[1];
+  //   const itemId = id;
+  //   const filePath = path.join(__dirname, "data", fileName);
+  //   const fileContent = await fs.promises.readFile(filePath, "utf-8");
+  //   const data = JSON.parse(fileContent);
+  //   const section = data.find((section) => section.id === sectionId);
+  //   if (!section) throw new Error(`Section with id ${sectionId} not found`);
+  //   const item = section.items.find((item) => item.id === itemId);
+  //   if (!item) throw new Error(`Item with id ${itemId} not found`);
+  //   item.active = checked;
+  //   await fs.promises.writeFile(
+  //     filePath,
+  //     JSON.stringify(data, null, 2),
+  //     "utf-8"
+  //   );
+  //   return { success: true };
+  // } catch (error) {
+  //   console.error("Error updating check item:", error);
+  //   return { success: false, error: error.message };
+  // }
 });
+
+// gets all the collection files to display in the settings panel
+
+ipcMain.handle("get-collection-data", async (event, collectionName) => {
+  try {
+    const db = await connectToDB();
+    const collection = db.collection(collectionName);
+    const data = await collection.find({}).toArray();
+    return { success: true, data };
+  } catch (error) {
+    console.error("Error fetching collection data:", error);
+    return { success: false, error: error.message };
+  }
+});
+
+// Basic function that are connected through the utils folder
 
 ipcMain.handle("generate-response", async () => {
   return await utils.generateResponse();

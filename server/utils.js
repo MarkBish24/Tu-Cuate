@@ -1,11 +1,13 @@
 const { OpenAI } = require("openai");
-const { app } = require("electron");
 const path = require("path");
 const fs = require("fs");
+const { connectToDB } = require("./db");
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
+
+// Turns Audio into text using open ai
 
 async function transcribeAudio(language = "es") {
   const filePath = path.join(__dirname, "..", "public", "audio", "audio.wav");
@@ -26,6 +28,8 @@ async function transcribeAudio(language = "es") {
   console.log(response.text);
   return response.text;
 }
+
+// turns text into audio
 
 async function text2Speech(text, language = "es") {
   try {
@@ -141,24 +145,21 @@ function getActiveWords(data) {
   return activeWords;
 }
 
-async function getTopics() {
-  const dataDir = path.join(__dirname, "data");
+// Helper function that gets database collection
 
-  const adverbs = JSON.parse(
-    fs.readFileSync(path.join(dataDir, "adverbs.json"), "utf-8")
-  );
-  const pronouns = JSON.parse(
-    fs.readFileSync(path.join(dataDir, "pronouns.json"), "utf-8")
-  );
-  const tenses = JSON.parse(
-    fs.readFileSync(path.join(dataDir, "tenses.json"), "utf-8")
-  );
-  const verbs = JSON.parse(
-    fs.readFileSync(path.join(dataDir, "verbs.json"), "utf-8")
-  );
-  const vocab = JSON.parse(
-    fs.readFileSync(path.join(dataDir, "vocab.json"), "utf-8")
-  );
+async function getCollectionData(collectionName) {
+  const db = await connectToDB();
+  return await db.collection(collectionName).find({}).toArray();
+}
+
+async function getTopics() {
+  // **** NEW WAY WITH MONGO DB ****
+
+  const adverbs = await getCollectionData("adverbs");
+  const pronouns = await getCollectionData("pronouns");
+  const tenses = await getCollectionData("tenses");
+  const verbs = await getCollectionData("verbs");
+  const vocab = await getCollectionData("vocab");
 
   const tempTopics = {
     adverbs: pickRandom(getActiveWords(adverbs)) || "",
@@ -171,7 +172,37 @@ async function getTopics() {
   };
 
   return tempTopics;
+
+  // **** OLD WAY WITH JSON FILES ****
+  // const dataDir = path.join(__dirname, "data");
+  // const adverbs = JSON.parse(
+  //   fs.readFileSync(path.join(dataDir, "adverbs.json"), "utf-8")
+  // );
+  // const pronouns = JSON.parse(
+  //   fs.readFileSync(path.join(dataDir, "pronouns.json"), "utf-8")
+  // );
+  // const tenses = JSON.parse(
+  //   fs.readFileSync(path.join(dataDir, "tenses.json"), "utf-8")
+  // );
+  // const verbs = JSON.parse(
+  //   fs.readFileSync(path.join(dataDir, "verbs.json"), "utf-8")
+  // );
+  // const vocab = JSON.parse(
+  //   fs.readFileSync(path.join(dataDir, "vocab.json"), "utf-8")
+  // );
+  // const tempTopics = {
+  //   adverbs: pickRandom(getActiveWords(adverbs)) || "",
+  //   pronouns: pickRandom(getActiveWords(pronouns)) || "",
+  //   tenses: pickRandom(getActiveWords(tenses)) || "",
+  //   verbs: pickRandom(getActiveWords(verbs)) || "",
+  //   vocab: pickRandom(getActiveWords(vocab)) || "",
+  //   CEFR: "B1 CEFR LEVEL",
+  //   length: "20 words Long",
+  // };
+  // return tempTopics;
 }
+
+// Creates a random response/question that the user has to answer
 
 async function generateResponse() {
   const topics = await getTopics();
@@ -197,6 +228,8 @@ async function generateResponse() {
     return null;
   }
 }
+
+// takes in what the user spoke into the mic and then grades their response
 
 async function gradeResponse() {
   userReply = await transcribeAudio();
