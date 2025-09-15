@@ -64,6 +64,10 @@ contextBridge.exposeInMainWorld("electronAPI", {
   },
   generateResponse: () => ipcRenderer.invoke("generate-response"),
   gradeResponse: () => ipcRenderer.invoke("grade-response"),
+  saveSpanishAttempt: async (data) =>
+    ipcRenderer.invoke("save-spanish-attempt", data),
+  getSpanishData: async (startDate, endDate) =>
+    ipcRenderer.invoke("get-spanish-data", startDate, endDate),
 });
 
 //  transcribeAudio,generateResponse,gradeResponse,resetMessages,

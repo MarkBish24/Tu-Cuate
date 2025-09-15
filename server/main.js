@@ -63,7 +63,6 @@ ipcMain.handle("save-audio-file", async (event, buffer) => {
     return new Promise((resolve, reject) => {
       ffmpeg(inputPath)
         .audioFilters([
-          "loudnorm", // normalize volume
           "silenceremove=1:0:-50dB", // remove silence
         ])
         .outputOptions([
@@ -167,4 +166,58 @@ ipcMain.handle("generate-response", async () => {
 
 ipcMain.handle("grade-response", async () => {
   return await utils.gradeResponse();
+});
+
+ipcMain.handle("save-spanish-attempt", async (event, data) => {
+  try {
+    const db = await connectToDB();
+    const collection = db.collection("spanish_attempts");
+
+    // Add timestamp
+    const dataToSave = { ...data, timestamp: new Date() };
+
+    const result = await collection.insertOne(dataToSave);
+
+    console.log("Document inserted with ID:", result.insertedId);
+    return { success: true, id: result.insertedId };
+  } catch (err) {
+    console.error("Failed to save Spanish attempt:", err);
+    return { success: false, error: err.message };
+  }
+});
+
+ipcMain.handle("get-spanish-data", async (event, startDate, endDate) => {
+  try {
+    const db = await connectToDB();
+    const collection = db.collection("spanish_attempts");
+
+    const start = new Date(startDate);
+    const end = new Date(endDate);
+
+    const data = await collection
+      .aggregate([
+        { $unwind: "$mistakes" },
+        {
+          $match: { timestamp: { $gte: start, $lte: end } }, // optional time filter
+        },
+        {
+          $project: {
+            _id: 0,
+            originalSentence: "$original",
+            originalMistake: "$mistakes.original",
+            correction: "$mistakes.correction",
+            explanation: "$mistakes.explanation",
+            category: "$mistakes.category",
+            type: "$mistakes.type",
+            timestamp: 1,
+          },
+        },
+      ])
+      .toArray();
+
+    return { success: true, data };
+  } catch (err) {
+    console.error("Failed to Fetch Spanish Data", err);
+    return { success: false, error: err.message };
+  }
 });

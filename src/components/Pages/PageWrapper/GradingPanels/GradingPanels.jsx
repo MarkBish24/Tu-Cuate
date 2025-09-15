@@ -55,6 +55,15 @@ export default function GradingPanels({ onContinue, onExit }) {
       if (window.electronAPI && window.electronAPI.gradeResponse) {
         try {
           const result = await window.electronAPI.gradeResponse();
+
+          // 3. Save to MongoDB
+          const saveResult = await window.electronAPI.saveSpanishAttempt(
+            result
+          );
+          if (!saveResult.success) {
+            console.error("Failed to save Spanish attempt:", saveResult.error);
+          }
+
           setInfo(result);
           setHaveInfo(true);
         } catch (err) {

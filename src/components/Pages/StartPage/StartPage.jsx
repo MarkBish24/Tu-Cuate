@@ -77,13 +77,13 @@ export default function StartPage({ onStart }) {
         <div className="mic-page-wrapper">
           <div className="mic-page-title-cntr">
             <h1 className={`mic-page-title ${mode}`}>
-              {mode === "conversation" && "Conversations"}
+              {mode === "analysis" && "Analysis"}
               {mode === "translation" && "Translations"}
               {mode === "qna" && "Q & A"}
             </h1>
             <p className="mic-page-info">
-              {mode === "conversation" &&
-                "Roleplay with Cuate to practice everyday conversations."}
+              {mode === "analysis" &&
+                "Analyze your mistakes that you made in the Past."}
               {mode === "translation" &&
                 "Translate what Cuate says in English or Spanish."}
               {mode === "qna" &&

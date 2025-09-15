@@ -9,10 +9,10 @@ const iconSize = 100;
 
 export const ConvoTabData = [
   {
-    title: "Conversation",
-    description: "Roleplay with Cuate to practice everyday conversations.",
+    title: "Analysis",
+    description: "Analyze your mistakes that you made in the Past.",
     icon: <HiUserGroup size={iconSize} />,
-    targetUrl: "/conversation",
+    targetUrl: "/analysis",
   },
   {
     title: "Q&A",

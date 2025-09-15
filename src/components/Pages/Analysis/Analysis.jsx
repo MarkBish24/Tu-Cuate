@@ -1,0 +1,43 @@
+import { useEffect, useState } from "react";
+import { useMode } from "../../../contexts/ModeContext.jsx";
+import "./Analysis.css";
+
+export default function Analysis() {
+  const { setMode } = useMode();
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    setMode("analysis");
+
+    const fetchData = async () => {
+      try {
+        const startDate = "2025-09-01T00:00:00Z";
+        const endDate = "2025-09-15T23:59:59Z";
+
+        const result = await window.electronAPI.getSpanishData(
+          startDate,
+          endDate
+        );
+
+        if (result.success) {
+          setData(result.data);
+          console.log(result.data);
+        }
+      } catch (err) {
+        console.error("Failed to fetch Spanish data:", err);
+      }
+    };
+    fetchData();
+  }, [setMode]);
+
+  return (
+    <div>
+      {data.map((mistake, index) => (
+        <div key={index}>
+          <strong>{mistake.category}</strong>: {mistake.originalMistake} →{" "}
+          {mistake.correction}
+        </div>
+      ))}
+    </div>
+  );
+}
