@@ -85,7 +85,7 @@ You must reply with a JSON array like this:
     "mistakes": [
       {
         "type": "<error|inaccuracy|alternative>",
-        "category": [ "<phraseFlow | conjugation | genderNumberAgreement | prepositions | vocabularyChoice | spellingAccents | syntax | articles | pronouns | idiomaticExpressions>" ] # Can have Multiple
+        "category": [ "<phraseFlow | conjugation | genderNumberAgreement | preposition | vocabulary | punctuation | articles | pronouns | idiomaticExpressions>" ] # Can have Multiple
         "original": "<wrong part>",
         "correction": "<fix>",
         "explanation": "<why>"
