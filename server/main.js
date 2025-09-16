@@ -173,12 +173,16 @@ ipcMain.handle("save-spanish-attempt", async (event, data) => {
     const db = await connectToDB();
     const collection = db.collection("spanish_attempts");
 
-    // Add timestamp
-    const dataToSave = { ...data, timestamp: new Date() };
+    const attemptObject = Array.isArray(data) ? data[0] : data;
+
+    const dataToSave = {
+      ...attemptObject,
+      timestamp: new Date(),
+    };
 
     const result = await collection.insertOne(dataToSave);
-
     console.log("Document inserted with ID:", result.insertedId);
+
     return { success: true, id: result.insertedId };
   } catch (err) {
     console.error("Failed to save Spanish attempt:", err);
