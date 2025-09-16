@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 import { useMode } from "../../../contexts/ModeContext.jsx";
+
+import HomeButton from "../../HomeButton/HomeButton.jsx";
 import "./Analysis.css";
 
 export default function Analysis() {
@@ -31,13 +34,24 @@ export default function Analysis() {
   }, [setMode]);
 
   return (
-    <div>
-      {data.map((mistake, index) => (
-        <div key={index}>
-          <strong>{mistake.category}</strong>: {mistake.originalMistake} →{" "}
-          {mistake.correction}
+    <>
+      <motion.div
+        key="analysis"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.3, ease: "easeInOut" }}
+      >
+        <HomeButton />
+        <div>
+          {data.map((mistake, index) => (
+            <div key={index}>
+              <strong>{mistake.category}</strong>: {mistake.originalMistake} →{" "}
+              {mistake.correction}
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
+      </motion.div>
+    </>
   );
 }
