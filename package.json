@@ -6,7 +6,8 @@
   "scripts": {
     "dev:react": "vite",
     "dev:electron": "wait-on http://localhost:5173 && electron .",
-    "dev": "concurrently \"npm run dev:react\" \"npm run dev:electron\"",
+    "dev:python": "nlp/tf-env/bin/python nlp/server.py",
+    "dev": "concurrently \"npm run dev:react\" \"npm run dev:electron\" \"npm run dev:python\"",
     "build": "vite build",
     "preview": "vite preview",
     "package": "electron-packager . Tu-Cuate --platform=win32 --arch=x64 --out=dist-electron --overwrite"
