@@ -1,5 +1,5 @@
 # Tu-Cuate / Spanish Speech Evaluater
-A short description of what your project does.
+A Spanish Practice Speaking App that allows the user to practice there oral and listening spanish skills and corrects the mistakes that the speaker had send and gives them better alternatives
 
 ---
 
@@ -22,4 +22,16 @@ A short description of what your project does.
 
 ## Technologies
 
+# Languages 
+Python - JavaScript
+# Frameworks / Runtimes
+React (with Vite) - Electron - FastAPI
+# APIs
+OpenAPI
+# Databases
+MongoDB (NoSQL)
+# Libraries
+Pandas - spaCy - D3.js
+# Developer Tools
+Git - VSCode
 
