@@ -67,3 +67,4 @@ def clean_data(data):
 
     mistakes_df['category_standard'] = mistakes_df['category'].map(category_map).fillna(mistakes_df['category'])
 
+    return mistakes_df
