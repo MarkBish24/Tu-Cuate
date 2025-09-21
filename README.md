@@ -14,7 +14,18 @@ A Spanish Practice Speaking App that allows the user to practice there oral and 
 
 ## Installation
 
+
+## Getting Started
+There are <strong>Two</strong> main features with this app. Speech Grader (Q & A and Translations) and Machine Learning Similarity Analyist (Analysis). Once the User starts the app, it will ask them to enter one of these two types of modes.
+![App Screenshot](assets/images/read-me-images/Spanish-Conversation-App-01.png)
+
+
 ## Feature 1 - Speech Grader
+
+---
+
+
+
 
 ![App Screenshot](assets/images/read-me-images/Spanish-Conversation-App-01.png)
 
@@ -22,16 +33,16 @@ A Spanish Practice Speaking App that allows the user to practice there oral and 
 
 ## Technologies
 
-# Languages 
+### Languages 
 Python - JavaScript
-# Frameworks / Runtimes
+### Frameworks / Runtimes
 React (with Vite) - Electron - FastAPI
-# APIs
+### APIs
 OpenAPI
-# Databases
+### Databases
 MongoDB (NoSQL)
-# Libraries
+### Libraries
 Pandas - spaCy - D3.js
-# Developer Tools
+### Developer Tools
 Git - VSCode
 
