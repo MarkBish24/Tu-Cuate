@@ -1,12 +1,48 @@
-# React + Vite
+# Tu-Cuate / Spanish Speech Evaluater
+A Spanish Practice Speaking App that allows the user to practice there oral and listening spanish skills and corrects the mistakes that the speaker had send and gives them better alternatives
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+There are <strong>Two</strong> main features with this app. Speech Grader (Q & A and Translations) and Machine Learning Similarity Analyist (Analysis). Once the User starts the app, it will ask them to enter one of these two types of modes.
+![App Screenshot](assets/images/read-me-images/Spanish-Conversation-App-01.png)
+
+
+## Feature 1 - Speech Grader
+
+---
+
+
+
+
+![App Screenshot](assets/images/read-me-images/Spanish-Conversation-App-01.png)
+
+## Feature 2 - Machine Learning Similarity Analyist
+
+## Technologies
+
+### Languages 
+Python - JavaScript
+### Frameworks / Runtimes
+React (with Vite) - Electron - FastAPI
+### APIs
+OpenAPI
+### Databases
+MongoDB (NoSQL)
+### Libraries
+Pandas - spaCy - D3.js
+### Developer Tools
+Git - VSCode
+
