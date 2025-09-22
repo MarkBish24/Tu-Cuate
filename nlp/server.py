@@ -32,7 +32,7 @@ def get_data(days: str = Query("all", description="Select days: 1, 7, 30 or 'all
         
     # Convert timestamp to ISO format string for JSON
     df = dataframe.copy()  # avoid SettingWithCopyWarning
-    df['timestamp'] = df['timestamp'].dt.isoformat()
+    df['timestamp'] = df['timestamp'].astype(str)
     # Return JSON
     return JSONResponse(content=df.to_dict(orient="records"))
 
