@@ -16,8 +16,10 @@ A Spanish Practice Speaking App that allows the user to practice there oral and 
 
 
 ## Getting Started
-There are <strong>TWO</strong> main features with this app. Speech Grader (Q & A and Translations) and Machine Learning Similarity Analyist (Analysis). Once the User starts the app, it will ask them to enter one of these two types of modes.
-![App Screenshot](assets/images/read-me-images/Spanish-Conversation-App-01.png)
+<p align="center">There are <strong>TWO</strong> main features with this app. Speech Grader (Q & A and Translations) and Machine Learning Similarity Analyist (Analysis). Once the User starts the app, it will ask them to enter one of these two types of modes.</p>
+<p align="center">
+  <img src="assets/images/read-me-images/Spanish-Conversation-App-01.png" alt="App Screenshot" width="600"/>
+</p>
 
 
 ## Feature 1 - Speech Grader
