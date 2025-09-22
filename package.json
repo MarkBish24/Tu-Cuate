@@ -6,14 +6,14 @@
   "scripts": {
     "dev:react": "vite",
     "dev:electron": "wait-on http://localhost:5173 && electron .",
-    "dev:python": "nlp/tf-env/bin/python nlp/server.py",
+    "dev:python": "nlp\\tf-env\\Scripts\\python.exe nlp\\server.py",
     "dev": "concurrently \"npm run dev:react\" \"npm run dev:electron\" \"npm run dev:python\"",
     "build": "vite build",
     "preview": "vite preview",
     "package": "electron-packager . Tu-Cuate --platform=win32 --arch=x64 --out=dist-electron --overwrite"
   },
   "dependencies": {
-    "axios": "^1.10.0",
+    "axios": "^1.12.2",
     "dotenv": "^17.2.0",
     "electron": "^37.0.0",
     "electron-packager": "^17.1.2",

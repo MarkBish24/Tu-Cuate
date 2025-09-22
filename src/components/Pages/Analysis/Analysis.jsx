@@ -17,10 +17,7 @@ export default function Analysis() {
         const startDate = "2025-09-01T00:00:00Z";
         const endDate = "2025-09-15T23:59:59Z";
 
-        const result = await window.electronAPI.getSpanishData(
-          startDate,
-          endDate
-        );
+        const result = await window.electronAPI.getNLPData();
 
         if (result.success) {
           setData(result.data);

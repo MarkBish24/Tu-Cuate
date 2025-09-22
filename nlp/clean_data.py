@@ -8,7 +8,13 @@ import os
 def get_data():
 
     # get path to ENV info pass words
-    env_path = Path('../.env') 
+    # First path - Python
+    env_path = Path('../.env')
+
+    # If the first path doesn't exist, use the alternative - Nodejs
+    if not env_path.exists():
+        env_path = Path(__file__).parent.parent / '.env'
+
     load_dotenv(dotenv_path=env_path)
 
     mongo_url = os.getenv("MONGODB_URI")

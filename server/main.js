@@ -1,6 +1,7 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
 const path = require("path");
 const fs = require("fs");
+const axios = require("axios");
 require("dotenv").config();
 
 const utils = require("./utils.js");
@@ -190,38 +191,49 @@ ipcMain.handle("save-spanish-attempt", async (event, data) => {
   }
 });
 
-ipcMain.handle("get-spanish-data", async (event, startDate, endDate) => {
+// *** OLD WAY TO GET DATA WITHOUT MACHINE LEARNING PROPERTIES ***
+
+// ipcMain.handle("get-spanish-data", async (event, startDate, endDate) => {
+//   try {
+//     const db = await connectToDB();
+//     const collection = db.collection("spanish_attempts");
+
+//     const start = new Date(startDate);
+//     const end = new Date(endDate);
+
+//     const data = await collection
+//       .aggregate([
+//         { $unwind: "$mistakes" },
+//         {
+//           $match: { timestamp: { $gte: start, $lte: end } }, // optional time filter
+//         },
+//         {
+//           $project: {
+//             _id: 0,
+//             originalSentence: "$original",
+//             originalMistake: "$mistakes.original",
+//             correction: "$mistakes.correction",
+//             explanation: "$mistakes.explanation",
+//             category: "$mistakes.category",
+//             type: "$mistakes.type",
+//             timestamp: 1,
+//           },
+//         },
+//       ])
+//       .toArray();
+
+//     return { success: true, data };
+//   } catch (err) {
+//     console.error("Failed to Fetch Spanish Data", err);
+//     return { success: false, error: err.message };
+//   }
+// });
+
+ipcMain.handle("get-nlp-data", async () => {
   try {
-    const db = await connectToDB();
-    const collection = db.collection("spanish_attempts");
-
-    const start = new Date(startDate);
-    const end = new Date(endDate);
-
-    const data = await collection
-      .aggregate([
-        { $unwind: "$mistakes" },
-        {
-          $match: { timestamp: { $gte: start, $lte: end } }, // optional time filter
-        },
-        {
-          $project: {
-            _id: 0,
-            originalSentence: "$original",
-            originalMistake: "$mistakes.original",
-            correction: "$mistakes.correction",
-            explanation: "$mistakes.explanation",
-            category: "$mistakes.category",
-            type: "$mistakes.type",
-            timestamp: 1,
-          },
-        },
-      ])
-      .toArray();
-
-    return { success: true, data };
+    const response = await axios.get("http://localhost:4000/get-data?days=7");
+    return { success: true, data: response.data };
   } catch (err) {
-    console.error("Failed to Fetch Spanish Data", err);
     return { success: false, error: err.message };
   }
 });
