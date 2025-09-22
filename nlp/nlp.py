@@ -70,7 +70,7 @@ class MistakesDataset:
 
 
         #create a score where both the sentence and the mistake are involved
-        dataframe['difficulty_score'] = (
+        dataframe['difficulty_score'] = 1 - (
             (1 - dataframe['mistake_similarity']) * self.weight_mistake +
             (1 - dataframe['sentence_similarity']) * self.weight_sentence
         )
@@ -80,13 +80,17 @@ class MistakesDataset:
 
         category_summary = category_grouped.agg(
             count=('difficulty_score', 'count'),
-            avg_difficulty=('difficulty_score', 'mean')
+            avg_correctness=('difficulty_score', 'mean')
         ).reset_index()
+    
 
-        #compute an emphasis score
+        # flip it around to get difficulty
+        category_summary['avg_difficulty'] = 1 - category_summary['avg_correctness']
+
+        # emphasis = more errors * more difficulty
         category_summary['emphasis_score'] = category_summary['count'] * category_summary['avg_difficulty']
 
-        #normalize to 0-1
+        # normalize to 0–1
         category_summary['emphasis_score'] /= category_summary['emphasis_score'].max()
 
         return category_summary
