@@ -33,8 +33,13 @@ def get_data(days: str = Query("all", description="Select days: 1, 7, 30 or 'all
     # Convert timestamp to ISO format string for JSON
     df = dataframe.copy()  # avoid SettingWithCopyWarning
     df['timestamp'] = df['timestamp'].astype(str)
+
+    category_summary = mistakes_dataset.get_category_summary(as_json=False)
     # Return JSON
-    return JSONResponse(content=df.to_dict(orient="records"))
+    return JSONResponse(content={
+        "data": df.to_dict(orient="records"),
+        "categories": category_summary.to_dict(orient="records")
+    })
 
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=4000)

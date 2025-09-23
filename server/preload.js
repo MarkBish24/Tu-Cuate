@@ -68,7 +68,8 @@ contextBridge.exposeInMainWorld("electronAPI", {
     ipcRenderer.invoke("save-spanish-attempt", data),
   // getSpanishData: async (startDate, endDate) =>
   //   ipcRenderer.invoke("get-spanish-data", startDate, endDate), ### Old version to get data without Machine learning attached to it
-  getNLPData: async () => ipcRenderer.invoke("get-nlp-data"),
+  getNLPData: async (timeframe) =>
+    ipcRenderer.invoke("get-nlp-data", timeframe),
 });
 
 //  transcribeAudio,generateResponse,gradeResponse,resetMessages,

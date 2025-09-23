@@ -229,9 +229,11 @@ ipcMain.handle("save-spanish-attempt", async (event, data) => {
 //   }
 // });
 
-ipcMain.handle("get-nlp-data", async () => {
+ipcMain.handle("get-nlp-data", async (event, timeframe) => {
   try {
-    const response = await axios.get("http://localhost:4000/get-data?days=all");
+    const response = await axios.get(
+      `http://localhost:4000/get-data?days=${timeframe.value}`
+    );
     return { success: true, data: response.data };
   } catch (err) {
     return { success: false, error: err.message };
