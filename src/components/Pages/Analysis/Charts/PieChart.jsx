@@ -49,12 +49,12 @@ export default function PieChart({ data, valueKey, labelKey, width, height }) {
       });
   }, [data]);
   return (
-    <>
+    <div className="relative">
       <svg ref={ref}></svg>
       <div
         ref={tooltipRef}
         className="absolute opacity-0  bg-white border border-gray-300 rounded-lg px-2 py-1.5 pointer-events-none text-xs shadow-md"
       ></div>
-    </>
+    </div>
   );
 }

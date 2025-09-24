@@ -34,7 +34,7 @@ def get_data(days: str = Query("all", description="Select days: 1, 7, 30 or 'all
     df = dataframe.copy()  # avoid SettingWithCopyWarning
     df['timestamp'] = df['timestamp'].astype(str)
 
-    category_summary = mistakes_dataset.get_category_summary(as_json=False)
+    category_summary = mistakes_dataset.compute_category_summary(dataframe)
     # Return JSON
     return JSONResponse(content={
         "data": df.to_dict(orient="records"),
