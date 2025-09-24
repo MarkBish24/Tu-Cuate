@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useMode } from "../../../contexts/ModeContext.jsx";
 
+import PieChart from "./Charts/PieChart.jsx";
 import HomeButton from "../../HomeButton/HomeButton.jsx";
 import "./Analysis.css";
 
@@ -10,7 +11,6 @@ export default function Analysis() {
   const [data, setData] = useState([]);
   const [categories, setCategories] = useState([]);
   const [timeframe, setTimeframe] = useState(null);
-  const [isFetching, setIsFetching] = useState(false);
 
   useEffect(() => {
     setMode("analysis");
@@ -67,12 +67,13 @@ export default function Analysis() {
           ))}
         </div>
         <div>
-          {data.map((mistake, index) => (
-            <div key={index}>
-              <strong>{mistake.category}</strong>: {mistake.originalMistake} →{" "}
-              {mistake.correction}
-            </div>
-          ))}
+          <PieChart
+            data={categories}
+            valueKey="count"
+            labelKey="category_standard"
+            width={300}
+            height={250}
+          />
         </div>
       </motion.div>
     </>
