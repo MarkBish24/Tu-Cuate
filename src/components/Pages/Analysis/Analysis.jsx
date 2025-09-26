@@ -5,6 +5,7 @@ import { useMode } from "../../../contexts/ModeContext.jsx";
 import PieChart from "./Charts/PieChart.jsx";
 import HomeButton from "../../HomeButton/HomeButton.jsx";
 import "./Analysis.css";
+import GroupedBarChart from "./Charts/GroupedBarChart.jsx";
 
 export default function Analysis() {
   const { setMode } = useMode();
@@ -17,9 +18,6 @@ export default function Analysis() {
 
     const fetchData = async () => {
       try {
-        const startDate = "2025-09-01T00:00:00Z";
-        const endDate = "2025-09-15T23:59:59Z";
-
         const result = await window.electronAPI.getNLPData(timeframe);
 
         if (result.success) {
@@ -73,6 +71,11 @@ export default function Analysis() {
             labelKey="category_standard"
             width={300}
             height={250}
+          />
+          <GroupedBarChart
+            data={data}
+            categories={categories}
+            timeframe={timeframe}
           />
         </div>
       </motion.div>
