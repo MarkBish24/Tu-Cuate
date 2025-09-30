@@ -5,7 +5,7 @@ import { useMode } from "../../../contexts/ModeContext.jsx";
 import PieChart from "./Charts/PieChart.jsx";
 import HomeButton from "../../HomeButton/HomeButton.jsx";
 import "./Analysis.css";
-import GroupedBarChart from "./Charts/GroupedBarChart.jsx";
+import StackedBarChart from "./Charts/StackedBarChart.jsx";
 
 export default function Analysis() {
   const { setMode } = useMode();
@@ -72,7 +72,7 @@ export default function Analysis() {
             width={300}
             height={250}
           />
-          <GroupedBarChart
+          <StackedBarChart
             data={data}
             categories={categories}
             timeframe={timeframe}

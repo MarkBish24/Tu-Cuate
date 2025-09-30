@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 
-export default function GroupedBarChart({
+export default function StackedBarChart({
   data,
   categories,
   width = 800,
@@ -25,51 +25,61 @@ export default function GroupedBarChart({
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    // Organizing Day timeframe data
+    // --- Prepare days and categories ---
+    const dayFormat = d3.utcFormat("%Y-%m-%d"); // UTC-safe
     const today = new Date();
-    const allDays = d3.timeDays(
-      d3.timeDay.offset(today, -timeframe + 1),
-      d3.timeDay.offset(today, 1)
+    const allDays = d3.utcDays(
+      d3.utcDay.offset(today, -timeframe),
+      d3.utcDay.offset(today, 0)
     );
-
-    const dayFormat = d3.timeFormat("%Y-%m-%d");
 
     const category_list = getCategories(categories);
 
-    const dataMap = new Map(
-      data.map((d) => [
-        dayFormat(new Date(d.date)) + "|" + d.category_standard,
-        +d.count,
-      ])
+    // --- Aggregate counts by day and category ---
+    const aggregatedData = d3.rollups(
+      data,
+      (v) => v.length, // count errors
+      (d) => dayFormat(new Date(d.timestamp)), // day
+      (d) => d.category_standard // category
     );
 
-    const normalizedData = [];
-    allDays.forEach((day) => {
-      category_list.forEach((cat) => {
-        const key = dayFormat(day) + "|" + cat;
-        normalizedData.push({
-          date: dayFormat(day),
-          category_standard: cat,
-          value: dataMap.get(key) || 0,
-        });
+    // --- Convert aggregated data into a lookup map ---
+    const dataMap = new Map();
+    aggregatedData.forEach(([day, cats]) => {
+      cats.forEach(([cat, count]) => {
+        dataMap.set(day + "|" + cat, count);
       });
     });
 
-    const x0 = d3
+    // --- Build stackData for D3 stack layout ---
+    const stackData = allDays.map((day) => {
+      const dayObj = { date: dayFormat(day) };
+      category_list.forEach((cat) => {
+        const key = dayFormat(day) + "|" + cat;
+        dayObj[cat] = dataMap.get(key) || 0;
+      });
+      return dayObj;
+    });
+
+    // --- Create stack layout ---
+    const stack = d3.stack().keys(category_list);
+    const series = stack(stackData);
+
+    // --- Scales ---
+    const x = d3
       .scaleBand()
       .domain(allDays.map(dayFormat))
       .range([0, innerWidth])
-      .padding(0.2);
-
-    const x1 = d3
-      .scaleBand()
-      .domain(category_list)
-      .range([0, x0.bandwidth()])
-      .padding(0.05);
+      .padding(0.1);
 
     const y = d3
       .scaleLinear()
-      .domain([0, d3.max(normalizedData, (d) => +d.value)])
+      .domain([
+        0,
+        d3.max(stackData, (d) =>
+          category_list.reduce((sum, key) => sum + d[key], 0)
+        ),
+      ])
       .nice()
       .range([innerHeight, 0]);
 
@@ -84,41 +94,40 @@ export default function GroupedBarChart({
       "#B71C1C", // dark maroon/red
     ]);
 
+    // --- Axes ---
     g.append("g")
       .attr("transform", `translate(0,${innerHeight})`)
       .call(
         d3
-          .axisBottom(x0)
+          .axisBottom(x)
           .tickValues(allDays.map(dayFormat))
-          .tickFormat((d) => d.slice(5))
+          .tickFormat((d) => d.slice(5)) // show MM-DD
       );
 
     g.append("g").call(d3.axisLeft(y));
 
-    g.selectAll("g.group")
-      .data(allDays.map(dayFormat))
+    // --- Draw stacked bars ---
+    g.selectAll("g.layer")
+      .data(series)
       .join("g")
-      .attr("class", "group")
-      .attr("transform", (d) => `translate(${x0(d)},0)`)
+      .attr("class", "layer")
+      .attr("fill", (d) => color(d.key))
       .selectAll("rect")
-      .data((day) => normalizedData.filter((row) => row.date === day))
+      .data((d) => d)
       .join("rect")
-      .attr("x", (d) => x1(d.category_standard))
-      .attr("y", (d) => y(+d.value))
-      .attr("width", x1.bandwidth())
-      .attr("height", (d) => innerHeight - y(d.value))
-      .attr("fill", (d) => color(d.category_standard));
-  });
+      .attr("x", (d) => x(d.data.date))
+      .attr("y", (d) => y(d[1]))
+      .attr("height", (d) => y(d[0]) - y(d[1]))
+      .attr("width", x.bandwidth());
+  }, [data, categories, width, height, timeframe]);
 
   function getCategories(categories) {
     let category_list = [];
-
     categories.forEach((category) => {
       if (!category_list.includes(category.category_standard)) {
         category_list.push(category.category_standard);
       }
     });
-
     return category_list;
   }
 
