@@ -10,6 +10,7 @@ export default function StackedBarChart({
   timeframe,
 }) {
   const ref = useRef();
+  const tooltipRef = useRef();
 
   useEffect(() => {
     if (!data || data.length === 0 || timeframe == "1") return;
@@ -24,6 +25,17 @@ export default function StackedBarChart({
     const g = svg
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
+
+    const tooltip = d3
+      .select(tooltipRef.current)
+      .style("position", "absolute")
+      .style("background", "white")
+      .style("padding", "6px 10px")
+      .style("border", "1px solid #ccc")
+      .style("border-radius", "8px")
+      .style("box-shadow", "0px 2px 6px rgba(0,0,0,0.15)")
+      .style("pointer-events", "none")
+      .style("opacity", 0);
 
     // --- Prepare days and categories ---
     const dayFormat = d3.utcFormat("%Y-%m-%d"); // UTC-safe
@@ -133,9 +145,21 @@ export default function StackedBarChart({
           .attr("opacity", function (l) {
             return l.key === category ? 1 : 0.1;
           });
+        tooltip.style("opacity", 0.75).html(`
+            <strong>${category}</strong><br/>
+            Date: ${d.data.date}<br/>
+            Count: ${d[1] - d[0]}
+          `);
+      })
+      .on("mousemove", (event) => {
+        tooltip
+          .style("left", event.pageX + 15 + "px")
+          .style("top", event.pageY - 28 + "px");
       })
       .on("mouseleave", () => {
         g.selectAll("g.layer").transition().duration(200).attr("opacity", 1);
+
+        tooltip.style("opacity", 0);
       });
   }, [data, categories, width, height, timeframe]);
 
@@ -149,5 +173,10 @@ export default function StackedBarChart({
     return category_list;
   }
 
-  return <svg ref={ref} width={width} height={height}></svg>;
+  return (
+    <div>
+      <svg ref={ref} width={width} height={height}></svg>
+      <div ref={tooltipRef}></div>
+    </div>
+  );
 }
