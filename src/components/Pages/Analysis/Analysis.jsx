@@ -74,19 +74,49 @@ export default function Analysis() {
             padding: "20px",
           }}
         >
-          <div style={{ gridColumn: "1 / 2", gridRow: "1 / 2" }}>
+          <div
+            style={{
+              gridColumn: "1 / 2",
+              gridRow: "1 / 2",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "100%",
+              height: "100%",
+            }}
+          >
             <PieChart
               data={categories}
               valueKey="count"
               labelKey="category_standard"
-              width={400}
-              height={400}
+              width={300}
+              height={300}
             />
           </div>
-          <div style={{ gridColumn: "2 / 3", gridRow: "1 / 2" }}>
+          <div
+            style={{
+              gridColumn: "2 / 3",
+              gridRow: "1 / 2",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "100%",
+              height: "100%",
+            }}
+          >
             <EmphasisList categories={categories} />
           </div>
-          <div style={{ gridColumn: "1 / 3", gridRow: "2 / 3" }}>
+          <div
+            style={{
+              gridColumn: "1 / 3",
+              gridRow: "2 / 3",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "100%",
+              height: "100%",
+            }}
+          >
             <StackedBarChart
               data={data}
               categories={categories}

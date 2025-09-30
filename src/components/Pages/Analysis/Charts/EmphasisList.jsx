@@ -11,14 +11,27 @@ export default function EmphasisList({ categories }) {
     if (weight >= 0.25) return { label: "Low Priority", color: "#3498db" }; // blue
     return { label: "Minimal Priority", color: "#95a5a6" }; // gray
   }
-  return (
+
+  if (!categories || organizedCategories.length === 0) {
+    // Data not loaded yet or empty — render nothing
+    return null;
+  }
+  return categories ? (
     <>
-      <h1>Emphasis List</h1>
-      <ul>
+      <div
+        display={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100%",
+          width: "100%",
+        }}
+      >
         {organizedCategories.map((cat, index) => {
           const { label, color } = getPriority(cat.emphasis_score);
           return (
-            <li
+            <div
               key={index}
               style={{
                 backgroundColor: color,
@@ -26,15 +39,17 @@ export default function EmphasisList({ categories }) {
                 marginBottom: "5px",
                 borderRadius: "5px",
                 color: "#fff",
+                listStyle: "none", // optional, to remove bullet
               }}
             >
               {cat.category_standard} — {label} (
-              {Math.round(cat.emphasis_score * 100)}
-              %)
-            </li>
+              {Math.round(cat.emphasis_score * 100)}%)
+            </div>
           );
         })}
-      </ul>
+      </div>
     </>
+  ) : (
+    <></>
   );
 }
