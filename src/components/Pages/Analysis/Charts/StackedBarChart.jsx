@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
+import { recordStats } from "framer-motion";
 
 export default function StackedBarChart({
   data,
@@ -102,7 +103,12 @@ export default function StackedBarChart({
           .axisBottom(x)
           .tickValues(allDays.map(dayFormat))
           .tickFormat((d) => d.slice(5)) // show MM-DD
-      );
+      )
+      .selectAll("text")
+      .style("text-anchor", "end")
+      .attr("dx", "-0.5em")
+      .attr("dy", "0.15em")
+      .attr("transform", "rotate(-45)");
 
     g.append("g").call(d3.axisLeft(y));
 
@@ -118,7 +124,20 @@ export default function StackedBarChart({
       .attr("x", (d) => x(d.data.date))
       .attr("y", (d) => y(d[1]))
       .attr("height", (d) => y(d[0]) - y(d[1]))
-      .attr("width", x.bandwidth());
+      .attr("width", x.bandwidth())
+      .style("cursor", "pointer")
+      .on("mouseenter", (event, d) => {
+        const category = d3.select(event.currentTarget.parentNode).datum().key;
+        g.selectAll("g.layer")
+          .transition()
+          .duration(100)
+          .attr("opacity", function (l) {
+            return l.key === category ? 1 : 0.1;
+          });
+      })
+      .on("mouseleave", () => {
+        g.selectAll("g.layer").transition().duration(100).attr("opacity", 1);
+      });
   }, [data, categories, width, height, timeframe]);
 
   function getCategories(categories) {
