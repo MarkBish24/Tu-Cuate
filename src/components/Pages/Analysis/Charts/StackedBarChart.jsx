@@ -10,10 +10,9 @@ export default function StackedBarChart({
   timeframe,
 }) {
   const ref = useRef();
-  const [highlightedCategory, setHighlightedCategory] = useState(null);
 
   useEffect(() => {
-    if (!data || data.length === 0) return;
+    if (!data || data.length === 0 || timeframe == "1") return;
 
     const margin = { top: 30, right: 39, bottom: 50, left: 40 };
     const innerWidth = width - margin.left - margin.right;
@@ -130,13 +129,13 @@ export default function StackedBarChart({
         const category = d3.select(event.currentTarget.parentNode).datum().key;
         g.selectAll("g.layer")
           .transition()
-          .duration(100)
+          .duration(200)
           .attr("opacity", function (l) {
             return l.key === category ? 1 : 0.1;
           });
       })
       .on("mouseleave", () => {
-        g.selectAll("g.layer").transition().duration(100).attr("opacity", 1);
+        g.selectAll("g.layer").transition().duration(200).attr("opacity", 1);
       });
   }, [data, categories, width, height, timeframe]);
 

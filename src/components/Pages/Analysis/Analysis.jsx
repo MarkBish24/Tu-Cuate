@@ -4,8 +4,9 @@ import { useMode } from "../../../contexts/ModeContext.jsx";
 
 import PieChart from "./Charts/PieChart.jsx";
 import HomeButton from "../../HomeButton/HomeButton.jsx";
-import "./Analysis.css";
 import StackedBarChart from "./Charts/StackedBarChart.jsx";
+import EmphasisList from "./Charts/EmphasisList.jsx";
+import "./Analysis.css";
 
 export default function Analysis() {
   const { setMode } = useMode();
@@ -64,19 +65,34 @@ export default function Analysis() {
             </button>
           ))}
         </div>
-        <div>
-          <PieChart
-            data={categories}
-            valueKey="count"
-            labelKey="category_standard"
-            width={300}
-            height={250}
-          />
-          <StackedBarChart
-            data={data}
-            categories={categories}
-            timeframe={timeframe}
-          />
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "1fr 1fr",
+            gridTemplateRows: "auto auto",
+            gap: "20px",
+            padding: "20px",
+          }}
+        >
+          <div style={{ gridColumn: "1 / 2", gridRow: "1 / 2" }}>
+            <PieChart
+              data={categories}
+              valueKey="count"
+              labelKey="category_standard"
+              width={400}
+              height={400}
+            />
+          </div>
+          <div style={{ gridColumn: "2 / 3", gridRow: "1 / 2" }}>
+            <EmphasisList categories={categories} />
+          </div>
+          <div style={{ gridColumn: "1 / 3", gridRow: "2 / 3" }}>
+            <StackedBarChart
+              data={data}
+              categories={categories}
+              timeframe={timeframe}
+            />
+          </div>
         </div>
       </motion.div>
     </>
