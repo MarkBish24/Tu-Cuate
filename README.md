@@ -94,6 +94,27 @@ After recording, the app will correct what you said and highlight mistakes.
 
 ## Feature 2 - Machine Learning Similarity Analyist
 
+<p align="center">
+  <img src="assets/images/read-me-images/Spanish-Conversation-App-12.png" alt="Correction Screenshot" width="600"/>
+</p>
+<p align="center">
+  <img src="assets/images/read-me-images/Spanish-Conversation-App-13.png" alt="Correction Screenshot" width="600"/>
+</p>
+<p align="center">
+  <img src="assets/images/read-me-images/Spanish-Conversation-App-14.png" alt="Correction Screenshot" width="600"/>
+</p>
+<p align="center">
+  <img src="assets/images/read-me-images/Spanish-Conversation-App-15.png" alt="Correction Screenshot" width="600"/>
+</p>
+<p align="center">
+  <img src="assets/images/read-me-images/Spanish-Conversation-App-16.png" alt="Correction Screenshot" width="600"/>
+</p>
+<p align="center">
+  <img src="assets/images/read-me-images/Spanish-Conversation-App-17.png" alt="Correction Screenshot" width="600"/>
+</p>
+<p align="center">
+  <img src="assets/images/read-me-images/Spanish-Conversation-App-18.png" alt="Correction Screenshot" width="600"/>
+</p>
 
 ---
 
