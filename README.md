@@ -131,10 +131,25 @@ After recording, the app will correct what you said and highlight mistakes.
   For the <b>Emphasis</b> score, the closer the number is to 1, the more you should prioritize studying that group; the closer it is to 0, the less emphasis it requires.
 </p>
 
+---
+
+<p align="center">
+  The chart below displays the emphasis scores, organized by groups to show which areas the user should focus on. <br>
+  <b>High Priority</b> (75%–100%), <b>Medium Priority</b> (50%–75%), <b>Low Priority</b> (25%–50%), <b>Minimal Priority</b> (0%–25%)
+</p>
+
 
 <p align="center">
   <img src="assets/images/read-me-images/Spanish-Conversation-App-15.png" alt="Correction Screenshot" width="600"/>
 </p>
+
+---
+
+<p align="center">
+  Finally, a timeline bar chart displays all of your mistakes within the selected timeframe, grouped by category.
+</p>
+
+
 <p align="center">
   <img src="assets/images/read-me-images/Spanish-Conversation-App-16.png" alt="Correction Screenshot" width="600"/>
 </p>
