@@ -93,16 +93,45 @@ After recording, the app will correct what you said and highlight mistakes.
 
 
 ## Feature 2 - Machine Learning Similarity Analyist
-
+<p align="center">
+  To view your Spanish-speaking analysis, first select a date range.
+  You can choose from <b>Today</b>, <b>7 Days</b>, <b>30 Days</b>, or <b>All Time</b>.
+  After that, your analysis will be displayed.
+</p>
 <p align="center">
   <img src="assets/images/read-me-images/Spanish-Conversation-App-12.png" alt="Correction Screenshot" width="600"/>
 </p>
+
+---
+<p align="center">
+  First, a pie chart is displayed showing all the errors you made within the selected timeframe, organized by the <b>number of errors</b>.
+  You can hover over each section to see which areas you need to focus on.
+</p>
+
+
 <p align="center">
   <img src="assets/images/read-me-images/Spanish-Conversation-App-13.png" alt="Correction Screenshot" width="600"/>
 </p>
 <p align="center">
   <img src="assets/images/read-me-images/Spanish-Conversation-App-14.png" alt="Correction Screenshot" width="600"/>
 </p>
+
+<p align="center">
+  Using the SpaCy library, we can calculate similarity scores by comparing the OpenAI correction with the user’s original error, then averaging them by groups. <br><br>
+
+  <b>Group Name</b> (Conjugation, Phrase Flow, Pronouns): The first column displayed. <br>
+  <b>Count</b>: The number of errors made by the user. <br>
+  <b>Correctness</b>: The average similarity score for the errors (0–1). <br>
+  <b>Difficulty</b>: The average similarity score that accounts for the overall sentence structure (0–1). <br>
+  <b>Emphasis</b>: A weighted score that considers both the number of errors and the difficulty to determine which group the user should focus on (0–1). <br><br>
+
+  For <b>Correctness</b> and <b>Difficulty</b>, the closer the number is to 1, the more similar it is; the closer it is to 0, the more different it is. <br>
+  Example: “Te Querio” and “Te Quieres” might have a similarity score of 0.9, while “Te Quiero” and “estaré allí pronto” might have a score of 0.1. <br><br>
+
+  For the <b>Emphasis</b> score, the closer the number is to 1, the more you should prioritize studying that group; the closer it is to 0, the less emphasis it requires.
+</p>
+
+
 <p align="center">
   <img src="assets/images/read-me-images/Spanish-Conversation-App-15.png" alt="Correction Screenshot" width="600"/>
 </p>
