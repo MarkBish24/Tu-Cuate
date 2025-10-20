@@ -90,7 +90,7 @@ After recording, the app will correct what you said and highlight mistakes.
 </p>
 
 
-## Feature 2 - Machine Learning Similarity Analyist
+## Feature 2 - Machine Learning Similarity Analyst
 <p align="center">
   To view your Spanish-speaking analysis, first select a date range.
   You can choose from <b>Today</b>, <b>7 Days</b>, <b>30 Days</b>, or <b>All Time</b>.
