@@ -5,9 +5,9 @@ A Spanish Practice Speaking App that allows the user to practice there oral and 
 
 ## Table of Contents
 - [Installation](#installation)
-- [Getting Started](#Getting Started)
-- [Feature 1](#Feature 1 - Speech Grader)
-- [Feature 2](#Feature 2 - Machine Learning Similarity Analyist)
+- [Getting Started](#getting-started)
+- [Feature 1 - Speech Grader](#feature-1---speech-grader)
+- [Feature 2 - Machine Learning Similarity Analyst](#feature-2---machine-learning-similarity-analyst)
 - [Technologies](#technologies)
 
 ## Installation
